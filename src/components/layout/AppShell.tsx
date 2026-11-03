@@ -1,4 +1,4 @@
-import { type LucideIcon, Settings, Sun } from 'lucide-react';
+import { type LucideIcon, Puzzle, Settings, Sun } from 'lucide-react';
 import { Link, NavLink, Outlet } from 'react-router';
 
 import { Logo } from './Logo';
@@ -13,6 +13,7 @@ interface NavItem {
 /** Screens are added here as each phase lands. */
 const NAV: NavItem[] = [
   { to: '/', label: 'Today', icon: Sun },
+  { to: '/practice', label: 'Practice', icon: Puzzle },
   { to: '/settings', label: 'Settings', icon: Settings },
 ];
 

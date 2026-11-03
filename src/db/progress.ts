@@ -2,7 +2,7 @@
 import { type DateKey, toDateKey } from '../lib/date';
 import { newId } from '../lib/id';
 import { dueDate, type Grade, review } from '../lib/sm2';
-import { type CardRecord, db, newCard } from './db';
+import { type AttemptRecord, type CardRecord, db, newCard } from './db';
 
 let persistRequested = false;
 
@@ -59,10 +59,20 @@ export async function recordReview(
   });
 }
 
-/** Deletes all learning progress (cards and review history). Settings are kept. */
+/** Logs one answered practice question. */
+export async function recordAttempt(
+  attempt: Omit<AttemptRecord, 'id' | 'date' | 'answeredAt'>,
+  today: DateKey = toDateKey(),
+  now: Date = new Date(),
+): Promise<void> {
+  await db.attempts.add({ ...attempt, id: newId(), date: today, answeredAt: now.toISOString() });
+}
+
+/** Deletes all learning progress (cards, review history and practice). Settings are kept. */
 export async function resetProgress(): Promise<void> {
-  await db.transaction('rw', db.cards, db.reviews, async () => {
+  await db.transaction('rw', db.cards, db.reviews, db.attempts, async () => {
     await db.cards.clear();
     await db.reviews.clear();
+    await db.attempts.clear();
   });
 }

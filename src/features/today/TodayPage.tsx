@@ -1,4 +1,6 @@
-import { ArrowRight, BrainCircuit, Check, RotateCcw, Sparkles } from 'lucide-react';
+import { ArrowRight, BrainCircuit, Check, ChevronRight, RotateCcw, Sparkles } from 'lucide-react';
+
+import { Link } from 'react-router';
 
 import { ButtonLink } from '../../components/ui/Button';
 import { ProgressBar } from '../../components/ui/ProgressBar';
@@ -190,6 +192,23 @@ export function TodayPage() {
           </p>
         )}
       </section>
+      {!primary && (
+        <Link
+          to="/practice/mixed"
+          className={`${cardClasses} flex animate-rise items-center gap-4 p-5 transition active:scale-[0.98]`}
+        >
+          <span className="text-3xl" aria-hidden="true">
+            🎲
+          </span>
+          <span className="flex-1">
+            <span className="block font-semibold">All caught up. Fancy a quick game?</span>
+            <span className="block text-sm text-ink-muted">
+              A mixed bag of 10 questions, about 3 minutes.
+            </span>
+          </span>
+          <ChevronRight className="size-5 text-ink-muted" aria-hidden="true" />
+        </Link>
+      )}
       <FunCard fun={dailyFun(toDateKey(), settings.roles)} />
 
       {/* Room for the floating button on phones */}

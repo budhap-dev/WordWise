@@ -51,14 +51,15 @@ export function useReviews(date: DateKey = toDateKey()) {
   }, [cards, date]);
 }
 
-/** The learner's current streak, from days with learning or reviews. `undefined` while loading. */
+/** The learner's current streak, from days with learning, reviews or practice. `undefined` while loading. */
 export function useStreak(date: DateKey = toDateKey()) {
   const dates = useLiveQuery(async () => {
-    const [introduced, reviewed] = await Promise.all([
+    const days = await Promise.all([
       db.cards.orderBy('introducedOn').uniqueKeys(),
       db.reviews.orderBy('date').uniqueKeys(),
+      db.attempts.orderBy('date').uniqueKeys(),
     ]);
-    return new Set([...introduced, ...reviewed].map(String));
+    return new Set(days.flat().map(String));
   }, []);
   return useMemo(() => (dates ? currentStreak(dates, date) : undefined), [dates, date]);
 }

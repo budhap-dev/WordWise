@@ -14,4 +14,5 @@ export function haptic(pattern: number | readonly number[] = 8): void {
 export const HAPTIC = {
   tap: 8,
   success: [12, 40, 18],
+  error: [30, 60, 30],
 } as const;
