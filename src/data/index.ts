@@ -23,7 +23,7 @@ export function getWord(id: string): WordEntry | undefined {
   return WORDS_BY_ID.get(id);
 }
 
-export const ROLES: readonly Role[] = ['student', 'teacher', 'software'];
+export const ROLES: readonly Role[] = ['student', 'teacher', 'software', 'everyday'];
 export const LEVELS: readonly Level[] = ['upper-intermediate', 'advanced', 'proficient'];
 export const REGISTERS: readonly Register[] = ['formal', 'neutral', 'informal'];
 export const CATEGORIES: readonly Category[] = [
@@ -35,17 +35,22 @@ export const CATEGORIES: readonly Category[] = [
   'british',
 ];
 
-/** Each role unlocks one category. `general` and `idiom` are shown to everyone. */
-export const ROLE_CATEGORY: Record<Role, Category> = {
+/**
+ * The extra category each role unlocks. Everyday words, idioms and Britishisms are shown to
+ * everyone, so the generic `everyday` role needs nothing extra.
+ */
+export const ROLE_CATEGORY: Record<Role, Category | null> = {
   student: 'student',
   teacher: 'teaching',
   software: 'workplace',
+  everyday: null,
 };
 
 export const SHARED_CATEGORIES: readonly Category[] = ['general', 'idiom', 'british'];
 
 export function categoriesForRoles(roles: readonly Role[]): Category[] {
-  return [...SHARED_CATEGORIES, ...roles.map((r) => ROLE_CATEGORY[r])];
+  const unlocked = roles.map((r) => ROLE_CATEGORY[r]).filter((c): c is Category => c !== null);
+  return [...new Set([...SHARED_CATEGORIES, ...unlocked])];
 }
 
 export const ROLE_LABELS: Record<Role, { label: string; blurb: string; emoji: string }> = {
@@ -63,6 +68,11 @@ export const ROLE_LABELS: Record<Role, { label: string; blurb: string; emoji: st
     label: 'Software professional',
     blurb: 'Stand-ups, code reviews, technical writing and stakeholders',
     emoji: '💻',
+  },
+  everyday: {
+    label: 'Everyday life',
+    blurb: 'Friends, family, shops, appointments and social plans',
+    emoji: '🏡',
   },
 };
 

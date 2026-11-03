@@ -36,7 +36,7 @@ Vite prints a `Network:` address such as `http://192.168.1.20:5173`. Open that o
 
 ## What's in it so far
 
-- **Onboarding**: pick your roles (student, teacher, software professional), a daily goal (5, 10 or 15 words) and your level. Saved in your browser (localStorage).
+- **Onboarding**: pick your roles (student, teacher, software professional, or everyday life), a daily goal (5, 10 or 15 words) and your level. Saved in your browser (localStorage).
 - **Word of the Day and daily set**: a fresh, varied set each day, chosen from words for your roles and level. Each word has UK IPA, a plain-English definition, examples tailored to your roles, register, collocations, synonyms with how they differ, common mistakes and an origin story.
 - **Britishisms and British humour**: everyday British words and phrases (chuffed, a faff, Bob's your uncle…), plus a daily "bit of fun" card. It alternates between clean jokes, each with the wordplay explained, and British understatement decoded ("With the greatest respect…" means "you're wrong").
 - **Mobile-first**: full-screen sessions, thumb-reach buttons, tap to reveal, swipe to move on.

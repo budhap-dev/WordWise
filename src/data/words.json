@@ -17,6 +17,10 @@
       {
         "role": "software",
         "text": "The spec captures the main flow, but there's nuance around how refunds interact with partial orders."
+      },
+      {
+        "role": "everyday",
+        "text": "There's a nuance between being frugal and being stingy."
       }
     ],
     "register": "neutral",
@@ -65,6 +69,10 @@
       {
         "role": "software",
         "text": "Her PR descriptions are always succinct: what changed, why, and how to test it."
+      },
+      {
+        "role": "everyday",
+        "text": "Keep the birthday card message succinct; there isn't much room."
       }
     ],
     "register": "neutral",
@@ -112,6 +120,10 @@
       {
         "role": "software",
         "text": "Let's be pragmatic and ship the simple version; we can optimise once we have real usage data."
+      },
+      {
+        "role": "everyday",
+        "text": "We took a pragmatic approach and ordered pizza."
       }
     ],
     "register": "neutral",
@@ -154,6 +166,10 @@
       {
         "role": "software",
         "text": "It's ready to release, with one caveat: the export feature hasn't been tested on Safari."
+      },
+      {
+        "role": "everyday",
+        "text": "I'll come to the party, with one caveat: I'm leaving by ten."
       }
     ],
     "register": "neutral",
@@ -196,6 +212,10 @@
       {
         "role": "software",
         "text": "The client was reticent about their budget, which made scoping the project tricky."
+      },
+      {
+        "role": "everyday",
+        "text": "My grandad is reticent about his time in the army."
       }
     ],
     "register": "formal",
@@ -239,6 +259,10 @@
       {
         "role": "software",
         "text": "Retros only work if people feel safe enough to be candid."
+      },
+      {
+        "role": "everyday",
+        "text": "Can I be candid? That haircut isn't your best."
       }
     ],
     "register": "neutral",
@@ -285,6 +309,10 @@
       {
         "role": "software",
         "text": "He's meticulous in code review and often spots edge cases the tests miss."
+      },
+      {
+        "role": "everyday",
+        "text": "She's meticulous about planning holidays, right down to the last train."
       }
     ],
     "register": "neutral",
@@ -331,6 +359,10 @@
       {
         "role": "software",
         "text": "I'm ambivalent about the rewrite: it would fix the tech debt, but it'll freeze features for a quarter."
+      },
+      {
+        "role": "everyday",
+        "text": "I'm ambivalent about moving to the countryside."
       }
     ],
     "register": "neutral",
@@ -378,6 +410,10 @@
       {
         "role": "software",
         "text": "Our tentative plan is to migrate in March, but it depends on the vendor."
+      },
+      {
+        "role": "everyday",
+        "text": "We've made tentative plans for a weekend in Bath."
       }
     ],
     "register": "neutral",
@@ -425,6 +461,10 @@
       {
         "role": "software",
         "text": "Back-to-back meetings aren't conducive to deep work."
+      },
+      {
+        "role": "everyday",
+        "text": "A noisy house isn't conducive to a good night's sleep."
       }
     ],
     "register": "formal",
@@ -471,6 +511,10 @@
       {
         "role": "software",
         "text": "Our users are discerning; they'll notice if the app feels sluggish."
+      },
+      {
+        "role": "everyday",
+        "text": "My dad is a discerning tea drinker; supermarket teabags won't do."
       }
     ],
     "register": "formal",
@@ -513,6 +557,10 @@
       {
         "role": "software",
         "text": "The migration inadvertently deleted test accounts in staging."
+      },
+      {
+        "role": "everyday",
+        "text": "I inadvertently sent the photo to the whole family group chat."
       }
     ],
     "register": "formal",
@@ -555,6 +603,10 @@
       {
         "role": "software",
         "text": "Let's release to 5% of users first to gauge the impact on performance."
+      },
+      {
+        "role": "everyday",
+        "text": "It's hard to gauge how long the queue will take."
       }
     ],
     "register": "neutral",
@@ -598,6 +650,10 @@
       {
         "role": "software",
         "text": "We've added rate limiting to mitigate the risk of abuse."
+      },
+      {
+        "role": "everyday",
+        "text": "We left early to mitigate the risk of traffic on the M25."
       }
     ],
     "register": "formal",
@@ -645,6 +701,10 @@
       {
         "role": "software",
         "text": "Retrying immediately exacerbates the load on a server that's already struggling."
+      },
+      {
+        "role": "everyday",
+        "text": "Scratching will only exacerbate the rash."
       }
     ],
     "register": "formal",
@@ -692,6 +752,10 @@
       {
         "role": "software",
         "text": "Caching the results should alleviate the pressure on the database."
+      },
+      {
+        "role": "everyday",
+        "text": "A hot-water bottle helps alleviate the back pain."
       }
     ],
     "register": "formal",
@@ -743,6 +807,10 @@
       {
         "role": "software",
         "text": "A race condition is the most plausible explanation for the intermittent failures."
+      },
+      {
+        "role": "everyday",
+        "text": "'The dog ate it' isn't a plausible excuse for forgetting a birthday."
       }
     ],
     "register": "neutral",
@@ -789,6 +857,10 @@
       {
         "role": "software",
         "text": "We need tangible results by the end of the sprint, not just research notes."
+      },
+      {
+        "role": "everyday",
+        "text": "Walking to work has made a tangible difference to my energy."
       }
     ],
     "register": "neutral",
@@ -836,6 +908,10 @@
       {
         "role": "software",
         "text": "I'm wary of adding another dependency just for one helper function."
+      },
+      {
+        "role": "everyday",
+        "text": "I'm wary of texts asking for my bank details."
       }
     ],
     "register": "neutral",
@@ -883,6 +959,10 @@
       {
         "role": "software",
         "text": "I concede the point: the old API is simpler for this use case."
+      },
+      {
+        "role": "everyday",
+        "text": "I'll concede that your shortcut was quicker."
       }
     ],
     "register": "formal",
@@ -929,6 +1009,10 @@
       {
         "role": "software",
         "text": "We'll endeavour to resolve critical incidents within four hours."
+      },
+      {
+        "role": "everyday",
+        "text": "I'll endeavour to arrive on time for once."
       }
     ],
     "register": "formal",
@@ -981,6 +1065,10 @@
       {
         "role": "software",
         "text": "The service needs to be resilient to a single region going down."
+      },
+      {
+        "role": "everyday",
+        "text": "Kids are remarkably resilient after a house move."
       }
     ],
     "register": "neutral",
@@ -1032,6 +1120,10 @@
       {
         "role": "software",
         "text": "Pairing sessions help foster a culture of knowledge sharing."
+      },
+      {
+        "role": "everyday",
+        "text": "The community garden fosters a real sense of belonging on our street."
       }
     ],
     "register": "formal",
@@ -1078,6 +1170,10 @@
       {
         "role": "software",
         "text": "Flaky tests are hindering our ability to release quickly."
+      },
+      {
+        "role": "everyday",
+        "text": "The snow hindered our journey home."
       }
     ],
     "register": "neutral",
@@ -1125,6 +1221,10 @@
       {
         "role": "software",
         "text": "Given the risk, it seems prudent to take a database snapshot before the migration."
+      },
+      {
+        "role": "everyday",
+        "text": "It would be prudent to book the restaurant in advance."
       }
     ],
     "register": "formal",
@@ -1171,6 +1271,10 @@
       {
         "role": "software",
         "text": "The checkout logic has become convoluted after years of quick fixes."
+      },
+      {
+        "role": "everyday",
+        "text": "The instructions for the flat-pack wardrobe were incredibly convoluted."
       }
     ],
     "register": "neutral",
@@ -1217,6 +1321,10 @@
       {
         "role": "software",
         "text": "The performance numbers are a compelling argument for switching frameworks."
+      },
+      {
+        "role": "everyday",
+        "text": "The estate agent made a compelling case for the bigger house."
       }
     ],
     "register": "neutral",
@@ -1268,6 +1376,10 @@
       {
         "role": "software",
         "text": "The team is apprehensive about the Friday release, given last month's outage."
+      },
+      {
+        "role": "everyday",
+        "text": "I'm a bit apprehensive about meeting his parents."
       }
     ],
     "register": "neutral",
@@ -1314,6 +1426,10 @@
       {
         "role": "software",
         "text": "Thanks for being so diligent with the documentation; it saved the new starter days."
+      },
+      {
+        "role": "everyday",
+        "text": "Our neighbour is diligent about sorting the recycling."
       }
     ],
     "register": "neutral",
@@ -1360,6 +1476,10 @@
       {
         "role": "software",
         "text": "She's brilliant at articulating technical trade-offs to non-technical stakeholders."
+      },
+      {
+        "role": "everyday",
+        "text": "My niece is very articulate for a six-year-old."
       }
     ],
     "register": "neutral",
@@ -1407,6 +1527,10 @@
       {
         "role": "software",
         "text": "The server logs corroborate the user's report: the request timed out at 14:02."
+      },
+      {
+        "role": "everyday",
+        "text": "My neighbour corroborated my story about the broken fence."
       }
     ],
     "register": "formal",
@@ -1453,6 +1577,10 @@
       {
         "role": "software",
         "text": "Can we substantiate the claim that users want dark mode, or is it a hunch?"
+      },
+      {
+        "role": "everyday",
+        "text": "The insurer asked me to substantiate my claim with receipts."
       }
     ],
     "register": "formal",
@@ -1499,6 +1627,10 @@
       {
         "role": "software",
         "text": "I've synthesised the feedback from all five user interviews into three themes."
+      },
+      {
+        "role": "everyday",
+        "text": "I synthesised everyone's holiday wishes into one plan."
       }
     ],
     "register": "formal",
@@ -1546,6 +1678,10 @@
       {
         "role": "software",
         "text": "She made a cogent case for splitting the monolith into two services."
+      },
+      {
+        "role": "everyday",
+        "text": "My teenager made a surprisingly cogent case for a later bedtime."
       }
     ],
     "register": "formal",
@@ -1592,6 +1728,10 @@
       {
         "role": "software",
         "text": "The design doc posits that most reads will hit the cache."
+      },
+      {
+        "role": "everyday",
+        "text": "My brother posits that cereal is technically a soup."
       }
     ],
     "register": "formal",
@@ -1638,6 +1778,10 @@
       {
         "role": "software",
         "text": "The dashboard juxtaposes last week's error rate with this week's."
+      },
+      {
+        "role": "everyday",
+        "text": "The restaurant juxtaposes old oak beams with very modern lighting."
       }
     ],
     "register": "formal",
@@ -1680,6 +1824,10 @@
       {
         "role": "software",
         "text": "Could you critique my architecture proposal before I share it wider?"
+      },
+      {
+        "role": "everyday",
+        "text": "My sister critiqued my wedding speech line by line."
       }
     ],
     "register": "formal",
@@ -1727,6 +1875,10 @@
       {
         "role": "software",
         "text": "The RFC delineates which team owns each part of the pipeline."
+      },
+      {
+        "role": "everyday",
+        "text": "The tenancy agreement clearly delineates who pays for repairs."
       }
     ],
     "register": "formal",
@@ -1773,6 +1925,10 @@
       {
         "role": "software",
         "text": "The API needs a coherent naming scheme; right now every endpoint is different."
+      },
+      {
+        "role": "everyday",
+        "text": "After the night feed, I wasn't very coherent."
       }
     ],
     "register": "neutral",
@@ -1819,6 +1975,10 @@
       {
         "role": "software",
         "text": "Here are the salient details from the incident report."
+      },
+      {
+        "role": "everyday",
+        "text": "Just give me the salient points of the plot; I've missed three episodes."
       }
     ],
     "register": "formal",
@@ -1865,6 +2025,10 @@
       {
         "role": "software",
         "text": "React introduced a declarative paradigm for building interfaces."
+      },
+      {
+        "role": "everyday",
+        "text": "Online food shopping was a paradigm shift for my parents."
       }
     ],
     "register": "formal",
@@ -1908,6 +2072,10 @@
       {
         "role": "software",
         "text": "Let's get empirical data from a load test before we argue about the bottleneck."
+      },
+      {
+        "role": "everyday",
+        "text": "My empirical research shows the 8.15 train is always late."
       }
     ],
     "register": "formal",
@@ -1959,6 +2127,10 @@
       {
         "role": "software",
         "text": "The requirement is ambiguous: does 'recent' mean the last day or the last week?"
+      },
+      {
+        "role": "everyday",
+        "text": "The sign was ambiguous: did 'no parking' include Sundays?"
       }
     ],
     "register": "neutral",
@@ -2005,6 +2177,10 @@
       {
         "role": "software",
         "text": "The function has an implicit dependency on the system time zone."
+      },
+      {
+        "role": "everyday",
+        "text": "There was an implicit invitation to stay for dinner."
       }
     ],
     "register": "formal",
@@ -2051,6 +2227,10 @@
       {
         "role": "software",
         "text": "Distributed systems have inherent trade-offs between consistency and availability."
+      },
+      {
+        "role": "everyday",
+        "text": "There's an inherent risk in buying a second-hand car."
       }
     ],
     "register": "formal",
@@ -2097,6 +2277,10 @@
       {
         "role": "software",
         "text": "Skipping code review undermines everything we've built around quality."
+      },
+      {
+        "role": "everyday",
+        "text": "Constant teasing can undermine a child's confidence."
       }
     ],
     "register": "neutral",
@@ -2148,6 +2332,10 @@
       {
         "role": "software",
         "text": "We also have to contend with a legacy database nobody fully understands."
+      },
+      {
+        "role": "everyday",
+        "text": "With three kids and a dog, we have a lot to contend with in the mornings."
       }
     ],
     "register": "formal",
@@ -2194,6 +2382,10 @@
       {
         "role": "software",
         "text": "I concur. Let's go with option B and revisit after the beta."
+      },
+      {
+        "role": "everyday",
+        "text": "My GP concurred that rest was the best treatment."
       }
     ],
     "register": "formal",
@@ -2237,6 +2429,10 @@
       {
         "role": "software",
         "text": "The README elucidates the deploy process far better than the old wiki did."
+      },
+      {
+        "role": "everyday",
+        "text": "The pharmacist elucidated the difference between the two medicines."
       }
     ],
     "register": "formal",
@@ -2283,6 +2479,10 @@
       {
         "role": "software",
         "text": "The benchmark refutes the claim that the ORM is the bottleneck."
+      },
+      {
+        "role": "everyday",
+        "text": "The photos refute his claim that he'd tidied his room."
       }
     ],
     "register": "formal",
@@ -2330,6 +2530,10 @@
       {
         "role": "software",
         "text": "We found a discrepancy between the invoice totals and the payments table."
+      },
+      {
+        "role": "everyday",
+        "text": "There's a discrepancy between the menu price and the bill."
       }
     ],
     "register": "formal",
@@ -2376,6 +2580,10 @@
       {
         "role": "software",
         "text": "Preliminary results from the A/B test look promising."
+      },
+      {
+        "role": "everyday",
+        "text": "The preliminary quote for the new boiler was higher than we'd hoped."
       }
     ],
     "register": "formal",
@@ -2422,6 +2630,10 @@
       {
         "role": "software",
         "text": "We need comprehensive test coverage on the payments module."
+      },
+      {
+        "role": "everyday",
+        "text": "The guidebook has a comprehensive list of coastal walks."
       }
     ],
     "register": "neutral",
@@ -2473,6 +2685,10 @@
       {
         "role": "software",
         "text": "The fix works, albeit with a slight performance cost."
+      },
+      {
+        "role": "everyday",
+        "text": "We had a lovely holiday, albeit a rainy one."
       }
     ],
     "register": "formal",
@@ -2519,6 +2735,10 @@
       {
         "role": "software",
         "text": "We use a scheme whereby each service owns its own database."
+      },
+      {
+        "role": "everyday",
+        "text": "We have an arrangement whereby I cook and he washes up."
       }
     ],
     "register": "formal",
@@ -2560,6 +2780,10 @@
       {
         "role": "software",
         "text": "A bug this minor doesn't warrant a hotfix; it can go in the next release."
+      },
+      {
+        "role": "everyday",
+        "text": "A small scratch doesn't warrant a new phone."
       }
     ],
     "register": "formal",
@@ -2606,6 +2830,10 @@
       {
         "role": "software",
         "text": "Security will scrutinise any change to the authentication code."
+      },
+      {
+        "role": "everyday",
+        "text": "Always scrutinise the small print before signing a phone contract."
       }
     ],
     "register": "formal",
@@ -2653,6 +2881,10 @@
       {
         "role": "software",
         "text": "This message queue underpins every service in the platform."
+      },
+      {
+        "role": "everyday",
+        "text": "Trust underpins any good friendship."
       }
     ],
     "register": "formal",
@@ -2699,6 +2931,10 @@
       {
         "role": "software",
         "text": "The crux of the problem is that two services write to the same table."
+      },
+      {
+        "role": "everyday",
+        "text": "The crux of the problem is that nobody wants to drive."
       }
     ],
     "register": "neutral",
@@ -2749,6 +2985,10 @@
       {
         "role": "software",
         "text": "The correlation between the deploy and the outage is tenuous; let's check the logs."
+      },
+      {
+        "role": "everyday",
+        "text": "His excuse for missing the party was tenuous at best."
       }
     ],
     "register": "formal",
@@ -2795,6 +3035,10 @@
       {
         "role": "software",
         "text": "We scaffolded the new starters' first week with small, well-defined tickets."
+      },
+      {
+        "role": "everyday",
+        "text": "When teaching Gran to video-call, I scaffolded it: answering first, then calling."
       }
     ],
     "register": "neutral",
@@ -2843,6 +3087,10 @@
       {
         "role": "software",
         "text": "We hypothesise that the shorter sign-up form will increase conversions by 5%."
+      },
+      {
+        "role": "everyday",
+        "text": "I hypothesise that the cat is being fed next door too."
       }
     ],
     "register": "formal",
@@ -2890,6 +3138,10 @@
       {
         "role": "software",
         "text": "There's a misconception that adding more servers always makes things faster."
+      },
+      {
+        "role": "everyday",
+        "text": "It's a common misconception that bulls hate the colour red."
       }
     ],
     "register": "neutral",
@@ -2941,6 +3193,10 @@
       {
         "role": "software",
         "text": "If we extrapolate current growth, we'll run out of disk space by June."
+      },
+      {
+        "role": "everyday",
+        "text": "Don't extrapolate from one rainy day; the holiday might still be lovely."
       }
     ],
     "register": "formal",
@@ -2988,6 +3244,10 @@
       {
         "role": "software",
         "text": "Let's consolidate the three config files into one."
+      },
+      {
+        "role": "everyday",
+        "text": "I consolidated my three old pensions into one."
       }
     ],
     "register": "neutral",
@@ -3034,6 +3294,10 @@
       {
         "role": "software",
         "text": "What really differentiates our product is the offline mode."
+      },
+      {
+        "role": "everyday",
+        "text": "Can you differentiate between a crow and a rook?"
       }
     ],
     "register": "neutral",
@@ -3081,6 +3345,10 @@
       {
         "role": "software",
         "text": "Good discovery sessions elicit requirements users didn't know they had."
+      },
+      {
+        "role": "everyday",
+        "text": "My joke finally elicited a smile from the grumpy bus driver."
       }
     ],
     "register": "formal",
@@ -3128,6 +3396,10 @@
       {
         "role": "software",
         "text": "From the stack trace, I deduced the bug was in the date parser."
+      },
+      {
+        "role": "everyday",
+        "text": "From the muddy paw prints, I deduced the dog had been on the sofa."
       }
     ],
     "register": "neutral",
@@ -3175,6 +3447,10 @@
       {
         "role": "software",
         "text": "The monitoring flagged anomalous traffic from a single IP address."
+      },
+      {
+        "role": "everyday",
+        "text": "The anomalous payment on my bank statement turned out to be fraud."
       }
     ],
     "register": "formal",
@@ -3221,6 +3497,10 @@
       {
         "role": "software",
         "text": "We see a correlation between page load time and drop-off rate."
+      },
+      {
+        "role": "everyday",
+        "text": "There's a clear correlation between my mood and how much sleep I get."
       }
     ],
     "register": "neutral",
@@ -3272,6 +3552,10 @@
       {
         "role": "software",
         "text": "Can we quantify the cost of the outage in lost orders?"
+      },
+      {
+        "role": "everyday",
+        "text": "It's hard to quantify how much our neighbour helps us."
       }
     ],
     "register": "neutral",
@@ -3318,6 +3602,10 @@
       {
         "role": "software",
         "text": "We put every release through rigorous automated testing."
+      },
+      {
+        "role": "everyday",
+        "text": "My mum is rigorous about checking use-by dates."
       }
     ],
     "register": "formal",
@@ -3370,6 +3658,10 @@
       {
         "role": "software",
         "text": "It's counter-intuitive, but adding an index slowed this particular query down."
+      },
+      {
+        "role": "everyday",
+        "text": "It's counter-intuitive, but a hot drink can help you cool down."
       }
     ],
     "register": "neutral",
@@ -3417,6 +3709,10 @@
       {
         "role": "software",
         "text": "The model approximates user behaviour well enough for capacity planning."
+      },
+      {
+        "role": "everyday",
+        "text": "The approximate journey time to Leeds is two hours."
       }
     ],
     "register": "neutral",
@@ -3464,6 +3760,10 @@
       {
         "role": "software",
         "text": "Costs grow proportional to the number of active users."
+      },
+      {
+        "role": "everyday",
+        "text": "The tip should be proportional to the bill."
       }
     ],
     "register": "neutral",
@@ -3515,6 +3815,10 @@
       {
         "role": "software",
         "text": "Code review works like formative assessment: feedback to improve, not to grade."
+      },
+      {
+        "role": "everyday",
+        "text": "My son's school uses weekly quizzes as formative assessment, so they don't count towards his grades."
       }
     ],
     "register": "formal",
@@ -3561,6 +3865,10 @@
       {
         "role": "software",
         "text": "The onboarding guide assumes no prior knowledge of Kubernetes."
+      },
+      {
+        "role": "everyday",
+        "text": "The pub quiz assumed a lot of prior knowledge about 1980s pop."
       }
     ],
     "register": "neutral",
@@ -3606,6 +3914,10 @@
       {
         "role": "software",
         "text": "This module exemplifies the coding standards we want everywhere."
+      },
+      {
+        "role": "everyday",
+        "text": "Our street party exemplifies real community spirit."
       }
     ],
     "register": "formal",
@@ -3652,6 +3964,10 @@
       {
         "role": "software",
         "text": "Just to reiterate, the code freeze starts on Thursday at 5 p.m."
+      },
+      {
+        "role": "everyday",
+        "text": "Just to reiterate: the taxi comes at six, not seven."
       }
     ],
     "register": "formal",
@@ -3699,6 +4015,10 @@
       {
         "role": "software",
         "text": "Can you unpack what 'scalable' means for this particular feature?"
+      },
+      {
+        "role": "everyday",
+        "text": "Let's unpack why the holiday plans fell through."
       }
     ],
     "register": "informal",
@@ -3745,6 +4065,10 @@
       {
         "role": "software",
         "text": "Keep review comments constructive: suggest a fix, not just a problem."
+      },
+      {
+        "role": "everyday",
+        "text": "My friend gave me some constructive feedback on my wedding speech."
       }
     ],
     "register": "neutral",
@@ -3795,6 +4119,10 @@
       {
         "role": "software",
         "text": "Pitch the demo at the business audience, not the engineers."
+      },
+      {
+        "role": "everyday",
+        "text": "The cookery class was pitched at total beginners, which suited me."
       }
     ],
     "register": "neutral",
@@ -3841,6 +4169,10 @@
       {
         "role": "software",
         "text": "To recap: we're shipping on Tuesday and Sam owns the rollback plan."
+      },
+      {
+        "role": "everyday",
+        "text": "Quick recap for anyone who missed last month's book club."
       }
     ],
     "register": "informal",
@@ -3887,6 +4219,10 @@
       {
         "role": "software",
         "text": "The two teams' designs are starting to converge on one approach."
+      },
+      {
+        "role": "everyday",
+        "text": "The whole family converges on Gran's house every Boxing Day."
       }
     ],
     "register": "formal",
@@ -3933,6 +4269,10 @@
       {
         "role": "software",
         "text": "The extra latency from logging is negligible."
+      },
+      {
+        "role": "everyday",
+        "text": "The price difference between the two kettles is negligible."
       }
     ],
     "register": "neutral",
@@ -3980,6 +4320,10 @@
       {
         "role": "software",
         "text": "The decode function is the inverse of encode; round-tripping should give the original."
+      },
+      {
+        "role": "everyday",
+        "text": "There's an inverse relationship between my bank balance and the number of birthdays in June."
       }
     ],
     "register": "formal",
@@ -4031,6 +4375,10 @@
       {
         "role": "software",
         "text": "I can't replicate the bug on my machine; can you share your browser version?"
+      },
+      {
+        "role": "everyday",
+        "text": "I've never managed to replicate my mum's roast potatoes."
       }
     ],
     "register": "formal",
@@ -4077,6 +4425,10 @@
       {
         "role": "software",
         "text": "Writing a post-mortem is an exercise in team metacognition: how did we think about the problem?"
+      },
+      {
+        "role": "everyday",
+        "text": "Noticing why I always forget people's names is a bit of metacognition."
       }
     ],
     "register": "formal",
@@ -4119,6 +4471,10 @@
       {
         "role": "software",
         "text": "We give interns a stretch and challenge task once they've completed the core onboarding."
+      },
+      {
+        "role": "everyday",
+        "text": "My daughter's homework has a stretch and challenge question at the bottom."
       }
     ],
     "register": "neutral",
@@ -4164,6 +4520,10 @@
       {
         "role": "software",
         "text": "After the breakout sessions, we'll reconvene for a plenary to agree next steps."
+      },
+      {
+        "role": "everyday",
+        "text": "The residents' meeting ended with a plenary where everyone voted on the new bins."
       }
     ],
     "register": "formal",
@@ -4210,6 +4570,10 @@
       {
         "role": "software",
         "text": "Let's ship a basic version and iterate based on user feedback."
+      },
+      {
+        "role": "everyday",
+        "text": "I've iterated on my lasagne recipe for years."
       }
     ],
     "register": "neutral",
@@ -4256,6 +4620,10 @@
       {
         "role": "software",
         "text": "We're deprecating v1 of the API and will remove it in six months."
+      },
+      {
+        "role": "everyday",
+        "text": "My bank is deprecating its old app, so I need to download the new one."
       }
     ],
     "register": "formal",
@@ -4303,6 +4671,10 @@
       {
         "role": "software",
         "text": "Let's get the key stakeholders together before we change the roadmap."
+      },
+      {
+        "role": "everyday",
+        "text": "With three kids and two grandparents, every holiday has a lot of stakeholders."
       }
     ],
     "register": "neutral",
@@ -4350,6 +4722,10 @@
       {
         "role": "software",
         "text": "Does anyone have the bandwidth to pick up this ticket this sprint?"
+      },
+      {
+        "role": "everyday",
+        "text": "I don't have the bandwidth for a dinner party this week."
       }
     ],
     "register": "informal",
@@ -4396,6 +4772,10 @@
       {
         "role": "software",
         "text": "The trade-off is speed versus consistency; which matters more here?"
+      },
+      {
+        "role": "everyday",
+        "text": "There's a trade-off between a cheaper flight and a 5 a.m. start."
       }
     ],
     "register": "neutral",
@@ -4448,6 +4828,10 @@
       {
         "role": "software",
         "text": "Is the current architecture scalable to ten times the traffic?"
+      },
+      {
+        "role": "everyday",
+        "text": "Hosting Christmas for twenty isn't scalable in our tiny kitchen."
       }
     ],
     "register": "neutral",
@@ -4490,6 +4874,10 @@
       {
         "role": "software",
         "text": "The parser needs to be robust to malformed input."
+      },
+      {
+        "role": "everyday",
+        "text": "We need a more robust umbrella for this weather."
       }
     ],
     "register": "neutral",
@@ -4536,6 +4924,10 @@
       {
         "role": "software",
         "text": "We need more granular permissions; 'admin' or 'viewer' isn't enough."
+      },
+      {
+        "role": "everyday",
+        "text": "My mum wants a granular account of our holiday, down to every meal."
       }
     ],
     "register": "neutral",
@@ -4582,6 +4974,10 @@
       {
         "role": "software",
         "text": "We can leverage the existing auth service instead of building our own."
+      },
+      {
+        "role": "everyday",
+        "text": "We leveraged our loyalty points to get free cinema tickets."
       }
     ],
     "register": "neutral",
@@ -4629,6 +5025,10 @@
       {
         "role": "software",
         "text": "Can we align on the API contract before both teams start building?"
+      },
+      {
+        "role": "everyday",
+        "text": "Let's align on dates before we book the cottage."
       }
     ],
     "register": "neutral",
@@ -4675,6 +5075,10 @@
       {
         "role": "software",
         "text": "We'll prioritise the security fix over the new feature."
+      },
+      {
+        "role": "everyday",
+        "text": "This weekend I'm prioritising sleep over the garden."
       }
     ],
     "register": "neutral",
@@ -4727,6 +5131,10 @@
       {
         "role": "software",
         "text": "If it isn't fixed in an hour, escalate to the on-call manager."
+      },
+      {
+        "role": "everyday",
+        "text": "If the landlord ignores the leak, escalate it to the council."
       }
     ],
     "register": "neutral",
@@ -4778,6 +5186,10 @@
       {
         "role": "software",
         "text": "Any blockers? I'm waiting on access to the staging database."
+      },
+      {
+        "role": "everyday",
+        "text": "The main blocker to moving house is selling our flat."
       }
     ],
     "register": "informal",
@@ -4824,6 +5236,10 @@
       {
         "role": "software",
         "text": "Let's park that idea; it's scope creep for this release."
+      },
+      {
+        "role": "everyday",
+        "text": "Our 'quick' kitchen refresh has suffered serious scope creep."
       }
     ],
     "register": "informal",
@@ -4865,6 +5281,10 @@
       {
         "role": "software",
         "text": "What happens in the edge case where the list is empty?"
+      },
+      {
+        "role": "everyday",
+        "text": "What about the edge case where it rains on the day of the barbecue?"
       }
     ],
     "register": "neutral",
@@ -4911,6 +5331,10 @@
       {
         "role": "software",
         "text": "We'll take on some technical debt to hit the deadline, then pay it down next sprint."
+      },
+      {
+        "role": "everyday",
+        "text": "Our house has years of technical debt: every previous owner did quick DIY fixes."
       }
     ],
     "register": "neutral",
@@ -4956,6 +5380,10 @@
       {
         "role": "software",
         "text": "We're waiting on sign-off from legal before releasing the new terms."
+      },
+      {
+        "role": "everyday",
+        "text": "The extension is still waiting for sign-off from the council."
       }
     ],
     "register": "neutral",
@@ -5003,6 +5431,10 @@
       {
         "role": "software",
         "text": "The first deliverable is a working prototype by the end of March."
+      },
+      {
+        "role": "everyday",
+        "text": "For the wedding planning, our first deliverable is the guest list."
       }
     ],
     "register": "formal",
@@ -5045,6 +5477,10 @@
       {
         "role": "software",
         "text": "We streamlined the deploy pipeline from forty minutes to eight."
+      },
+      {
+        "role": "everyday",
+        "text": "Online booking has really streamlined getting a GP appointment."
       }
     ],
     "register": "neutral",
@@ -5091,6 +5527,10 @@
       {
         "role": "software",
         "text": "This release introduced a regression in the login flow."
+      },
+      {
+        "role": "everyday",
+        "text": "After a month off, there's been a noticeable regression in my running."
       }
     ],
     "register": "formal",
@@ -5143,6 +5583,10 @@
       {
         "role": "software",
         "text": "Please add the rationale to the ADR so future readers know why we chose Postgres."
+      },
+      {
+        "role": "everyday",
+        "text": "What's the rationale for repainting the hall again?"
       }
     ],
     "register": "formal",
@@ -5195,6 +5639,10 @@
       {
         "role": "software",
         "text": "We need consensus from the platform team before changing the shared library."
+      },
+      {
+        "role": "everyday",
+        "text": "There's no consensus in our house about pineapple on pizza."
       }
     ],
     "register": "formal",
@@ -5246,6 +5694,10 @@
       {
         "role": "software",
         "text": "We've added 20% contingency to the estimate for unknowns."
+      },
+      {
+        "role": "everyday",
+        "text": "Pack a contingency jumper; it's the Lake District."
       }
     ],
     "register": "formal",
@@ -5297,6 +5749,10 @@
       {
         "role": "software",
         "text": "Can you facilitate the retro this week? I'll take notes."
+      },
+      {
+        "role": "everyday",
+        "text": "The new bus route will facilitate getting to the hospital."
       }
     ],
     "register": "formal",
@@ -5344,6 +5800,10 @@
       {
         "role": "software",
         "text": "Learning to delegate was the hardest part of becoming a tech lead."
+      },
+      {
+        "role": "everyday",
+        "text": "I delegate the washing-up to the kids."
       }
     ],
     "register": "neutral",
@@ -5391,6 +5851,10 @@
       {
         "role": "software",
         "text": "Let's be transparent with the client about the delay and why it happened."
+      },
+      {
+        "role": "everyday",
+        "text": "The letting agent wasn't transparent about the fees."
       }
     ],
     "register": "neutral",
@@ -5442,6 +5906,10 @@
       {
         "role": "software",
         "text": "Migrating the auth system is non-trivial; let's estimate it properly."
+      },
+      {
+        "role": "everyday",
+        "text": "Getting four families to agree on a restaurant is non-trivial."
       }
     ],
     "register": "neutral",
@@ -5488,6 +5956,10 @@
       {
         "role": "software",
         "text": "Can I get a sanity check on this query before I run it on production?"
+      },
+      {
+        "role": "everyday",
+        "text": "Can you sanity-check this recipe? Two tablespoons of salt seems a lot."
       }
     ],
     "register": "informal",
@@ -5534,6 +6006,10 @@
       {
         "role": "software",
         "text": "Who's taking ownership of the follow-up actions from the incident?"
+      },
+      {
+        "role": "everyday",
+        "text": "I'll take ownership of the barbecue this year."
       }
     ],
     "register": "neutral",
@@ -5580,6 +6056,10 @@
       {
         "role": "software",
         "text": "Heads-up: I'm deploying a database migration at 3 p.m."
+      },
+      {
+        "role": "everyday",
+        "text": "Thanks for the heads-up about the roadworks."
       }
     ],
     "register": "informal",
@@ -5625,6 +6105,10 @@
       {
         "role": "software",
         "text": "Can we touch base after lunch about the release plan?"
+      },
+      {
+        "role": "everyday",
+        "text": "Let's touch base on Sunday about Mum's birthday."
       }
     ],
     "register": "informal",
@@ -5668,6 +6152,10 @@
       {
         "role": "software",
         "text": "Rust has a steep learning curve, but it pays off."
+      },
+      {
+        "role": "everyday",
+        "text": "Becoming a parent was a steep learning curve."
       }
     ],
     "register": "neutral",
@@ -5714,6 +6202,10 @@
       {
         "role": "software",
         "text": "We've ironed out most of the bugs in the beta."
+      },
+      {
+        "role": "everyday",
+        "text": "We still need to iron out who's hosting Christmas."
       }
     ],
     "register": "neutral",
@@ -5765,6 +6257,10 @@
       {
         "role": "software",
         "text": "We've answered their questions, so the ball's in the client's court."
+      },
+      {
+        "role": "everyday",
+        "text": "I've said sorry, so the ball's in her court now."
       }
     ],
     "register": "informal",
@@ -5807,6 +6303,10 @@
       {
         "role": "software",
         "text": "Let's get the ball rolling on the hiring process this week."
+      },
+      {
+        "role": "everyday",
+        "text": "I'll get the ball rolling on the holiday by looking at some cottages."
       }
     ],
     "register": "informal",
@@ -5853,6 +6353,10 @@
       {
         "role": "software",
         "text": "Before we estimate, let's check we're all on the same page about the scope."
+      },
+      {
+        "role": "everyday",
+        "text": "Let's make sure we're on the same page about the wedding budget."
       }
     ],
     "register": "informal",
@@ -5902,6 +6406,10 @@
       {
         "role": "software",
         "text": "Who owns the shared component is a grey area; let's clarify it."
+      },
+      {
+        "role": "everyday",
+        "text": "Whether the dog counts as a wedding guest is a grey area."
       }
     ],
     "register": "neutral",
@@ -5948,6 +6456,10 @@
       {
         "role": "software",
         "text": "Let's bite the bullet and upgrade the framework; we can't keep patching."
+      },
+      {
+        "role": "everyday",
+        "text": "I finally bit the bullet and booked the dentist."
       }
     ],
     "register": "informal",
@@ -5990,6 +6502,10 @@
       {
         "role": "software",
         "text": "We cut corners on tests to hit the deadline and paid for it later."
+      },
+      {
+        "role": "everyday",
+        "text": "Don't cut corners when you hire a builder."
       }
     ],
     "register": "informal",
@@ -6032,6 +6548,10 @@
       {
         "role": "software",
         "text": "Support went the extra mile to get that customer back online."
+      },
+      {
+        "role": "everyday",
+        "text": "The hotel staff went the extra mile for my mum's birthday."
       }
     ],
     "register": "neutral",
@@ -6078,6 +6598,10 @@
       {
         "role": "software",
         "text": "The prototype failed the load test, so it's back to the drawing board."
+      },
+      {
+        "role": "everyday",
+        "text": "The cottage is fully booked, so it's back to the drawing board."
       }
     ],
     "register": "informal",
@@ -6119,6 +6643,10 @@
       {
         "role": "software",
         "text": "Good onboarding docs help new joiners hit the ground running."
+      },
+      {
+        "role": "everyday",
+        "text": "We hit the ground running on holiday and saw five sights on day one."
       }
     ],
     "register": "informal",
@@ -6161,6 +6689,10 @@
       {
         "role": "software",
         "text": "Can we address the elephant in the room? We're three weeks behind."
+      },
+      {
+        "role": "everyday",
+        "text": "At family dinners, Uncle Pete's new car is the elephant in the room."
       }
     ],
     "register": "informal",
@@ -6202,6 +6734,10 @@
       {
         "role": "software",
         "text": "It's 7 p.m.; let's call it a day and look at the bug fresh tomorrow."
+      },
+      {
+        "role": "everyday",
+        "text": "We've been walking for six hours; let's call it a day."
       }
     ],
     "register": "informal",
@@ -6248,6 +6784,10 @@
       {
         "role": "software",
         "text": "I'm feeling under the weather; I'll work from home today."
+      },
+      {
+        "role": "everyday",
+        "text": "I'm a bit under the weather, so I'll skip the party."
       }
     ],
     "register": "informal",
@@ -6293,6 +6833,10 @@
       {
         "role": "software",
         "text": "The outage was a blessing in disguise; it exposed gaps in our monitoring."
+      },
+      {
+        "role": "everyday",
+        "text": "Missing the train was a blessing in disguise; we found a lovely café."
       }
     ],
     "register": "neutral",
@@ -6334,6 +6878,10 @@
       {
         "role": "software",
         "text": "We'll play it by ear and decide on the rollout after the first day's metrics."
+      },
+      {
+        "role": "everyday",
+        "text": "We'll play it by ear and head to the beach if it's sunny."
       }
     ],
     "register": "informal",
@@ -6379,6 +6927,10 @@
       {
         "role": "software",
         "text": "Keep the support team in the loop about the release timeline."
+      },
+      {
+        "role": "everyday",
+        "text": "Keep me in the loop about Gran's hospital appointment."
       }
     ],
     "register": "informal",
@@ -6431,6 +6983,10 @@
       {
         "role": "software",
         "text": "Can I pick your brains about caching strategies over coffee?"
+      },
+      {
+        "role": "everyday",
+        "text": "Can I pick your brains about buying a second-hand car?"
       }
     ],
     "register": "informal",
@@ -6479,6 +7035,10 @@
       {
         "role": "software",
         "text": "Touching the billing code opens a can of worms; it affects every product."
+      },
+      {
+        "role": "everyday",
+        "text": "Asking about the will would open a can of worms."
       }
     ],
     "register": "informal",
@@ -6521,6 +7081,10 @@
       {
         "role": "software",
         "text": "Bear with me, I'll share my screen in a second."
+      },
+      {
+        "role": "everyday",
+        "text": "Bear with me; I'm just finding my reading glasses."
       }
     ],
     "register": "neutral",
@@ -6568,6 +7132,10 @@
       {
         "role": "software",
         "text": "She came up with an elegant fix for the caching issue."
+      },
+      {
+        "role": "everyday",
+        "text": "We need to come up with a name for the new puppy."
       }
     ],
     "register": "neutral",
@@ -6614,6 +7182,10 @@
       {
         "role": "software",
         "text": "Several options were put forward, but we chose the simplest."
+      },
+      {
+        "role": "everyday",
+        "text": "My aunt put forward a plan for Christmas that suits everyone."
       }
     ],
     "register": "neutral",
@@ -6664,6 +7236,10 @@
       {
         "role": "software",
         "text": "Can you follow up on the security review? It's been a week."
+      },
+      {
+        "role": "everyday",
+        "text": "I'm following up on my complaint about the missing parcel."
       }
     ],
     "register": "neutral",
@@ -6711,6 +7287,10 @@
       {
         "role": "software",
         "text": "Let me run this approach by the architect before I build it."
+      },
+      {
+        "role": "everyday",
+        "text": "Let me run the holiday dates by my partner first."
       }
     ],
     "register": "informal",
@@ -6762,6 +7342,10 @@
       {
         "role": "software",
         "text": "I'm brushing up on SQL before the data engineering interview."
+      },
+      {
+        "role": "everyday",
+        "text": "I'm brushing up on my French before our trip to Paris."
       }
     ],
     "register": "informal",
@@ -6808,6 +7392,10 @@
       {
         "role": "software",
         "text": "It took me a month to get to grips with the codebase."
+      },
+      {
+        "role": "everyday",
+        "text": "Dad is still getting to grips with his new phone."
       }
     ],
     "register": "informal",
@@ -6854,6 +7442,10 @@
       {
         "role": "software",
         "text": "We need to weigh up the cost of building it ourselves against buying a licence."
+      },
+      {
+        "role": "everyday",
+        "text": "We're weighing up whether to get a dog."
       }
     ],
     "register": "neutral",
@@ -6900,6 +7492,10 @@
       {
         "role": "software",
         "text": "Can you flesh out the ticket with acceptance criteria?"
+      },
+      {
+        "role": "everyday",
+        "text": "Let's flesh out the plans for the barbecue."
       }
     ],
     "register": "neutral",
@@ -6946,6 +7542,10 @@
       {
         "role": "software",
         "text": "We've ruled out the network; the issue is in the application."
+      },
+      {
+        "role": "everyday",
+        "text": "We've ruled out camping; it's going to pour."
       }
     ],
     "register": "neutral",
@@ -7004,6 +7604,10 @@
       {
         "role": "software",
         "text": "The same bug keeps cropping up in different parts of the app."
+      },
+      {
+        "role": "everyday",
+        "text": "Something's cropped up, so I can't make the cinema tonight."
       }
     ],
     "register": "informal",
@@ -7050,6 +7654,10 @@
       {
         "role": "software",
         "text": "Do chip in if I've missed anything from the incident timeline."
+      },
+      {
+        "role": "everyday",
+        "text": "Everyone chipped in for Sarah's leaving present."
       }
     ],
     "register": "informal",
@@ -7096,6 +7704,10 @@
       {
         "role": "software",
         "text": "We've taken the users' comments on board in the redesign."
+      },
+      {
+        "role": "everyday",
+        "text": "I've taken your advice on board and booked a proper holiday."
       }
     ],
     "register": "neutral",
@@ -7150,6 +7762,10 @@
       {
         "role": "software",
         "text": "Rebuilding the app by Christmas is a tall order, but let's see what's possible."
+      },
+      {
+        "role": "everyday",
+        "text": "Getting the kids to bed by seven is a tall order."
       }
     ],
     "register": "informal",
@@ -7195,6 +7811,10 @@
       {
         "role": "software",
         "text": "I'll not beat about the bush; the project is over budget."
+      },
+      {
+        "role": "everyday",
+        "text": "Don't beat about the bush: did you scratch my car?"
       }
     ],
     "register": "informal",
@@ -7242,6 +7862,10 @@
       {
         "role": "software",
         "text": "Sorry, I got the wrong end of the stick; you meant the staging server, not production."
+      },
+      {
+        "role": "everyday",
+        "text": "Our neighbour got the wrong end of the stick and thought we were moving."
       }
     ],
     "register": "informal",
@@ -7288,6 +7912,10 @@
       {
         "role": "software",
         "text": "Front-end work isn't my cup of tea; I prefer the back end."
+      },
+      {
+        "role": "everyday",
+        "text": "Karaoke isn't really my cup of tea."
       }
     ],
     "register": "informal",
@@ -7330,6 +7958,10 @@
       {
         "role": "software",
         "text": "Your estimate was spot on: it took exactly three days."
+      },
+      {
+        "role": "everyday",
+        "text": "Your directions to the pub were spot on."
       }
     ],
     "register": "informal",
@@ -7375,6 +8007,10 @@
       {
         "role": "software",
         "text": "We agreed on the requirements in January; they can't keep moving the goalposts."
+      },
+      {
+        "role": "everyday",
+        "text": "My landlord keeps moving the goalposts on the deposit."
       }
     ],
     "register": "informal",
@@ -7417,6 +8053,10 @@
       {
         "role": "software",
         "text": "Let's put the redesign on the back burner and focus on performance."
+      },
+      {
+        "role": "everyday",
+        "text": "The loft conversion is on the back burner until next year."
       }
     ],
     "register": "informal",
@@ -7463,6 +8103,10 @@
       {
         "role": "software",
         "text": "The client was chuffed with the demo."
+      },
+      {
+        "role": "everyday",
+        "text": "Mum was chuffed with her birthday flowers."
       }
     ],
     "register": "informal",
@@ -7509,6 +8153,10 @@
       {
         "role": "software",
         "text": "I'm knackered; the release went on until midnight."
+      },
+      {
+        "role": "everyday",
+        "text": "I'm knackered after moving house all weekend."
       }
     ],
     "register": "informal",
@@ -7555,6 +8203,10 @@
       {
         "role": "software",
         "text": "We're gutted the feature didn't make the release."
+      },
+      {
+        "role": "everyday",
+        "text": "We were gutted when the match was rained off."
       }
     ],
     "register": "informal",
@@ -7601,6 +8253,10 @@
       {
         "role": "software",
         "text": "Let's stop faffing about with the config and use the defaults."
+      },
+      {
+        "role": "everyday",
+        "text": "Getting the kids out of the door is always a faff."
       }
     ],
     "register": "informal",
@@ -7647,6 +8303,10 @@
       {
         "role": "software",
         "text": "The start-up was skint, so we hosted everything on the free tier."
+      },
+      {
+        "role": "everyday",
+        "text": "I'm skint until payday, so no takeaway this week."
       }
     ],
     "register": "informal",
@@ -7693,6 +8353,10 @@
       {
         "role": "software",
         "text": "Anyone peckish? I'm ordering pastries for the workshop."
+      },
+      {
+        "role": "everyday",
+        "text": "I'm a bit peckish; is there any cake left?"
       }
     ],
     "register": "informal",
@@ -7738,6 +8402,10 @@
       {
         "role": "software",
         "text": "The login bug is sorted and deployed."
+      },
+      {
+        "role": "everyday",
+        "text": "The train tickets are sorted, so we just need to pack."
       }
     ],
     "register": "informal",
@@ -7784,6 +8452,10 @@
       {
         "role": "software",
         "text": "Can I ask a cheeky favour? Could you review my PR today?"
+      },
+      {
+        "role": "everyday",
+        "text": "Shall we have a cheeky pint after work?"
       }
     ],
     "register": "informal",
@@ -7831,6 +8503,10 @@
       {
         "role": "software",
         "text": "Shall we grab a cuppa and talk it through?"
+      },
+      {
+        "role": "everyday",
+        "text": "Pop the kettle on and we'll have a cuppa."
       }
     ],
     "register": "informal",
@@ -7873,6 +8549,10 @@
       {
         "role": "software",
         "text": "Adding the new field was a doddle thanks to the migrations tool."
+      },
+      {
+        "role": "everyday",
+        "text": "Putting up the shelves was a doddle."
       }
     ],
     "register": "informal",
@@ -7918,6 +8598,10 @@
       {
         "role": "software",
         "text": "Run the script, restart the server, and Bob's your uncle."
+      },
+      {
+        "role": "everyday",
+        "text": "Add the milk, give it a stir, and Bob's your uncle."
       }
     ],
     "register": "informal",
@@ -7964,6 +8648,10 @@
       {
         "role": "software",
         "text": "Ignore him; he's just taking the mickey about my commit messages."
+      },
+      {
+        "role": "everyday",
+        "text": "My brothers always take the mickey out of my driving."
       }
     ],
     "register": "informal",
@@ -8011,6 +8699,10 @@
       {
         "role": "software",
         "text": "We were gobsmacked by how many people signed up on day one."
+      },
+      {
+        "role": "everyday",
+        "text": "I was gobsmacked by the price of a sandwich at the airport."
       }
     ],
     "register": "informal",
@@ -8056,6 +8748,10 @@
       {
         "role": "software",
         "text": "Our sprints last a fortnight."
+      },
+      {
+        "role": "everyday",
+        "text": "We're off to Cornwall for a fortnight in August."
       }
     ],
     "register": "neutral",
@@ -8099,6 +8795,10 @@
       {
         "role": "software",
         "text": "The deployment went pear-shaped at the last minute."
+      },
+      {
+        "role": "everyday",
+        "text": "The barbecue went pear-shaped when it started to pour."
       }
     ],
     "register": "informal",
@@ -8145,6 +8845,10 @@
       {
         "role": "software",
         "text": "Let's have a natter over coffee rather than another meeting."
+      },
+      {
+        "role": "everyday",
+        "text": "I popped round for a natter with my neighbour."
       }
     ],
     "register": "informal",
@@ -8191,6 +8895,10 @@
       {
         "role": "software",
         "text": "Fair enough; let's go with your approach and review it next sprint."
+      },
+      {
+        "role": "everyday",
+        "text": "You'd rather stay in tonight? Fair enough."
       }
     ],
     "register": "informal",
@@ -8237,6 +8945,10 @@
       {
         "role": "software",
         "text": "Cheers for the quick review!"
+      },
+      {
+        "role": "everyday",
+        "text": "Cheers for picking me up from the station."
       }
     ],
     "register": "informal",
@@ -8283,6 +8995,10 @@
       {
         "role": "software",
         "text": "Load time down to 300 milliseconds. Not too shabby."
+      },
+      {
+        "role": "everyday",
+        "text": "A sunny weekend in Manchester? Not too shabby."
       }
     ],
     "register": "informal",
@@ -8329,6 +9045,10 @@
       {
         "role": "software",
         "text": "Nobody could be bothered to update the docs, so they're two years out of date."
+      },
+      {
+        "role": "everyday",
+        "text": "I can't be bothered to cook tonight; let's get fish and chips."
       }
     ],
     "register": "informal",
@@ -8376,6 +9096,10 @@
       {
         "role": "software",
         "text": "Tabs or spaces? Honestly, I'm easy, as long as we're consistent."
+      },
+      {
+        "role": "everyday",
+        "text": "Pizza or curry? I'm easy."
       }
     ],
     "register": "informal",
@@ -8422,6 +9146,10 @@
       {
         "role": "software",
         "text": "I'm just popping out for ten minutes; back for stand-up."
+      },
+      {
+        "role": "everyday",
+        "text": "I'll pop in to see Gran on the way home."
       }
     ],
     "register": "informal",
@@ -8479,6 +9207,10 @@
       {
         "role": "software",
         "text": "The first version was rubbish, but it taught us what users wanted."
+      },
+      {
+        "role": "everyday",
+        "text": "The weather's been rubbish all week."
       }
     ],
     "register": "informal",
@@ -8525,6 +9257,10 @@
       {
         "role": "software",
         "text": "Merging those two branches was a bit of a nightmare."
+      },
+      {
+        "role": "everyday",
+        "text": "Parking in town on a Saturday is a bit of a nightmare."
       }
     ],
     "register": "informal",
@@ -8571,6 +9307,10 @@
       {
         "role": "software",
         "text": "They want it rebuilt in a week? You're having a laugh."
+      },
+      {
+        "role": "everyday",
+        "text": "Twelve quid for a sandwich? You're having a laugh."
       }
     ],
     "register": "informal",
@@ -8618,6 +9358,10 @@
       {
         "role": "software",
         "text": "Writing good commit messages isn't rocket science."
+      },
+      {
+        "role": "everyday",
+        "text": "Changing a fuse isn't rocket science."
       }
     ],
     "register": "informal",
@@ -8665,6 +9409,10 @@
       {
         "role": "software",
         "text": "The vendor's API change has thrown a spanner in the works."
+      },
+      {
+        "role": "everyday",
+        "text": "The train strike threw a spanner in the works."
       }
     ],
     "register": "informal",
@@ -8717,6 +9465,10 @@
       {
         "role": "software",
         "text": "We muddled through the outage with very little documentation."
+      },
+      {
+        "role": "everyday",
+        "text": "We muddled through the flat-pack instructions in the end."
       }
     ],
     "register": "informal",
@@ -8763,6 +9515,10 @@
       {
         "role": "software",
         "text": "With all due respect, that estimate doesn't include testing."
+      },
+      {
+        "role": "everyday",
+        "text": "With all due respect, Dad, the satnav does know the way."
       }
     ],
     "register": "neutral",
@@ -8809,6 +9565,10 @@
       {
         "role": "software",
         "text": "Fancy pairing on this bug after lunch?"
+      },
+      {
+        "role": "everyday",
+        "text": "Fancy a walk along the canal this afternoon?"
       }
     ],
     "register": "informal",

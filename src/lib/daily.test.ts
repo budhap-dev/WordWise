@@ -50,4 +50,13 @@ describe('selectDailyWords', () => {
     const second = selectDailyWords({ ...base, roles: ['software'], excludeIds });
     expect(second.some((w) => excludeIds.has(w.id))).toBe(false);
   });
+
+  it('serves only shared categories to the generic everyday role', () => {
+    const set = selectDailyWords({ ...base, roles: ['everyday'], size: 100 });
+    expect([...new Set(set.map((w) => w.category))].sort()).toEqual([
+      'british',
+      'general',
+      'idiom',
+    ]);
+  });
 });

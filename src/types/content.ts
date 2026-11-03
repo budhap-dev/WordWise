@@ -5,8 +5,11 @@
  * See docs/ADDING_WORDS.md for a walkthrough of adding new entries.
  */
 
-/** The roles a learner can pick during onboarding. */
-export type Role = 'student' | 'teacher' | 'software';
+/**
+ * The roles a learner can pick during onboarding. `everyday` is the generic role:
+ * friends, family, shops, appointments and social plans.
+ */
+export type Role = 'student' | 'teacher' | 'software' | 'everyday';
 
 /**
  * Which group a word belongs to. `general`, `idiom` and `british` are shown to everyone;
