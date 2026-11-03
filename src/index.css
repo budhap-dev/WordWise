@@ -1,0 +1,90 @@
+@import 'tailwindcss';
+
+/* Dark mode follows a `.dark` class on <html> (set from settings, defaulting to the OS). */
+@custom-variant dark (&:where(.dark, .dark *));
+
+/*
+ * Colour tokens. Every pairing used for text meets WCAG AA (4.5:1) in both themes.
+ * `accent` and `spark` are decorative — don't use them for body text.
+ */
+:root {
+  --bg: #faf7f2;
+  --surface: #ffffff;
+  --surface-2: #f2ede4;
+  --ink: #1f2328;
+  --ink-muted: #565b62;
+  --line: #e4ddd1;
+  --brand: #4f46e5;
+  --brand-ink: #ffffff;
+  --brand-soft: #e9e7fd;
+  --accent: #f5a524;
+  --spark: #ff7a59;
+  --success: #17804a;
+  --success-soft: #dcf3e6;
+  --danger: #c5363b;
+  --danger-soft: #fbe3e3;
+  color-scheme: light;
+}
+
+.dark {
+  --bg: #14161a;
+  --surface: #1c1f24;
+  --surface-2: #252930;
+  --ink: #ecedee;
+  --ink-muted: #a7acb3;
+  --line: #2e333b;
+  --brand: #9b97f7;
+  --brand-ink: #14161a;
+  --brand-soft: #2a2950;
+  --accent: #f7b955;
+  --spark: #ff9479;
+  --success: #4cc38a;
+  --success-soft: #16352a;
+  --danger: #ff7b7b;
+  --danger-soft: #3d1f22;
+  color-scheme: dark;
+}
+
+@theme inline {
+  --font-display: 'Fraunces Variable', Georgia, serif;
+  --font-sans: 'Inter Variable', ui-sans-serif, system-ui, sans-serif;
+
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-ink: var(--ink);
+  --color-ink-muted: var(--ink-muted);
+  --color-line: var(--line);
+  --color-brand: var(--brand);
+  --color-brand-ink: var(--brand-ink);
+  --color-brand-soft: var(--brand-soft);
+  --color-accent: var(--accent);
+  --color-spark: var(--spark);
+  --color-success: var(--success);
+  --color-success-soft: var(--success-soft);
+  --color-danger: var(--danger);
+  --color-danger-soft: var(--danger-soft);
+}
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+  }
+  body {
+    @apply bg-bg text-ink font-sans antialiased;
+  }
+  :focus-visible {
+    @apply outline-brand outline-2 outline-offset-2;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
