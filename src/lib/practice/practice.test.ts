@@ -93,7 +93,8 @@ describe('gap fill', () => {
   it('works for every eligible word, for every role', () => {
     for (const role of ['student', 'teacher', 'software', 'everyday'] as const) {
       const qs = gapFillQuestions(WORDS, WORDS, [role], rng(role), WORDS.length);
-      expect(qs.length).toBeGreaterThan(WORDS.length - 10);
+      // A few are skipped: phrases with a variable part, and stand-alone gaps.
+      expect(qs.length / WORDS.length).toBeGreaterThan(0.95);
       for (const q of qs) {
         expectValidChoice(q);
         const target = word(q.wordId!);
