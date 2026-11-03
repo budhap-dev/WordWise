@@ -31,12 +31,12 @@ describe('selectDailyWords', () => {
   it('only uses categories unlocked by the selected roles', () => {
     const set = selectDailyWords({ ...base, roles: ['software'], size: 100 });
     const categories = new Set(set.map((w) => w.category));
-    expect([...categories].sort()).toEqual(['general', 'idiom', 'workplace']);
+    expect([...categories].sort()).toEqual(['british', 'general', 'idiom', 'workplace']);
   });
 
   it('mixes categories rather than clumping them', () => {
-    const set = selectDailyWords({ ...base, roles: ['student', 'teacher', 'software'], size: 5 });
-    expect(new Set(set.map((w) => w.category)).size).toBe(5);
+    const set = selectDailyWords({ ...base, roles: ['student', 'teacher', 'software'], size: 6 });
+    expect(new Set(set.map((w) => w.category)).size).toBe(6);
   });
 
   it('puts words at or below the learner level first', () => {

@@ -28,7 +28,14 @@ describe('seed words', () => {
     const counts = Object.fromEntries(
       CATEGORIES.map((c) => [c, WORDS.filter((w) => w.category === c).length]),
     );
-    expect(counts).toEqual({ general: 30, student: 30, teaching: 30, workplace: 30, idiom: 40 });
+    expect(counts).toEqual({
+      general: 30,
+      student: 30,
+      teaching: 30,
+      workplace: 30,
+      idiom: 40,
+      british: 30,
+    });
   });
 
   it('has unique kebab-case ids', () => {

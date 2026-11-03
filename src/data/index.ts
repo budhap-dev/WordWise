@@ -1,8 +1,21 @@
-import type { Category, Level, Register, Role, WordEntry } from '../types/content';
+import type {
+  BritishSaying,
+  Category,
+  Joke,
+  Level,
+  Register,
+  Role,
+  WordEntry,
+} from '../types/content';
+import sayingsJson from './britishSayings.json';
+import jokesJson from './jokes.json';
 import wordsJson from './words.json';
 
 /** All built-in words. The JSON is validated by src/data/words.test.ts. */
 export const WORDS: readonly WordEntry[] = wordsJson as unknown as WordEntry[];
+
+export const JOKES: readonly Joke[] = jokesJson as unknown as Joke[];
+export const BRITISH_SAYINGS: readonly BritishSaying[] = sayingsJson as BritishSaying[];
 
 const WORDS_BY_ID = new Map(WORDS.map((w) => [w.id, w]));
 
@@ -19,6 +32,7 @@ export const CATEGORIES: readonly Category[] = [
   'teaching',
   'workplace',
   'idiom',
+  'british',
 ];
 
 /** Each role unlocks one category. `general` and `idiom` are shown to everyone. */
@@ -28,7 +42,7 @@ export const ROLE_CATEGORY: Record<Role, Category> = {
   software: 'workplace',
 };
 
-export const SHARED_CATEGORIES: readonly Category[] = ['general', 'idiom'];
+export const SHARED_CATEGORIES: readonly Category[] = ['general', 'idiom', 'british'];
 
 export function categoriesForRoles(roles: readonly Role[]): Category[] {
   return [...SHARED_CATEGORIES, ...roles.map((r) => ROLE_CATEGORY[r])];
@@ -67,4 +81,5 @@ export const CATEGORY_LABELS: Record<Category, string> = {
   teaching: 'Teaching',
   workplace: 'Workplace',
   idiom: 'Idioms & phrasal verbs',
+  british: 'Britishisms',
 };

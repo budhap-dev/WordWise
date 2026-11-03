@@ -1,0 +1,127 @@
+[
+  {
+    "id": "greatest-respect",
+    "say": "With the greatest respect…",
+    "mean": "I think you're wrong.",
+    "note": "The more respect promised, the stronger the disagreement."
+  },
+  {
+    "id": "brave-decision",
+    "say": "That's a very brave decision.",
+    "mean": "That's a terrible idea.",
+    "note": "'Brave' here means risky, possibly foolish."
+  },
+  {
+    "id": "quite-good",
+    "say": "That's quite good.",
+    "mean": "That's a bit disappointing.",
+    "note": "Tone matters: 'quite' can mean 'fairly', not 'very'."
+  },
+  {
+    "id": "not-bad",
+    "say": "Not bad at all.",
+    "mean": "That's really good.",
+    "note": "Understatement works upwards too."
+  },
+  {
+    "id": "bear-in-mind",
+    "say": "I'll bear it in mind.",
+    "mean": "I've already forgotten about it.",
+    "note": "Sometimes sincere, often a polite brush-off."
+  },
+  {
+    "id": "very-interesting",
+    "say": "That's very interesting.",
+    "mean": "I don't agree, and I'm not convinced.",
+    "note": "Especially when said slowly."
+  },
+  {
+    "id": "hear-what-you-say",
+    "say": "I hear what you say.",
+    "mean": "I disagree, and I don't want to discuss it further."
+  },
+  {
+    "id": "few-minor-comments",
+    "say": "I only have a few minor comments.",
+    "mean": "Please rewrite it.",
+    "note": "Check the length of the 'minor' comments."
+  },
+  {
+    "id": "not-ideal",
+    "say": "It's not ideal.",
+    "mean": "It's a disaster.",
+    "note": "A cornerstone of British understatement."
+  },
+  {
+    "id": "bit-chilly",
+    "say": "It's a bit chilly.",
+    "mean": "It's absolutely freezing."
+  },
+  {
+    "id": "might-join-later",
+    "say": "I might join you later.",
+    "mean": "I won't be coming."
+  },
+  {
+    "id": "coffee-sometime",
+    "say": "We must grab a coffee sometime.",
+    "mean": "This conversation is now ending.",
+    "note": "Sometimes genuine. If a date follows, it's real."
+  },
+  {
+    "id": "by-the-way",
+    "say": "Oh, by the way…",
+    "mean": "This is the actual reason I'm talking to you."
+  },
+  {
+    "id": "you-know-best",
+    "say": "I'm sure you know best.",
+    "mean": "Do it your way, but don't blame me."
+  },
+  {
+    "id": "slightly-disappointed",
+    "say": "I was slightly disappointed that…",
+    "mean": "I'm really quite annoyed that…"
+  },
+  {
+    "id": "correct-me",
+    "say": "Correct me if I'm wrong…",
+    "mean": "I know I'm right. Please don't correct me."
+  },
+  {
+    "id": "fine",
+    "say": "No, honestly, it's fine.",
+    "mean": "It is not fine.",
+    "note": "Watch for a tight smile."
+  },
+  {
+    "id": "sorry-bumped",
+    "say": "Sorry!",
+    "mean": "You walked into me.",
+    "note": "The famous British reflex apology."
+  },
+  {
+    "id": "perhaps-consider",
+    "say": "Perhaps you could consider…",
+    "mean": "Please do this.",
+    "note": "A polite instruction rather than a real suggestion."
+  },
+  {
+    "id": "interesting-weather",
+    "say": "Funny old weather we're having.",
+    "mean": "I'd like to have a friendly chat.",
+    "note": "Weather is the universal British conversation-starter."
+  },
+  {
+    "id": "no-rush",
+    "say": "No rush at all.",
+    "mean": "I'd quite like it by the end of today.",
+    "note": "In emails, check whether a date follows."
+  },
+  {
+    "id": "with-respect-email",
+    "say": "As per my previous email…",
+    "mean": "Please read my emails.",
+    "note": "Office-speak; the British version is extra polite and extra pointed."
+  }
+]

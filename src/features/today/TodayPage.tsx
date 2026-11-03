@@ -5,9 +5,11 @@ import { ProgressBar } from '../../components/ui/ProgressBar';
 import { cardClasses } from '../../components/ui/styles';
 import { useDailySet } from '../../hooks/useDailySet';
 import { estimateMinutes } from '../../lib/daily';
-import { formatLongDate, greeting } from '../../lib/date';
+import { formatLongDate, greeting, toDateKey } from '../../lib/date';
+import { dailyFun } from '../../lib/fun';
 import { useRequiredSettings } from '../../state/settingsContext';
 import { useTodayProgress } from '../../state/todayProgress';
+import { FunCard } from './FunCard';
 import { WordOfTheDay } from './WordOfTheDay';
 
 export function TodayPage() {
@@ -101,6 +103,8 @@ export function TodayPage() {
           )}
         </div>
       </section>
+      <FunCard fun={dailyFun(toDateKey(), settings.roles)} />
+
       {/* Room for the floating button on phones */}
       {!done && <div className="h-16 sm:hidden" aria-hidden="true" />}
     </div>
