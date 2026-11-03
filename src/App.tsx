@@ -3,6 +3,7 @@ import { BrowserRouter, Navigate, Route, Routes } from 'react-router';
 
 import { AppShell } from './components/layout/AppShell';
 import { FocusLayout } from './components/layout/FocusLayout';
+import { UpdateToast } from './features/install/UpdateToast';
 import { OnboardingPage } from './features/onboarding/OnboardingPage';
 import { PracticeHub } from './features/practice/PracticeHub';
 import { PracticeSession } from './features/practice/PracticeSession';
@@ -62,6 +63,7 @@ export default function App({ initialSettings }: { initialSettings?: Settings | 
       <BrowserRouter>
         <AppRoutes />
       </BrowserRouter>
+      <UpdateToast />
     </SettingsProvider>
   );
 }

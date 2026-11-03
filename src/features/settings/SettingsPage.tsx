@@ -8,6 +8,7 @@ import { resetProgress } from '../../db/progress';
 import { useCards } from '../../hooks/useProgress';
 import { useRequiredSettings, useSettings } from '../../state/settingsContext';
 import type { ThemePreference } from '../../types/user';
+import { InstallSection } from '../install/InstallPrompt';
 import { GoalPicker, LevelPicker, RolePicker } from '../onboarding/PreferenceFields';
 
 function Legend({ children }: { children: string }) {
@@ -130,6 +131,8 @@ export function SettingsPage() {
           </div>
         </fieldset>
       </section>
+
+      <InstallSection />
 
       <ConfirmAction
         title="Reset progress"
