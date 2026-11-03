@@ -2,7 +2,7 @@ import { ChevronRight } from 'lucide-react';
 import { Link } from 'react-router';
 
 import { cardClasses } from '../../components/ui/styles';
-import { lastScores, useAttempts } from '../../hooks/usePractice';
+import { lastScores, useAttempts, useRushStats } from '../../hooks/usePractice';
 import { useCards } from '../../hooks/useProgress';
 import { toDateKey } from '../../lib/date';
 import { MODES } from './modes';
@@ -15,7 +15,8 @@ function minutes(size: number, mode: string) {
 export function PracticeHub() {
   const cards = useCards();
   const attempts = useAttempts();
-  if (!cards || !attempts) return <p className="sr-only">Loading…</p>;
+  const rush = useRushStats();
+  if (!cards || !attempts || !rush) return <p className="sr-only">Loading…</p>;
   const scores = lastScores(attempts);
   const today = toDateKey();
 
@@ -29,6 +30,32 @@ export function PracticeHub() {
             : 'Quick games with words for your roles. Once you’ve learnt a few, they’ll star here.'}
         </p>
       </header>
+
+      <Link
+        to="/play/rush"
+        className="relative isolate flex animate-rise items-center gap-4 overflow-hidden rounded-3xl bg-brand p-5 text-brand-ink shadow-lg shadow-brand/25 transition active:scale-[0.98]"
+      >
+        <span
+          aria-hidden="true"
+          className="absolute -top-10 -right-6 -z-10 size-40 rounded-full bg-accent/40 blur-2xl"
+        />
+        <span
+          className="flex size-14 shrink-0 items-center justify-center rounded-2xl bg-brand-ink/15 text-3xl"
+          aria-hidden="true"
+        >
+          ⚡
+        </span>
+        <span className="min-w-0 flex-1">
+          <span className="block text-xl font-semibold">Word Rush</span>
+          <span className="block text-sm opacity-90">
+            60 seconds, combos and three lives. How far can you get?
+          </span>
+          <span className="mt-1 block text-xs font-semibold opacity-90">
+            {rush.best > 0 ? `Your best: ${rush.best}` : 'New: arcade mode'}
+          </span>
+        </span>
+        <ChevronRight className="size-5 shrink-0" aria-hidden="true" />
+      </Link>
 
       <ul className="grid gap-3 sm:grid-cols-2">
         {MODES.map(({ mode, emoji, title, blurb, size }, i) => {

@@ -61,3 +61,15 @@ export function useEligibleWords(settings: Settings) {
     return WORDS.filter((w) => categories.includes(w.category) && LEVELS.indexOf(w.level) <= rank);
   }, [roles, level]);
 }
+
+/** Word Rush history: the personal best, and how many games were played today. */
+export function useRushStats(date: DateKey = toDateKey()) {
+  return useLiveQuery(async () => {
+    const games = await db.gameScores.where('game').equals('rush').toArray();
+    return {
+      best: games.reduce((max, g) => Math.max(max, g.score), 0),
+      played: games.length,
+      playedToday: games.filter((g) => g.date === date).length,
+    };
+  }, [date]);
+}
