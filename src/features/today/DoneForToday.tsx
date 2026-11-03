@@ -1,4 +1,4 @@
-import { ArrowRight, PartyPopper, RotateCcw, Target } from 'lucide-react';
+import { ArrowRight, CalendarCheck, PartyPopper, RotateCcw, Target } from 'lucide-react';
 import { useEffect, useRef } from 'react';
 
 import { StickyActionBar } from '../../components/layout/StickyActionBar';
@@ -63,7 +63,11 @@ export function DoneForToday({
             </li>
           ))}
         </ul>
-        <p className="mt-5 flex gap-2 rounded-2xl bg-brand-soft p-4 text-sm">
+        <p className="mt-5 flex gap-2 rounded-2xl bg-surface-2 p-4 text-sm">
+          <CalendarCheck className="mt-0.5 size-4 shrink-0 text-brand" aria-hidden="true" />
+          <span>They’ll come back for a quick review tomorrow, then less and less often.</span>
+        </p>
+        <p className="mt-3 flex gap-2 rounded-2xl bg-brand-soft p-4 text-sm">
           <Target className="mt-0.5 size-4 shrink-0 text-brand" aria-hidden="true" />
           <span>
             <span className="font-semibold">Today's challenge: </span>

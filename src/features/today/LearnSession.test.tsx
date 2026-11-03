@@ -26,7 +26,7 @@ describe('daily learning session', () => {
     renderApp();
     const [first] = todaysWords();
     expect(await screen.findByRole('heading', { level: 2, name: first!.term })).toBeInTheDocument();
-    expect(screen.getByRole('link', { name: /start today's set/i })).toBeInTheDocument();
+    expect(screen.getByRole('link', { name: /start today's words/i })).toBeInTheDocument();
   });
 
   it('reveals each word and finishes with a celebration', async () => {

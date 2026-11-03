@@ -3,9 +3,10 @@ import { useMemo } from 'react';
 
 import { WORDS } from '../data';
 import { db } from '../db/db';
-import { introducedBefore, introducedOn } from '../db/selectors';
+import { dueCards, introducedBefore, introducedOn } from '../db/selectors';
 import { selectDailyWords } from '../lib/daily';
-import { type DateKey, toDateKey } from '../lib/date';
+import { addDays, type DateKey, toDateKey } from '../lib/date';
+import { currentStreak } from '../lib/streak';
 import type { Settings } from '../types/user';
 
 /** All of the learner's cards, kept live. `undefined` while IndexedDB is loading. */
@@ -34,4 +35,30 @@ export function useTodaySet(settings: Settings, date: DateKey = toDateKey()) {
     });
     return { words, seenIds: introducedOn(cards, date), cards };
   }, [cards, roles, level, dailyGoal, date]);
+}
+
+const KNOWN_IDS: ReadonlySet<string> = new Set(WORDS.map((w) => w.id));
+
+/** Cards due today (and overdue), plus how many fall due tomorrow. `undefined` while loading. */
+export function useReviews(date: DateKey = toDateKey()) {
+  const cards = useCards();
+  return useMemo(() => {
+    if (!cards) return undefined;
+    const due = dueCards(cards, date, KNOWN_IDS);
+    const tomorrow = addDays(date, 1);
+    const dueTomorrow = cards.filter((c) => c.due === tomorrow && KNOWN_IDS.has(c.wordId)).length;
+    return { due, dueTomorrow, total: cards.length };
+  }, [cards, date]);
+}
+
+/** The learner's current streak, from days with learning or reviews. `undefined` while loading. */
+export function useStreak(date: DateKey = toDateKey()) {
+  const dates = useLiveQuery(async () => {
+    const [introduced, reviewed] = await Promise.all([
+      db.cards.orderBy('introducedOn').uniqueKeys(),
+      db.reviews.orderBy('date').uniqueKeys(),
+    ]);
+    return new Set([...introduced, ...reviewed].map(String));
+  }, []);
+  return useMemo(() => (dates ? currentStreak(dates, date) : undefined), [dates, date]);
 }
