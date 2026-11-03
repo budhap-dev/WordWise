@@ -137,13 +137,30 @@ export interface ConfusableSet {
   }[];
 }
 
-/** An informal ↔ formal pair for the register-switch practice mode. */
+/** A wrong answer in a practice question, with why it doesn't work. */
+export interface Distractor {
+  text: string;
+  why: string;
+}
+
+/**
+ * A register-switch item: say the same thing in a different register, e.g. an informal message
+ * rewritten for a client email, or a stiff sentence relaxed for a text to a friend.
+ */
 export interface RegisterPair {
   id: string;
-  informal: string;
-  /** One or more acceptable formal equivalents; the first is the model answer. */
-  formal: string[];
-  context?: string;
+  /** Where it's being said, e.g. "Email to a client". */
+  context: string;
+  /** The phrase as given. */
+  from: string;
+  fromRegister: Register;
+  toRegister: Register;
+  /** The best rewrite. */
+  answer: string;
+  /** Plausible but wrong choices: wrong register, or a different meaning. */
+  distractors: Distractor[];
+  /** Why the answer works. */
+  explanation: string;
 }
 
 /** A clean, groan-worthy joke. The explanation unpacks the wordplay for learners. */

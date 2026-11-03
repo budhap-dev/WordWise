@@ -1,0 +1,692 @@
+[
+  {
+    "id": "client-report",
+    "context": "Email to a client",
+    "from": "Can you send me the report asap?",
+    "fromRegister": "informal",
+    "toRegister": "formal",
+    "answer": "Could you send me the report at your earliest convenience?",
+    "distractors": [
+      {
+        "text": "Send the report over, pronto.",
+        "why": "Far too casual, and a bit bossy, for a client."
+      },
+      {
+        "text": "I hereby demand the immediate transmission of the report.",
+        "why": "Stiff and hostile: 'demand' would put a client's back up."
+      },
+      {
+        "text": "Report please?",
+        "why": "Too abrupt: no verb, no warmth."
+      }
+    ],
+    "explanation": "'Could you…' is polite, and 'at your earliest convenience' is the formal cousin of 'asap'."
+  },
+  {
+    "id": "manager-ill",
+    "context": "Message to your manager",
+    "from": "Can't come in tomorrow, feeling rough.",
+    "fromRegister": "informal",
+    "toRegister": "neutral",
+    "answer": "I'm afraid I'm unwell and won't be able to come in tomorrow.",
+    "distractors": [
+      {
+        "text": "I regret to inform you that I shall be absent owing to indisposition.",
+        "why": "Overly formal: it sounds like a Victorian telegram."
+      },
+      {
+        "text": "Not coming in tomorrow.",
+        "why": "Clear, but blunt: no reason and no softening."
+      },
+      {
+        "text": "Sorry babe, sick, see you Thursday x",
+        "why": "Far too familiar for a manager."
+      }
+    ],
+    "explanation": "'I'm afraid…' softens bad news, and the sentence is clear without being stiff."
+  },
+  {
+    "id": "essay-social-media",
+    "context": "An essay",
+    "from": "Loads of people reckon social media's bad for teenagers.",
+    "fromRegister": "informal",
+    "toRegister": "formal",
+    "answer": "Many argue that social media has a detrimental effect on teenagers.",
+    "distractors": [
+      {
+        "text": "Everyone knows social media is bad for teenagers.",
+        "why": "Formal enough, but an unsupported overgeneralisation that examiners pick up on."
+      },
+      {
+        "text": "Social media is, like, really bad for teens.",
+        "why": "Conversational fillers and slang have no place in an essay."
+      },
+      {
+        "text": "Lots of folk think teens and social media don't mix.",
+        "why": "Still chatty: 'lots of folk' and the idiom keep it informal."
+      }
+    ],
+    "explanation": "'Many argue that…' attributes the view, and 'detrimental effect' is precise, academic vocabulary."
+  },
+  {
+    "id": "parents-pe-kit",
+    "context": "Letter to parents",
+    "from": "Kids need to bring their PE kit on Mondays.",
+    "fromRegister": "informal",
+    "toRegister": "formal",
+    "answer": "Please ensure that your child brings their PE kit every Monday.",
+    "distractors": [
+      {
+        "text": "Kids, PE kit, Mondays. Cheers!",
+        "why": "Friendly, but too casual for a school letter."
+      },
+      {
+        "text": "Pupils are required, without exception, to present physical education attire each Monday.",
+        "why": "Over-formal and cold: parents may find it officious."
+      },
+      {
+        "text": "Don't forget PE kit, or else!",
+        "why": "Sounds like a threat."
+      }
+    ],
+    "explanation": "'Please ensure that…' is polite, clear and standard in school letters."
+  },
+  {
+    "id": "slt-plan",
+    "context": "Meeting with senior leaders",
+    "from": "This plan won't work.",
+    "fromRegister": "neutral",
+    "toRegister": "formal",
+    "answer": "I have some concerns about whether this plan is workable.",
+    "distractors": [
+      {
+        "text": "This plan's rubbish.",
+        "why": "Informal and dismissive: it ends the discussion rather than opening it."
+      },
+      {
+        "text": "With the greatest respect, this plan is doomed.",
+        "why": "British ears hear 'with the greatest respect' as a sign of strong disagreement; with 'doomed' it's openly hostile."
+      },
+      {
+        "text": "Nah, not having it.",
+        "why": "Far too casual for a senior meeting."
+      }
+    ],
+    "explanation": "Framing disagreement as 'concerns' keeps it professional and invites a response."
+  },
+  {
+    "id": "complaint-driver",
+    "context": "A complaint letter",
+    "from": "Your delivery driver was really rude to me.",
+    "fromRegister": "informal",
+    "toRegister": "formal",
+    "answer": "I wish to raise a concern about the conduct of your delivery driver.",
+    "distractors": [
+      {
+        "text": "Your driver was well out of order, mate.",
+        "why": "Slang weakens a formal complaint."
+      },
+      {
+        "text": "Your driver is the rudest man alive and should be sacked immediately.",
+        "why": "Emotional exaggeration makes a complaint easier to dismiss."
+      },
+      {
+        "text": "Driver rude. Not happy.",
+        "why": "Too terse to act on."
+      }
+    ],
+    "explanation": "Calm, formal wording ('raise a concern', 'conduct') makes a complaint taken more seriously."
+  },
+  {
+    "id": "cover-letter",
+    "context": "A cover letter",
+    "from": "I'm really good at sorting out problems.",
+    "fromRegister": "informal",
+    "toRegister": "formal",
+    "answer": "I have a strong track record of resolving complex problems.",
+    "distractors": [
+      {
+        "text": "I'm a whizz at fixing stuff.",
+        "why": "'Whizz' and 'stuff' are too casual for a job application."
+      },
+      {
+        "text": "Problems fear me.",
+        "why": "A joke that might not land with a recruiter."
+      },
+      {
+        "text": "I am exceedingly, extraordinarily good at problems.",
+        "why": "Wordy, and 'good at problems' doesn't say what you actually do."
+      }
+    ],
+    "explanation": "'A strong track record of…' is confident and professional, and 'resolving' is more precise than 'sorting out'."
+  },
+  {
+    "id": "report-results",
+    "context": "A lab report",
+    "from": "The results kind of back up our idea.",
+    "fromRegister": "informal",
+    "toRegister": "formal",
+    "answer": "The results broadly support our hypothesis.",
+    "distractors": [
+      {
+        "text": "The results totally prove we were right.",
+        "why": "Over-claims: results support a hypothesis; they rarely 'prove' it."
+      },
+      {
+        "text": "The results sort of agree with us, I guess.",
+        "why": "Hedging fillers sound unsure rather than scientific."
+      },
+      {
+        "text": "Our idea got backed up by the results, more or less.",
+        "why": "Still conversational."
+      }
+    ],
+    "explanation": "'Broadly support' hedges precisely, and 'hypothesis' is the scientific term."
+  },
+  {
+    "id": "colleague-update",
+    "context": "Email to a colleague you don't know well",
+    "from": "What's the deal with the Henderson project?",
+    "fromRegister": "informal",
+    "toRegister": "neutral",
+    "answer": "Hi, could you give me a quick update on the Henderson project?",
+    "distractors": [
+      {
+        "text": "Dear Sir or Madam, I write to enquire as to the status of the Henderson project.",
+        "why": "Too formal for an internal email to a named colleague."
+      },
+      {
+        "text": "Oi, Henderson project. Update?",
+        "why": "Rude and abrupt."
+      },
+      {
+        "text": "What's going on with Henderson, then?",
+        "why": "Casual, and it can sound accusatory."
+      }
+    ],
+    "explanation": "Friendly and clear: a greeting, 'could you', and exactly what you need."
+  },
+  {
+    "id": "code-review",
+    "context": "Code review comment",
+    "from": "This is wrong, redo it.",
+    "fromRegister": "informal",
+    "toRegister": "neutral",
+    "answer": "I think this might not handle empty input. Could you take another look?",
+    "distractors": [
+      {
+        "text": "This is garbage.",
+        "why": "Unkind and unhelpful: it doesn't say what's wrong."
+      },
+      {
+        "text": "Per standard protocol, this submission is hereby rejected.",
+        "why": "Cold and bureaucratic."
+      },
+      {
+        "text": "lol no",
+        "why": "Not a review."
+      }
+    ],
+    "explanation": "Specific, tentative ('I think', 'might') and a polite request: constructive feedback."
+  },
+  {
+    "id": "student-essay-feedback",
+    "context": "Feedback to a student",
+    "from": "Your essay is a mess.",
+    "fromRegister": "informal",
+    "toRegister": "neutral",
+    "answer": "Your ideas are strong, but the structure needs work. Try one main point per paragraph.",
+    "distractors": [
+      {
+        "text": "Messy, as usual.",
+        "why": "Discouraging, and gives nothing to act on."
+      },
+      {
+        "text": "This essay exhibits a regrettable want of structural coherence.",
+        "why": "Far too stiff for a student, who may not follow it."
+      },
+      {
+        "text": "It's fine, don't worry about it.",
+        "why": "Kind, but not honest or helpful."
+      }
+    ],
+    "explanation": "Praise, a clear area to improve and a concrete next step."
+  },
+  {
+    "id": "awards-invite",
+    "context": "A formal invitation",
+    "from": "Fancy coming to our awards do?",
+    "fromRegister": "informal",
+    "toRegister": "formal",
+    "answer": "We would be delighted if you could join us at our awards ceremony.",
+    "distractors": [
+      {
+        "text": "You coming to the awards thing or what?",
+        "why": "Too casual, and a little pushy."
+      },
+      {
+        "text": "Attendance at the awards is mandatory.",
+        "why": "An order, not an invitation."
+      },
+      {
+        "text": "Awards. Friday. Be there.",
+        "why": "Fun on a poster, but not a formal invitation."
+      }
+    ],
+    "explanation": "'We would be delighted if you could join us' is the classic formal invitation."
+  },
+  {
+    "id": "customer-not-my-job",
+    "context": "Talking to a customer",
+    "from": "Sorry, that's not my job.",
+    "fromRegister": "informal",
+    "toRegister": "neutral",
+    "answer": "I'm sorry, another team handles that, but I'll put you in touch with them.",
+    "distractors": [
+      {
+        "text": "Not my problem, mate.",
+        "why": "Dismissive and rude."
+      },
+      {
+        "text": "That falls outside my remit. Good day.",
+        "why": "Formal, but it leaves the customer stuck."
+      },
+      {
+        "text": "Dunno, ask someone else.",
+        "why": "Unhelpful and too casual."
+      }
+    ],
+    "explanation": "Polite, honest and helpful: it says what will happen next."
+  },
+  {
+    "id": "email-sign-off",
+    "context": "Signing off an email to a new client, Ms Patel",
+    "from": "Cheers, speak soon!",
+    "fromRegister": "informal",
+    "toRegister": "formal",
+    "answer": "Kind regards,",
+    "distractors": [
+      {
+        "text": "Laters!",
+        "why": "Far too casual for a new client."
+      },
+      {
+        "text": "Yours faithfully,",
+        "why": "Only for letters that begin 'Dear Sir or Madam'. With a name, use 'Yours sincerely' or 'Kind regards'."
+      },
+      {
+        "text": "Love,",
+        "why": "For friends and family only."
+      }
+    ],
+    "explanation": "'Kind regards' is the safe, warm-but-professional British sign-off."
+  },
+  {
+    "id": "extension-request",
+    "context": "Email to your tutor",
+    "from": "Can I hand it in late? Loads going on.",
+    "fromRegister": "informal",
+    "toRegister": "formal",
+    "answer": "Would it be possible to have a short extension? I've had some difficult personal circumstances this week.",
+    "distractors": [
+      {
+        "text": "I need more time, obviously.",
+        "why": "Demanding, and 'obviously' sounds rude."
+      },
+      {
+        "text": "I'm handing it in late; hope that's OK.",
+        "why": "Tells rather than asks."
+      },
+      {
+        "text": "Pretty please can I have more time? 🙏",
+        "why": "Too casual for a tutor."
+      }
+    ],
+    "explanation": "'Would it be possible…' is a polite request, and a brief reason helps."
+  },
+  {
+    "id": "minutes-delay",
+    "context": "Meeting minutes",
+    "from": "Everyone was fine with pushing the launch back a bit.",
+    "fromRegister": "informal",
+    "toRegister": "formal",
+    "answer": "It was agreed that the launch would be postponed.",
+    "distractors": [
+      {
+        "text": "The launch got kicked into the long grass.",
+        "why": "Idiomatic, and suggests it's been shelved indefinitely."
+      },
+      {
+        "text": "Everyone was cool with delaying stuff.",
+        "why": "Slang has no place in minutes."
+      },
+      {
+        "text": "Some people may have possibly agreed to maybe delay things.",
+        "why": "Vague: minutes should be clear."
+      }
+    ],
+    "explanation": "Minutes use the impersonal 'It was agreed that…' and precise verbs like 'postponed'."
+  },
+  {
+    "id": "gp-appointment",
+    "context": "Phoning a GP surgery",
+    "from": "I need to see a doctor, like, today.",
+    "fromRegister": "informal",
+    "toRegister": "neutral",
+    "answer": "I'd like to book an appointment for today, if possible.",
+    "distractors": [
+      {
+        "text": "Doctor. Today. Now.",
+        "why": "Demanding and abrupt."
+      },
+      {
+        "text": "I require an appointment forthwith.",
+        "why": "Stiff, and sounds like a demand."
+      },
+      {
+        "text": "Any chance of squeezing me in, love?",
+        "why": "Too familiar for most receptionists."
+      }
+    ],
+    "explanation": "'I'd like to…' and 'if possible' are polite and clear."
+  },
+  {
+    "id": "reference-letter",
+    "context": "A reference",
+    "from": "She's a nice person and works hard.",
+    "fromRegister": "informal",
+    "toRegister": "formal",
+    "answer": "She is conscientious, reliable and well liked by colleagues.",
+    "distractors": [
+      {
+        "text": "She's dead nice and grafts loads.",
+        "why": "Warm, but slangy: 'dead nice' and 'grafts' are too informal."
+      },
+      {
+        "text": "She is a human of considerable niceness.",
+        "why": "Awkward and odd."
+      },
+      {
+        "text": "She's fine, I suppose.",
+        "why": "Damning with faint praise: an employer would read this as a warning."
+      }
+    ],
+    "explanation": "Precise, positive adjectives give an employer real information."
+  },
+  {
+    "id": "board-budget",
+    "context": "Presentation to the board",
+    "from": "We messed up the budget.",
+    "fromRegister": "informal",
+    "toRegister": "formal",
+    "answer": "We underestimated the costs, and we've put measures in place to stop it happening again.",
+    "distractors": [
+      {
+        "text": "Mistakes were made.",
+        "why": "Formal, but it dodges responsibility, and boards notice."
+      },
+      {
+        "text": "We totally botched the budget, soz.",
+        "why": "Far too casual."
+      },
+      {
+        "text": "The budget is basically a disaster.",
+        "why": "Alarming, and offers no plan."
+      }
+    ],
+    "explanation": "Owns the problem in precise terms, then reassures with action."
+  },
+  {
+    "id": "wrong-file",
+    "context": "Email to a client",
+    "from": "My bad, wrong file!",
+    "fromRegister": "informal",
+    "toRegister": "neutral",
+    "answer": "Apologies, I attached the wrong file. Please find the correct version attached.",
+    "distractors": [
+      {
+        "text": "Oops! Wrong file lol.",
+        "why": "Too casual for a client."
+      },
+      {
+        "text": "I humbly and most profusely beg your forgiveness for this grievous error.",
+        "why": "Over the top: it makes a small slip sound like a crisis."
+      },
+      {
+        "text": "Wrong file. Here's the right one.",
+        "why": "Curt."
+      }
+    ],
+    "explanation": "A brief apology and the fix. 'Please find… attached' is standard British email phrasing."
+  },
+  {
+    "id": "text-cant-make-it",
+    "context": "Text to a friend",
+    "from": "I am unable to attend this evening.",
+    "fromRegister": "formal",
+    "toRegister": "informal",
+    "answer": "Sorry, can't make it tonight!",
+    "distractors": [
+      {
+        "text": "I regret that I shall be unable to attend this evening's gathering.",
+        "why": "Still formal: your friend will think something's wrong."
+      },
+      {
+        "text": "Not coming. Whatever.",
+        "why": "Informal, but rude."
+      },
+      {
+        "text": "It is with sadness that I decline.",
+        "why": "Sounds like a royal announcement."
+      }
+    ],
+    "explanation": "'Can't make it' is the natural, friendly way to say you won't be there."
+  },
+  {
+    "id": "neighbour-weather",
+    "context": "Chatting to a neighbour",
+    "from": "The temperature is extremely low today.",
+    "fromRegister": "formal",
+    "toRegister": "informal",
+    "answer": "It's absolutely freezing today, isn't it?",
+    "distractors": [
+      {
+        "text": "Today's temperature is significantly below the seasonal average.",
+        "why": "Sounds like a weather forecast."
+      },
+      {
+        "text": "One finds the weather rather inclement.",
+        "why": "Comically posh."
+      },
+      {
+        "text": "Cold. Very.",
+        "why": "Too clipped to start a chat."
+      }
+    ],
+    "explanation": "Tag questions like 'isn't it?' invite a friendly chat. Very British."
+  },
+  {
+    "id": "family-lift",
+    "context": "Family WhatsApp",
+    "from": "I would be grateful if somebody could collect me from the station.",
+    "fromRegister": "formal",
+    "toRegister": "informal",
+    "answer": "Could someone pick me up from the station? 🙏",
+    "distractors": [
+      {
+        "text": "Kindly arrange collection from the station.",
+        "why": "Sounds like an instruction to a taxi firm."
+      },
+      {
+        "text": "Station. Lift. Now.",
+        "why": "Bossy."
+      },
+      {
+        "text": "Dear family, I write to request transport.",
+        "why": "Far too formal for a family chat."
+      }
+    ],
+    "explanation": "'Pick me up' is the everyday phrasal verb; the emoji adds a friendly please."
+  },
+  {
+    "id": "pub-round",
+    "context": "At the pub with friends",
+    "from": "Would anybody care for another beverage?",
+    "fromRegister": "formal",
+    "toRegister": "informal",
+    "answer": "Anyone fancy another drink? My round.",
+    "distractors": [
+      {
+        "text": "Shall I procure additional refreshments?",
+        "why": "Comically formal."
+      },
+      {
+        "text": "Drinks? Get your own.",
+        "why": "Informal, but a serious breach of pub etiquette."
+      },
+      {
+        "text": "Would you care for a further beverage?",
+        "why": "Still too formal for friends."
+      }
+    ],
+    "explanation": "'Fancy' and 'my round' are pub classics: in the UK, friends take turns buying a round."
+  },
+  {
+    "id": "tired-colleague",
+    "context": "Chatting to a colleague over coffee",
+    "from": "I am exceedingly fatigued.",
+    "fromRegister": "formal",
+    "toRegister": "informal",
+    "answer": "I'm knackered.",
+    "distractors": [
+      {
+        "text": "I'm gutted.",
+        "why": "'Gutted' means bitterly disappointed, not tired."
+      },
+      {
+        "text": "I am experiencing considerable fatigue.",
+        "why": "Sounds like a medical report."
+      },
+      {
+        "text": "I'm chuffed.",
+        "why": "'Chuffed' means pleased!"
+      }
+    ],
+    "explanation": "'Knackered' is the classic informal British word for exhausted."
+  },
+  {
+    "id": "great-news",
+    "context": "Replying to a friend",
+    "from": "That is extremely good news.",
+    "fromRegister": "formal",
+    "toRegister": "informal",
+    "answer": "That's brilliant news!",
+    "distractors": [
+      {
+        "text": "That's quite good news.",
+        "why": "In British English 'quite good' can sound lukewarm: the opposite of what you mean."
+      },
+      {
+        "text": "That is most satisfactory news.",
+        "why": "Stiff and oddly cool."
+      },
+      {
+        "text": "News received.",
+        "why": "Sounds like a robot."
+      }
+    ],
+    "explanation": "'Brilliant' is warm, enthusiastic and very British."
+  },
+  {
+    "id": "skint",
+    "context": "Chatting to a friend",
+    "from": "I have no money until payday.",
+    "fromRegister": "formal",
+    "toRegister": "informal",
+    "answer": "I'm skint till payday.",
+    "distractors": [
+      {
+        "text": "I'm chuffed till payday.",
+        "why": "'Chuffed' means pleased."
+      },
+      {
+        "text": "My finances are depleted pending remuneration.",
+        "why": "Comically formal."
+      },
+      {
+        "text": "I lack funds.",
+        "why": "Stiff and odd in a chat."
+      }
+    ],
+    "explanation": "'Skint' is everyday British slang for having no money, and 'till' is the informal 'until'."
+  },
+  {
+    "id": "teammate-update",
+    "context": "Slack message to a teammate",
+    "from": "Please could you provide an update at your earliest convenience?",
+    "fromRegister": "formal",
+    "toRegister": "informal",
+    "answer": "Any news on this when you get a sec?",
+    "distractors": [
+      {
+        "text": "Kindly furnish me with a status report.",
+        "why": "Stiff and bossy for a teammate."
+      },
+      {
+        "text": "Update. Now.",
+        "why": "Rude."
+      },
+      {
+        "text": "Whenever, no stress, or never, honestly.",
+        "why": "So vague it isn't a request."
+      }
+    ],
+    "explanation": "Friendly, low-pressure and clear: just right for a colleague you work with every day."
+  },
+  {
+    "id": "all-sorted",
+    "context": "Telling a friend about the holiday plans",
+    "from": "The arrangements have been finalised.",
+    "fromRegister": "formal",
+    "toRegister": "informal",
+    "answer": "It's all sorted!",
+    "distractors": [
+      {
+        "text": "It's all gone pear-shaped!",
+        "why": "That means it's gone wrong!"
+      },
+      {
+        "text": "The arrangements have been concluded satisfactorily.",
+        "why": "Still formal."
+      },
+      {
+        "text": "Arrangements: complete. Over and out.",
+        "why": "Sounds like a walkie-talkie."
+      }
+    ],
+    "explanation": "'Sorted' means arranged or dealt with: perfect for good news among friends."
+  },
+  {
+    "id": "easy-win",
+    "context": "Chatting after five-a-side",
+    "from": "That was a remarkably easy victory.",
+    "fromRegister": "formal",
+    "toRegister": "informal",
+    "answer": "That was a doddle!",
+    "distractors": [
+      {
+        "text": "That was a nightmare!",
+        "why": "The opposite: it means it was really difficult."
+      },
+      {
+        "text": "That was a tall order.",
+        "why": "A 'tall order' is something very difficult."
+      },
+      {
+        "text": "The victory was achieved with minimal exertion.",
+        "why": "Sounds like a match report."
+      }
+    ],
+    "explanation": "A 'doddle' is something very easy to do."
+  }
+]
