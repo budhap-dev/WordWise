@@ -1,14 +1,18 @@
 import type {
   BritishSaying,
   Category,
+  ConfusableSet,
   Joke,
   Level,
   Register,
+  RegisterPair,
   Role,
   WordEntry,
 } from '../types/content';
 import sayingsJson from './britishSayings.json';
+import confusablesJson from './confusables.json';
 import jokesJson from './jokes.json';
+import registerPairsJson from './registerPairs.json';
 import wordsJson from './words.json';
 
 /** All built-in words. The JSON is validated by src/data/words.test.ts. */
@@ -16,6 +20,10 @@ export const WORDS: readonly WordEntry[] = wordsJson as unknown as WordEntry[];
 
 export const JOKES: readonly Joke[] = jokesJson as unknown as Joke[];
 export const BRITISH_SAYINGS: readonly BritishSaying[] = sayingsJson as BritishSaying[];
+
+/** Practice content, validated by src/data/practice.test.ts. */
+export const CONFUSABLES: readonly ConfusableSet[] = confusablesJson as ConfusableSet[];
+export const REGISTER_PAIRS: readonly RegisterPair[] = registerPairsJson as RegisterPair[];
 
 const WORDS_BY_ID = new Map(WORDS.map((w) => [w.id, w]));
 

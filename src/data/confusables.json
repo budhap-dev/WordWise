@@ -1,0 +1,621 @@
+[
+  {
+    "id": "affect-effect",
+    "options": ["affect", "effect"],
+    "items": [
+      {
+        "sentence": "The new timetable will ___ every Year 10 class.",
+        "answer": "affect",
+        "explanation": "'Affect' is usually the verb: to influence something."
+      },
+      {
+        "sentence": "Lack of sleep had a noticeable ___ on her revision.",
+        "answer": "effect",
+        "explanation": "'Effect' is usually the noun: a result. Tip: Affect is the Action, Effect is the End result."
+      }
+    ]
+  },
+  {
+    "id": "practice-practise",
+    "options": ["practice", "practise"],
+    "items": [
+      {
+        "sentence": "You need to ___ your presentation before Friday.",
+        "answer": "practise",
+        "explanation": "In British English, 'practise' with an s is the verb."
+      },
+      {
+        "sentence": "Regular ___ makes new vocabulary stick.",
+        "answer": "practice",
+        "explanation": "'Practice' with a c is the noun. 'Advice' (noun) and 'advise' (verb) follow the same pattern."
+      }
+    ]
+  },
+  {
+    "id": "licence-license",
+    "options": ["licence", "license"],
+    "items": [
+      {
+        "sentence": "You'll need a valid driving ___ to hire the van.",
+        "answer": "licence",
+        "explanation": "British English: 'licence' is the noun."
+      },
+      {
+        "sentence": "The council will only ___ two new food stalls this year.",
+        "answer": "license",
+        "explanation": "British English: 'license' is the verb. (American English uses 'license' for both.)"
+      }
+    ]
+  },
+  {
+    "id": "advice-advise",
+    "options": ["advice", "advise"],
+    "items": [
+      {
+        "sentence": "Could you ___ me on which module to choose?",
+        "answer": "advise",
+        "explanation": "'Advise' (with an s, said with a z sound) is the verb."
+      },
+      {
+        "sentence": "Thanks for the ___; I'll take it on board.",
+        "answer": "advice",
+        "explanation": "'Advice' (with a c) is the noun, and it's uncountable: 'some advice', never 'an advice'."
+      }
+    ]
+  },
+  {
+    "id": "complement-compliment",
+    "options": ["complement", "compliment"],
+    "items": [
+      {
+        "sentence": "The chutney is the perfect ___ to a strong cheddar.",
+        "answer": "complement",
+        "explanation": "A 'complement' completes something or goes well with it. Think 'complete'."
+      },
+      {
+        "sentence": "She paid me a lovely ___ about my presentation.",
+        "answer": "compliment",
+        "explanation": "A 'compliment' is praise. Think 'I like it'."
+      }
+    ]
+  },
+  {
+    "id": "principle-principal",
+    "options": ["principle", "principal"],
+    "items": [
+      {
+        "sentence": "On ___, I don't answer work emails at weekends.",
+        "answer": "principle",
+        "explanation": "A 'principle' is a rule or belief."
+      },
+      {
+        "sentence": "The ___ reason for the delay was a supplier issue.",
+        "answer": "principal",
+        "explanation": "'Principal' means main. It's also the head of some colleges."
+      }
+    ]
+  },
+  {
+    "id": "stationary-stationery",
+    "options": ["stationary", "stationery"],
+    "items": [
+      {
+        "sentence": "Traffic was ___ on the M25 for over an hour.",
+        "answer": "stationary",
+        "explanation": "'Stationary' means not moving."
+      },
+      {
+        "sentence": "The staffroom has run out of ___ again: pens, paper, the lot.",
+        "answer": "stationery",
+        "explanation": "'Stationery' is writing materials. Tip: stationEry is for Envelopes."
+      }
+    ]
+  },
+  {
+    "id": "fewer-less",
+    "options": ["fewer", "less"],
+    "items": [
+      {
+        "sentence": "There were ___ students in the lecture than last week.",
+        "answer": "fewer",
+        "explanation": "Use 'fewer' with things you can count: students, emails, biscuits."
+      },
+      {
+        "sentence": "I've got ___ time than I thought.",
+        "answer": "less",
+        "explanation": "Use 'less' with things you can't count: time, money, water."
+      }
+    ]
+  },
+  {
+    "id": "imply-infer",
+    "options": ["imply", "infer"],
+    "items": [
+      {
+        "sentence": "Are you trying to ___ that I'm always late?",
+        "answer": "imply",
+        "explanation": "The speaker implies (suggests) something."
+      },
+      {
+        "sentence": "From the data, we can ___ that the trend will continue.",
+        "answer": "infer",
+        "explanation": "The listener or reader infers (concludes) something."
+      }
+    ]
+  },
+  {
+    "id": "discreet-discrete",
+    "options": ["discreet", "discrete"],
+    "items": [
+      {
+        "sentence": "Please be ___: the restructure isn't public yet.",
+        "answer": "discreet",
+        "explanation": "'Discreet' means careful to keep things private."
+      },
+      {
+        "sentence": "The course is split into six ___ modules.",
+        "answer": "discrete",
+        "explanation": "'Discrete' means separate and distinct, as in maths: discrete data."
+      }
+    ]
+  },
+  {
+    "id": "elicit-illicit",
+    "options": ["elicit", "illicit"],
+    "items": [
+      {
+        "sentence": "Use open questions to ___ ideas from the class.",
+        "answer": "elicit",
+        "explanation": "To 'elicit' is to draw out a response."
+      },
+      {
+        "sentence": "Trading Standards seized hundreds of ___ copies of the game.",
+        "answer": "illicit",
+        "explanation": "'Illicit' means illegal or forbidden."
+      }
+    ]
+  },
+  {
+    "id": "ensure-insure",
+    "options": ["ensure", "insure"],
+    "items": [
+      {
+        "sentence": "Please ___ that all laptops are locked away before you leave.",
+        "answer": "ensure",
+        "explanation": "To 'ensure' is to make sure."
+      },
+      {
+        "sentence": "It costs a fortune to ___ a car for a new driver.",
+        "answer": "insure",
+        "explanation": "To 'insure' is to take out insurance."
+      }
+    ]
+  },
+  {
+    "id": "dependent-dependant",
+    "options": ["dependent", "dependant"],
+    "items": [
+      {
+        "sentence": "The final grade is ___ on the coursework.",
+        "answer": "dependent",
+        "explanation": "'Dependent' (with -ent) is the adjective."
+      },
+      {
+        "sentence": "You can add a ___ to your health insurance policy.",
+        "answer": "dependant",
+        "explanation": "In British English, a 'dependant' (with -ant) is a person, often a child, who relies on you financially."
+      }
+    ]
+  },
+  {
+    "id": "council-counsel",
+    "options": ["council", "counsel"],
+    "items": [
+      {
+        "sentence": "The local ___ is finally fixing the potholes.",
+        "answer": "council",
+        "explanation": "A 'council' is an elected body, like your local council."
+      },
+      {
+        "sentence": "She sought legal ___ before signing the contract.",
+        "answer": "counsel",
+        "explanation": "'Counsel' is advice, or a barrister in court."
+      }
+    ]
+  },
+  {
+    "id": "disinterested-uninterested",
+    "options": ["disinterested", "uninterested"],
+    "items": [
+      {
+        "sentence": "A referee must be completely ___.",
+        "answer": "disinterested",
+        "explanation": "'Disinterested' means impartial: with nothing to gain."
+      },
+      {
+        "sentence": "He looked thoroughly ___ in the cricket.",
+        "answer": "uninterested",
+        "explanation": "'Uninterested' means not interested or bored."
+      }
+    ]
+  },
+  {
+    "id": "continual-continuous",
+    "options": ["continual", "continuous"],
+    "items": [
+      {
+        "sentence": "The ___ interruptions made it impossible to concentrate.",
+        "answer": "continual",
+        "explanation": "'Continual' means happening again and again, with breaks."
+      },
+      {
+        "sentence": "The spring provides a ___ supply of water.",
+        "answer": "continuous",
+        "explanation": "'Continuous' means without any break at all."
+      }
+    ]
+  },
+  {
+    "id": "economic-economical",
+    "options": ["economic", "economical"],
+    "items": [
+      {
+        "sentence": "The ___ outlook for next year is uncertain.",
+        "answer": "economic",
+        "explanation": "'Economic' relates to the economy."
+      },
+      {
+        "sentence": "Buying in bulk is far more ___.",
+        "answer": "economical",
+        "explanation": "'Economical' means good value, not wasteful."
+      }
+    ]
+  },
+  {
+    "id": "historic-historical",
+    "options": ["historic", "historical"],
+    "items": [
+      {
+        "sentence": "Winning the league was a ___ moment for the club.",
+        "answer": "historic",
+        "explanation": "'Historic' means important in history."
+      },
+      {
+        "sentence": "The drama is based on ___ records from the 1600s.",
+        "answer": "historical",
+        "explanation": "'Historical' means about or from the past."
+      }
+    ]
+  },
+  {
+    "id": "lose-loose",
+    "options": ["lose", "loose"],
+    "items": [
+      {
+        "sentence": "Don't ___ your train ticket; the inspector's on board.",
+        "answer": "lose",
+        "explanation": "'Lose' (one o) means to misplace or fail to win."
+      },
+      {
+        "sentence": "This screw has come ___ again.",
+        "answer": "loose",
+        "explanation": "'Loose' (two o's) means not tight."
+      }
+    ]
+  },
+  {
+    "id": "mitigate-militate",
+    "options": ["mitigate", "militate"],
+    "items": [
+      {
+        "sentence": "Better lighting should ___ the risk of falls.",
+        "answer": "mitigate",
+        "explanation": "To 'mitigate' is to make something less severe."
+      },
+      {
+        "sentence": "Several factors ___ against an early launch.",
+        "answer": "militate",
+        "explanation": "To 'militate against' is to work against something. It's almost always followed by 'against'."
+      }
+    ]
+  },
+  {
+    "id": "exacerbate-exasperate",
+    "options": ["exacerbate", "exasperate"],
+    "items": [
+      {
+        "sentence": "Shouting will only ___ the problem.",
+        "answer": "exacerbate",
+        "explanation": "To 'exacerbate' is to make a situation worse."
+      },
+      {
+        "sentence": "His constant excuses really ___ me.",
+        "answer": "exasperate",
+        "explanation": "To 'exasperate' is to annoy a person intensely."
+      }
+    ]
+  },
+  {
+    "id": "deprecate-depreciate",
+    "options": ["deprecate", "depreciate"],
+    "items": [
+      {
+        "sentence": "We'll ___ the old API next quarter and remove it in the spring.",
+        "answer": "deprecate",
+        "explanation": "To 'deprecate' a feature is to mark it as outdated."
+      },
+      {
+        "sentence": "New cars ___ quickly in their first year.",
+        "answer": "depreciate",
+        "explanation": "To 'depreciate' is to lose value over time."
+      }
+    ]
+  },
+  {
+    "id": "comprehensive-comprehensible",
+    "options": ["comprehensive", "comprehensible"],
+    "items": [
+      {
+        "sentence": "The revision guide is ___: it covers every topic on the syllabus.",
+        "answer": "comprehensive",
+        "explanation": "'Comprehensive' means including everything."
+      },
+      {
+        "sentence": "Her explanation was clear and ___, even to complete beginners.",
+        "answer": "comprehensible",
+        "explanation": "'Comprehensible' means understandable."
+      }
+    ]
+  },
+  {
+    "id": "ambiguous-ambivalent",
+    "options": ["ambiguous", "ambivalent"],
+    "items": [
+      {
+        "sentence": "The instructions were ___: they could be read two ways.",
+        "answer": "ambiguous",
+        "explanation": "'Ambiguous' describes something with more than one possible meaning."
+      },
+      {
+        "sentence": "I'm ___ about the move: excited, but sad to leave.",
+        "answer": "ambivalent",
+        "explanation": "'Ambivalent' describes mixed feelings."
+      }
+    ]
+  },
+  {
+    "id": "tenuous-tentative",
+    "options": ["tenuous", "tentative"],
+    "items": [
+      {
+        "sentence": "The link between the two events is ___ at best.",
+        "answer": "tenuous",
+        "explanation": "'Tenuous' means weak or flimsy."
+      },
+      {
+        "sentence": "We've made a ___ booking for Saturday, just in case.",
+        "answer": "tentative",
+        "explanation": "'Tentative' means provisional, not yet certain."
+      }
+    ]
+  },
+  {
+    "id": "refute-deny",
+    "options": ["refute", "deny"],
+    "items": [
+      {
+        "sentence": "She was able to ___ the claim with hard evidence.",
+        "answer": "refute",
+        "explanation": "To 'refute' a claim is to prove it wrong."
+      },
+      {
+        "sentence": "He continues to ___ the allegations, but offers no proof.",
+        "answer": "deny",
+        "explanation": "To 'deny' something is just to say it isn't true. Using 'refute' here would claim he'd proved it."
+      }
+    ]
+  },
+  {
+    "id": "reticent-reluctant",
+    "options": ["reticent", "reluctant"],
+    "items": [
+      {
+        "sentence": "After last time, he's ___ to lend anyone money.",
+        "answer": "reluctant",
+        "explanation": "'Reluctant to do something' means unwilling."
+      },
+      {
+        "sentence": "She's quite ___ about her personal life at work.",
+        "answer": "reticent",
+        "explanation": "'Reticent' means reserved, not revealing much. Strictly, it isn't followed by 'to do'."
+      }
+    ]
+  },
+  {
+    "id": "comprises-comprises-of",
+    "options": ["comprises", "comprises of"],
+    "items": [
+      {
+        "sentence": "The committee ___ eight members.",
+        "answer": "comprises",
+        "explanation": "'Comprise' doesn't take 'of'. If you want 'of', use 'consists of' or 'is made up of'."
+      }
+    ]
+  },
+  {
+    "id": "borrow-lend",
+    "options": ["borrow", "lend"],
+    "items": [
+      {
+        "sentence": "Could you ___ me a fiver until Friday?",
+        "answer": "lend",
+        "explanation": "You lend something to someone."
+      },
+      {
+        "sentence": "Can I ___ your charger for a minute?",
+        "answer": "borrow",
+        "explanation": "You borrow something from someone. 'Can you borrow me…' is a common regional slip."
+      }
+    ]
+  },
+  {
+    "id": "flout-flaunt",
+    "options": ["flout", "flaunt"],
+    "items": [
+      {
+        "sentence": "Some drivers ___ the 20 mph limit outside the school.",
+        "answer": "flout",
+        "explanation": "To 'flout' a rule is to openly break it."
+      },
+      {
+        "sentence": "If you've got it, ___ it.",
+        "answer": "flaunt",
+        "explanation": "To 'flaunt' is to show off."
+      }
+    ]
+  },
+  {
+    "id": "averse-adverse",
+    "options": ["averse", "adverse"],
+    "items": [
+      {
+        "sentence": "I'm not ___ to a bit of overtime before Christmas.",
+        "answer": "averse",
+        "explanation": "'Averse to' describes a person's dislike: 'risk-averse'."
+      },
+      {
+        "sentence": "The trial was paused after several ___ reactions.",
+        "answer": "adverse",
+        "explanation": "'Adverse' means harmful or unfavourable: 'adverse weather'."
+      }
+    ]
+  },
+  {
+    "id": "alternate-alternative",
+    "options": ["alternate", "alternative"],
+    "items": [
+      {
+        "sentence": "We visit my parents on ___ weekends.",
+        "answer": "alternate",
+        "explanation": "In British English, 'alternate' means every other one."
+      },
+      {
+        "sentence": "Is there an ___ route if the bridge is closed?",
+        "answer": "alternative",
+        "explanation": "In British English, another option is an 'alternative'. American English often says 'alternate' here."
+      }
+    ]
+  },
+  {
+    "id": "eminent-imminent",
+    "options": ["eminent", "imminent"],
+    "items": [
+      {
+        "sentence": "An ___ historian will open the conference.",
+        "answer": "eminent",
+        "explanation": "'Eminent' means famous and respected."
+      },
+      {
+        "sentence": "Rain is ___: bring the washing in!",
+        "answer": "imminent",
+        "explanation": "'Imminent' means about to happen."
+      }
+    ]
+  },
+  {
+    "id": "quite-quiet",
+    "options": ["quite", "quiet"],
+    "items": [
+      {
+        "sentence": "It's ___ good, actually. I wasn't expecting much.",
+        "answer": "quite",
+        "explanation": "'Quite' (ends -ite) means fairly, or completely."
+      },
+      {
+        "sentence": "Could you keep it ___? The baby's finally asleep.",
+        "answer": "quiet",
+        "explanation": "'Quiet' (ends -et) means not noisy."
+      }
+    ]
+  },
+  {
+    "id": "loath-loathe",
+    "options": ["loath", "loathe"],
+    "items": [
+      {
+        "sentence": "I'm ___ to admit it, but you were right.",
+        "answer": "loath",
+        "explanation": "'Loath' (no e) is an adjective: reluctant."
+      },
+      {
+        "sentence": "I ___ queuing in the rain.",
+        "answer": "loathe",
+        "explanation": "'Loathe' (with an e) is a verb: to hate."
+      }
+    ]
+  },
+  {
+    "id": "poring-pouring",
+    "options": ["poring", "pouring"],
+    "items": [
+      {
+        "sentence": "She spent the whole evening ___ over the data.",
+        "answer": "poring",
+        "explanation": "To 'pore over' something is to study it closely."
+      },
+      {
+        "sentence": "Take a brolly: it's ___ down out there.",
+        "answer": "pouring",
+        "explanation": "'Pouring' (with a u) is about liquid, including heavy rain."
+      }
+    ]
+  },
+  {
+    "id": "faze-phase",
+    "options": ["faze", "phase"],
+    "items": [
+      {
+        "sentence": "Nothing seems to ___ her, not even an Ofsted visit.",
+        "answer": "faze",
+        "explanation": "To 'faze' someone is to unsettle them."
+      },
+      {
+        "sentence": "We'll ___ in the changes over the spring term.",
+        "answer": "phase",
+        "explanation": "To 'phase in' is to introduce something in stages."
+      }
+    ]
+  },
+  {
+    "id": "biannual-biennial",
+    "options": ["biannual", "biennial"],
+    "items": [
+      {
+        "sentence": "The ___ review happens every January and July.",
+        "answer": "biannual",
+        "explanation": "'Biannual' means twice a year."
+      },
+      {
+        "sentence": "The festival is ___, so the next one is in two years' time.",
+        "answer": "biennial",
+        "explanation": "'Biennial' means every two years."
+      }
+    ]
+  },
+  {
+    "id": "eg-ie",
+    "options": ["e.g.", "i.e."],
+    "items": [
+      {
+        "sentence": "Bring something warm, ___ a jumper or a fleece.",
+        "answer": "e.g.",
+        "explanation": "'E.g.' means for example: one of several possibilities."
+      },
+      {
+        "sentence": "The deadline is the last day of term, ___ Friday 18 December.",
+        "answer": "i.e.",
+        "explanation": "'I.e.' means that is: it pins down exactly what you mean."
+      }
+    ]
+  }
+]

@@ -101,3 +101,10 @@ Use `otherMeanings` when the same word or phrase means something genuinely diffe
 - **British, decoded** lives in [`src/data/britishSayings.json`](../src/data/britishSayings.json) (`BritishSaying` type): what people `say`, what they usually `mean`, and an optional `note`. Many sayings sometimes mean exactly what they say: add `otherMeanings` with a `meaning` and a `cue` (required for sayings) explaining how to tell, e.g. "If a date follows, it's real".
 
 `npm test` checks both files too.
+
+## Practice content
+
+Two practice modes have their own content files. `npm test` checks both (`src/data/practice.test.ts`).
+
+- **Choose the better word** lives in [`src/data/confusables.json`](../src/data/confusables.json) (`ConfusableSet` type). Each set lists easily confused `options` (e.g. `["practice", "practise"]`). Each item has a `sentence` with exactly one `___`, the `answer` (one of the options) and an `explanation` the learner sees afterwards. British distinctions (practice/practise, licence/license, dependant/dependent) are especially welcome.
+- **Register switch** lives in [`src/data/registerPairs.json`](../src/data/registerPairs.json) (`RegisterPair` type). Each item gives a `context` ("Email to a client"), the phrase to change (`from`, `fromRegister`), the target register (`toRegister`), the best `answer`, and exactly three `distractors`, each with a `why`. Good distractors are tempting: too casual, too stiff (over-formal is a mistake too), or a British phrase with a different meaning ("gutted" isn't "tired"). Include some that go from formal to informal.
