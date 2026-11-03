@@ -4,10 +4,13 @@ import { useEffect, useRef } from 'react';
 import { StickyActionBar } from '../../components/layout/StickyActionBar';
 import { Button, ButtonLink } from '../../components/ui/Button';
 import { Confetti } from '../../components/ui/Confetti';
+import { ShareButton } from '../../components/ui/ShareButton';
 import { cardClasses } from '../../components/ui/styles';
 import { toDateKey } from '../../lib/date';
 import { hashString, seededRandom } from '../../lib/random';
 import { rewardJoke } from '../../lib/fun';
+import { progressShare } from '../../lib/share';
+import { useStreak } from '../../hooks/useProgress';
 import type { Role, WordEntry } from '../../types/content';
 import { JokeBody } from './FunCard';
 import { CHALLENGES, DONE_MESSAGES, randomFrom } from './messages';
@@ -22,6 +25,7 @@ export function DoneForToday({
   onAgain: () => void;
 }) {
   const headingRef = useRef<HTMLHeadingElement>(null);
+  const streak = useStreak();
   const random = seededRandom(hashString(`done:${toDateKey()}`));
   const message = randomFrom(DONE_MESSAGES, random);
   const challenge = randomFrom(CHALLENGES, random);
@@ -89,9 +93,19 @@ export function DoneForToday({
         <JokeBody joke={rewardJoke(toDateKey(), roles)} />
       </section>
 
-      <Button variant="ghost" className="mt-6" onClick={onAgain}>
-        <RotateCcw className="size-4" aria-hidden="true" /> Go through them again
-      </Button>
+      <div className="mt-6 flex flex-wrap justify-center gap-2">
+        <ShareButton
+          variant="soft"
+          label="Share my progress"
+          content={progressShare(
+            words.map((w) => w.term),
+            streak?.days ?? 0,
+          )}
+        />
+        <Button variant="ghost" onClick={onAgain}>
+          <RotateCcw className="size-4" aria-hidden="true" /> Go through them again
+        </Button>
+      </div>
 
       <StickyActionBar>
         <ButtonLink to="/" size="lg" className="w-full">

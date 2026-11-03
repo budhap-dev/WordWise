@@ -1,4 +1,4 @@
-import { act, screen } from '@testing-library/react';
+import { act, screen, waitFor } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 
 import { resetInstallState } from '../../lib/install';
@@ -74,7 +74,9 @@ describe('install card on Today', () => {
     act(() => {
       window.dispatchEvent(new Event('appinstalled'));
     });
-    expect(screen.queryByRole('heading', { name: /home screen/i })).not.toBeInTheDocument();
+    await waitFor(() =>
+      expect(screen.queryByRole('heading', { name: /home screen/i })).not.toBeInTheDocument(),
+    );
   });
 });
 
