@@ -69,6 +69,15 @@ src/
 
 React 19 · TypeScript · Vite · Tailwind CSS v4 · React Router · Dexie (IndexedDB) · Vitest + React Testing Library · ESLint + Prettier.
 
+## Deployment
+
+Live at **https://wordwise-daily.vercel.app**. Vercel builds from GitHub:
+
+- Every merge to `main` deploys to production.
+- Every pull request gets its own preview URL (posted on the PR by the Vercel bot).
+
+[`vercel.json`](vercel.json) runs `npm run build`, serves `dist/`, sends every route to `index.html` (so links like `/practice` work on refresh), caches hashed assets for a year and adds basic security headers. There's no backend: each visitor's progress stays in their own browser.
+
 ## Contributing
 
 `main` is protected: all changes go through a pull request and must pass CI (`npm run check` + build).
