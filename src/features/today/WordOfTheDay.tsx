@@ -9,8 +9,23 @@ import { examplesForRoles } from '../../lib/examples';
 import { wordOfTheDayShare } from '../../lib/share';
 import type { Role, WordEntry } from '../../types/content';
 
+/** A compact row of related words, e.g. "Similar: concise · terse". Hidden when empty. */
+function TermChips({ label, terms }: { label: string; terms: readonly { term: string }[] }) {
+  if (terms.length === 0) return null;
+  return (
+    <p className="mt-3 flex flex-wrap items-center gap-1.5 text-sm">
+      <span className="font-semibold text-ink">{label}:</span>
+      {terms.slice(0, 3).map((t) => (
+        <span key={t.term} className="rounded-full border border-line bg-surface px-2.5 py-0.5">
+          {t.term}
+        </span>
+      ))}
+    </p>
+  );
+}
+
 export function WordOfTheDay({ word, roles }: { word: WordEntry; roles: readonly Role[] }) {
-  const example = examplesForRoles(word, roles, { min: 1, max: 1 })[0];
+  const examples = examplesForRoles(word, roles, { min: 2, max: 2 });
 
   return (
     <section
@@ -31,11 +46,18 @@ export function WordOfTheDay({ word, roles }: { word: WordEntry; roles: readonly
 
       <p className="mt-5 text-lg leading-relaxed text-pretty">{word.definition}</p>
 
-      {example && (
-        <blockquote className="mt-4 border-l-4 border-brand/40 pl-4 text-ink-muted italic">
-          <HighlightedText text={example.text} entry={word} />
-        </blockquote>
+      {examples.length > 0 && (
+        <ul aria-label="Example sentences" className="mt-4 space-y-2">
+          {examples.map((e) => (
+            <li key={e.text} className="border-l-4 border-brand/40 pl-4 text-ink-muted italic">
+              <HighlightedText text={e.text} entry={word} />
+            </li>
+          ))}
+        </ul>
       )}
+
+      <TermChips label="Similar" terms={word.synonyms} />
+      <TermChips label="Opposite" terms={word.antonyms ?? []} />
 
       {word.origin && (
         <p className="mt-5 flex gap-2 text-sm text-ink-muted">

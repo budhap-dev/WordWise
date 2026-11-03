@@ -1,4 +1,4 @@
-import { examplesForRoles } from './examples';
+import { examplesForRoles, orderedExamples } from './examples';
 
 const entry = {
   examples: [
@@ -21,5 +21,21 @@ describe('examplesForRoles', () => {
 
   it('shows all three for all three roles', () => {
     expect(examplesForRoles(entry, ['student', 'teacher', 'software'])).toHaveLength(3);
+  });
+});
+
+describe('orderedExamples', () => {
+  it("returns every example, with the learner's roles first", () => {
+    expect(orderedExamples(entry, ['software']).map((e) => e.text)).toEqual(['W', 'S', 'T']);
+  });
+
+  it('puts general examples before other roles', () => {
+    const withGeneral = { examples: [...entry.examples, { text: 'G' }] };
+    expect(orderedExamples(withGeneral, ['teacher']).map((e) => e.text)).toEqual([
+      'T',
+      'G',
+      'S',
+      'W',
+    ]);
   });
 });

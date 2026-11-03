@@ -1,8 +1,8 @@
-import { ScrollText, Split, TriangleAlert } from 'lucide-react';
+import { ArrowLeftRight, Equal, ScrollText, Split, TriangleAlert } from 'lucide-react';
 import type { ReactNode } from 'react';
 
 import { ROLE_LABELS } from '../../data';
-import { examplesForRoles } from '../../lib/examples';
+import { orderedExamples } from '../../lib/examples';
 import type { Role, WordEntry } from '../../types/content';
 import { HighlightedText } from './HighlightedText';
 import { OtherMeanings } from './OtherMeanings';
@@ -27,15 +27,34 @@ function Section({
   );
 }
 
+/** Synonyms or antonyms: the term in bold, with its note (if any) alongside. */
+function TermList({ items }: { items: readonly { term: string; note?: string }[] }) {
+  return (
+    <dl className="space-y-2">
+      {items.map((s) => (
+        <div key={s.term} className="flex flex-col gap-0.5 sm:flex-row sm:gap-2">
+          <dt className="shrink-0 font-semibold">{s.term}</dt>
+          {s.note && (
+            <dd className="text-ink-muted">
+              <span className="sr-only">: </span>
+              {s.note}
+            </dd>
+          )}
+        </div>
+      ))}
+    </dl>
+  );
+}
+
 /** Everything about a word except the header: the "back of the card". */
 export function WordDetails({ word, roles }: { word: WordEntry; roles: readonly Role[] }) {
-  const examples = examplesForRoles(word, roles);
+  const examples = orderedExamples(word, roles);
 
   return (
     <div>
       <p className="text-lg leading-relaxed text-pretty">{word.definition}</p>
 
-      <Section title="In context">
+      <Section title="Example sentences">
         <ul className="space-y-3">
           {examples.map((e) => (
             <li key={e.text} className="rounded-2xl bg-surface-2 p-4">
@@ -75,19 +94,21 @@ export function WordDetails({ word, roles }: { word: WordEntry; roles: readonly 
         </ul>
       </Section>
 
-      <Section title="Similar, but not the same">
-        <dl className="space-y-2">
-          {word.synonyms.map((s) => (
-            <div key={s.term} className="flex flex-col gap-0.5 sm:flex-row sm:gap-2">
-              <dt className="shrink-0 font-semibold">{s.term}</dt>
-              <dd className="text-ink-muted">
-                <span className="sr-only">: </span>
-                {s.note}
-              </dd>
-            </div>
-          ))}
-        </dl>
+      <Section
+        title="Synonyms: similar, not the same"
+        icon={<Equal className="size-4 text-brand" aria-hidden="true" />}
+      >
+        <TermList items={word.synonyms} />
       </Section>
+
+      {word.antonyms && word.antonyms.length > 0 && (
+        <Section
+          title="Antonyms: opposites"
+          icon={<ArrowLeftRight className="size-4 text-accent" aria-hidden="true" />}
+        >
+          <TermList items={word.antonyms} />
+        </Section>
+      )}
 
       {word.commonMistake && (
         <Section
