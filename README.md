@@ -11,6 +11,16 @@ npm install
 npm run dev        # start the dev server at http://localhost:5173
 ```
 
+### Try it on your phone
+
+WordWise is designed mobile-first. With your phone on the same Wi-Fi as your computer:
+
+```bash
+npm run dev:mobile
+```
+
+Vite prints a `Network:` address such as `http://192.168.1.20:5173`. Open that on your phone.
+
 ## Scripts
 
 | Command              | What it does                                 |

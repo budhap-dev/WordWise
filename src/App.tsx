@@ -2,6 +2,7 @@ import type { ReactNode } from 'react';
 import { BrowserRouter, Navigate, Route, Routes } from 'react-router';
 
 import { AppShell } from './components/layout/AppShell';
+import { FocusLayout } from './components/layout/FocusLayout';
 import { OnboardingPage } from './features/onboarding/OnboardingPage';
 import { SettingsPage } from './features/settings/SettingsPage';
 import { LearnSession } from './features/today/LearnSession';
@@ -32,9 +33,18 @@ export function AppRoutes() {
         }
       >
         <Route index element={<TodayPage />} />
-        <Route path="learn" element={<LearnSession />} />
         <Route path="settings" element={<SettingsPage />} />
         <Route path="*" element={<Navigate to="/" replace />} />
+      </Route>
+      {/* Full-screen sessions: no header or tab bar */}
+      <Route
+        element={
+          <RequireOnboarding>
+            <FocusLayout />
+          </RequireOnboarding>
+        }
+      >
+        <Route path="learn" element={<LearnSession />} />
       </Route>
     </Routes>
   );

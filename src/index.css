@@ -141,6 +141,21 @@
 @layer base {
   html {
     -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+  }
+  /* Remove the double-tap-to-zoom delay on controls. */
+  a,
+  button,
+  label,
+  input,
+  [role='button'] {
+    touch-action: manipulation;
+  }
+  /* 16px+ form text stops iOS zooming in on focus. */
+  input,
+  textarea,
+  select {
+    font-size: max(16px, 1em);
   }
   body {
     @apply bg-bg font-sans text-ink antialiased;

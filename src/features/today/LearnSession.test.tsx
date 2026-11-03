@@ -1,4 +1,4 @@
-import { screen } from '@testing-library/react';
+import { fireEvent, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 
 import { WORDS } from '../../data';
@@ -68,5 +68,43 @@ describe('daily learning session', () => {
 
     renderApp();
     expect(screen.getByRole('link', { name: /continue \(1\/5\)/i })).toBeInTheDocument();
+  });
+
+  it('reveals when the card is tapped and moves on with a swipe left', async () => {
+    const user = userEvent.setup();
+    const words = todaysWords();
+    renderApp({ route: '/learn' });
+
+    await user.click(screen.getByText(/do you know it/i));
+    expect(screen.getByText(words[0]!.definition)).toBeInTheDocument();
+
+    const card = screen
+      .getByRole('heading', { level: 2, name: words[0]!.term })
+      .closest('.touch-pan-y')!;
+    const touch = { pointerType: 'touch', pointerId: 1 };
+    fireEvent.pointerDown(card, { ...touch, clientX: 300, clientY: 200 });
+    fireEvent.pointerMove(card, { ...touch, clientX: 250, clientY: 202 });
+    fireEvent.pointerMove(card, { ...touch, clientX: 150, clientY: 205 });
+    fireEvent.pointerUp(card, { ...touch, clientX: 150, clientY: 205 });
+
+    expect(screen.getByRole('heading', { level: 2, name: words[1]!.term })).toBeInTheDocument();
+  });
+
+  it('ignores mostly vertical drags (scrolling)', async () => {
+    const user = userEvent.setup();
+    const words = todaysWords();
+    renderApp({ route: '/learn' });
+    await user.click(screen.getByRole('button', { name: /reveal/i }));
+
+    const card = screen
+      .getByRole('heading', { level: 2, name: words[0]!.term })
+      .closest('.touch-pan-y')!;
+    const touch = { pointerType: 'touch', pointerId: 1 };
+    fireEvent.pointerDown(card, { ...touch, clientX: 300, clientY: 400 });
+    fireEvent.pointerMove(card, { ...touch, clientX: 280, clientY: 300 });
+    fireEvent.pointerMove(card, { ...touch, clientX: 200, clientY: 100 });
+    fireEvent.pointerUp(card, { ...touch, clientX: 200, clientY: 100 });
+
+    expect(screen.getByText(words[0]!.definition)).toBeInTheDocument();
   });
 });

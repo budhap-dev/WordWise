@@ -87,13 +87,22 @@ export function TodayPage() {
               </Button>
             </>
           ) : (
-            <ButtonLink to="/learn" size="lg">
-              {seen === 0 ? "Start today's set" : `Continue (${seen}/${words.length})`}
-              <ArrowRight className="size-5" aria-hidden="true" />
-            </ButtonLink>
+            // On phones this floats above the tab bar, in thumb reach; inline on larger screens.
+            <div className="fixed inset-x-4 bottom-[calc(4.75rem+env(safe-area-inset-bottom))] z-20 sm:static">
+              <ButtonLink
+                to="/learn"
+                size="lg"
+                className="w-full shadow-lg shadow-brand/25 sm:w-auto sm:shadow-sm"
+              >
+                {seen === 0 ? "Start today's set" : `Continue (${seen}/${words.length})`}
+                <ArrowRight className="size-5" aria-hidden="true" />
+              </ButtonLink>
+            </div>
           )}
         </div>
       </section>
+      {/* Room for the floating button on phones */}
+      {!done && <div className="h-16 sm:hidden" aria-hidden="true" />}
     </div>
   );
 }
