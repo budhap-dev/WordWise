@@ -1,0 +1,257 @@
+[
+  {
+    "id": "banker",
+    "setup": "I used to be a banker…",
+    "punchline": "…but I lost interest.",
+    "explanation": "'Interest' means both curiosity and the money a bank pays on savings."
+  },
+  {
+    "id": "anti-gravity",
+    "setup": "I'm reading a book about anti-gravity.",
+    "punchline": "It's impossible to put down.",
+    "explanation": "You 'can't put down' a gripping book; an anti-gravity book literally won't go down."
+  },
+  {
+    "id": "scarecrow",
+    "setup": "Why did the scarecrow win an award?",
+    "punchline": "Because he was outstanding in his field.",
+    "explanation": "'Outstanding in your field' means excellent at your job; a scarecrow literally stands out in a field."
+  },
+  {
+    "id": "atoms",
+    "setup": "Why don't scientists trust atoms?",
+    "punchline": "Because they make up everything.",
+    "explanation": "'Make up' means both 'form' (atoms form all matter) and 'invent' (tell lies).",
+    "roles": ["teacher", "student"]
+  },
+  {
+    "id": "chemistry-reaction",
+    "setup": "I'd tell you a chemistry joke…",
+    "punchline": "…but I know I wouldn't get a reaction.",
+    "explanation": "A 'reaction' is a response from an audience and a chemical change.",
+    "roles": ["teacher"]
+  },
+  {
+    "id": "parallel-lines",
+    "setup": "Parallel lines have so much in common.",
+    "punchline": "It's a shame they'll never meet.",
+    "explanation": "Parallel lines never intersect, which is the maths. 'Never meet' is the sad human twist.",
+    "roles": ["teacher"]
+  },
+  {
+    "id": "six-seven",
+    "setup": "Why was six afraid of seven?",
+    "punchline": "Because seven eight nine.",
+    "explanation": "'Eight' sounds like 'ate': seven ate nine.",
+    "roles": ["teacher"]
+  },
+  {
+    "id": "binary",
+    "setup": "There are 10 types of people in the world…",
+    "punchline": "…those who understand binary, and those who don't.",
+    "explanation": "In binary, '10' means two.",
+    "roles": ["software"]
+  },
+  {
+    "id": "dark-mode",
+    "setup": "Why do programmers prefer dark mode?",
+    "punchline": "Because light attracts bugs.",
+    "explanation": "Insects (bugs) fly towards light; software 'bugs' are errors.",
+    "roles": ["software"]
+  },
+  {
+    "id": "sql-bar",
+    "setup": "A SQL query walks into a bar, goes up to two tables and asks…",
+    "punchline": "'Mind if I join you?'",
+    "explanation": "In SQL, a JOIN combines two tables.",
+    "roles": ["software"]
+  },
+  {
+    "id": "milk-eggs",
+    "setup": "A programmer is asked to pop to the shop: 'Get a pint of milk. If they have eggs, get six.'",
+    "punchline": "He comes back with six pints of milk.",
+    "explanation": "Read literally like code, 'get six' applies to the milk, not the eggs. Very British errand, very literal programmer.",
+    "roles": ["software"]
+  },
+  {
+    "id": "windows-open",
+    "setup": "Why was the computer cold?",
+    "punchline": "It left its Windows open.",
+    "explanation": "Windows is an operating system; leaving windows open lets the cold in.",
+    "roles": ["software"]
+  },
+  {
+    "id": "librarian-paranoia",
+    "setup": "I asked the librarian if they had any books on paranoia.",
+    "punchline": "She whispered, 'They're right behind you…'",
+    "explanation": "The books are on the shelf behind you, and paranoia is the fear that something is behind you."
+  },
+  {
+    "id": "switzerland",
+    "setup": "What's the best thing about Switzerland?",
+    "punchline": "I don't know, but the flag is a big plus.",
+    "explanation": "The Swiss flag is a cross shaped like a plus sign, and 'a big plus' means a real advantage."
+  },
+  {
+    "id": "homework-cake",
+    "setup": "Why did the pupil eat his homework?",
+    "punchline": "Because the teacher said it was a piece of cake.",
+    "explanation": "'A piece of cake' is an idiom for something very easy.",
+    "roles": ["teacher", "student"]
+  },
+  {
+    "id": "thesaurus",
+    "setup": "What do you call a dinosaur with an extensive vocabulary?",
+    "punchline": "A thesaurus.",
+    "explanation": "A thesaurus is a dictionary of synonyms, and it sounds like a dinosaur's name (-saurus)."
+  },
+  {
+    "id": "tense",
+    "setup": "The past, the present and the future walked into a bar.",
+    "punchline": "It was tense.",
+    "explanation": "Tense means nervous and awkward, and it's also the grammar word for past, present and future."
+  },
+  {
+    "id": "alphabet-y",
+    "setup": "I'm friends with 25 letters of the alphabet.",
+    "punchline": "I don't know Y.",
+    "explanation": "'Y' sounds like 'why'."
+  },
+  {
+    "id": "two-tyred",
+    "setup": "Why did the bicycle fall over?",
+    "punchline": "Because it was two-tyred.",
+    "explanation": "'Two-tyred' sounds like 'too tired'. Note the British spelling: tyre."
+  },
+  {
+    "id": "camouflage",
+    "setup": "I went to buy some camouflage trousers…",
+    "punchline": "…but I couldn't find any.",
+    "explanation": "Camouflage is designed to be hard to see."
+  },
+  {
+    "id": "astronaut-space",
+    "setup": "Did you hear about the claustrophobic astronaut?",
+    "punchline": "He just needed a little space.",
+    "explanation": "'Needing space' means wanting time alone; astronauts work in outer space."
+  },
+  {
+    "id": "velcro",
+    "setup": "I bought some Velcro the other day…",
+    "punchline": "What a rip-off.",
+    "explanation": "A 'rip-off' is something overpriced, and Velcro makes a ripping noise when pulled apart."
+  },
+  {
+    "id": "colour-blind",
+    "setup": "I've just been diagnosed as colour-blind.",
+    "punchline": "It came completely out of the purple.",
+    "explanation": "'Out of the blue' means unexpectedly; a colour-blind person might get the colour wrong."
+  },
+  {
+    "id": "maths-book",
+    "setup": "Why did the maths book look so sad?",
+    "punchline": "It had too many problems.",
+    "explanation": "Maths books are full of 'problems' (exercises); a person with problems is troubled.",
+    "roles": ["teacher", "student"]
+  },
+  {
+    "id": "pointless",
+    "setup": "What did the triangle say to the circle?",
+    "punchline": "'You're pointless.'",
+    "explanation": "A circle has no corners (points), and 'pointless' means having no purpose.",
+    "roles": ["teacher"]
+  },
+  {
+    "id": "stairs",
+    "setup": "I don't trust stairs.",
+    "punchline": "They're always up to something.",
+    "explanation": "'Up to something' means secretly planning mischief; stairs go up."
+  },
+  {
+    "id": "time-travel",
+    "setup": "I was going to tell you a time-travel joke…",
+    "punchline": "…but you didn't like it.",
+    "explanation": "A time traveller would already know how the joke went down, so it's in the past tense."
+  },
+  {
+    "id": "brown-sticky",
+    "setup": "What's brown and sticky?",
+    "punchline": "A stick.",
+    "explanation": "A classic British anti-joke: you expect something gross, but a stick is literally brown and 'stick-y'."
+  },
+  {
+    "id": "hipster-tea",
+    "setup": "Why did the hipster burn his tongue?",
+    "punchline": "He drank his tea before it was cool.",
+    "explanation": "Hipsters like things 'before they're cool' (popular), and hot tea isn't cool yet."
+  },
+  {
+    "id": "curtains",
+    "setup": "'Doctor, doctor, I feel like a pair of curtains.'",
+    "punchline": "'Pull yourself together!'",
+    "explanation": "A 'Doctor, doctor' joke, a British classic. 'Pull yourself together' means calm down, and curtains are pulled together."
+  },
+  {
+    "id": "doug",
+    "setup": "What do you call a man with a spade on his head?",
+    "punchline": "Doug. (And without one? Douglas.)",
+    "explanation": "'Doug' sounds like 'dug', and 'Douglas' like 'dug-less'. A very British name pun."
+  },
+  {
+    "id": "dog-maths",
+    "setup": "I asked my dog what two minus two is.",
+    "punchline": "He said nothing.",
+    "explanation": "Two minus two is nothing (zero), and dogs don't talk."
+  },
+  {
+    "id": "grape",
+    "setup": "What did the grape do when it got stepped on?",
+    "punchline": "It let out a little wine.",
+    "explanation": "'Wine' sounds like 'whine', a small complaining noise."
+  },
+  {
+    "id": "fish-tank",
+    "setup": "Two fish are in a tank. One turns to the other and says…",
+    "punchline": "'Do you know how to drive this thing?'",
+    "explanation": "A 'tank' is both a fish tank and an armoured military vehicle."
+  },
+  {
+    "id": "seafood-diet",
+    "setup": "I'm on a seafood diet.",
+    "punchline": "I see food, and I eat it.",
+    "explanation": "'Seafood' sounds like 'see food'."
+  },
+  {
+    "id": "impasta",
+    "setup": "What do you call a fake noodle?",
+    "punchline": "An impasta.",
+    "explanation": "'Impasta' sounds like 'impostor', someone pretending to be someone else."
+  },
+  {
+    "id": "stand-up",
+    "setup": "Our daily stand-up ran for an hour.",
+    "punchline": "By the end, it was a sit-down.",
+    "explanation": "Stand-ups are meant to be short enough to stand through; nobody stands for an hour.",
+    "roles": ["software"]
+  },
+  {
+    "id": "deadline",
+    "setup": "I love deadlines…",
+    "punchline": "…especially the whooshing sound they make as they fly past.",
+    "explanation": "Adapted from a famous Douglas Adams line; 'whooshing' makes missed deadlines sound like passing aircraft.",
+    "roles": ["software", "student"]
+  },
+  {
+    "id": "procrastination",
+    "setup": "I joined the Procrastinators' Society…",
+    "punchline": "…we're meeting next week. Probably.",
+    "explanation": "Procrastinators put things off, even the meeting about putting things off.",
+    "roles": ["student"]
+  },
+  {
+    "id": "weather-small-talk",
+    "setup": "How do you start a conversation with a British person?",
+    "punchline": "You don't need to; just mention the weather and wait.",
+    "explanation": "A gentle dig at the British love of weather small talk."
+  }
+]

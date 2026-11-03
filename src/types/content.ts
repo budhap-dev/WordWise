@@ -9,10 +9,10 @@
 export type Role = 'student' | 'teacher' | 'software';
 
 /**
- * Which group a word belongs to. `general` and `idiom` are shown to everyone;
+ * Which group a word belongs to. `general`, `idiom` and `british` are shown to everyone;
  * the others are unlocked by the matching role (see ROLE_CATEGORY in src/data).
  */
-export type Category = 'general' | 'student' | 'teaching' | 'workplace' | 'idiom';
+export type Category = 'general' | 'student' | 'teaching' | 'workplace' | 'idiom' | 'british';
 
 export type Register = 'formal' | 'neutral' | 'informal';
 
@@ -126,4 +126,22 @@ export interface RegisterPair {
   /** One or more acceptable formal equivalents; the first is the model answer. */
   formal: string[];
   context?: string;
+}
+
+/** A clean, groan-worthy joke. The explanation unpacks the wordplay for learners. */
+export interface Joke {
+  id: string;
+  setup: string;
+  punchline: string;
+  explanation: string;
+  /** Shown more often to these roles. Omit for everyone. */
+  roles?: Role[];
+}
+
+/** British understatement decoded: what people say, and what they usually mean. Tongue in cheek. */
+export interface BritishSaying {
+  id: string;
+  say: string;
+  mean: string;
+  note?: string;
 }

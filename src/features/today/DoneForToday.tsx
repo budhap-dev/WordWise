@@ -7,10 +7,20 @@ import { Confetti } from '../../components/ui/Confetti';
 import { cardClasses } from '../../components/ui/styles';
 import { toDateKey } from '../../lib/date';
 import { hashString, seededRandom } from '../../lib/random';
-import type { WordEntry } from '../../types/content';
+import { rewardJoke } from '../../lib/fun';
+import type { Role, WordEntry } from '../../types/content';
+import { JokeBody } from './FunCard';
 import { CHALLENGES, DONE_MESSAGES, randomFrom } from './messages';
 
-export function DoneForToday({ words, onAgain }: { words: WordEntry[]; onAgain: () => void }) {
+export function DoneForToday({
+  words,
+  roles,
+  onAgain,
+}: {
+  words: WordEntry[];
+  roles: readonly Role[];
+  onAgain: () => void;
+}) {
   const headingRef = useRef<HTMLHeadingElement>(null);
   const random = seededRandom(hashString(`done:${toDateKey()}`));
   const message = randomFrom(DONE_MESSAGES, random);
@@ -60,6 +70,19 @@ export function DoneForToday({ words, onAgain }: { words: WordEntry[]; onAgain: 
             {challenge}
           </span>
         </p>
+      </section>
+
+      <section
+        aria-labelledby="reward-heading"
+        className={`${cardClasses} mt-4 animate-rise p-6 text-left [animation-delay:300ms]`}
+      >
+        <h2
+          id="reward-heading"
+          className="mb-3 text-xs font-bold tracking-widest text-ink-muted uppercase"
+        >
+          Your reward: a terrible joke 🥁
+        </h2>
+        <JokeBody joke={rewardJoke(toDateKey(), roles)} />
       </section>
 
       <Button variant="ghost" className="mt-6" onClick={onAgain}>

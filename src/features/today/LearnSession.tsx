@@ -84,6 +84,7 @@ export function LearnSession() {
     return (
       <DoneForToday
         words={words}
+        roles={settings.roles}
         onAgain={() => {
           reset();
           setIndex(0);

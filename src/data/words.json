@@ -7444,5 +7444,1398 @@
     "category": "idiom",
     "topics": ["planning", "priorities"],
     "level": "upper-intermediate"
+  },
+  {
+    "id": "chuffed",
+    "term": "chuffed",
+    "partOfSpeech": "adjective",
+    "ipa": "/tʃʌft/",
+    "definition": "Very pleased (British, informal).",
+    "examples": [
+      {
+        "role": "student",
+        "text": "I'm chuffed to bits with my dissertation mark."
+      },
+      {
+        "role": "teacher",
+        "text": "The Year 9s were chuffed when their bridge held two kilos."
+      },
+      {
+        "role": "software",
+        "text": "The client was chuffed with the demo."
+      }
+    ],
+    "register": "informal",
+    "collocations": ["chuffed to bits", "well chuffed", "chuffed with"],
+    "synonyms": [
+      {
+        "term": "delighted",
+        "note": "Neutral; works in any email."
+      },
+      {
+        "term": "pleased as Punch",
+        "note": "Old-fashioned British, very cheerful."
+      },
+      {
+        "term": "over the moon",
+        "note": "Even happier; a common idiom."
+      }
+    ],
+    "commonMistake": "Great with colleagues you know, but too casual for a formal report.",
+    "origin": "From the dialect word 'chuff', meaning puffed up or plump.",
+    "upgrade": {
+      "plain": "I'm really pleased with how it went.",
+      "model": "I'm chuffed with how it went."
+    },
+    "category": "british",
+    "topics": ["feelings", "small talk"],
+    "level": "upper-intermediate"
+  },
+  {
+    "id": "knackered",
+    "term": "knackered",
+    "partOfSpeech": "adjective",
+    "ipa": "/ˈnækəd/",
+    "definition": "Extremely tired; also, of a thing, broken or worn out.",
+    "examples": [
+      {
+        "role": "student",
+        "text": "I'm knackered after three exams in a row."
+      },
+      {
+        "role": "teacher",
+        "text": "By the last week of term, every teacher is knackered."
+      },
+      {
+        "role": "software",
+        "text": "I'm knackered; the release went on until midnight."
+      }
+    ],
+    "register": "informal",
+    "collocations": ["absolutely knackered", "completely knackered", "feel knackered"],
+    "synonyms": [
+      {
+        "term": "exhausted",
+        "note": "Neutral; safe with anyone."
+      },
+      {
+        "term": "shattered",
+        "note": "British informal; very close in meaning."
+      },
+      {
+        "term": "worn out",
+        "note": "Gentler and slightly less informal."
+      }
+    ],
+    "commonMistake": "Very informal: fine with friends and close colleagues, but avoid it with parents or clients.",
+    "origin": "Possibly from 'knacker', a person who bought worn-out horses.",
+    "upgrade": {
+      "plain": "I'm really tired after today.",
+      "model": "I'm knackered after today."
+    },
+    "category": "british",
+    "topics": ["feelings", "small talk"],
+    "level": "upper-intermediate"
+  },
+  {
+    "id": "gutted",
+    "term": "gutted",
+    "partOfSpeech": "adjective",
+    "ipa": "/ˈɡʌtɪd/",
+    "definition": "Bitterly disappointed (British, informal).",
+    "examples": [
+      {
+        "role": "student",
+        "text": "I was gutted to miss a first by two marks."
+      },
+      {
+        "role": "teacher",
+        "text": "The team were gutted to lose the quiz final."
+      },
+      {
+        "role": "software",
+        "text": "We're gutted the feature didn't make the release."
+      }
+    ],
+    "register": "informal",
+    "collocations": ["absolutely gutted", "gutted for someone", "gutted to hear"],
+    "synonyms": [
+      {
+        "term": "devastated",
+        "note": "Stronger; for serious news."
+      },
+      {
+        "term": "disappointed",
+        "note": "Neutral and calmer."
+      },
+      {
+        "term": "crestfallen",
+        "note": "Literary; visibly sad."
+      }
+    ],
+    "commonMistake": "'I'm gutted for you' is a warm way to show sympathy.",
+    "origin": "From gutting a fish: as if your insides had been taken out.",
+    "upgrade": {
+      "plain": "I was very disappointed not to get the job.",
+      "model": "I was gutted not to get the job."
+    },
+    "category": "british",
+    "topics": ["feelings", "sympathy"],
+    "level": "upper-intermediate"
+  },
+  {
+    "id": "faff",
+    "term": "faff",
+    "partOfSpeech": "noun",
+    "ipa": "/fæf/",
+    "definition": "Unnecessary fuss or hassle; as a verb ('faff about'), to waste time doing things inefficiently.",
+    "examples": [
+      {
+        "role": "student",
+        "text": "Formatting references by hand is such a faff."
+      },
+      {
+        "role": "teacher",
+        "text": "Getting thirty laptops logged in is always a faff."
+      },
+      {
+        "role": "software",
+        "text": "Let's stop faffing about with the config and use the defaults."
+      }
+    ],
+    "register": "informal",
+    "collocations": ["a bit of a faff", "a right faff", "faff about", "faff around"],
+    "synonyms": [
+      {
+        "term": "hassle",
+        "note": "Neutral and widely understood."
+      },
+      {
+        "term": "palaver",
+        "note": "British, slightly old-fashioned; a lot of fuss."
+      },
+      {
+        "term": "rigmarole",
+        "note": "A long, tedious process."
+      }
+    ],
+    "origin": "From an old dialect word for a puff of wind: lots of bluster, little result.",
+    "forms": ["faffing", "faffed", "faffs", "faffing about", "faffing around", "faffy"],
+    "upgrade": {
+      "plain": "Setting up the printer is really annoying and takes ages.",
+      "model": "Setting up the printer is a real faff."
+    },
+    "category": "british",
+    "topics": ["everyday", "work"],
+    "level": "upper-intermediate"
+  },
+  {
+    "id": "skint",
+    "term": "skint",
+    "partOfSpeech": "adjective",
+    "ipa": "/skɪnt/",
+    "definition": "Having little or no money (informal).",
+    "examples": [
+      {
+        "role": "student",
+        "text": "I'm skint until my student loan comes in."
+      },
+      {
+        "role": "teacher",
+        "text": "Plenty of families are skint at the end of the month, so let's keep the trip cheap."
+      },
+      {
+        "role": "software",
+        "text": "The start-up was skint, so we hosted everything on the free tier."
+      }
+    ],
+    "register": "informal",
+    "collocations": ["completely skint", "a bit skint", "skint until payday"],
+    "synonyms": [
+      {
+        "term": "broke",
+        "note": "Common in both British and American English."
+      },
+      {
+        "term": "hard up",
+        "note": "British; gentler."
+      },
+      {
+        "term": "strapped for cash",
+        "note": "Short of money for now."
+      }
+    ],
+    "commonMistake": "Fine about yourself, but avoid describing other people as 'skint' in formal settings.",
+    "origin": "A variant of 'skinned': as if stripped bare.",
+    "upgrade": {
+      "plain": "I don't have any money until payday.",
+      "model": "I'm skint until payday."
+    },
+    "category": "british",
+    "topics": ["money", "small talk"],
+    "level": "upper-intermediate"
+  },
+  {
+    "id": "peckish",
+    "term": "peckish",
+    "partOfSpeech": "adjective",
+    "ipa": "/ˈpekɪʃ/",
+    "definition": "Slightly hungry.",
+    "examples": [
+      {
+        "role": "student",
+        "text": "I'm a bit peckish; shall we grab a snack before the lecture?"
+      },
+      {
+        "role": "teacher",
+        "text": "Pupils get peckish by period 4, so I keep that lesson lively."
+      },
+      {
+        "role": "software",
+        "text": "Anyone peckish? I'm ordering pastries for the workshop."
+      }
+    ],
+    "register": "informal",
+    "collocations": ["a bit peckish", "feeling peckish"],
+    "synonyms": [
+      {
+        "term": "hungry",
+        "note": "Neutral."
+      },
+      {
+        "term": "starving",
+        "note": "Exaggerated: very hungry."
+      },
+      {
+        "term": "ravenous",
+        "note": "Extremely hungry; more formal."
+      }
+    ],
+    "origin": "From 'peck', like a bird pecking at food.",
+    "upgrade": {
+      "plain": "I'm a little hungry.",
+      "model": "I'm feeling a bit peckish."
+    },
+    "category": "british",
+    "topics": ["food", "small talk"],
+    "level": "upper-intermediate"
+  },
+  {
+    "id": "sorted",
+    "term": "sorted",
+    "partOfSpeech": "adjective",
+    "ipa": "/ˈsɔːtɪd/",
+    "definition": "Arranged, fixed or dealt with (informal).",
+    "examples": [
+      {
+        "role": "student",
+        "text": "The group presentation is sorted; we've each got a section."
+      },
+      {
+        "role": "teacher",
+        "text": "Cover for my Year 10 class is sorted."
+      },
+      {
+        "role": "software",
+        "text": "The login bug is sorted and deployed."
+      }
+    ],
+    "register": "informal",
+    "collocations": ["all sorted", "get it sorted", "sorted!"],
+    "synonyms": [
+      {
+        "term": "fixed",
+        "note": "Neutral; usually about problems."
+      },
+      {
+        "term": "arranged",
+        "note": "Neutral; usually about plans."
+      },
+      {
+        "term": "done and dusted",
+        "note": "British: completely finished."
+      }
+    ],
+    "origin": "From 'sort out', to put in order.",
+    "forms": ["sorted out"],
+    "upgrade": {
+      "plain": "Don't worry, I've dealt with the booking.",
+      "model": "Don't worry, the booking's sorted."
+    },
+    "category": "british",
+    "topics": ["work", "everyday"],
+    "level": "upper-intermediate"
+  },
+  {
+    "id": "cheeky",
+    "term": "cheeky",
+    "partOfSpeech": "adjective",
+    "ipa": "/ˈtʃiːki/",
+    "definition": "Slightly rude or bold in a playful way; in British slang, also a small treat ('a cheeky biscuit').",
+    "examples": [
+      {
+        "role": "student",
+        "text": "Fancy a cheeky coffee before the seminar?"
+      },
+      {
+        "role": "teacher",
+        "text": "He gave a cheeky answer, but it was actually correct."
+      },
+      {
+        "role": "software",
+        "text": "Can I ask a cheeky favour? Could you review my PR today?"
+      }
+    ],
+    "register": "informal",
+    "collocations": ["a cheeky favour", "a cheeky grin", "a cheeky biscuit"],
+    "synonyms": [
+      {
+        "term": "impudent",
+        "note": "Formal and more negative."
+      },
+      {
+        "term": "playful",
+        "note": "Positive; no hint of rudeness."
+      },
+      {
+        "term": "sassy",
+        "note": "American-influenced; confident and bold."
+      }
+    ],
+    "commonMistake": "'A cheeky favour' politely admits you're asking a lot.",
+    "origin": "From 'cheek', meaning insolent talk, since the 1800s.",
+    "forms": ["cheekily", "cheek"],
+    "upgrade": {
+      "plain": "Could I ask you for a favour, even though it's a bit much?",
+      "model": "Could I ask a cheeky favour?"
+    },
+    "category": "british",
+    "topics": ["asking for help", "small talk"],
+    "level": "upper-intermediate"
+  },
+  {
+    "id": "cuppa",
+    "term": "a cuppa",
+    "partOfSpeech": "noun",
+    "ipa": "/ə ˈkʌpə/",
+    "definition": "A cup of tea (sometimes coffee).",
+    "examples": [
+      {
+        "role": "student",
+        "text": "Let's have a cuppa and plan the essay."
+      },
+      {
+        "role": "teacher",
+        "text": "I'll mark these with a cuppa at break."
+      },
+      {
+        "role": "software",
+        "text": "Shall we grab a cuppa and talk it through?"
+      }
+    ],
+    "register": "informal",
+    "collocations": ["fancy a cuppa?", "a quick cuppa", "put the kettle on for a cuppa"],
+    "synonyms": [
+      {
+        "term": "a brew",
+        "note": "Northern English, very common."
+      },
+      {
+        "term": "a cup of tea",
+        "note": "Neutral."
+      }
+    ],
+    "origin": "How 'cup of (tea)' sounds in quick speech.",
+    "forms": ["cuppas"],
+    "upgrade": {
+      "plain": "Would you like a cup of tea?",
+      "model": "Fancy a cuppa?"
+    },
+    "category": "british",
+    "topics": ["small talk", "food"],
+    "level": "upper-intermediate"
+  },
+  {
+    "id": "doddle",
+    "term": "a doddle",
+    "partOfSpeech": "noun",
+    "ipa": "/ə ˈdɒdl/",
+    "definition": "Something very easy to do.",
+    "examples": [
+      {
+        "role": "student",
+        "text": "After all that revision, the exam was a doddle."
+      },
+      {
+        "role": "teacher",
+        "text": "Once you know the trick, these equations are a doddle."
+      },
+      {
+        "role": "software",
+        "text": "Adding the new field was a doddle thanks to the migrations tool."
+      }
+    ],
+    "register": "informal",
+    "collocations": ["an absolute doddle", "be a doddle"],
+    "synonyms": [
+      {
+        "term": "a piece of cake",
+        "note": "Common idiom; very close."
+      },
+      {
+        "term": "a breeze",
+        "note": "Informal: easy and pleasant."
+      },
+      {
+        "term": "child's play",
+        "note": "So easy a child could do it."
+      }
+    ],
+    "origin": "Possibly from 'doddle', to toddle along: an easy stroll.",
+    "upgrade": {
+      "plain": "The test was really easy.",
+      "model": "The test was a doddle."
+    },
+    "category": "british",
+    "topics": ["difficulty", "small talk"],
+    "level": "upper-intermediate"
+  },
+  {
+    "id": "bobs-your-uncle",
+    "term": "Bob's your uncle",
+    "partOfSpeech": "idiom",
+    "ipa": "/ˌbɒbz jɔːr ˈʌŋkl/",
+    "definition": "And there you are: said after simple instructions to show how easy something is.",
+    "examples": [
+      {
+        "role": "student",
+        "text": "Upload the file, click submit, and Bob's your uncle."
+      },
+      {
+        "role": "teacher",
+        "text": "Multiply both sides by three and Bob's your uncle."
+      },
+      {
+        "role": "software",
+        "text": "Run the script, restart the server, and Bob's your uncle."
+      }
+    ],
+    "register": "informal",
+    "collocations": ["and Bob's your uncle"],
+    "synonyms": [
+      {
+        "term": "job done",
+        "note": "Plain British."
+      },
+      {
+        "term": "voilà",
+        "note": "Borrowed from French; slightly theatrical."
+      },
+      {
+        "term": "there you go",
+        "note": "Neutral and everyday."
+      }
+    ],
+    "origin": "Uncertain. One popular story links it to a Victorian prime minister who promoted his nephew.",
+    "forms": ["Bob is your uncle"],
+    "upgrade": {
+      "plain": "Plug it in, press the button, and it's done.",
+      "model": "Plug it in, press the button, and Bob's your uncle."
+    },
+    "category": "british",
+    "topics": ["explaining", "instructions"],
+    "level": "upper-intermediate"
+  },
+  {
+    "id": "take-the-mickey",
+    "term": "take the mickey",
+    "partOfSpeech": "idiom",
+    "ipa": "/ˌteɪk ðə ˈmɪki/",
+    "definition": "To tease or make fun of someone; also, to be unreasonable ('Are you taking the mickey?').",
+    "examples": [
+      {
+        "role": "student",
+        "text": "Are you taking the mickey, or do you really like my poster?"
+      },
+      {
+        "role": "teacher",
+        "text": "The class love it when I take the mickey out of my own handwriting."
+      },
+      {
+        "role": "software",
+        "text": "Ignore him; he's just taking the mickey about my commit messages."
+      }
+    ],
+    "register": "informal",
+    "collocations": ["take the mickey out of", "are you taking the mickey?"],
+    "synonyms": [
+      {
+        "term": "tease",
+        "note": "Neutral."
+      },
+      {
+        "term": "wind someone up",
+        "note": "British: annoy someone as a joke."
+      },
+      {
+        "term": "rib",
+        "note": "Gentle, friendly teasing."
+      }
+    ],
+    "commonMistake": "'Are you taking the mickey?' can also mean 'Are you being unreasonable?', e.g. about a price.",
+    "origin": "Possibly Cockney rhyming slang; the exact origin is uncertain.",
+    "forms": ["taking the mickey", "took the mickey", "takes the mickey", "taken the mickey"],
+    "upgrade": {
+      "plain": "Are you joking? That price is ridiculous.",
+      "model": "Are you taking the mickey? That price is ridiculous."
+    },
+    "category": "british",
+    "topics": ["humour", "small talk"],
+    "level": "advanced"
+  },
+  {
+    "id": "gobsmacked",
+    "term": "gobsmacked",
+    "partOfSpeech": "adjective",
+    "ipa": "/ˈɡɒbsmækt/",
+    "definition": "Utterly astonished.",
+    "examples": [
+      {
+        "role": "student",
+        "text": "I was gobsmacked when I saw my grade."
+      },
+      {
+        "role": "teacher",
+        "text": "The class were gobsmacked when the balloon stuck to the wall."
+      },
+      {
+        "role": "software",
+        "text": "We were gobsmacked by how many people signed up on day one."
+      }
+    ],
+    "register": "informal",
+    "collocations": ["absolutely gobsmacked", "left gobsmacked"],
+    "synonyms": [
+      {
+        "term": "astonished",
+        "note": "Neutral."
+      },
+      {
+        "term": "flabbergasted",
+        "note": "Playful; equally strong."
+      },
+      {
+        "term": "stunned",
+        "note": "Shocked into silence; can be negative."
+      }
+    ],
+    "origin": "'Gob' is British slang for mouth: like clapping a hand over your mouth in shock.",
+    "upgrade": {
+      "plain": "I was really surprised by the result.",
+      "model": "I was gobsmacked by the result."
+    },
+    "category": "british",
+    "topics": ["feelings", "small talk"],
+    "level": "upper-intermediate"
+  },
+  {
+    "id": "fortnight",
+    "term": "fortnight",
+    "partOfSpeech": "noun",
+    "ipa": "/ˈfɔːtnaɪt/",
+    "definition": "A period of two weeks.",
+    "examples": [
+      {
+        "role": "student",
+        "text": "The essay is due in a fortnight."
+      },
+      {
+        "role": "teacher",
+        "text": "We'll have a test on this in a fortnight."
+      },
+      {
+        "role": "software",
+        "text": "Our sprints last a fortnight."
+      }
+    ],
+    "register": "neutral",
+    "collocations": ["in a fortnight", "a fortnight's holiday", "fortnightly meetings"],
+    "synonyms": [
+      {
+        "term": "two weeks",
+        "note": "Understood everywhere."
+      },
+      {
+        "term": "biweekly",
+        "note": "Ambiguous: can mean twice a week or every two weeks."
+      }
+    ],
+    "commonMistake": "Many Americans don't use 'fortnight', so say 'two weeks' with international colleagues. 'Fortnightly' avoids the ambiguity of 'biweekly'.",
+    "origin": "Old English 'fēowertīene niht': fourteen nights.",
+    "forms": ["fortnightly", "fortnight's"],
+    "upgrade": {
+      "plain": "We meet every two weeks.",
+      "model": "We meet every fortnight."
+    },
+    "category": "british",
+    "topics": ["time", "planning"],
+    "level": "upper-intermediate"
+  },
+  {
+    "id": "go-pear-shaped",
+    "term": "go pear-shaped",
+    "partOfSpeech": "idiom",
+    "ipa": "/ɡəʊ ˈpeə ʃeɪpt/",
+    "definition": "To go wrong.",
+    "examples": [
+      {
+        "role": "student",
+        "text": "Our group project went pear-shaped when two people dropped out."
+      },
+      {
+        "role": "teacher",
+        "text": "The practical went pear-shaped when the Bunsen burners wouldn't light."
+      },
+      {
+        "role": "software",
+        "text": "The deployment went pear-shaped at the last minute."
+      }
+    ],
+    "register": "informal",
+    "collocations": ["it all went pear-shaped", "if things go pear-shaped"],
+    "synonyms": [
+      {
+        "term": "go wrong",
+        "note": "Neutral."
+      },
+      {
+        "term": "go belly up",
+        "note": "Informal: fail completely."
+      },
+      {
+        "term": "go south",
+        "note": "American-influenced; get worse."
+      }
+    ],
+    "origin": "Possibly RAF slang from the 1940s: a badly flown loop ends up pear-shaped rather than round.",
+    "forms": ["went pear-shaped", "gone pear-shaped", "going pear-shaped", "goes pear-shaped"],
+    "upgrade": {
+      "plain": "Everything went wrong at the end.",
+      "model": "Everything went pear-shaped at the end."
+    },
+    "category": "british",
+    "topics": ["problems", "small talk"],
+    "level": "upper-intermediate"
+  },
+  {
+    "id": "have-a-natter",
+    "term": "have a natter",
+    "partOfSpeech": "phrase",
+    "ipa": "/ˌhæv ə ˈnætə/",
+    "definition": "To have a long, relaxed chat.",
+    "examples": [
+      {
+        "role": "student",
+        "text": "We had a natter about the reading instead of revising."
+      },
+      {
+        "role": "teacher",
+        "text": "Parents' evening overran because one dad wanted a natter."
+      },
+      {
+        "role": "software",
+        "text": "Let's have a natter over coffee rather than another meeting."
+      }
+    ],
+    "register": "informal",
+    "collocations": ["a good natter", "natter away", "have a natter"],
+    "synonyms": [
+      {
+        "term": "chat",
+        "note": "Neutral and everyday."
+      },
+      {
+        "term": "chinwag",
+        "note": "British, playful."
+      },
+      {
+        "term": "catch-up",
+        "note": "A chat to share news."
+      }
+    ],
+    "origin": "From the dialect word 'gnatter', to grumble or chatter.",
+    "forms": ["a natter", "nattering", "nattered", "natter"],
+    "upgrade": {
+      "plain": "Let's have a relaxed chat at lunch.",
+      "model": "Let's have a natter at lunch."
+    },
+    "category": "british",
+    "topics": ["small talk"],
+    "level": "upper-intermediate"
+  },
+  {
+    "id": "fair-enough",
+    "term": "fair enough",
+    "partOfSpeech": "phrase",
+    "ipa": "/ˌfeər ɪˈnʌf/",
+    "definition": "Used to accept a point as reasonable, even if you don't fully agree.",
+    "examples": [
+      {
+        "role": "student",
+        "text": "You'd rather present first? Fair enough."
+      },
+      {
+        "role": "teacher",
+        "text": "Fair enough, that's a valid method too."
+      },
+      {
+        "role": "software",
+        "text": "Fair enough; let's go with your approach and review it next sprint."
+      }
+    ],
+    "register": "informal",
+    "collocations": ["fair enough, but…", "that's fair enough"],
+    "synonyms": [
+      {
+        "term": "point taken",
+        "note": "Acknowledges a criticism."
+      },
+      {
+        "term": "that's reasonable",
+        "note": "Neutral and more formal."
+      },
+      {
+        "term": "OK",
+        "note": "Plain; less sense of conceding."
+      }
+    ],
+    "commonMistake": "Tone matters: said flatly, it can sound like reluctant acceptance.",
+    "origin": "A plain combination: 'fair' (just) plus 'enough'.",
+    "upgrade": {
+      "plain": "OK, I accept that's a reasonable point.",
+      "model": "Fair enough, that's a reasonable point."
+    },
+    "category": "british",
+    "topics": ["agreeing", "meetings"],
+    "level": "upper-intermediate"
+  },
+  {
+    "id": "cheers",
+    "term": "cheers",
+    "partOfSpeech": "phrase",
+    "ipa": "/tʃɪəz/",
+    "definition": "Thanks (informal); also goodbye, or a toast when drinking.",
+    "examples": [
+      {
+        "role": "student",
+        "text": "Cheers for lending me your notes."
+      },
+      {
+        "role": "teacher",
+        "text": "Cheers, that's really helpful."
+      },
+      {
+        "role": "software",
+        "text": "Cheers for the quick review!"
+      }
+    ],
+    "register": "informal",
+    "collocations": ["cheers for", "cheers, mate", "cheers, bye"],
+    "synonyms": [
+      {
+        "term": "thanks",
+        "note": "Neutral."
+      },
+      {
+        "term": "ta",
+        "note": "Very informal British."
+      },
+      {
+        "term": "much appreciated",
+        "note": "Warmer and slightly more formal."
+      }
+    ],
+    "commonMistake": "Fine with colleagues you know, but use 'Thank you' or 'Many thanks' in formal emails.",
+    "origin": "From 'cheer', which once meant face or mood, and later a shout of encouragement.",
+    "upgrade": {
+      "plain": "Thanks for your help.",
+      "model": "Cheers for your help."
+    },
+    "category": "british",
+    "topics": ["thanking", "emails"],
+    "level": "upper-intermediate"
+  },
+  {
+    "id": "not-too-shabby",
+    "term": "not too shabby",
+    "partOfSpeech": "phrase",
+    "ipa": "/ˌnɒt tuː ˈʃæbi/",
+    "definition": "Quite good, often better than expected (classic British understatement).",
+    "examples": [
+      {
+        "role": "student",
+        "text": "A 68 on my first essay: not too shabby."
+      },
+      {
+        "role": "teacher",
+        "text": "Not too shabby! Nearly everyone got question 5 right."
+      },
+      {
+        "role": "software",
+        "text": "Load time down to 300 milliseconds. Not too shabby."
+      }
+    ],
+    "register": "informal",
+    "collocations": ["not too shabby at all", "not too shabby for a first attempt"],
+    "synonyms": [
+      {
+        "term": "not bad",
+        "note": "In British speech, often means genuinely good."
+      },
+      {
+        "term": "pretty good",
+        "note": "Plainer."
+      },
+      {
+        "term": "decent",
+        "note": "Solid and acceptable."
+      }
+    ],
+    "origin": "'Shabby' means worn or poor quality; denying it is typical British understatement.",
+    "forms": ["not so shabby"],
+    "upgrade": {
+      "plain": "That's pretty good for a first try.",
+      "model": "That's not too shabby for a first try."
+    },
+    "category": "british",
+    "topics": ["praise", "understatement"],
+    "level": "upper-intermediate"
+  },
+  {
+    "id": "cant-be-bothered",
+    "term": "can't be bothered",
+    "partOfSpeech": "phrase",
+    "ipa": "/ˌkɑːnt bi ˈbɒðəd/",
+    "definition": "Not willing to make the effort.",
+    "examples": [
+      {
+        "role": "student",
+        "text": "I can't be bothered to cook, so it's beans on toast again."
+      },
+      {
+        "role": "teacher",
+        "text": "If pupils seem like they can't be bothered, check whether the task is too hard."
+      },
+      {
+        "role": "software",
+        "text": "Nobody could be bothered to update the docs, so they're two years out of date."
+      }
+    ],
+    "register": "informal",
+    "collocations": ["can't be bothered to", "couldn't be bothered with"],
+    "synonyms": [
+      {
+        "term": "not in the mood",
+        "note": "Gentler; about feelings."
+      },
+      {
+        "term": "unmotivated",
+        "note": "Neutral, more formal."
+      },
+      {
+        "term": "lazy",
+        "note": "Judgemental; avoid about others."
+      }
+    ],
+    "commonMistake": "Said about others it can sound critical; say it about yourself, with a smile.",
+    "origin": "From 'bother', to take trouble over something.",
+    "forms": ["couldn't be bothered", "could be bothered", "can be bothered"],
+    "upgrade": {
+      "plain": "I don't feel like going out tonight.",
+      "model": "I can't be bothered to go out tonight."
+    },
+    "category": "british",
+    "topics": ["feelings", "small talk"],
+    "level": "upper-intermediate"
+  },
+  {
+    "id": "im-easy",
+    "term": "I'm easy",
+    "partOfSpeech": "phrase",
+    "ipa": "/aɪm ˈiːzi/",
+    "definition": "I don't mind; either option is fine with me.",
+    "examples": [
+      {
+        "role": "student",
+        "text": "Library or café? I'm easy."
+      },
+      {
+        "role": "teacher",
+        "text": "Tuesday or Thursday for the department meeting? I'm easy."
+      },
+      {
+        "role": "software",
+        "text": "Tabs or spaces? Honestly, I'm easy, as long as we're consistent."
+      }
+    ],
+    "register": "informal",
+    "collocations": ["I'm easy either way", "I'm easy, you choose"],
+    "synonyms": [
+      {
+        "term": "I don't mind",
+        "note": "Neutral and common."
+      },
+      {
+        "term": "either is fine",
+        "note": "Plain."
+      },
+      {
+        "term": "whatever suits you",
+        "note": "Polite, puts the other person first."
+      }
+    ],
+    "origin": "From 'easy' in the sense of relaxed or untroubled.",
+    "forms": ["I am easy"],
+    "upgrade": {
+      "plain": "I don't mind; you choose where we go.",
+      "model": "I'm easy; you choose where we go."
+    },
+    "category": "british",
+    "topics": ["decisions", "small talk"],
+    "level": "upper-intermediate"
+  },
+  {
+    "id": "pop-in",
+    "term": "pop in",
+    "partOfSpeech": "phrasal verb",
+    "ipa": "/ˌpɒp ˈɪn/",
+    "definition": "To visit or go somewhere briefly (also 'pop out', 'pop round', 'pop over').",
+    "examples": [
+      {
+        "role": "student",
+        "text": "I'll pop in to the library on my way home."
+      },
+      {
+        "role": "teacher",
+        "text": "Do pop in after school if you'd like to talk about his progress."
+      },
+      {
+        "role": "software",
+        "text": "I'm just popping out for ten minutes; back for stand-up."
+      }
+    ],
+    "register": "informal",
+    "collocations": ["pop in for a chat", "pop round", "pop out for lunch"],
+    "synonyms": [
+      {
+        "term": "drop by",
+        "note": "Neutral; very close."
+      },
+      {
+        "term": "call in",
+        "note": "British; visit briefly."
+      },
+      {
+        "term": "nip out",
+        "note": "British: go out very briefly."
+      }
+    ],
+    "origin": "From 'pop', a quick, sudden movement.",
+    "forms": [
+      "popping in",
+      "popped in",
+      "pops in",
+      "pop out",
+      "popping out",
+      "popped out",
+      "pop round",
+      "pop over",
+      "popping over",
+      "pop into"
+    ],
+    "upgrade": {
+      "plain": "I'll visit you briefly after lunch.",
+      "model": "I'll pop in after lunch."
+    },
+    "category": "british",
+    "topics": ["everyday", "meetings"],
+    "level": "upper-intermediate"
+  },
+  {
+    "id": "rubbish",
+    "term": "rubbish",
+    "partOfSpeech": "adjective",
+    "ipa": "/ˈrʌbɪʃ/",
+    "definition": "Of very poor quality, or bad at something (informal British). As a noun: waste, or nonsense.",
+    "examples": [
+      {
+        "role": "student",
+        "text": "I'm rubbish at statistics, so I'm going to the drop-in sessions."
+      },
+      {
+        "role": "teacher",
+        "text": "Don't say you're rubbish at maths; say you haven't learnt it yet."
+      },
+      {
+        "role": "software",
+        "text": "The first version was rubbish, but it taught us what users wanted."
+      }
+    ],
+    "register": "informal",
+    "collocations": ["rubbish at", "total rubbish", "talk rubbish"],
+    "synonyms": [
+      {
+        "term": "useless",
+        "note": "Harsher."
+      },
+      {
+        "term": "terrible",
+        "note": "Neutral; very bad."
+      },
+      {
+        "term": "garbage",
+        "note": "American equivalent of the noun."
+      }
+    ],
+    "commonMistake": "British 'rubbish' (and 'bin') where American English says 'trash' or 'garbage'.",
+    "origin": "From Old French 'robeux', broken stone and rubble.",
+    "upgrade": {
+      "plain": "I'm really bad at remembering names.",
+      "model": "I'm rubbish at remembering names."
+    },
+    "category": "british",
+    "topics": ["everyday", "self-talk"],
+    "level": "upper-intermediate"
+  },
+  {
+    "id": "bit-of-a-nightmare",
+    "term": "a bit of a nightmare",
+    "partOfSpeech": "phrase",
+    "ipa": "/ə ˌbɪt əv ə ˈnaɪtmeə/",
+    "definition": "A difficult or annoying situation (British understatement).",
+    "examples": [
+      {
+        "role": "student",
+        "text": "Finding a quiet study space during exams is a bit of a nightmare."
+      },
+      {
+        "role": "teacher",
+        "text": "Parking at school is a bit of a nightmare on parents' evening."
+      },
+      {
+        "role": "software",
+        "text": "Merging those two branches was a bit of a nightmare."
+      }
+    ],
+    "register": "informal",
+    "collocations": ["a bit of a nightmare", "an absolute nightmare"],
+    "synonyms": [
+      {
+        "term": "a pain",
+        "note": "Informal: annoying."
+      },
+      {
+        "term": "a hassle",
+        "note": "Neutral."
+      },
+      {
+        "term": "a headache",
+        "note": "A problem that needs solving."
+      }
+    ],
+    "origin": "The softening 'a bit of' is pure British understatement: it's usually a full nightmare.",
+    "forms": ["an absolute nightmare"],
+    "upgrade": {
+      "plain": "Travelling during the strike was really difficult.",
+      "model": "Travelling during the strike was a bit of a nightmare."
+    },
+    "category": "british",
+    "topics": ["problems", "understatement"],
+    "level": "upper-intermediate"
+  },
+  {
+    "id": "having-a-laugh",
+    "term": "you're having a laugh",
+    "partOfSpeech": "idiom",
+    "ipa": "/jɔː ˌhævɪŋ ə ˈlɑːf/",
+    "definition": "You must be joking (usually about something unreasonable).",
+    "examples": [
+      {
+        "role": "student",
+        "text": "A 5,000-word essay by Monday? You're having a laugh."
+      },
+      {
+        "role": "teacher",
+        "text": "Mark 120 books by tomorrow? They're having a laugh."
+      },
+      {
+        "role": "software",
+        "text": "They want it rebuilt in a week? You're having a laugh."
+      }
+    ],
+    "register": "informal",
+    "collocations": ["you're having a laugh", "are you having a laugh?"],
+    "synonyms": [
+      {
+        "term": "you must be joking",
+        "note": "Neutral."
+      },
+      {
+        "term": "you can't be serious",
+        "note": "Stronger disbelief."
+      },
+      {
+        "term": "are you taking the mickey?",
+        "note": "Very British; suggests unfairness."
+      }
+    ],
+    "commonMistake": "Note the British long 'a' in 'laugh': /lɑːf/.",
+    "origin": "From 'have a laugh', to joke around.",
+    "forms": ["having a laugh"],
+    "upgrade": {
+      "plain": "They want it finished by tonight? That can't be serious.",
+      "model": "They want it finished by tonight? They're having a laugh."
+    },
+    "category": "british",
+    "topics": ["humour", "disagreeing"],
+    "level": "upper-intermediate"
+  },
+  {
+    "id": "not-rocket-science",
+    "term": "it's not rocket science",
+    "partOfSpeech": "idiom",
+    "ipa": "/ɪts ˌnɒt ˈrɒkɪt ˌsaɪəns/",
+    "definition": "It's not difficult to understand or do.",
+    "examples": [
+      {
+        "role": "student",
+        "text": "Referencing isn't rocket science, but it is fiddly."
+      },
+      {
+        "role": "teacher",
+        "text": "It's not rocket science, although in physics, sometimes it actually is!"
+      },
+      {
+        "role": "software",
+        "text": "Writing good commit messages isn't rocket science."
+      }
+    ],
+    "register": "informal",
+    "collocations": ["it's not rocket science", "hardly rocket science"],
+    "synonyms": [
+      {
+        "term": "it's not brain surgery",
+        "note": "Same joke, different profession."
+      },
+      {
+        "term": "straightforward",
+        "note": "Neutral and polite."
+      },
+      {
+        "term": "a doddle",
+        "note": "British: very easy."
+      }
+    ],
+    "commonMistake": "Can sound dismissive if someone is struggling. Use it about tasks, not people.",
+    "origin": "From the late 20th century, when rocket science stood for the hardest work imaginable.",
+    "forms": ["isn't rocket science", "not rocket science", "hardly rocket science"],
+    "upgrade": {
+      "plain": "It's simple; anyone can learn it.",
+      "model": "It's not rocket science; anyone can learn it."
+    },
+    "category": "british",
+    "topics": ["difficulty", "explaining"],
+    "level": "upper-intermediate"
+  },
+  {
+    "id": "spanner-in-the-works",
+    "term": "throw a spanner in the works",
+    "partOfSpeech": "idiom",
+    "ipa": "/ˌθrəʊ ə ˈspænər ɪn ðə ˈwɜːks/",
+    "definition": "To cause a problem that stops a plan working.",
+    "examples": [
+      {
+        "role": "student",
+        "text": "The library closing early threw a spanner in the works."
+      },
+      {
+        "role": "teacher",
+        "text": "The surprise fire drill threw a spanner in the works."
+      },
+      {
+        "role": "software",
+        "text": "The vendor's API change has thrown a spanner in the works."
+      }
+    ],
+    "register": "informal",
+    "collocations": ["throw a spanner in the works", "a real spanner in the works"],
+    "synonyms": [
+      {
+        "term": "a setback",
+        "note": "Neutral."
+      },
+      {
+        "term": "a hitch",
+        "note": "A small, temporary problem."
+      },
+      {
+        "term": "a curveball",
+        "note": "American-influenced: an unexpected problem."
+      }
+    ],
+    "commonMistake": "British English says 'spanner'; American English says 'throw a (monkey) wrench in the works'.",
+    "origin": "From machinery: a spanner dropped into the gears jams everything.",
+    "forms": [
+      "threw a spanner in the works",
+      "thrown a spanner in the works",
+      "throwing a spanner in the works",
+      "a spanner in the works"
+    ],
+    "upgrade": {
+      "plain": "The rain caused a problem for our plans.",
+      "model": "The rain threw a spanner in the works."
+    },
+    "category": "british",
+    "topics": ["problems", "planning"],
+    "level": "upper-intermediate"
+  },
+  {
+    "id": "muddle-through",
+    "term": "muddle through",
+    "partOfSpeech": "phrasal verb",
+    "ipa": "/ˌmʌdl ˈθruː/",
+    "definition": "To manage somehow, despite lacking skill, knowledge or a plan.",
+    "examples": [
+      {
+        "role": "student",
+        "text": "I didn't understand the reading, but I muddled through the seminar."
+      },
+      {
+        "role": "teacher",
+        "text": "We muddled through the lesson without the projector."
+      },
+      {
+        "role": "software",
+        "text": "We muddled through the outage with very little documentation."
+      }
+    ],
+    "register": "informal",
+    "collocations": ["muddle through somehow", "just about muddle through"],
+    "synonyms": [
+      {
+        "term": "get by",
+        "note": "Manage with what you have."
+      },
+      {
+        "term": "cope",
+        "note": "Neutral."
+      },
+      {
+        "term": "wing it",
+        "note": "Improvise without preparation."
+      }
+    ],
+    "origin": "Often called a very British ideal: getting there in the end without fuss or a plan.",
+    "forms": ["muddled through", "muddling through", "muddles through"],
+    "upgrade": {
+      "plain": "We didn't have a plan, but we managed somehow.",
+      "model": "We didn't have a plan, but we muddled through."
+    },
+    "category": "british",
+    "topics": ["coping", "small talk"],
+    "level": "advanced"
+  },
+  {
+    "id": "with-all-due-respect",
+    "term": "with all due respect",
+    "partOfSpeech": "phrase",
+    "ipa": "/wɪð ˌɔːl ˌdjuː rɪˈspekt/",
+    "definition": "A polite phrase used just before disagreeing, often firmly.",
+    "examples": [
+      {
+        "role": "student",
+        "text": "With all due respect, I think the data says something different."
+      },
+      {
+        "role": "teacher",
+        "text": "With all due respect, the new timetable doesn't give pupils enough practice time."
+      },
+      {
+        "role": "software",
+        "text": "With all due respect, that estimate doesn't include testing."
+      }
+    ],
+    "register": "neutral",
+    "collocations": ["with all due respect", "with the greatest respect"],
+    "synonyms": [
+      {
+        "term": "I see it differently",
+        "note": "Softer and more collaborative."
+      },
+      {
+        "term": "I'm not sure I agree",
+        "note": "Gentle British disagreement."
+      },
+      {
+        "term": "respectfully",
+        "note": "More American in this use."
+      }
+    ],
+    "commonMistake": "Despite the polite words, Britons hear it as 'I think you're wrong'. Use it sparingly.",
+    "origin": "Originally formal courtesy; now a well-known signal of polite disagreement.",
+    "upgrade": {
+      "plain": "I disagree, but I don't want to be rude.",
+      "model": "With all due respect, I disagree."
+    },
+    "category": "british",
+    "topics": ["disagreeing", "meetings", "understatement"],
+    "level": "advanced"
+  },
+  {
+    "id": "fancy",
+    "term": "fancy",
+    "partOfSpeech": "verb",
+    "ipa": "/ˈfænsi/",
+    "definition": "To want or like the idea of something (British, informal): 'Fancy a coffee?'",
+    "examples": [
+      {
+        "role": "student",
+        "text": "Do you fancy revising together on Thursday?"
+      },
+      {
+        "role": "teacher",
+        "text": "Who fancies having a go at the board?"
+      },
+      {
+        "role": "software",
+        "text": "Fancy pairing on this bug after lunch?"
+      }
+    ],
+    "register": "informal",
+    "collocations": ["fancy a coffee?", "do you fancy…?", "I don't fancy it"],
+    "synonyms": [
+      {
+        "term": "would you like",
+        "note": "Neutral and polite."
+      },
+      {
+        "term": "feel like",
+        "note": "Informal; about mood."
+      },
+      {
+        "term": "want",
+        "note": "Plain and direct."
+      }
+    ],
+    "commonMistake": "Using 'fancy' to mean 'want' is British; American English rarely uses it this way.",
+    "origin": "Short for 'fantasy': to imagine having something.",
+    "forms": ["fancies", "fancied", "fancying"],
+    "upgrade": {
+      "plain": "Would you like a walk at lunch?",
+      "model": "Fancy a walk at lunch?"
+    },
+    "category": "british",
+    "topics": ["invitations", "small talk"],
+    "level": "upper-intermediate"
   }
 ]
