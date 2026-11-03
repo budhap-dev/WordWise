@@ -47,7 +47,8 @@ Vite prints a `Network:` address such as `http://192.168.1.20:5173`. Open that o
 - **Mobile-first**: full-screen sessions, thumb-reach buttons, tap to reveal, swipe to move on.
 - **Pronunciation**: tap the speaker (or press <kbd>S</kbd>) to hear the word in a British English voice.
 - **Playful, quick sessions**: reveal each card, then finish with a short "done for today" celebration and a small challenge.
-- Light and dark mode (follows your device by default), keyboard shortcuts and screen-reader labels.
+- **Five colour themes**, each with a light and a dark version: WordWise (indigo), Oxford (navy and gold), Sage, Slate and Plum. Pick one in Settings; light, dark or match-your-device is chosen separately. Every text colour meets WCAG AA contrast in all ten variants (tested).
+- Keyboard shortcuts and screen-reader labels throughout.
 
 ## Adding words
 

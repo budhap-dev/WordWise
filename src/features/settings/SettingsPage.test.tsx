@@ -1,4 +1,4 @@
-import { screen, waitFor } from '@testing-library/react';
+import { screen, waitFor, within } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 
 import { db, newCard } from '../../db/db';
@@ -26,5 +26,31 @@ describe('Settings', () => {
     await user.click(await screen.findByRole('button', { name: 'Reset progress' }));
     await user.click(screen.getByRole('button', { name: /cancel/i }));
     expect(await db.cards.count()).toBe(1);
+  });
+});
+
+describe('colour themes', () => {
+  it('applies a colour theme straight away and remembers it', async () => {
+    const user = userEvent.setup();
+    renderApp({ route: '/settings' });
+
+    await user.click(await screen.findByRole('radio', { name: /oxford/i }));
+    expect(document.documentElement.dataset.palette).toBe('oxford');
+    expect(JSON.parse(localStorage.getItem('wordwise:settings') ?? '{}').palette).toBe('oxford');
+
+    // Each theme works in dark mode too.
+    await user.click(screen.getByRole('radio', { name: /^dark$/i }));
+    expect(document.documentElement.classList.contains('dark')).toBe(true);
+    expect(document.documentElement.dataset.palette).toBe('oxford');
+
+    // The default theme needs no attribute.
+    await user.click(screen.getByRole('radio', { name: /wordwise/i }));
+    expect(document.documentElement.dataset.palette).toBeUndefined();
+  });
+
+  it('offers five themes', async () => {
+    renderApp({ route: '/settings' });
+    const group = await screen.findByRole('group', { name: /colour theme/i });
+    expect(within(group).getAllByRole('radio')).toHaveLength(5);
   });
 });

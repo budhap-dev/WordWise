@@ -9,6 +9,7 @@ import { useCards } from '../../hooks/useProgress';
 import { useRequiredSettings, useSettings } from '../../state/settingsContext';
 import type { ThemePreference } from '../../types/user';
 import { InstallSection } from '../install/InstallPrompt';
+import { ThemePicker } from './ThemePicker';
 import { GoalPicker, LevelPicker, RolePicker } from '../onboarding/PreferenceFields';
 
 function Legend({ children }: { children: string }) {
@@ -130,6 +131,12 @@ export function SettingsPage() {
             ))}
           </div>
         </fieldset>
+        <div className="mt-6">
+          <ThemePicker
+            value={settings.palette}
+            onChange={(palette) => updateSettings({ palette })}
+          />
+        </div>
       </section>
 
       <InstallSection />

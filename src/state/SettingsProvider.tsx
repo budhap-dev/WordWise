@@ -1,5 +1,6 @@
 import { type ReactNode, useCallback, useEffect, useMemo, useState } from 'react';
 
+import { type ColourTheme, DEFAULT_THEME, PALETTES } from '../theme/palettes';
 import type { Settings, ThemePreference } from '../types/user';
 import { SettingsContext, type SettingsContextValue } from './settingsContext';
 import {
@@ -10,10 +11,18 @@ import {
   SETTINGS_KEY,
 } from './settingsStorage';
 
-function applyTheme(theme: ThemePreference) {
+function applyTheme(theme: ThemePreference, palette: ColourTheme) {
   const prefersDark = window.matchMedia?.('(prefers-color-scheme: dark)').matches ?? false;
   const dark = theme === 'dark' || (theme === 'system' && prefersDark);
-  document.documentElement.classList.toggle('dark', dark);
+  const root = document.documentElement;
+  root.classList.toggle('dark', dark);
+  if (palette === DEFAULT_THEME) delete root.dataset.palette;
+  else root.dataset.palette = palette;
+  // Match the browser/status bar to the page background.
+  const tokens = (PALETTES.find((p) => p.id === palette) ?? PALETTES[0]!)[dark ? 'dark' : 'light'];
+  document
+    .querySelectorAll<HTMLMetaElement>('meta[name="theme-color"]')
+    .forEach((m) => m.setAttribute('content', tokens.bg));
 }
 
 export function SettingsProvider({
@@ -49,14 +58,15 @@ export function SettingsProvider({
 
   // Keep the theme in sync with settings and the OS preference.
   const theme = settings?.theme ?? 'system';
+  const palette = settings?.palette ?? DEFAULT_THEME;
   useEffect(() => {
-    applyTheme(theme);
+    applyTheme(theme, palette);
     if (theme !== 'system' || !window.matchMedia) return;
     const mq = window.matchMedia('(prefers-color-scheme: dark)');
-    const onChange = () => applyTheme('system');
+    const onChange = () => applyTheme('system', palette);
     mq.addEventListener('change', onChange);
     return () => mq.removeEventListener('change', onChange);
-  }, [theme]);
+  }, [theme, palette]);
 
   // Pick up changes made in another tab.
   useEffect(() => {
