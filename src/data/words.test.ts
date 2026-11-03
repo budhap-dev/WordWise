@@ -23,19 +23,20 @@ const AMERICAN_SPELLINGS =
   /\b(color|favor|behavior|endeavor|honor|organiz|realiz|prioritiz|recogniz|summariz|analyz|optimiz|center|licens(?:e|ing) to|gray|program me)\w*/i;
 
 describe('seed words', () => {
-  it('has at least 150 entries, with the agreed split', () => {
-    expect(WORDS.length).toBeGreaterThanOrEqual(150);
-    const counts = Object.fromEntries(
-      CATEGORIES.map((c) => [c, WORDS.filter((w) => w.category === c).length]),
-    );
-    expect(counts).toEqual({
-      general: 30,
+  it('has a healthy supply in every category', () => {
+    // Minimums, so adding a word never breaks this test; removing words might.
+    const minimum = {
+      general: 90,
       student: 30,
       teaching: 30,
       workplace: 30,
-      idiom: 40,
-      british: 31,
-    });
+      idiom: 90,
+      british: 80,
+    };
+    for (const c of CATEGORIES) {
+      const count = WORDS.filter((w) => w.category === c).length;
+      expect(count, c).toBeGreaterThanOrEqual(minimum[c]);
+    }
   });
 
   it('has unique kebab-case ids', () => {
