@@ -40,6 +40,7 @@ Vite prints a `Network:` address such as `http://192.168.1.20:5173`. Open that o
 - **Word of the Day and daily set**: a fresh, varied set each day, chosen from words for your roles and level. Each word has UK IPA, a plain-English definition, examples tailored to your roles, register, collocations, synonyms with how they differ, other meanings (with how to tell them apart), common mistakes and an origin story.
 - **Britishisms and British humour**: everyday British words and phrases (chuffed, a faff, Bob's your uncle…), plus a daily "bit of fun" card. It alternates between clean jokes, each with the wordplay explained, and British understatement decoded ("With the greatest respect…" means "you're wrong"), including when a phrase can mean the opposite ("quite good" is usually lukewarm, but said with enthusiasm it's praise).
 - **Spaced-repetition reviews (SM-2)**: words you've learnt come back just before you'd forget them: tomorrow, then in about 6 days, then at growing intervals. Grade each one Again, Hard, Good or Easy (or press 1–4); each button shows when you'll see the word next. Words you struggle with get another go at the end of the session. Today shows reviews first, plus your 🔥 streak.
+- **Practice**: five quick games using your own words (shakiest first), plus a mixed bag. _What does it mean?_, _Fill the gap_, _Choose the better word_ (affect/effect, practice/practise…), _Upgrade this sentence_ (type a rewrite using the word) and _Register switch_ (posh, polite or pub: pick the right way to say it). Every answer is explained, and wrong choices say why they're wrong. Practice counts towards your streak but doesn't change your review schedule.
 - **Your progress stays on your device**: words you've learnt are saved in IndexedDB (via Dexie), so they never reappear in a new daily set and are scheduled for review. Nothing is sent anywhere. Settings → Reset progress clears it.
 - **Mobile-first**: full-screen sessions, thumb-reach buttons, tap to reveal, swipe to move on.
 - **Pronunciation**: tap the speaker (or press <kbd>S</kbd>) to hear the word in a British English voice.
@@ -56,12 +57,12 @@ See [docs/ADDING_WORDS.md](docs/ADDING_WORDS.md). In short: add an entry to `src
 src/
   data/        seed content (words.json) and typed loaders
   types/       content and user-data types
-  lib/         pure logic: SM-2 scheduling, daily selection, text matching, speech, dates
+  lib/         pure logic: SM-2 scheduling, practice questions, daily selection, text matching, speech, dates
   db/          IndexedDB (Dexie) schema, progress writes and selectors
   hooks/       React hooks, including live progress queries
   state/       settings (localStorage)
   components/  shared UI (layout, buttons, word cards)
-  features/    one folder per screen (onboarding, today, settings…)
+  features/    one folder per screen (onboarding, today, review, practice, settings)
 ```
 
 ## Tech stack

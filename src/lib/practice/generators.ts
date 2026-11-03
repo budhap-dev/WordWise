@@ -109,7 +109,7 @@ export function gapFillQuestions(
       mode: 'gap-fill',
       itemId: word.id,
       wordId: word.id,
-      instruction: 'Which fits the gap? (Its form may change.)',
+      instruction: 'Fill the gap',
       prompt: blanked.sentence,
       promptStyle: 'sentence',
       ...arrange(displayTerm(word.term), wrong, random),
