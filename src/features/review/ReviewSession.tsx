@@ -159,7 +159,7 @@ function Session({
   if (!word) return null;
 
   const total = finished + queue.length;
-  const example = examplesForRoles(word, roles, { min: 1, max: 1 })[0];
+  const examples = examplesForRoles(word, roles, { min: 2, max: 2 });
 
   const onCardClick = (e: MouseEvent) => {
     if (!revealed && !isInteractive(e.target)) reveal();
@@ -216,11 +216,14 @@ function Session({
         ) : (
           <div className="mt-5" aria-live="polite">
             <p className="text-lg leading-relaxed text-pretty">{word.definition}</p>
-            {example && (
-              <p className="mt-4 rounded-2xl bg-surface-2 p-4 leading-relaxed">
-                <HighlightedText text={example.text} entry={word} />
+            {examples.map((e, i) => (
+              <p
+                key={e.text}
+                className={`${i === 0 ? 'mt-4' : 'mt-2'} rounded-2xl bg-surface-2 p-4 leading-relaxed`}
+              >
+                <HighlightedText text={e.text} entry={word} />
               </p>
-            )}
+            ))}
             <button
               type="button"
               aria-expanded={false}

@@ -47,6 +47,13 @@ export interface Synonym {
   note: string;
 }
 
+/** A word or phrase with the opposite meaning. */
+export interface Antonym {
+  term: string;
+  /** Optional nuance, e.g. "slapdash: informal and critical". Add one where it helps. */
+  note?: string;
+}
+
 /** An "upgrade this sentence" prompt: a plain sentence and a model rewrite using the term. */
 export interface UpgradePrompt {
   plain: string;
@@ -85,6 +92,8 @@ export interface WordEntry {
   /** Words it commonly goes with, e.g. ["a subtle nuance", "nuances of meaning"]. */
   collocations: string[];
   synonyms: Synonym[];
+  /** Opposites, where a genuine one exists (many idioms and nouns have none). */
+  antonyms?: Antonym[];
   /** Other senses that could trip a learner up, e.g. "pitch" as a football pitch. */
   otherMeanings?: OtherMeaning[];
   /** A short tip about a frequent misuse, where relevant. */

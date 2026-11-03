@@ -91,6 +91,18 @@
         "note": "Short and clever or memorable, e.g. a pithy remark."
       }
     ],
+    "antonyms": [
+      {
+        "term": "verbose"
+      },
+      {
+        "term": "long-winded",
+        "note": "Informal, and more critical."
+      },
+      {
+        "term": "wordy"
+      }
+    ],
     "commonMistake": "Pronounced 'suk-SINKT', with a hard 'k' sound; not 'suss-INKT'.",
     "origin": "Latin 'succinctus', girded up: clothing tucked in tightly so nothing hangs loose.",
     "forms": ["succinctly", "succinctness"],
@@ -136,6 +148,15 @@
       {
         "term": "realistic",
         "note": "Focuses on what is achievable rather than on method."
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "idealistic",
+        "note": "Guided by principles or ideals, even when they're hard to achieve."
+      },
+      {
+        "term": "impractical"
       }
     ],
     "origin": "Greek 'pragma', a deed or act: concerned with doing rather than theorising.",
@@ -230,6 +251,17 @@
         "note": "Unwilling to do something; 'reticent' is about not speaking or revealing."
       }
     ],
+    "antonyms": [
+      {
+        "term": "forthcoming"
+      },
+      {
+        "term": "open"
+      },
+      {
+        "term": "talkative"
+      }
+    ],
     "commonMistake": "Careful usage keeps 'reticent' for 'not saying much', not simply 'reluctant' ('reluctant to sign', not 'reticent to sign').",
     "origin": "Latin 'reticere', to keep silent.",
     "forms": ["reticence"],
@@ -279,6 +311,14 @@
       {
         "term": "open",
         "note": "Willing to share; less about saying difficult things."
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "guarded"
+      },
+      {
+        "term": "evasive"
       }
     ],
     "otherMeanings": [
@@ -337,6 +377,18 @@
         "note": "Negative: overly concerned with minor details or rules."
       }
     ],
+    "antonyms": [
+      {
+        "term": "careless"
+      },
+      {
+        "term": "slapdash",
+        "note": "Informal and critical: done hastily and carelessly."
+      },
+      {
+        "term": "sloppy"
+      }
+    ],
     "origin": "Latin 'meticulosus', fearful: originally someone so afraid of mistakes they checked everything.",
     "forms": ["meticulously"],
     "upgrade": {
@@ -385,6 +437,15 @@
       {
         "term": "indifferent",
         "note": "Not the same: no strong feelings at all."
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "wholehearted",
+        "note": "Fully for something, with no mixed feelings."
+      },
+      {
+        "term": "certain"
       }
     ],
     "commonMistake": "Ambivalent means mixed feelings, not no feelings. If you don't care, you're 'indifferent'.",
@@ -439,6 +500,15 @@
         "note": "About a person's manner rather than a plan."
       }
     ],
+    "antonyms": [
+      {
+        "term": "definite"
+      },
+      {
+        "term": "confident",
+        "note": "About a person's manner."
+      }
+    ],
     "origin": "Latin 'tentare', to try or test: the same root as 'attempt'.",
     "forms": ["tentatively"],
     "upgrade": {
@@ -489,6 +559,15 @@
         "note": "Plainer and less formal."
       }
     ],
+    "antonyms": [
+      {
+        "term": "detrimental",
+        "note": "'Not conducive to' and 'detrimental to' both pair with 'to'."
+      },
+      {
+        "term": "unfavourable"
+      }
+    ],
     "commonMistake": "It's always 'conducive to', never 'conducive for'.",
     "origin": "Latin 'conducere', to lead together: things that lead towards a result.",
     "upgrade": {
@@ -535,6 +614,14 @@
         "note": "Choosy; can imply simply being fussy."
       }
     ],
+    "antonyms": [
+      {
+        "term": "undiscerning"
+      },
+      {
+        "term": "uncritical"
+      }
+    ],
     "origin": "Latin 'discernere', to separate or distinguish.",
     "forms": ["discern", "discernment"],
     "upgrade": {
@@ -579,6 +666,18 @@
       {
         "term": "unwittingly",
         "note": "Stresses not knowing at the time."
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "deliberately"
+      },
+      {
+        "term": "intentionally"
+      },
+      {
+        "term": "on purpose",
+        "note": "Plainer, everyday."
       }
     ],
     "origin": "Latin 'in-', not, and 'advertere', to turn towards: not turning your attention to something.",
@@ -678,6 +777,17 @@
         "note": "Simple and general."
       }
     ],
+    "antonyms": [
+      {
+        "term": "exacerbate"
+      },
+      {
+        "term": "aggravate"
+      },
+      {
+        "term": "worsen"
+      }
+    ],
     "commonMistake": "Don't say 'mitigate against': you 'mitigate a risk' but 'militate against' an outcome.",
     "origin": "Latin 'mitis', soft or gentle: to soften something.",
     "forms": ["mitigates", "mitigated", "mitigating", "mitigation"],
@@ -727,6 +837,17 @@
       {
         "term": "compound",
         "note": "To add to an existing problem, making it bigger."
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "mitigate"
+      },
+      {
+        "term": "alleviate"
+      },
+      {
+        "term": "ease"
       }
     ],
     "commonMistake": "Don't confuse with 'exasperate', which means to annoy someone intensely.",
@@ -785,6 +906,17 @@
         "note": "More about reducing risk or damage."
       }
     ],
+    "antonyms": [
+      {
+        "term": "aggravate"
+      },
+      {
+        "term": "exacerbate"
+      },
+      {
+        "term": "worsen"
+      }
+    ],
     "origin": "Latin 'levis', light: to make something lighter to carry.",
     "forms": ["alleviates", "alleviated", "alleviating"],
     "upgrade": {
@@ -833,6 +965,15 @@
       {
         "term": "likely",
         "note": "Probable; plainer."
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "implausible"
+      },
+      {
+        "term": "far-fetched",
+        "note": "Informal: hard to believe."
       }
     ],
     "otherMeanings": [
@@ -893,6 +1034,17 @@
         "note": "So strong it can almost be felt, e.g. palpable tension."
       }
     ],
+    "antonyms": [
+      {
+        "term": "intangible"
+      },
+      {
+        "term": "abstract"
+      },
+      {
+        "term": "vague"
+      }
+    ],
     "origin": "Latin 'tangere', to touch: something you could touch.",
     "forms": ["tangibly", "intangible"],
     "upgrade": {
@@ -941,6 +1093,14 @@
       {
         "term": "suspicious",
         "note": "Stronger; believing something may be wrong or dishonest."
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "trusting"
+      },
+      {
+        "term": "unsuspecting"
       }
     ],
     "commonMistake": "Don't confuse with 'weary' (tired). 'Wary' rhymes with 'hairy'; 'weary' rhymes with 'theory'.",
@@ -992,6 +1152,14 @@
       {
         "term": "grant",
         "note": "'I grant you that…': conversational and slightly old-fashioned."
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "deny"
+      },
+      {
+        "term": "dispute"
       }
     ],
     "otherMeanings": [
@@ -1056,6 +1224,12 @@
         "note": "Focuses on the goal rather than the effort."
       }
     ],
+    "antonyms": [
+      {
+        "term": "give up",
+        "note": "Stop trying."
+      }
+    ],
     "commonMistake": "British spelling is 'endeavour'; 'endeavor' is American.",
     "origin": "Middle English 'put oneself in devoir', to do one's duty, from French 'devoir'.",
     "forms": ["endeavours", "endeavoured", "endeavouring"],
@@ -1112,6 +1286,18 @@
         "note": "Able to change to fit new conditions."
       }
     ],
+    "antonyms": [
+      {
+        "term": "fragile"
+      },
+      {
+        "term": "vulnerable"
+      },
+      {
+        "term": "brittle",
+        "note": "Breaks rather than bends."
+      }
+    ],
     "origin": "Latin 'resilire', to leap back, like a spring.",
     "forms": ["resilience", "resiliently"],
     "upgrade": {
@@ -1160,6 +1346,17 @@
       {
         "term": "promote",
         "note": "More active and public; to support or advertise."
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "stifle"
+      },
+      {
+        "term": "discourage"
+      },
+      {
+        "term": "hinder"
       }
     ],
     "otherMeanings": [
@@ -1219,6 +1416,17 @@
         "note": "Stronger; to block, sometimes deliberately."
       }
     ],
+    "antonyms": [
+      {
+        "term": "help"
+      },
+      {
+        "term": "facilitate"
+      },
+      {
+        "term": "enable"
+      }
+    ],
     "commonMistake": "Pronounced with a short 'i', as in 'tinder', not like 'hind'.",
     "origin": "Old English 'hindrian', to hold back: related to 'behind'.",
     "forms": ["hinders", "hindered", "hindering", "hindrance"],
@@ -1270,6 +1478,17 @@
         "note": "Focuses on avoiding risk."
       }
     ],
+    "antonyms": [
+      {
+        "term": "reckless"
+      },
+      {
+        "term": "rash"
+      },
+      {
+        "term": "imprudent"
+      }
+    ],
     "origin": "Latin 'providens', foreseeing: the same root as 'provide'.",
     "forms": ["prudently", "prudence"],
     "upgrade": {
@@ -1318,6 +1537,17 @@
       {
         "term": "byzantine",
         "note": "Excessively complicated, especially rules or bureaucracy."
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "straightforward"
+      },
+      {
+        "term": "simple"
+      },
+      {
+        "term": "clear"
       }
     ],
     "origin": "Latin 'convolvere', to roll together: coiled like a snail shell.",
@@ -1375,6 +1605,15 @@
         "note": "Exciting to watch or read; not about argument."
       }
     ],
+    "antonyms": [
+      {
+        "term": "unconvincing"
+      },
+      {
+        "term": "dull",
+        "note": "About interest rather than argument."
+      }
+    ],
     "origin": "Latin 'compellere', to drive together: an argument that drives you towards a conclusion.",
     "forms": ["compellingly"],
     "upgrade": {
@@ -1423,6 +1662,17 @@
       {
         "term": "daunted",
         "note": "Feeling a task is too big; less about danger."
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "confident"
+      },
+      {
+        "term": "calm"
+      },
+      {
+        "term": "unconcerned"
       }
     ],
     "origin": "Latin 'apprehendere', to seize or grasp: the mind grasping at what might happen.",
@@ -1475,6 +1725,17 @@
         "note": "Formal; persistent and very careful."
       }
     ],
+    "antonyms": [
+      {
+        "term": "lazy"
+      },
+      {
+        "term": "negligent"
+      },
+      {
+        "term": "slapdash"
+      }
+    ],
     "origin": "Latin 'diligere', to value or love: you take care over what you value.",
     "forms": ["diligently", "diligence"],
     "upgrade": {
@@ -1523,6 +1784,15 @@
       {
         "term": "well-spoken",
         "note": "Speaks clearly and politely; about manner more than ideas."
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "inarticulate"
+      },
+      {
+        "term": "tongue-tied",
+        "note": "Informal: too nervous or shy to speak."
       }
     ],
     "commonMistake": "The adjective ends '-ulət'; the verb ends '-ulate' like 'late'.",
@@ -1576,6 +1846,17 @@
         "note": "Informal; very common in speech."
       }
     ],
+    "antonyms": [
+      {
+        "term": "contradict"
+      },
+      {
+        "term": "refute"
+      },
+      {
+        "term": "undermine"
+      }
+    ],
     "origin": "Latin 'corroborare', to strengthen, from 'robur', oak (the root of 'robust').",
     "forms": ["corroborates", "corroborated", "corroborating", "corroboration"],
     "upgrade": {
@@ -1626,6 +1907,14 @@
         "note": "Confirms something that already has some evidence."
       }
     ],
+    "antonyms": [
+      {
+        "term": "disprove"
+      },
+      {
+        "term": "refute"
+      }
+    ],
     "origin": "Latin 'substantia', substance: giving a claim real substance.",
     "forms": ["substantiates", "substantiated", "substantiating", "unsubstantiated"],
     "upgrade": {
@@ -1674,6 +1963,15 @@
       {
         "term": "summarise",
         "note": "Not the same: summarising shortens, synthesising connects."
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "analyse",
+        "note": "Break a whole into parts, rather than combine parts into a whole."
+      },
+      {
+        "term": "separate"
       }
     ],
     "otherMeanings": [
@@ -1731,6 +2029,17 @@
       {
         "term": "coherent",
         "note": "Logically connected, but not necessarily persuasive."
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "weak"
+      },
+      {
+        "term": "unconvincing"
+      },
+      {
+        "term": "muddled"
       }
     ],
     "origin": "Latin 'cogere', to drive together or compel.",
@@ -1980,6 +2289,17 @@
         "note": "Doesn't contradict itself."
       }
     ],
+    "antonyms": [
+      {
+        "term": "incoherent"
+      },
+      {
+        "term": "muddled"
+      },
+      {
+        "term": "disjointed"
+      }
+    ],
     "origin": "Latin 'cohaerere', to stick together.",
     "forms": ["coherence", "coherently", "incoherent"],
     "upgrade": {
@@ -2028,6 +2348,17 @@
       {
         "term": "pertinent",
         "note": "Relevant to the matter at hand."
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "minor"
+      },
+      {
+        "term": "peripheral"
+      },
+      {
+        "term": "trivial"
       }
     ],
     "origin": "Latin 'salire', to leap: points that jump out at you.",
@@ -2132,6 +2463,14 @@
         "note": "Common in teaching and policy."
       }
     ],
+    "antonyms": [
+      {
+        "term": "theoretical"
+      },
+      {
+        "term": "speculative"
+      }
+    ],
     "origin": "Greek 'empeiria', experience.",
     "forms": ["empirically", "empiricism"],
     "upgrade": {
@@ -2182,6 +2521,17 @@
         "note": "Formal; deliberately unclear to avoid commitment."
       }
     ],
+    "antonyms": [
+      {
+        "term": "unambiguous"
+      },
+      {
+        "term": "clear-cut"
+      },
+      {
+        "term": "explicit"
+      }
+    ],
     "origin": "Latin 'ambigere', to waver or go around.",
     "forms": ["ambiguity", "ambiguously", "unambiguous"],
     "upgrade": {
@@ -2226,10 +2576,15 @@
       {
         "term": "tacit",
         "note": "Understood without words, e.g. tacit agreement."
-      },
+      }
+    ],
+    "antonyms": [
       {
         "term": "explicit",
-        "note": "Opposite: stated clearly."
+        "note": "Stated clearly."
+      },
+      {
+        "term": "stated"
       }
     ],
     "otherMeanings": [
@@ -2289,6 +2644,17 @@
         "note": "Present from birth; used for people and abilities."
       }
     ],
+    "antonyms": [
+      {
+        "term": "extrinsic"
+      },
+      {
+        "term": "acquired"
+      },
+      {
+        "term": "external"
+      }
+    ],
     "origin": "Latin 'inhaerere', to stick in.",
     "forms": ["inherently"],
     "upgrade": {
@@ -2344,6 +2710,17 @@
         "note": "Deliberate and destructive."
       }
     ],
+    "antonyms": [
+      {
+        "term": "strengthen"
+      },
+      {
+        "term": "bolster"
+      },
+      {
+        "term": "support"
+      }
+    ],
     "origin": "Literally to dig a mine under a castle wall, making it collapse.",
     "forms": ["undermines", "undermined", "undermining"],
     "upgrade": {
@@ -2394,6 +2771,12 @@
         "note": "For the 'deal with' sense; stresses struggle."
       }
     ],
+    "antonyms": [
+      {
+        "term": "concede",
+        "note": "Admit the other side has a point."
+      }
+    ],
     "origin": "Latin 'contendere', to strive or stretch.",
     "forms": ["contends", "contended", "contending", "contention"],
     "upgrade": {
@@ -2438,6 +2821,18 @@
       {
         "term": "endorse",
         "note": "To publicly support or approve."
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "disagree"
+      },
+      {
+        "term": "dissent",
+        "note": "Formal: disagree openly, often on the record."
+      },
+      {
+        "term": "differ"
       }
     ],
     "commonMistake": "Can sound stiff in casual speech. Use it in writing or formal meetings, and 'agree' with friends.",
@@ -2491,6 +2886,14 @@
         "note": "Idiomatic; to make something clearer."
       }
     ],
+    "antonyms": [
+      {
+        "term": "obscure"
+      },
+      {
+        "term": "confuse"
+      }
+    ],
     "origin": "Latin 'lucidus', bright: to bring into the light.",
     "forms": ["elucidates", "elucidated", "elucidating", "elucidation"],
     "upgrade": {
@@ -2539,6 +2942,17 @@
       {
         "term": "deny",
         "note": "To say something isn't true, without proof."
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "prove"
+      },
+      {
+        "term": "confirm"
+      },
+      {
+        "term": "corroborate"
       }
     ],
     "commonMistake": "'Refute' means prove wrong, not just deny. If you only disagree, use 'reject', 'deny' or 'dispute'.",
@@ -2592,6 +3006,17 @@
         "note": "A large, often unfair, difference, e.g. a pay disparity."
       }
     ],
+    "antonyms": [
+      {
+        "term": "consistency"
+      },
+      {
+        "term": "agreement"
+      },
+      {
+        "term": "match"
+      }
+    ],
     "origin": "Latin 'discrepare', to sound differently or be out of tune.",
     "forms": ["discrepancies"],
     "upgrade": {
@@ -2640,6 +3065,14 @@
       {
         "term": "exploratory",
         "note": "Aimed at finding out more."
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "final"
+      },
+      {
+        "term": "concluding"
       }
     ],
     "origin": "Latin 'prae', before, and 'limen', threshold: before you step over the doorstep.",
@@ -2694,6 +3127,18 @@
       {
         "term": "complete",
         "note": "Plainer."
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "partial"
+      },
+      {
+        "term": "limited"
+      },
+      {
+        "term": "patchy",
+        "note": "Informal: good in parts, with gaps."
       }
     ],
     "otherMeanings": [
@@ -2905,6 +3350,18 @@
         "note": "To read with great attention, often for a long time."
       }
     ],
+    "antonyms": [
+      {
+        "term": "skim",
+        "note": "Read quickly for the gist."
+      },
+      {
+        "term": "glance at"
+      },
+      {
+        "term": "overlook"
+      }
+    ],
     "commonMistake": "British spelling is 'scrutinise'; 'scrutinize' is American.",
     "origin": "Latin 'scrutari', to search through rubbish or rags.",
     "forms": ["scrutinises", "scrutinised", "scrutinising", "scrutiny"],
@@ -2954,6 +3411,14 @@
       {
         "term": "bolster",
         "note": "To strengthen something already there."
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "undermine"
+      },
+      {
+        "term": "weaken"
       }
     ],
     "origin": "A building term: to support a wall from below.",
@@ -3010,6 +3475,15 @@
         "note": "Informal British."
       }
     ],
+    "antonyms": [
+      {
+        "term": "a side issue"
+      },
+      {
+        "term": "a red herring",
+        "note": "Something that distracts from the real point."
+      }
+    ],
     "origin": "Latin for 'cross': a puzzle at the crossing point.",
     "forms": ["crux"],
     "upgrade": {
@@ -3058,6 +3532,17 @@
       {
         "term": "far-fetched",
         "note": "Unlikely and hard to believe."
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "strong"
+      },
+      {
+        "term": "solid"
+      },
+      {
+        "term": "convincing"
       }
     ],
     "origin": "Latin 'tenuis', thin.",
@@ -3218,6 +3703,14 @@
         "note": "A widely held but false belief."
       }
     ],
+    "antonyms": [
+      {
+        "term": "correct understanding"
+      },
+      {
+        "term": "fact"
+      }
+    ],
     "origin": "Mis- (wrongly) plus 'conception', from Latin 'concipere', to take in.",
     "forms": ["misconceptions"],
     "upgrade": {
@@ -3256,16 +3749,18 @@
     "collocations": ["extrapolate from", "extrapolate the trend", "dangerous to extrapolate"],
     "synonyms": [
       {
-        "term": "interpolate",
-        "note": "Estimate within the range of known data; the opposite direction."
-      },
-      {
         "term": "project",
         "note": "Forecast future figures; common in business."
       },
       {
         "term": "infer",
         "note": "Reach a conclusion from evidence."
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "interpolate",
+        "note": "Estimate within the range of known data."
       }
     ],
     "commonMistake": "Extrapolate means beyond the data; estimating between known points is 'interpolate'.",
@@ -3319,6 +3814,17 @@
         "note": "Make safe or certain."
       }
     ],
+    "antonyms": [
+      {
+        "term": "weaken"
+      },
+      {
+        "term": "fragment"
+      },
+      {
+        "term": "break up"
+      }
+    ],
     "origin": "Latin 'consolidare', to make solid.",
     "forms": ["consolidates", "consolidated", "consolidating", "consolidation"],
     "upgrade": {
@@ -3367,6 +3873,18 @@
       {
         "term": "tailor",
         "note": "Adjust to suit a particular person."
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "confuse"
+      },
+      {
+        "term": "conflate",
+        "note": "Treat two different things as if they were one."
+      },
+      {
+        "term": "lump together"
       }
     ],
     "otherMeanings": [
@@ -3426,6 +3944,15 @@
         "note": "Get something out, often with effort or reluctance."
       }
     ],
+    "antonyms": [
+      {
+        "term": "tell",
+        "note": "In teaching: give pupils the answer rather than drawing it out of them."
+      },
+      {
+        "term": "spoon-feed"
+      }
+    ],
     "commonMistake": "Don't confuse with 'illicit' (illegal). They sound almost the same.",
     "origin": "Latin 'elicere', to draw out or entice.",
     "forms": ["elicits", "elicited", "eliciting"],
@@ -3477,6 +4004,12 @@
         "note": "Arrive at a final judgement."
       }
     ],
+    "antonyms": [
+      {
+        "term": "guess",
+        "note": "Without reasoning from evidence."
+      }
+    ],
     "commonMistake": "Don't confuse with 'deduct' (to subtract money or points).",
     "origin": "Latin 'deducere', to lead down: leading down from facts to a conclusion.",
     "forms": ["deduces", "deduced", "deducing", "deduction"],
@@ -3526,6 +4059,17 @@
       {
         "term": "outlier",
         "note": "Noun: a data point far from the others."
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "typical"
+      },
+      {
+        "term": "normal"
+      },
+      {
+        "term": "consistent"
       }
     ],
     "origin": "Greek 'anomalos', uneven.",
@@ -3688,6 +4232,17 @@
         "note": "Strict, usually about rules or standards."
       }
     ],
+    "antonyms": [
+      {
+        "term": "lax"
+      },
+      {
+        "term": "slapdash"
+      },
+      {
+        "term": "superficial"
+      }
+    ],
     "commonMistake": "British spelling: 'rigour' (noun) but 'rigorous' (adjective), with no 'u' in the adjective.",
     "origin": "Latin 'rigor', stiffness: unbending standards.",
     "forms": ["rigorously", "rigour"],
@@ -3739,6 +4294,17 @@
         "note": "Seemingly self-contradictory."
       }
     ],
+    "antonyms": [
+      {
+        "term": "intuitive"
+      },
+      {
+        "term": "obvious"
+      },
+      {
+        "term": "predictable"
+      }
+    ],
     "commonMistake": "British style often hyphenates it ('counter-intuitive'); 'counterintuitive' is also accepted.",
     "origin": "Counter- (against) plus 'intuitive', from Latin 'intueri', to look at.",
     "forms": ["counterintuitive", "counter-intuitively"],
@@ -3788,6 +4354,15 @@
       {
         "term": "ballpark",
         "note": "Informal: 'a ballpark figure'."
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "exact",
+        "note": "As an adjective: an exact figure."
+      },
+      {
+        "term": "precise"
       }
     ],
     "commonMistake": "Verb ends '-mate' (like 'late'); adjective ends '-mət'.",
@@ -3846,6 +4421,14 @@
         "note": "Formal: 'salary commensurate with experience'."
       }
     ],
+    "antonyms": [
+      {
+        "term": "disproportionate"
+      },
+      {
+        "term": "out of proportion"
+      }
+    ],
     "origin": "Latin 'pro portione', according to its share.",
     "forms": ["proportionally", "proportion"],
     "upgrade": {
@@ -3884,16 +4467,18 @@
     "collocations": ["use formative assessment", "formative feedback", "formative and summative"],
     "synonyms": [
       {
-        "term": "summative assessment",
-        "note": "The opposite: a final judgement, e.g. an exam."
-      },
-      {
         "term": "assessment for learning",
         "note": "UK term often used interchangeably."
       },
       {
         "term": "check for understanding",
         "note": "Everyday classroom phrase."
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "summative assessment",
+        "note": "A final judgement, e.g. an exam."
       }
     ],
     "origin": "Latin 'formare', to shape: assessment that shapes the learning.",
@@ -4096,6 +4681,15 @@
         "note": "Academic; examine underlying assumptions."
       }
     ],
+    "antonyms": [
+      {
+        "term": "gloss over",
+        "note": "Pass over quickly without explaining."
+      },
+      {
+        "term": "skate over"
+      }
+    ],
     "origin": "A metaphor from opening a suitcase and taking things out one by one.",
     "forms": ["unpacks", "unpacked", "unpacking"],
     "upgrade": {
@@ -4148,6 +4742,17 @@
       {
         "term": "positive",
         "note": "Encouraging; not necessarily practical."
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "destructive"
+      },
+      {
+        "term": "unhelpful"
+      },
+      {
+        "term": "negative"
       }
     ],
     "origin": "Latin 'construere', to build: feedback that builds rather than destroys.",
@@ -4309,10 +4914,18 @@
       {
         "term": "come together",
         "note": "Informal."
-      },
+      }
+    ],
+    "antonyms": [
       {
         "term": "diverge",
-        "note": "Opposite: to move apart."
+        "note": "To move apart."
+      },
+      {
+        "term": "split"
+      },
+      {
+        "term": "separate"
       }
     ],
     "origin": "Latin 'con-', together, and 'vergere', to incline.",
@@ -4363,6 +4976,17 @@
       {
         "term": "trivial",
         "note": "Of little importance; can sound dismissive."
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "significant"
+      },
+      {
+        "term": "substantial"
+      },
+      {
+        "term": "considerable"
       }
     ],
     "commonMistake": "Don't confuse with 'negligent' (careless in a way that causes harm).",
@@ -4419,6 +5043,12 @@
       {
         "term": "converse",
         "note": "Logic: swapping the parts of a statement."
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "direct",
+        "note": "As in maths: direct proportion versus inverse proportion."
       }
     ],
     "origin": "Latin 'inversus', turned upside down.",
@@ -4990,6 +5620,17 @@
         "note": "Consistently works; less about tough conditions."
       }
     ],
+    "antonyms": [
+      {
+        "term": "fragile"
+      },
+      {
+        "term": "flimsy"
+      },
+      {
+        "term": "brittle"
+      }
+    ],
     "otherMeanings": [
       {
         "meaning": "Of a debate or response: forceful, even heated (a British euphemism).",
@@ -5047,6 +5688,15 @@
         "note": "Thorough; about depth rather than small parts."
       }
     ],
+    "antonyms": [
+      {
+        "term": "high-level",
+        "note": "The big picture, without the detail."
+      },
+      {
+        "term": "broad-brush"
+      }
+    ],
     "origin": "Latin 'granulum', small grain.",
     "forms": ["granularity"],
     "upgrade": {
@@ -5095,6 +5745,14 @@
       {
         "term": "build on",
         "note": "Use as a foundation for more."
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "squander"
+      },
+      {
+        "term": "waste"
       }
     ],
     "otherMeanings": [
@@ -5154,6 +5812,17 @@
         "note": "Informal idiom for being aligned."
       }
     ],
+    "antonyms": [
+      {
+        "term": "diverge"
+      },
+      {
+        "term": "clash"
+      },
+      {
+        "term": "be at odds"
+      }
+    ],
     "origin": "French 'à ligne', into line.",
     "forms": ["aligns", "aligned", "aligning", "alignment"],
     "upgrade": {
@@ -5207,6 +5876,14 @@
       {
         "term": "triage",
         "note": "Sort by urgency, from medicine; common in support teams."
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "deprioritise"
+      },
+      {
+        "term": "neglect"
       }
     ],
     "commonMistake": "British spelling: 'prioritise'; 'prioritize' is American.",
@@ -5265,6 +5942,14 @@
         "note": "Informal British: draw attention to."
       }
     ],
+    "antonyms": [
+      {
+        "term": "de-escalate"
+      },
+      {
+        "term": "calm down"
+      }
+    ],
     "origin": "From 'escalator': moving up a level.",
     "forms": ["escalates", "escalated", "escalating", "escalation"],
     "upgrade": {
@@ -5313,6 +5998,12 @@
       {
         "term": "dependency",
         "note": "Something you're waiting on from someone else."
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "enabler",
+        "note": "Something that helps work move forward."
       }
     ],
     "origin": "From 'block', to obstruct.",
@@ -5408,6 +6099,15 @@
       {
         "term": "outlier",
         "note": "Data: a value far from the rest."
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "happy path",
+        "note": "The normal, expected route through a system."
+      },
+      {
+        "term": "common case"
       }
     ],
     "origin": "From the idea of the edge of the range of possible inputs.",
@@ -5507,6 +6207,14 @@
       {
         "term": "go-ahead",
         "note": "Informal; permission to start."
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "rejection"
+      },
+      {
+        "term": "veto"
       }
     ],
     "otherMeanings": [
@@ -5617,6 +6325,14 @@
         "note": "British business: reorganise to cut waste, sometimes cut jobs."
       }
     ],
+    "antonyms": [
+      {
+        "term": "complicate"
+      },
+      {
+        "term": "overcomplicate"
+      }
+    ],
     "origin": "From the shape of an object designed to move smoothly through water or air.",
     "forms": ["streamlines", "streamlined", "streamlining"],
     "upgrade": {
@@ -5670,6 +6386,14 @@
       {
         "term": "bug",
         "note": "General software fault; not necessarily one that broke working code."
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "improvement"
+      },
+      {
+        "term": "progress"
       }
     ],
     "otherMeanings": [
@@ -5794,6 +6518,17 @@
         "note": "Informal business term: people's support and commitment."
       }
     ],
+    "antonyms": [
+      {
+        "term": "disagreement"
+      },
+      {
+        "term": "dissent"
+      },
+      {
+        "term": "division"
+      }
+    ],
     "commonMistake": "'General consensus' and 'consensus of opinion' are redundant. Spelt with an 's' in the middle, not 'concensus'.",
     "origin": "Latin 'consentire', to feel together.",
     "upgrade": {
@@ -5899,6 +6634,17 @@
         "note": "Make less difficult."
       }
     ],
+    "antonyms": [
+      {
+        "term": "hinder"
+      },
+      {
+        "term": "obstruct"
+      },
+      {
+        "term": "impede"
+      }
+    ],
     "commonMistake": "People facilitate things, not people: 'facilitate learning', not 'facilitate students'.",
     "origin": "Latin 'facilis', easy.",
     "forms": ["facilitates", "facilitated", "facilitating", "facilitator"],
@@ -5948,6 +6694,15 @@
       {
         "term": "entrust",
         "note": "Give responsibility to someone you trust."
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "do it yourself"
+      },
+      {
+        "term": "micromanage",
+        "note": "Hand a task over but then control every detail of it."
       }
     ],
     "otherMeanings": [
@@ -6012,6 +6767,18 @@
         "note": "Informal: honest from the beginning."
       }
     ],
+    "antonyms": [
+      {
+        "term": "opaque"
+      },
+      {
+        "term": "secretive"
+      },
+      {
+        "term": "cagey",
+        "note": "Informal: unwilling to share information."
+      }
+    ],
     "otherMeanings": [
       {
         "meaning": "Literally: clear enough to see through.",
@@ -6071,6 +6838,14 @@
       {
         "term": "tricky",
         "note": "Informal: difficult."
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "trivial"
+      },
+      {
+        "term": "straightforward"
       }
     ],
     "otherMeanings": [
@@ -6179,6 +6954,15 @@
         "note": "Lead actively."
       }
     ],
+    "antonyms": [
+      {
+        "term": "pass the buck",
+        "note": "Shift responsibility onto someone else."
+      },
+      {
+        "term": "shirk"
+      }
+    ],
     "origin": "From 'own', to possess: treating the task as your own.",
     "forms": ["took ownership", "taking ownership", "takes ownership"],
     "upgrade": {
@@ -6229,6 +7013,12 @@
         "note": "'For your information': less about preparing."
       }
     ],
+    "antonyms": [
+      {
+        "term": "a bolt from the blue",
+        "note": "Something completely unexpected, with no warning."
+      }
+    ],
     "origin": "From the call to look up (lift your head) and watch out.",
     "upgrade": {
       "plain": "I'm telling you now so you're ready: the meeting has moved.",
@@ -6272,6 +7062,11 @@
       {
         "term": "check in",
         "note": "Brief contact to see how things are."
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "lose touch"
       }
     ],
     "commonMistake": "Some find it corporate jargon; in casual British speech 'catch up' or 'have a quick chat' sounds warmer.",
@@ -6323,6 +7118,14 @@
       {
         "term": "a lot to take in",
         "note": "Plainer and more personal."
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "plain sailing"
+      },
+      {
+        "term": "a doddle"
       }
     ],
     "commonMistake": "Technically a steep curve means fast learning, but in everyday use it means 'hard to learn', and that's how everyone understands it.",
@@ -6476,6 +7279,15 @@
         "note": "Formal."
       }
     ],
+    "antonyms": [
+      {
+        "term": "put the brakes on",
+        "note": "Slow or stop something."
+      },
+      {
+        "term": "wrap up"
+      }
+    ],
     "origin": "Probably from ball games that begin when the ball is put into play.",
     "forms": ["got the ball rolling", "getting the ball rolling", "start the ball rolling"],
     "upgrade": {
@@ -6530,6 +7342,15 @@
         "note": "Neutral."
       }
     ],
+    "antonyms": [
+      {
+        "term": "at odds"
+      },
+      {
+        "term": "at cross purposes",
+        "note": "Misunderstanding each other without realising."
+      }
+    ],
     "origin": "From everyone reading from the same page in a book or script.",
     "upgrade": {
       "plain": "I want to check we all understand the plan the same way.",
@@ -6579,6 +7400,15 @@
         "note": "Unclear and possibly a bit dishonest."
       }
     ],
+    "antonyms": [
+      {
+        "term": "black and white",
+        "note": "Clear-cut, with an obvious right answer."
+      },
+      {
+        "term": "clear-cut"
+      }
+    ],
     "commonMistake": "British spelling: 'grey'; 'gray' is American.",
     "origin": "Neither black nor white: between clear right and wrong.",
     "upgrade": {
@@ -6625,6 +7455,15 @@
         "note": "Accept the consequences of your actions."
       }
     ],
+    "antonyms": [
+      {
+        "term": "bury your head in the sand",
+        "note": "Refuse to face a problem."
+      },
+      {
+        "term": "put it off"
+      }
+    ],
     "origin": "Popularly said to come from patients biting a bullet during surgery without anaesthetic.",
     "forms": ["bit the bullet", "biting the bullet", "bites the bullet"],
     "upgrade": {
@@ -6669,6 +7508,14 @@
       {
         "term": "take shortcuts",
         "note": "Neutral; not always negative."
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "go the extra mile"
+      },
+      {
+        "term": "do things properly"
       }
     ],
     "origin": "From taking the shortest route by going across a corner instead of around it.",
@@ -6719,6 +7566,14 @@
       {
         "term": "make an extra effort",
         "note": "Plainer."
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "cut corners"
+      },
+      {
+        "term": "do the bare minimum"
       }
     ],
     "origin": "From the Sermon on the Mount: 'whoever compels you to go one mile, go with him two'.",
@@ -6810,6 +7665,15 @@
       {
         "term": "start strongly",
         "note": "Plainer."
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "get off to a slow start"
+      },
+      {
+        "term": "find your feet",
+        "note": "Settle in gradually."
       }
     ],
     "origin": "Possibly military: soldiers landing from aircraft and moving straight away.",
@@ -6907,6 +7771,17 @@
         "note": "British: bring something to an end, like last orders in a pub."
       }
     ],
+    "antonyms": [
+      {
+        "term": "soldier on"
+      },
+      {
+        "term": "keep going"
+      },
+      {
+        "term": "burn the midnight oil"
+      }
+    ],
     "origin": "Originally 'call it half a day', from at least the 19th century.",
     "forms": ["called it a day", "calling it a day"],
     "upgrade": {
@@ -6957,6 +7832,18 @@
         "note": "Neutral and polite."
       }
     ],
+    "antonyms": [
+      {
+        "term": "right as rain",
+        "note": "British: perfectly well again."
+      },
+      {
+        "term": "fit as a fiddle"
+      },
+      {
+        "term": "on top form"
+      }
+    ],
     "origin": "Possibly nautical: seasick passengers went below deck, away from the weather.",
     "upgrade": {
       "plain": "I'm feeling a little ill today.",
@@ -7000,6 +7887,12 @@
       {
         "term": "a happy accident",
         "note": "Something good that happened by chance."
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "a poisoned chalice",
+        "note": "Something that seems good but brings trouble."
       }
     ],
     "origin": "From an 18th-century hymn by James Hervey.",
@@ -7051,6 +7944,14 @@
         "note": "More formal."
       }
     ],
+    "antonyms": [
+      {
+        "term": "plan ahead"
+      },
+      {
+        "term": "stick to the script"
+      }
+    ],
     "origin": "From playing music by listening, without written notes.",
     "upgrade": {
       "plain": "We'll decide later depending on what happens.",
@@ -7098,6 +7999,14 @@
       {
         "term": "copy someone in",
         "note": "Specifically on emails."
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "keep someone in the dark"
+      },
+      {
+        "term": "leave someone out of the loop"
       }
     ],
     "origin": "From a communication loop: being part of the circle of people who get information.",
@@ -7202,6 +8111,12 @@
       {
         "term": "stir up trouble",
         "note": "Plainer; often deliberate."
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "let sleeping dogs lie",
+        "note": "Avoid stirring up an old problem."
       }
     ],
     "origin": "From fishing bait: once opened, worms wriggle everywhere and are hard to contain.",
@@ -7359,6 +8274,14 @@
         "note": "British: present for discussion; American: postpone!"
       }
     ],
+    "antonyms": [
+      {
+        "term": "withdraw"
+      },
+      {
+        "term": "drop"
+      }
+    ],
     "otherMeanings": [
       {
         "meaning": "To move an event to an earlier time, or a clock to a later one.",
@@ -7418,6 +8341,14 @@
       {
         "term": "pursue",
         "note": "Formal; keep trying."
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "drop"
+      },
+      {
+        "term": "let something slide"
       }
     ],
     "commonMistake": "Verb: 'follow up' (two words). Noun/adjective: 'follow-up' (a follow-up email).",
@@ -7526,6 +8457,15 @@
         "note": "Improve something already quite good."
       }
     ],
+    "antonyms": [
+      {
+        "term": "get rusty",
+        "note": "Let a skill fade through lack of use."
+      },
+      {
+        "term": "let slip"
+      }
+    ],
     "origin": "From brushing dust off something you haven't used for a while.",
     "forms": ["brushed up on", "brushing up on", "brush up"],
     "upgrade": {
@@ -7574,6 +8514,14 @@
       {
         "term": "master",
         "note": "Learn completely; stronger."
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "flounder"
+      },
+      {
+        "term": "be out of your depth"
       }
     ],
     "origin": "From wrestling: taking hold of your opponent.",
@@ -7626,6 +8574,12 @@
         "note": "Informal: think about slowly."
       }
     ],
+    "antonyms": [
+      {
+        "term": "rush into",
+        "note": "Decide without thinking it through."
+      }
+    ],
     "origin": "From weighing goods on scales: which side is heavier?",
     "forms": ["weighed up", "weighing up", "weighs up"],
     "upgrade": {
@@ -7674,6 +8628,14 @@
       {
         "term": "develop",
         "note": "Broader."
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "pare back"
+      },
+      {
+        "term": "condense"
       }
     ],
     "origin": "From adding flesh to a skeleton.",
@@ -7728,6 +8690,14 @@
       {
         "term": "dismiss",
         "note": "Reject, sometimes too quickly."
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "rule in"
+      },
+      {
+        "term": "keep on the table"
       }
     ],
     "origin": "From drawing a line through something with a ruler.",
@@ -7888,6 +8858,17 @@
         "note": "Formal: pay attention to advice."
       }
     ],
+    "antonyms": [
+      {
+        "term": "ignore"
+      },
+      {
+        "term": "dismiss"
+      },
+      {
+        "term": "brush aside"
+      }
+    ],
     "commonMistake": "Very common in British English and polite, but used too often it can sound like you're dismissing a point. Follow it with what you'll actually do.",
     "origin": "Nautical: loading cargo onto a ship.",
     "forms": [
@@ -7946,6 +8927,14 @@
         "note": "Adjective: seeming difficult and intimidating."
       }
     ],
+    "antonyms": [
+      {
+        "term": "a doddle"
+      },
+      {
+        "term": "child's play"
+      }
+    ],
     "origin": "'Tall' in old American slang meant excessive or exaggerated.",
     "upgrade": {
       "plain": "Finishing it by Friday will be very difficult.",
@@ -7983,16 +8972,25 @@
     "collocations": ["don't beat about the bush", "stop beating about the bush"],
     "synonyms": [
       {
-        "term": "get to the point",
-        "note": "The opposite action; plain."
-      },
-      {
         "term": "skirt around the issue",
         "note": "Avoid the main topic."
       },
       {
         "term": "prevaricate",
         "note": "Formal: avoid giving a direct answer."
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "get to the point",
+        "note": "Plain and direct: say what you mean straight away."
+      },
+      {
+        "term": "cut to the chase"
+      },
+      {
+        "term": "not mince your words",
+        "note": "Say exactly what you think, however blunt."
       }
     ],
     "commonMistake": "British English says 'beat about the bush'; American English usually says 'beat around the bush'.",
@@ -8046,6 +9044,14 @@
         "note": "Formal."
       }
     ],
+    "antonyms": [
+      {
+        "term": "get the gist"
+      },
+      {
+        "term": "get the picture"
+      }
+    ],
     "origin": "Typically British; the exact origin is uncertain.",
     "forms": ["got the wrong end of the stick", "getting the wrong end of the stick"],
     "upgrade": {
@@ -8090,6 +9096,15 @@
       {
         "term": "not to my taste",
         "note": "Slightly more formal."
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "right up my street",
+        "note": "British: exactly what I like."
+      },
+      {
+        "term": "my thing"
       }
     ],
     "origin": "British: from the 1900s, when 'my cup of tea' meant something you liked.",
@@ -8142,6 +9157,14 @@
         "note": "Formal."
       }
     ],
+    "antonyms": [
+      {
+        "term": "wide of the mark"
+      },
+      {
+        "term": "way off"
+      }
+    ],
     "origin": "From hitting the exact spot on a target.",
     "upgrade": {
       "plain": "Your answer is exactly right.",
@@ -8185,6 +9208,14 @@
       {
         "term": "scope creep",
         "note": "In projects: the requirements gradually grow."
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "stick to the brief"
+      },
+      {
+        "term": "play by the rules"
       }
     ],
     "origin": "From football: moving the goal makes scoring unfairly harder.",
@@ -8237,6 +9268,14 @@
         "note": "British business: set aside to discuss later."
       }
     ],
+    "antonyms": [
+      {
+        "term": "top priority"
+      },
+      {
+        "term": "full steam ahead"
+      }
+    ],
     "origin": "From cooking: pans on the back of the stove simmer while you focus on the front.",
     "forms": ["on the back-burner", "back-burner"],
     "upgrade": {
@@ -8285,6 +9324,17 @@
       {
         "term": "over the moon",
         "note": "Even happier; a common idiom."
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "gutted"
+      },
+      {
+        "term": "fed up"
+      },
+      {
+        "term": "cheesed off"
       }
     ],
     "commonMistake": "Great with colleagues you know, but too casual for a formal report.",
@@ -8337,6 +9387,18 @@
         "note": "Gentler and slightly less informal."
       }
     ],
+    "antonyms": [
+      {
+        "term": "full of beans",
+        "note": "British: lively and energetic."
+      },
+      {
+        "term": "fresh"
+      },
+      {
+        "term": "raring to go"
+      }
+    ],
     "commonMistake": "Very informal: fine with friends and close colleagues, but avoid it with parents or clients.",
     "origin": "Possibly from 'knacker', a person who bought worn-out horses.",
     "upgrade": {
@@ -8385,6 +9447,17 @@
       {
         "term": "crestfallen",
         "note": "Literary; visibly sad."
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "chuffed"
+      },
+      {
+        "term": "over the moon"
+      },
+      {
+        "term": "made up"
       }
     ],
     "otherMeanings": [
@@ -8494,6 +9567,18 @@
         "note": "Short of money for now."
       }
     ],
+    "antonyms": [
+      {
+        "term": "loaded"
+      },
+      {
+        "term": "minted"
+      },
+      {
+        "term": "flush",
+        "note": "Informal: having plenty of money right now."
+      }
+    ],
     "commonMistake": "Fine about yourself, but avoid describing other people as 'skint' in formal settings.",
     "origin": "A variant of 'skinned': as if stripped bare.",
     "upgrade": {
@@ -8544,6 +9629,15 @@
         "note": "Extremely hungry; more formal."
       }
     ],
+    "antonyms": [
+      {
+        "term": "full"
+      },
+      {
+        "term": "stuffed",
+        "note": "Informal: very full."
+      }
+    ],
     "origin": "From 'peck', like a bird pecking at food.",
     "upgrade": {
       "plain": "I'm a little hungry.",
@@ -8591,6 +9685,14 @@
       {
         "term": "done and dusted",
         "note": "British: completely finished."
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "up in the air"
+      },
+      {
+        "term": "a mess"
       }
     ],
     "otherMeanings": [
@@ -8651,6 +9753,17 @@
       {
         "term": "sassy",
         "note": "American-influenced; confident and bold."
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "polite"
+      },
+      {
+        "term": "respectful"
+      },
+      {
+        "term": "deferential"
       }
     ],
     "commonMistake": "'A cheeky favour' politely admits you're asking a lot.",
@@ -8748,6 +9861,17 @@
       {
         "term": "child's play",
         "note": "So easy a child could do it."
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "a tall order"
+      },
+      {
+        "term": "a nightmare"
+      },
+      {
+        "term": "a slog"
       }
     ],
     "origin": "Possibly from 'doddle', to toddle along: an easy stroll.",
@@ -8900,6 +10024,17 @@
         "note": "Shocked into silence; can be negative."
       }
     ],
+    "antonyms": [
+      {
+        "term": "unfazed"
+      },
+      {
+        "term": "unsurprised"
+      },
+      {
+        "term": "unimpressed"
+      }
+    ],
     "origin": "'Gob' is British slang for mouth: like clapping a hand over your mouth in shock.",
     "upgrade": {
       "plain": "I was really surprised by the result.",
@@ -8994,6 +10129,14 @@
       {
         "term": "go south",
         "note": "American-influenced; get worse."
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "go to plan"
+      },
+      {
+        "term": "go swimmingly"
       }
     ],
     "origin": "Possibly RAF slang from the 1940s: a badly flown loop ends up pear-shaped rather than round.",
@@ -9094,6 +10237,12 @@
       {
         "term": "OK",
         "note": "Plain; less sense of conceding."
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "come off it",
+        "note": "Informal: I don't accept that."
       }
     ],
     "otherMeanings": [
@@ -9200,6 +10349,14 @@
       {
         "term": "decent",
         "note": "Solid and acceptable."
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "rubbish"
+      },
+      {
+        "term": "a bit naff"
       }
     ],
     "origin": "'Shabby' means worn or poor quality; denying it is typical British understatement.",
@@ -9319,6 +10476,18 @@
         "note": "Judgemental; avoid about others."
       }
     ],
+    "antonyms": [
+      {
+        "term": "keen"
+      },
+      {
+        "term": "up for it",
+        "note": "Informal: ready and willing."
+      },
+      {
+        "term": "raring to go"
+      }
+    ],
     "commonMistake": "Said about others it can sound critical; say it about yourself, with a smile.",
     "origin": "From 'bother', to take trouble over something.",
     "forms": ["couldn't be bothered", "could be bothered", "can be bothered"],
@@ -9368,6 +10537,15 @@
       {
         "term": "whatever suits you",
         "note": "Polite, puts the other person first."
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "fussy"
+      },
+      {
+        "term": "particular",
+        "note": "Having firm preferences."
       }
     ],
     "origin": "From 'easy' in the sense of relaxed or untroubled.",
@@ -9481,6 +10659,17 @@
         "note": "American equivalent of the noun."
       }
     ],
+    "antonyms": [
+      {
+        "term": "brilliant"
+      },
+      {
+        "term": "cracking"
+      },
+      {
+        "term": "top-notch"
+      }
+    ],
     "otherMeanings": [
       {
         "meaning": "(verb) To criticise something harshly, or dismiss it as worthless.",
@@ -9539,6 +10728,14 @@
       {
         "term": "a headache",
         "note": "A problem that needs solving."
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "a doddle"
+      },
+      {
+        "term": "plain sailing"
       }
     ],
     "origin": "The softening 'a bit of' is pure British understatement: it's usually a full nightmare.",
@@ -9649,6 +10846,15 @@
         "note": "British: very easy."
       }
     ],
+    "antonyms": [
+      {
+        "term": "a tall order"
+      },
+      {
+        "term": "fiddly",
+        "note": "British: awkward and needing care."
+      }
+    ],
     "commonMistake": "Can sound dismissive if someone is struggling. Use it about tasks, not people.",
     "origin": "From the late 20th century, when rocket science stood for the hardest work imaginable.",
     "forms": ["isn't rocket science", "not rocket science", "hardly rocket science"],
@@ -9698,6 +10904,14 @@
       {
         "term": "a curveball",
         "note": "American-influenced: an unexpected problem."
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "smooth the way"
+      },
+      {
+        "term": "grease the wheels"
       }
     ],
     "commonMistake": "British English says 'spanner'; American English says 'throw a (monkey) wrench in the works'.",
@@ -9754,6 +10968,15 @@
       {
         "term": "wing it",
         "note": "Improvise without preparation."
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "sail through",
+        "note": "Succeed easily."
+      },
+      {
+        "term": "excel"
       }
     ],
     "origin": "Often called a very British ideal: getting there in the end without fuss or a plan.",
@@ -9918,6 +11141,17 @@
         "note": "stronger and more literary"
       }
     ],
+    "antonyms": [
+      {
+        "term": "rare"
+      },
+      {
+        "term": "scarce"
+      },
+      {
+        "term": "few and far between"
+      }
+    ],
     "origin": "Latin 'ubique', everywhere.",
     "upgrade": {
       "plain": "You see these electric scooters everywhere now.",
@@ -9961,6 +11195,17 @@
       {
         "term": "conscientious",
         "note": "about doing your duty well"
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "unscrupulous"
+      },
+      {
+        "term": "dishonest"
+      },
+      {
+        "term": "careless"
       }
     ],
     "origin": "Latin 'scrupulus', a small sharp stone: something that pricks your conscience.",
@@ -10009,6 +11254,17 @@
         "note": "plainer"
       }
     ],
+    "antonyms": [
+      {
+        "term": "essential"
+      },
+      {
+        "term": "necessary"
+      },
+      {
+        "term": "indispensable"
+      }
+    ],
     "commonMistake": "Stress the second syllable: soo-PER-floo-us.",
     "origin": "Latin 'superfluus', overflowing.",
     "upgrade": {
@@ -10053,6 +11309,17 @@
       {
         "term": "stingy",
         "note": "negative: unwilling to spend"
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "extravagant"
+      },
+      {
+        "term": "wasteful"
+      },
+      {
+        "term": "lavish"
       }
     ],
     "forms": ["frugally"],
@@ -10100,6 +11367,17 @@
         "note": "smooth, but not necessarily persuasive"
       }
     ],
+    "antonyms": [
+      {
+        "term": "inarticulate"
+      },
+      {
+        "term": "tongue-tied"
+      },
+      {
+        "term": "halting"
+      }
+    ],
     "forms": ["eloquently", "eloquence"],
     "upgrade": {
       "plain": "She spoke really well and convincingly at the meeting.",
@@ -10145,6 +11423,17 @@
         "note": "lacking interest as well as energy"
       }
     ],
+    "antonyms": [
+      {
+        "term": "energetic"
+      },
+      {
+        "term": "lively"
+      },
+      {
+        "term": "full of beans"
+      }
+    ],
     "upgrade": {
       "plain": "I've had no energy all week.",
       "model": "I've felt lethargic all week."
@@ -10187,6 +11476,17 @@
       {
         "term": "indifferent",
         "note": "actually not caring, not just seeming not to"
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "anxious"
+      },
+      {
+        "term": "flustered"
+      },
+      {
+        "term": "concerned"
       }
     ],
     "origin": "French 'non chalant', not being concerned.",
@@ -10235,6 +11535,17 @@
         "note": "similar, slightly more formal"
       }
     ],
+    "antonyms": [
+      {
+        "term": "flawed"
+      },
+      {
+        "term": "sloppy"
+      },
+      {
+        "term": "shoddy"
+      }
+    ],
     "origin": "Latin 'impeccabilis', not liable to sin.",
     "forms": ["impeccably"],
     "upgrade": {
@@ -10279,6 +11590,17 @@
       {
         "term": "inescapable",
         "note": "stronger, often of unpleasant things"
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "avoidable"
+      },
+      {
+        "term": "unlikely"
+      },
+      {
+        "term": "uncertain"
       }
     ],
     "forms": ["inevitably"],
@@ -10326,6 +11648,14 @@
         "note": "plainer"
       }
     ],
+    "antonyms": [
+      {
+        "term": "acquired"
+      },
+      {
+        "term": "learnt"
+      }
+    ],
     "upgrade": {
       "plain": "She was born with a gift for music.",
       "model": "She has an innate gift for music."
@@ -10368,6 +11698,17 @@
       {
         "term": "capricious",
         "note": "changeable and unpredictable, of people"
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "reasoned"
+      },
+      {
+        "term": "principled"
+      },
+      {
+        "term": "systematic"
       }
     ],
     "commonMistake": "Four syllables in careful British speech: AH-bi-truh-ree.",
@@ -10416,6 +11757,17 @@
         "note": "about giving to those in need"
       }
     ],
+    "antonyms": [
+      {
+        "term": "malevolent"
+      },
+      {
+        "term": "cruel"
+      },
+      {
+        "term": "spiteful"
+      }
+    ],
     "origin": "Latin 'bene volens', wishing well.",
     "upgrade": {
       "plain": "He's a kind, generous boss.",
@@ -10459,6 +11811,17 @@
       {
         "term": "blunt",
         "note": "direct, but not necessarily rude"
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "courteous"
+      },
+      {
+        "term": "warm"
+      },
+      {
+        "term": "gracious"
       }
     ],
     "forms": ["brusquely"],
@@ -10506,6 +11869,14 @@
         "note": "similar, less about ignoring risks"
       }
     ],
+    "antonyms": [
+      {
+        "term": "vigilant"
+      },
+      {
+        "term": "self-critical"
+      }
+    ],
     "forms": ["complacency"],
     "upgrade": {
       "plain": "We stopped trying because we thought we'd already done enough.",
@@ -10549,6 +11920,17 @@
       {
         "term": "dutiful",
         "note": "doing what is expected, sometimes reluctantly"
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "careless"
+      },
+      {
+        "term": "negligent"
+      },
+      {
+        "term": "slapdash"
       }
     ],
     "commonMistake": "Easy to misspell: con-sci-en-tious, with 'science' hiding in the middle.",
@@ -10596,6 +11978,17 @@
         "note": "tired and cynical from experience"
       }
     ],
+    "antonyms": [
+      {
+        "term": "idealistic"
+      },
+      {
+        "term": "trusting"
+      },
+      {
+        "term": "optimistic"
+      }
+    ],
     "upgrade": {
       "plain": "I don't trust that the offer is as good as it seems.",
       "model": "I'm cynical about the offer."
@@ -10640,6 +12033,17 @@
         "note": "impressively difficult"
       }
     ],
+    "antonyms": [
+      {
+        "term": "reassuring"
+      },
+      {
+        "term": "manageable"
+      },
+      {
+        "term": "easy"
+      }
+    ],
     "upgrade": {
       "plain": "The task seemed scary and difficult at first.",
       "model": "The task seemed daunting at first."
@@ -10682,6 +12086,17 @@
       {
         "term": "dissuade",
         "note": "by persuasion rather than fear"
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "encourage"
+      },
+      {
+        "term": "motivate"
+      },
+      {
+        "term": "prompt"
       }
     ],
     "forms": ["deters", "deterred", "deterring", "deterrent"],
@@ -10729,6 +12144,17 @@
         "note": "about size, not number"
       }
     ],
+    "antonyms": [
+      {
+        "term": "grow"
+      },
+      {
+        "term": "increase"
+      },
+      {
+        "term": "flourish"
+      }
+    ],
     "forms": ["dwindles", "dwindled", "dwindling"],
     "upgrade": {
       "plain": "The number of volunteers has slowly got smaller.",
@@ -10772,6 +12198,14 @@
       {
         "term": "slippery",
         "note": "informal; hard to pin down"
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "attainable"
+      },
+      {
+        "term": "within reach"
       }
     ],
     "upgrade": {
@@ -10863,6 +12297,17 @@
         "note": "passing; often of people or states"
       }
     ],
+    "antonyms": [
+      {
+        "term": "lasting"
+      },
+      {
+        "term": "permanent"
+      },
+      {
+        "term": "enduring"
+      }
+    ],
     "origin": "Greek 'ephēmeros', lasting only a day.",
     "upgrade": {
       "plain": "Their fame didn't last long at all.",
@@ -10906,6 +12351,17 @@
       {
         "term": "unpredictable",
         "note": "broader"
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "consistent"
+      },
+      {
+        "term": "steady"
+      },
+      {
+        "term": "predictable"
       }
     ],
     "upgrade": {
@@ -10952,6 +12408,17 @@
         "note": "informal and less flattering"
       }
     ],
+    "antonyms": [
+      {
+        "term": "slapdash"
+      },
+      {
+        "term": "careless"
+      },
+      {
+        "term": "slovenly"
+      }
+    ],
     "upgrade": {
       "plain": "He's very fussy about keeping his desk tidy.",
       "model": "He's fastidious about his desk."
@@ -10994,6 +12461,17 @@
       {
         "term": "practicable",
         "note": "formal; able to be done"
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "unfeasible"
+      },
+      {
+        "term": "impractical"
+      },
+      {
+        "term": "unworkable"
       }
     ],
     "upgrade": {
@@ -11040,6 +12518,17 @@
         "note": "literary; sudden changes"
       }
     ],
+    "antonyms": [
+      {
+        "term": "loyal"
+      },
+      {
+        "term": "constant"
+      },
+      {
+        "term": "steadfast"
+      }
+    ],
     "upgrade": {
       "plain": "The weather keeps changing its mind.",
       "model": "The weather is fickle."
@@ -11082,6 +12571,17 @@
       {
         "term": "outgoing",
         "note": "friendly and confident"
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "shy"
+      },
+      {
+        "term": "introverted"
+      },
+      {
+        "term": "reserved"
       }
     ],
     "origin": "Latin 'grex', flock: like a sheep that stays with the flock.",
@@ -11129,6 +12629,17 @@
         "note": "careless and hurried"
       }
     ],
+    "antonyms": [
+      {
+        "term": "systematic"
+      },
+      {
+        "term": "methodical"
+      },
+      {
+        "term": "organised"
+      }
+    ],
     "origin": "From 'hap', luck, and 'hazard', chance.",
     "forms": ["haphazardly"],
     "upgrade": {
@@ -11173,6 +12684,17 @@
       {
         "term": "busy",
         "note": "plainer"
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "calm"
+      },
+      {
+        "term": "quiet"
+      },
+      {
+        "term": "leisurely"
       }
     ],
     "upgrade": {
@@ -11265,6 +12787,14 @@
         "note": "a reward that motivates"
       }
     ],
+    "antonyms": [
+      {
+        "term": "deterrent"
+      },
+      {
+        "term": "hindrance"
+      }
+    ],
     "upgrade": {
       "plain": "The deadline pushed me to get started.",
       "model": "The deadline gave me the impetus to start."
@@ -11307,6 +12837,17 @@
       {
         "term": "relentless",
         "note": "harsh and unstoppable"
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "occasional"
+      },
+      {
+        "term": "intermittent"
+      },
+      {
+        "term": "sporadic"
       }
     ],
     "forms": ["incessantly"],
@@ -11352,6 +12893,17 @@
       {
         "term": "pamper",
         "note": "care for luxuriously"
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "deny yourself"
+      },
+      {
+        "term": "abstain"
+      },
+      {
+        "term": "resist"
       }
     ],
     "forms": ["indulges", "indulged", "indulging", "indulgent"],
@@ -11445,6 +12997,17 @@
         "note": "weaken, often security or principles"
       }
     ],
+    "antonyms": [
+      {
+        "term": "protect"
+      },
+      {
+        "term": "safeguard"
+      },
+      {
+        "term": "secure"
+      }
+    ],
     "commonMistake": "British spelling: jeopardise (with -ise).",
     "forms": ["jeopardises", "jeopardised", "jeopardising"],
     "upgrade": {
@@ -11489,6 +13052,17 @@
       {
         "term": "coherent",
         "note": "logical and consistent"
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "confused"
+      },
+      {
+        "term": "muddled"
+      },
+      {
+        "term": "opaque"
       }
     ],
     "otherMeanings": [
@@ -11542,6 +13116,17 @@
         "note": "barely enough"
       }
     ],
+    "antonyms": [
+      {
+        "term": "generous"
+      },
+      {
+        "term": "ample"
+      },
+      {
+        "term": "plentiful"
+      }
+    ],
     "commonMistake": "British spelling: meagre (American: meager).",
     "upgrade": {
       "plain": "The pay is very low.",
@@ -11587,6 +13172,17 @@
         "note": "neutral"
       }
     ],
+    "antonyms": [
+      {
+        "term": "exciting"
+      },
+      {
+        "term": "extraordinary"
+      },
+      {
+        "term": "remarkable"
+      }
+    ],
     "upgrade": {
       "plain": "Most of my job is boring everyday stuff.",
       "model": "Most of my job is mundane."
@@ -11629,6 +13225,12 @@
       {
         "term": "wistful",
         "note": "sad, longing"
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "forward-looking",
+        "note": "Interested in the future rather than the past."
       }
     ],
     "forms": ["nostalgia"],
@@ -11676,6 +13278,17 @@
         "note": "no longer existing or working"
       }
     ],
+    "antonyms": [
+      {
+        "term": "current"
+      },
+      {
+        "term": "up to date"
+      },
+      {
+        "term": "cutting-edge"
+      }
+    ],
     "upgrade": {
       "plain": "Nobody uses fax machines any more.",
       "model": "Fax machines are obsolete."
@@ -11718,6 +13331,17 @@
       {
         "term": "foreboding",
         "note": "literary; a feeling of doom"
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "promising"
+      },
+      {
+        "term": "reassuring"
+      },
+      {
+        "term": "auspicious"
       }
     ],
     "upgrade": {
@@ -11764,6 +13388,17 @@
         "note": "plainer, weaker"
       }
     ],
+    "antonyms": [
+      {
+        "term": "imperceptible"
+      },
+      {
+        "term": "subtle"
+      },
+      {
+        "term": "faint"
+      }
+    ],
     "upgrade": {
       "plain": "You could really feel the tension in the room.",
       "model": "The tension in the room was palpable."
@@ -11808,6 +13443,17 @@
         "note": "main"
       }
     ],
+    "antonyms": [
+      {
+        "term": "minor"
+      },
+      {
+        "term": "secondary"
+      },
+      {
+        "term": "trivial"
+      }
+    ],
     "upgrade": {
       "plain": "Safety is the most important thing.",
       "model": "Safety is paramount."
@@ -11850,6 +13496,15 @@
       {
         "term": "browse",
         "note": "read or look casually"
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "skim",
+        "note": "'Peruse' is often misused to mean 'skim', its opposite."
+      },
+      {
+        "term": "glance at"
       }
     ],
     "otherMeanings": [
@@ -11950,6 +13605,17 @@
         "note": "informal"
       }
     ],
+    "antonyms": [
+      {
+        "term": "secure"
+      },
+      {
+        "term": "stable"
+      },
+      {
+        "term": "safe"
+      }
+    ],
     "forms": ["precariously"],
     "upgrade": {
       "plain": "The vase was balanced so that it might fall.",
@@ -11993,6 +13659,15 @@
       {
         "term": "dither",
         "note": "hesitate, unable to decide"
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "get on with it"
+      },
+      {
+        "term": "crack on",
+        "note": "British, informal: get going."
       }
     ],
     "origin": "Latin 'cras', tomorrow.",
@@ -12039,6 +13714,11 @@
       {
         "term": "fertile",
         "note": "rich in ideas or growth"
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "unproductive"
       }
     ],
     "upgrade": {
@@ -12129,6 +13809,17 @@
         "note": "a natural liking"
       }
     ],
+    "antonyms": [
+      {
+        "term": "friction"
+      },
+      {
+        "term": "hostility"
+      },
+      {
+        "term": "tension"
+      }
+    ],
     "commonMistake": "The final 't' is silent: ra-PAW.",
     "upgrade": {
       "plain": "We get on really well.",
@@ -12172,6 +13863,17 @@
       {
         "term": "square",
         "note": "informal: make two things match"
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "alienate"
+      },
+      {
+        "term": "drive apart"
+      },
+      {
+        "term": "fall out"
       }
     ],
     "forms": ["reconciles", "reconciled", "reconciling", "reconciliation"],
@@ -12219,6 +13921,14 @@
         "note": "formal; never easing"
       }
     ],
+    "antonyms": [
+      {
+        "term": "intermittent"
+      },
+      {
+        "term": "sporadic"
+      }
+    ],
     "forms": ["relentlessly"],
     "upgrade": {
       "plain": "The pressure never seems to stop.",
@@ -12262,6 +13972,17 @@
       {
         "term": "top up",
         "note": "informal, British"
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "deplete"
+      },
+      {
+        "term": "use up"
+      },
+      {
+        "term": "exhaust"
       }
     ],
     "forms": ["replenishes", "replenished", "replenishing"],
@@ -12309,6 +14030,17 @@
         "note": "loyal and unwavering"
       }
     ],
+    "antonyms": [
+      {
+        "term": "irresolute"
+      },
+      {
+        "term": "wavering"
+      },
+      {
+        "term": "indecisive"
+      }
+    ],
     "forms": ["resolutely"],
     "upgrade": {
       "plain": "She stayed firm and didn't change her mind.",
@@ -12352,6 +14084,17 @@
       {
         "term": "cynical",
         "note": "distrusts people's motives"
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "credulous"
+      },
+      {
+        "term": "gullible"
+      },
+      {
+        "term": "convinced"
       }
     ],
     "commonMistake": "British spelling: sceptical (American: skeptical).",
@@ -12400,6 +14143,14 @@
         "note": "a chance event, not necessarily good"
       }
     ],
+    "antonyms": [
+      {
+        "term": "misfortune"
+      },
+      {
+        "term": "bad luck"
+      }
+    ],
     "origin": "Coined by Horace Walpole in 1754, after the fairy tale 'The Three Princes of Serendip'.",
     "forms": ["serendipitous"],
     "upgrade": {
@@ -12444,6 +14195,17 @@
       {
         "term": "fritter away",
         "note": "waste gradually on small things"
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "save"
+      },
+      {
+        "term": "conserve"
+      },
+      {
+        "term": "make the most of"
       }
     ],
     "forms": ["squanders", "squandered", "squandering"],
@@ -12491,6 +14253,14 @@
         "note": "stubbornly determined"
       }
     ],
+    "antonyms": [
+      {
+        "term": "half-hearted"
+      },
+      {
+        "term": "easily discouraged"
+      }
+    ],
     "forms": ["tenacity"],
     "upgrade": {
       "plain": "She never gives up until she gets the answer.",
@@ -12534,6 +14304,17 @@
       {
         "term": "unheard of",
         "note": "informal"
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "commonplace"
+      },
+      {
+        "term": "routine"
+      },
+      {
+        "term": "familiar"
       }
     ],
     "commonMistake": "Overused in the news; save it for real firsts.",
@@ -12581,6 +14362,14 @@
         "note": "clear of blame, formally"
       }
     ],
+    "antonyms": [
+      {
+        "term": "discredit"
+      },
+      {
+        "term": "condemn"
+      }
+    ],
     "forms": ["vindicates", "vindicated", "vindicating"],
     "upgrade": {
       "plain": "The results proved I was right.",
@@ -12626,6 +14415,17 @@
         "note": "informal adjective: expensive"
       }
     ],
+    "antonyms": [
+      {
+        "term": "cost next to nothing"
+      },
+      {
+        "term": "dirt cheap"
+      },
+      {
+        "term": "a bargain"
+      }
+    ],
     "forms": ["costs an arm and a leg", "costing an arm and a leg"],
     "upgrade": {
       "plain": "The repairs were really expensive.",
@@ -12669,6 +14469,17 @@
       {
         "term": "hardly ever",
         "note": "everyday"
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "all the time"
+      },
+      {
+        "term": "every other day"
+      },
+      {
+        "term": "constantly"
       }
     ],
     "origin": "A 'blue moon' is a second full moon in one calendar month: a rare event.",
@@ -12760,6 +14571,14 @@
         "note": "identify something exactly"
       }
     ],
+    "antonyms": [
+      {
+        "term": "miss the point"
+      },
+      {
+        "term": "wide of the mark"
+      }
+    ],
     "forms": ["hits the nail on the head"],
     "upgrade": {
       "plain": "You've described the problem exactly.",
@@ -12803,6 +14622,15 @@
       {
         "term": "give the game away",
         "note": "reveal a plan or secret"
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "keep it under your hat",
+        "note": "British: keep a secret."
+      },
+      {
+        "term": "keep mum"
       }
     ],
     "forms": ["lets the cat out of the bag", "letting the cat out of the bag"],
@@ -12895,6 +14723,14 @@
         "note": "plainer"
       }
     ],
+    "antonyms": [
+      {
+        "term": "knock off early"
+      },
+      {
+        "term": "take it easy"
+      }
+    ],
     "commonMistake": "British English often uses 'burnt' as the past tense; 'burned' is also fine.",
     "forms": ["burnt the midnight oil", "burned the midnight oil", "burning the midnight oil"],
     "upgrade": {
@@ -12939,6 +14775,15 @@
       {
         "term": "in a nutshell",
         "note": "to summarise briefly"
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "beat about the bush"
+      },
+      {
+        "term": "waffle",
+        "note": "British: talk at length without saying much."
       }
     ],
     "origin": "From early films: skip the talking and cut to the exciting chase scene.",
@@ -12986,6 +14831,15 @@
         "note": "informal"
       }
     ],
+    "antonyms": [
+      {
+        "term": "go against the grain",
+        "note": "Do things differently from most people."
+      },
+      {
+        "term": "buck the trend"
+      }
+    ],
     "forms": ["jumped on the bandwagon", "jumping on the bandwagon", "jumps on the bandwagon"],
     "upgrade": {
       "plain": "He started using it just because everyone else was.",
@@ -13025,6 +14879,10 @@
       {
         "term": "two for the price of one",
         "note": "informal, similar idea"
+      },
+      {
+        "term": "do double duty",
+        "note": "Said of a thing that serves two purposes, rather than of an action."
       }
     ],
     "forms": ["kills two birds with one stone", "killed two birds with one stone"],
@@ -13072,6 +14930,15 @@
         "note": "plainer"
       }
     ],
+    "antonyms": [
+      {
+        "term": "strike while the iron is hot",
+        "note": "Act quickly while the chance is there."
+      },
+      {
+        "term": "get in early"
+      }
+    ],
     "forms": ["missed the boat", "missing the boat"],
     "upgrade": {
       "plain": "I was too slow and lost my chance to buy tickets.",
@@ -13115,6 +14982,12 @@
       {
         "term": "have someone on",
         "note": "British: fool someone for fun"
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "level with someone",
+        "note": "Be honest and straight with someone."
       }
     ],
     "forms": ["pulling someone's leg", "pulled someone's leg", "pulls someone's leg"],
@@ -13162,6 +15035,18 @@
         "note": "adjective: not committing"
       }
     ],
+    "antonyms": [
+      {
+        "term": "take a stand"
+      },
+      {
+        "term": "nail your colours to the mast",
+        "note": "British: declare your position publicly."
+      },
+      {
+        "term": "pick a side"
+      }
+    ],
     "forms": ["sits on the fence", "sat on the fence", "sitting on the fence"],
     "upgrade": {
       "plain": "She wouldn't choose a side.",
@@ -13207,6 +15092,12 @@
         "note": "plainer"
       }
     ],
+    "antonyms": [
+      {
+        "term": "fair-weather",
+        "note": "As in 'a fair-weather friend': only there in good times."
+      }
+    ],
     "upgrade": {
       "plain": "She's supported me whatever happened.",
       "model": "She's supported me through thick and thin."
@@ -13249,6 +15140,14 @@
       {
         "term": "spread yourself too thin",
         "note": "do too many things at once"
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "pace yourself"
+      },
+      {
+        "term": "know your limits"
       }
     ],
     "forms": [
@@ -13298,6 +15197,17 @@
       {
         "term": "narrowly",
         "note": "neutral"
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "with room to spare"
+      },
+      {
+        "term": "comfortably"
+      },
+      {
+        "term": "hands down"
       }
     ],
     "forms": [
@@ -13351,6 +15261,12 @@
         "note": "literal"
       }
     ],
+    "antonyms": [
+      {
+        "term": "weather permitting",
+        "note": "Only if conditions allow."
+      }
+    ],
     "upgrade": {
       "plain": "We play football every Sunday whatever the weather.",
       "model": "We play football every Sunday, come rain or shine."
@@ -13393,6 +15309,15 @@
       {
         "term": "chicken out",
         "note": "informal, a bit mocking"
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "take the plunge",
+        "note": "Finally commit to something daunting."
+      },
+      {
+        "term": "go through with it"
       }
     ],
     "forms": ["got cold feet", "getting cold feet", "gets cold feet"],
@@ -13482,6 +15407,15 @@
       {
         "term": "in the doghouse",
         "note": "in disgrace with someone, often a partner"
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "in the clear",
+        "note": "No longer in trouble or under suspicion."
+      },
+      {
+        "term": "off the hook"
       }
     ],
     "upgrade": {
@@ -13574,6 +15508,14 @@
         "note": "informal"
       }
     ],
+    "antonyms": [
+      {
+        "term": "on reflection"
+      },
+      {
+        "term": "having checked"
+      }
+    ],
     "forms": ["off the top of your head"],
     "upgrade": {
       "plain": "I can't be sure without checking, but I think it's Tuesday.",
@@ -13619,6 +15561,15 @@
         "note": "British, informal: alert"
       }
     ],
+    "antonyms": [
+      {
+        "term": "asleep at the wheel",
+        "note": "Not paying attention when you should be."
+      },
+      {
+        "term": "slow on the uptake"
+      }
+    ],
     "upgrade": {
       "plain": "She's very alert and quick to notice things.",
       "model": "She's really on the ball."
@@ -13661,6 +15612,12 @@
       {
         "term": "pick up on",
         "note": "notice something unspoken"
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "take something at face value",
+        "note": "Accept it as it appears, without looking for a hidden meaning."
       }
     ],
     "forms": ["reading between the lines"],
@@ -13753,6 +15710,12 @@
         "note": "the American version"
       }
     ],
+    "antonyms": [
+      {
+        "term": "take something as gospel",
+        "note": "Believe it completely, without question."
+      }
+    ],
     "upgrade": {
       "plain": "Don't completely believe what he says.",
       "model": "Take what he says with a pinch of salt."
@@ -13795,6 +15758,12 @@
       {
         "term": "it dawned on me",
         "note": "more literary"
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "go over someone's head",
+        "note": "Not be understood."
       }
     ],
     "origin": "From coin-operated machines that only worked once the penny had dropped.",
@@ -13843,6 +15812,17 @@
         "note": "stop, often by agreement"
       }
     ],
+    "antonyms": [
+      {
+        "term": "soldier on"
+      },
+      {
+        "term": "stick it out"
+      },
+      {
+        "term": "keep at it"
+      }
+    ],
     "origin": "From boxing: a trainer throws a towel into the ring to concede.",
     "forms": ["threw in the towel", "thrown in the towel", "throwing in the towel"],
     "upgrade": {
@@ -13887,6 +15867,15 @@
       {
         "term": "look the other way",
         "note": "very close"
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "crack down on"
+      },
+      {
+        "term": "call out",
+        "note": "Point out wrongdoing publicly."
       }
     ],
     "origin": "Popularly linked to Nelson, who is said to have put his telescope to his blind eye to ignore a signal.",
@@ -13935,6 +15924,17 @@
         "note": "stuck, waiting"
       }
     ],
+    "antonyms": [
+      {
+        "term": "settled"
+      },
+      {
+        "term": "set in stone"
+      },
+      {
+        "term": "decided"
+      }
+    ],
     "upgrade": {
       "plain": "Our plans haven't been decided yet.",
       "model": "Our plans are up in the air."
@@ -13977,6 +15977,12 @@
       {
         "term": "pull through",
         "note": "survive an illness or difficulty"
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "go under",
+        "note": "Fail, especially of a business."
       }
     ],
     "forms": ["weathered the storm", "weathering the storm"],
@@ -14022,6 +16028,15 @@
       {
         "term": "when hell freezes over",
         "note": "stronger"
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "a dead cert",
+        "note": "British: something certain to happen."
+      },
+      {
+        "term": "a sure thing"
       }
     ],
     "commonMistake": "The British version; Americans often say 'when pigs fly'.",
@@ -14114,6 +16129,11 @@
         "note": "informal: there's much more"
       }
     ],
+    "antonyms": [
+      {
+        "term": "the full extent"
+      }
+    ],
     "upgrade": {
       "plain": "The small problems we can see hide much bigger ones.",
       "model": "These problems are just the tip of the iceberg."
@@ -14202,6 +16222,11 @@
         "note": "plainer"
       }
     ],
+    "antonyms": [
+      {
+        "term": "put off"
+      }
+    ],
     "forms": ["got round to", "getting round to", "gets round to"],
     "upgrade": {
       "plain": "I finally found time to call her.",
@@ -14245,6 +16270,17 @@
       {
         "term": "procrastinate",
         "note": "keep delaying"
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "get on with"
+      },
+      {
+        "term": "get round to"
+      },
+      {
+        "term": "crack on"
       }
     ],
     "otherMeanings": [
@@ -14297,6 +16333,14 @@
       {
         "term": "chill out",
         "note": "informal"
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "gear up"
+      },
+      {
+        "term": "ramp up"
       }
     ],
     "otherMeanings": [
@@ -14443,6 +16487,17 @@
         "note": "British: start enthusiastically"
       }
     ],
+    "antonyms": [
+      {
+        "term": "slack off"
+      },
+      {
+        "term": "mess about"
+      },
+      {
+        "term": "skive"
+      }
+    ],
     "forms": ["knuckled down", "knuckling down"],
     "upgrade": {
       "plain": "It's time to start working hard.",
@@ -14488,6 +16543,17 @@
         "note": "contribute"
       }
     ],
+    "antonyms": [
+      {
+        "term": "shirk"
+      },
+      {
+        "term": "skive"
+      },
+      {
+        "term": "stand back"
+      }
+    ],
     "forms": ["mucked in", "mucking in"],
     "upgrade": {
       "plain": "Everyone helped out with the clean-up.",
@@ -14531,6 +16597,12 @@
       {
         "term": "chew over",
         "note": "informal"
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "dismiss out of hand",
+        "note": "Reject without thinking about it."
       }
     ],
     "forms": ["mulling over", "mulled over", "mulls over"],
@@ -14668,6 +16740,11 @@
         "note": "British: go over the planned time"
       }
     ],
+    "antonyms": [
+      {
+        "term": "fly by"
+      }
+    ],
     "forms": ["dragged on", "drags on", "dragging on"],
     "upgrade": {
       "plain": "The meeting went on for far too long.",
@@ -14758,6 +16835,14 @@
         "note": "formal"
       }
     ],
+    "antonyms": [
+      {
+        "term": "break ranks"
+      },
+      {
+        "term": "go your own way"
+      }
+    ],
     "origin": "From card games: playing a card of the same suit.",
     "forms": ["followed suit", "follows suit"],
     "upgrade": {
@@ -14804,6 +16889,15 @@
         "note": "neutral"
       }
     ],
+    "antonyms": [
+      {
+        "term": "come off",
+        "note": "Informal: succeed, or happen as planned."
+      },
+      {
+        "term": "go ahead"
+      }
+    ],
     "forms": ["fell through", "falls through", "fallen through"],
     "upgrade": {
       "plain": "The plan didn't happen in the end.",
@@ -14847,6 +16941,14 @@
       {
         "term": "mention",
         "note": "plainer"
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "drop the subject"
+      },
+      {
+        "term": "steer clear of"
       }
     ],
     "otherMeanings": [
@@ -15043,6 +17145,14 @@
         "note": "American"
       }
     ],
+    "antonyms": [
+      {
+        "term": "wait your turn"
+      },
+      {
+        "term": "queue up"
+      }
+    ],
     "commonMistake": "Very bad form in Britain: expect tutting.",
     "forms": ["jumped the queue", "jumping the queue", "jumps the queue"],
     "upgrade": {
@@ -15133,6 +17243,17 @@
         "note": "embarrassingly sentimental or unoriginal"
       }
     ],
+    "antonyms": [
+      {
+        "term": "cool"
+      },
+      {
+        "term": "stylish"
+      },
+      {
+        "term": "classy"
+      }
+    ],
     "upgrade": {
       "plain": "The decorations were a bit tacky.",
       "model": "The decorations were a bit naff."
@@ -15175,6 +17296,17 @@
       {
         "term": "iffy",
         "note": "informal: slightly suspect"
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "legit"
+      },
+      {
+        "term": "above board"
+      },
+      {
+        "term": "trustworthy"
       }
     ],
     "otherMeanings": [
@@ -15228,6 +17360,14 @@
         "note": "worn and in poor condition"
       }
     ],
+    "antonyms": [
+      {
+        "term": "pristine"
+      },
+      {
+        "term": "spotless"
+      }
+    ],
     "otherMeanings": [
       {
         "meaning": "Of a person: feeling unwell.",
@@ -15278,6 +17418,14 @@
       {
         "term": "to-do",
         "note": "informal: a commotion"
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "calm"
+      },
+      {
+        "term": "peace and quiet"
       }
     ],
     "origin": "Probably from Scots 'curfuffle'.",
@@ -15370,6 +17518,15 @@
         "note": "a humiliating failure"
       }
     ],
+    "antonyms": [
+      {
+        "term": "a well-oiled machine",
+        "note": "Something that runs smoothly."
+      },
+      {
+        "term": "well organised"
+      }
+    ],
     "origin": "Originally a meat market; York's street 'The Shambles' keeps the old name.",
     "upgrade": {
       "plain": "The event was really badly organised.",
@@ -15459,6 +17616,17 @@
         "note": "informal: not clever"
       }
     ],
+    "antonyms": [
+      {
+        "term": "sharp"
+      },
+      {
+        "term": "bright"
+      },
+      {
+        "term": "quick-witted"
+      }
+    ],
     "commonMistake": "Rude about other people; fine about yourself.",
     "upgrade": {
       "plain": "He looked confused and a bit foolish.",
@@ -15504,6 +17672,14 @@
         "note": "British: mad, crazy"
       }
     ],
+    "antonyms": [
+      {
+        "term": "sensible"
+      },
+      {
+        "term": "clever"
+      }
+    ],
     "upgrade": {
       "plain": "Don't be silly; you're welcome to come.",
       "model": "Don't be daft; you're welcome to come."
@@ -15546,6 +17722,17 @@
       {
         "term": "nuts",
         "note": "informal: crazy"
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "sane"
+      },
+      {
+        "term": "sensible"
+      },
+      {
+        "term": "level-headed"
       }
     ],
     "origin": "From 'barm', the froth on fermenting beer.",
@@ -15593,6 +17780,14 @@
         "note": "plainer"
       }
     ],
+    "antonyms": [
+      {
+        "term": "in good spirits"
+      },
+      {
+        "term": "cheerful"
+      }
+    ],
     "upgrade": {
       "plain": "He's sulking because he lost.",
       "model": "He's in a strop because he lost."
@@ -15635,6 +17830,14 @@
       {
         "term": "lose it",
         "note": "informal: lose control"
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "keep your cool"
+      },
+      {
+        "term": "stay calm"
       }
     ],
     "forms": ["threw a wobbly", "throwing a wobbly", "throws a wobbly"],
@@ -15680,6 +17883,15 @@
       {
         "term": "flukey",
         "note": "by a lucky accident"
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "unlucky"
+      },
+      {
+        "term": "hard done by",
+        "note": "British: treated unfairly."
       }
     ],
     "upgrade": {
@@ -15771,6 +17983,17 @@
         "note": "slightly ill"
       }
     ],
+    "antonyms": [
+      {
+        "term": "well"
+      },
+      {
+        "term": "right as rain"
+      },
+      {
+        "term": "fit"
+      }
+    ],
     "otherMeanings": [
       {
         "meaning": "(adverb) Badly.",
@@ -15822,6 +18045,14 @@
         "note": "heavier on one side"
       }
     ],
+    "antonyms": [
+      {
+        "term": "straight"
+      },
+      {
+        "term": "level"
+      }
+    ],
     "upgrade": {
       "plain": "The picture on the wall isn't straight.",
       "model": "The picture on the wall is wonky."
@@ -15864,6 +18095,17 @@
       {
         "term": "haphazard",
         "note": "without order or plan"
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "neat"
+      },
+      {
+        "term": "orderly"
+      },
+      {
+        "term": "spick and span"
       }
     ],
     "upgrade": {
@@ -15955,6 +18197,11 @@
         "note": "British: well done, credit to them"
       }
     ],
+    "antonyms": [
+      {
+        "term": "come off it"
+      }
+    ],
     "upgrade": {
       "plain": "To be honest, he did offer to help.",
       "model": "Fair dos, he did offer to help."
@@ -15997,6 +18244,14 @@
       {
         "term": "ta-ra",
         "note": "Northern and Midlands English"
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "hello"
+      },
+      {
+        "term": "hiya"
       }
     ],
     "upgrade": {
@@ -16093,6 +18348,17 @@
       {
         "term": "throw a sickie",
         "note": "British: fake illness"
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "graft"
+      },
+      {
+        "term": "knuckle down"
+      },
+      {
+        "term": "turn up"
       }
     ],
     "forms": ["skived", "skiving", "skives", "skiver"],
@@ -16240,6 +18506,14 @@
         "note": "informal"
       }
     ],
+    "antonyms": [
+      {
+        "term": "the bare minimum"
+      },
+      {
+        "term": "the bare bones"
+      }
+    ],
     "origin": "Origin unclear: theories range from Montgomery's breakfasts to Montague Burton suits.",
     "upgrade": {
       "plain": "We had everything: starters, mains and pudding.",
@@ -16285,6 +18559,17 @@
         "note": "British slang: very crowded"
       }
     ],
+    "antonyms": [
+      {
+        "term": "empty"
+      },
+      {
+        "term": "deserted"
+      },
+      {
+        "term": "half-empty"
+      }
+    ],
     "upgrade": {
       "plain": "The car park was completely full.",
       "model": "The car park was chock-a-block."
@@ -16327,6 +18612,14 @@
       {
         "term": "be an expert",
         "note": "plainer"
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "not have a clue"
+      },
+      {
+        "term": "be clueless"
       }
     ],
     "forms": [
@@ -16381,6 +18674,12 @@
         "note": "informal"
       }
     ],
+    "antonyms": [
+      {
+        "term": "a proper break",
+        "note": "Time off doing something completely different from work."
+      }
+    ],
     "origin": "Said to come from bus drivers who spent their days off riding on buses.",
     "upgrade": {
       "plain": "The teacher spent her holiday tutoring.",
@@ -16426,6 +18725,14 @@
         "note": "neutral"
       }
     ],
+    "antonyms": [
+      {
+        "term": "dry"
+      },
+      {
+        "term": "glorious sunshine"
+      }
+    ],
     "forms": ["chucked it down"],
     "upgrade": {
       "plain": "It's raining really heavily.",
@@ -16469,6 +18776,18 @@
       {
         "term": "parky",
         "note": "British, informal: cold"
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "warm"
+      },
+      {
+        "term": "mild"
+      },
+      {
+        "term": "roasting",
+        "note": "Informal: very hot."
       }
     ],
     "otherMeanings": [
@@ -16574,6 +18893,15 @@
         "note": "British intensifier: 'a right mess'"
       }
     ],
+    "antonyms": [
+      {
+        "term": "fake"
+      },
+      {
+        "term": "knock-off",
+        "note": "Informal: a cheap copy."
+      }
+    ],
     "otherMeanings": [
       {
         "meaning": "Correct or appropriate (standard English).",
@@ -16625,6 +18953,11 @@
         "note": "informal"
       }
     ],
+    "antonyms": [
+      {
+        "term": "working day"
+      }
+    ],
     "forms": ["bank holidays"],
     "upgrade": {
       "plain": "It always rains on public holidays.",
@@ -16670,6 +19003,18 @@
         "note": "British: not working properly"
       }
     ],
+    "antonyms": [
+      {
+        "term": "working fine"
+      },
+      {
+        "term": "up and running"
+      },
+      {
+        "term": "in good nick",
+        "note": "British: in good condition."
+      }
+    ],
     "upgrade": {
       "plain": "The washing machine isn't working properly.",
       "model": "The washing machine is on the blink."
@@ -16712,6 +19057,17 @@
       {
         "term": "the best thing since sliced bread",
         "note": "humorous: excellent"
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "rubbish"
+      },
+      {
+        "term": "naff"
+      },
+      {
+        "term": "nothing special"
       }
     ],
     "commonMistake": "'He thinks he's the bee's knees' means he's big-headed.",
@@ -16759,6 +19115,17 @@
         "note": "British: annoyed"
       }
     ],
+    "antonyms": [
+      {
+        "term": "chuffed"
+      },
+      {
+        "term": "made up"
+      },
+      {
+        "term": "happy"
+      }
+    ],
     "upgrade": {
       "plain": "I'm really annoyed about the delay.",
       "model": "I'm cheesed off about the delay."
@@ -16801,6 +19168,15 @@
       {
         "term": "be in a state",
         "note": "British: anxious"
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "take it in your stride",
+        "note": "Deal with a problem calmly."
+      },
+      {
+        "term": "stay cool"
       }
     ],
     "forms": ["had kittens", "having kittens"],
@@ -16846,6 +19222,17 @@
       {
         "term": "smashing",
         "note": "British, a bit old-fashioned"
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "rubbish"
+      },
+      {
+        "term": "dire"
+      },
+      {
+        "term": "naff"
       }
     ],
     "otherMeanings": [
@@ -16897,6 +19284,17 @@
       {
         "term": "well off",
         "note": "neutral: comfortable"
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "skint"
+      },
+      {
+        "term": "hard up"
+      },
+      {
+        "term": "broke"
       }
     ],
     "otherMeanings": [
@@ -16954,6 +19352,14 @@
         "note": "British: silly nonsense"
       }
     ],
+    "antonyms": [
+      {
+        "term": "sense"
+      },
+      {
+        "term": "the truth"
+      }
+    ],
     "upgrade": {
       "plain": "What he said was complete nonsense.",
       "model": "What he said was complete tosh."
@@ -16996,6 +19402,14 @@
       {
         "term": "over the moon",
         "note": "British: delighted"
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "gutted"
+      },
+      {
+        "term": "cheesed off"
       }
     ],
     "otherMeanings": [
@@ -17049,6 +19463,17 @@
         "note": "British: bad-tempered"
       }
     ],
+    "antonyms": [
+      {
+        "term": "cheerful"
+      },
+      {
+        "term": "sunny"
+      },
+      {
+        "term": "easy-going"
+      }
+    ],
     "upgrade": {
       "plain": "He's been grumpy and sulking all morning.",
       "model": "He's been mardy all morning."
@@ -17091,6 +19516,14 @@
       {
         "term": "vino",
         "note": "informal: wine"
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "fine wine"
+      },
+      {
+        "term": "a decent bottle"
       }
     ],
     "otherMeanings": [
@@ -17144,6 +19577,14 @@
         "note": "long, hard work"
       }
     ],
+    "antonyms": [
+      {
+        "term": "skiving"
+      },
+      {
+        "term": "idleness"
+      }
+    ],
     "otherMeanings": [
       {
         "meaning": "In medicine: transplanted tissue, as in a skin graft.",
@@ -17195,6 +19636,14 @@
         "note": "running alongside; similar in development"
       }
     ],
+    "antonyms": [
+      {
+        "term": "dissimilar"
+      },
+      {
+        "term": "unrelated"
+      }
+    ],
     "forms": ["analogy", "analogously"],
     "upgrade": {
       "plain": "The two situations are similar enough to compare.",
@@ -17238,6 +19687,12 @@
       {
         "term": "find out",
         "note": "plainer"
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "guess",
+        "note": "Suppose, without finding out."
       }
     ],
     "commonMistake": "Stress the last syllable: ass-er-TAIN.",
@@ -17286,6 +19741,17 @@
         "note": "a testable proposal"
       }
     ],
+    "antonyms": [
+      {
+        "term": "proof"
+      },
+      {
+        "term": "fact"
+      },
+      {
+        "term": "certainty"
+      }
+    ],
     "forms": ["conjectures", "conjectured"],
     "upgrade": {
       "plain": "That's just a guess without any evidence.",
@@ -17329,6 +19795,17 @@
       {
         "term": "divisive",
         "note": "splitting people into opposing groups"
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "uncontroversial"
+      },
+      {
+        "term": "agreed"
+      },
+      {
+        "term": "settled"
       }
     ],
     "upgrade": {
@@ -17420,6 +19897,17 @@
         "note": "consistently trustworthy"
       }
     ],
+    "antonyms": [
+      {
+        "term": "implausible"
+      },
+      {
+        "term": "unconvincing"
+      },
+      {
+        "term": "far-fetched"
+      }
+    ],
     "commonMistake": "Don't confuse with 'credulous' (too ready to believe things).",
     "forms": ["credibility"],
     "upgrade": {
@@ -17466,6 +19954,17 @@
         "note": "done as a duty, with little effort"
       }
     ],
+    "antonyms": [
+      {
+        "term": "thorough"
+      },
+      {
+        "term": "careful"
+      },
+      {
+        "term": "in-depth"
+      }
+    ],
     "upgrade": {
       "plain": "He only had a quick, careless look at the report.",
       "model": "He gave the report a cursory look."
@@ -17508,6 +20007,14 @@
       {
         "term": "make out",
         "note": "informal: see or hear with difficulty"
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "overlook"
+      },
+      {
+        "term": "miss"
       }
     ],
     "forms": ["discerned", "discerns", "discernible"],
@@ -17555,6 +20062,17 @@
         "note": "plainly not alike"
       }
     ],
+    "antonyms": [
+      {
+        "term": "similar"
+      },
+      {
+        "term": "homogeneous"
+      },
+      {
+        "term": "uniform"
+      }
+    ],
     "commonMistake": "Don't confuse with 'desperate'. Stress the first syllable: DIS-puh-rut.",
     "upgrade": {
       "plain": "The ideas come from very different sources.",
@@ -17600,6 +20118,18 @@
         "note": "open to doubt, often about honesty"
       }
     ],
+    "antonyms": [
+      {
+        "term": "reliable"
+      },
+      {
+        "term": "trustworthy"
+      },
+      {
+        "term": "confident",
+        "note": "For the 'hesitant' sense: I'm dubious about it."
+      }
+    ],
     "upgrade": {
       "plain": "I'm not sure the claim is true.",
       "model": "The claim seems dubious."
@@ -17642,6 +20172,11 @@
       {
         "term": "efficiency",
         "note": "different: doing it without waste"
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "ineffectiveness"
       }
     ],
     "commonMistake": "'Efficacy' is about whether it works; 'efficiency' is about doing it without waste.",
@@ -17735,6 +20270,15 @@
         "note": "neutral"
       }
     ],
+    "antonyms": [
+      {
+        "term": "henceforth",
+        "note": "Formal: from now on."
+      },
+      {
+        "term": "from now on"
+      }
+    ],
     "commonMistake": "Very formal: perfect in an essay, odd in a text message.",
     "upgrade": {
       "plain": "The letters show a side of her that nobody knew about until now.",
@@ -17778,6 +20322,14 @@
       {
         "term": "closely",
         "note": "plainer, weaker"
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "loosely"
+      },
+      {
+        "term": "separably"
       }
     ],
     "commonMistake": "Most often followed by 'linked' or 'bound up with'. Stress the second syllable: in-ik-STRIK-uh-blee.",
@@ -17826,6 +20378,12 @@
         "note": "decide after thinking"
       }
     ],
+    "antonyms": [
+      {
+        "term": "imply",
+        "note": "The speaker implies; the listener infers. Often mixed up."
+      }
+    ],
     "commonMistake": "The listener infers; the speaker implies. 'Are you inferring I'm late?' should be 'implying'.",
     "forms": ["inferred", "inferring", "infers", "inference"],
     "upgrade": {
@@ -17870,6 +20428,17 @@
       {
         "term": "intrinsic",
         "note": "part of the basic nature of something"
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "peripheral"
+      },
+      {
+        "term": "incidental"
+      },
+      {
+        "term": "optional"
       }
     ],
     "otherMeanings": [
@@ -17924,6 +20493,14 @@
         "note": "however; used between clauses"
       }
     ],
+    "antonyms": [
+      {
+        "term": "because of"
+      },
+      {
+        "term": "owing to"
+      }
+    ],
     "commonMistake": "It can come before or after the noun: 'notwithstanding the cost' or 'the cost notwithstanding'.",
     "upgrade": {
       "plain": "Despite the cost, it was worth it.",
@@ -17967,6 +20544,14 @@
       {
         "term": "seemingly",
         "note": "neutral"
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "genuinely"
+      },
+      {
+        "term": "actually"
       }
     ],
     "forms": ["ostensible"],
@@ -18014,6 +20599,17 @@
         "note": "plainer"
       }
     ],
+    "antonyms": [
+      {
+        "term": "minor"
+      },
+      {
+        "term": "insignificant"
+      },
+      {
+        "term": "peripheral"
+      }
+    ],
     "upgrade": {
       "plain": "That meeting was a very important turning point.",
       "model": "That meeting was pivotal."
@@ -18056,6 +20652,14 @@
       {
         "term": "largely",
         "note": "neutral"
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "partly"
+      },
+      {
+        "term": "occasionally"
       }
     ],
     "forms": ["predominant", "predominate"],
@@ -18148,6 +20752,14 @@
         "note": "found over a large area"
       }
     ],
+    "antonyms": [
+      {
+        "term": "rare"
+      },
+      {
+        "term": "uncommon"
+      }
+    ],
     "forms": ["prevalence"],
     "upgrade": {
       "plain": "This view is very common among young people.",
@@ -18191,6 +20803,15 @@
       {
         "term": "spin",
         "note": "informal: biased presentation"
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "substance",
+        "note": "Real content, as in 'rhetoric versus substance'."
+      },
+      {
+        "term": "action"
       }
     ],
     "commonMistake": "Stress the first syllable for the noun (RET-uh-rik); 'rhetorical' is ri-TOR-ik-uhl.",
@@ -18239,6 +20860,15 @@
         "note": "innovative, breaking new ground"
       }
     ],
+    "antonyms": [
+      {
+        "term": "derivative",
+        "note": "Copying earlier ideas rather than original."
+      },
+      {
+        "term": "unoriginal"
+      }
+    ],
     "upgrade": {
       "plain": "This book had a huge influence on later research.",
       "model": "This book was seminal."
@@ -18281,6 +20911,17 @@
       {
         "term": "consequently",
         "note": "different: as a result"
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "previously"
+      },
+      {
+        "term": "beforehand"
+      },
+      {
+        "term": "earlier"
       }
     ],
     "commonMistake": "'Subsequently' means later; 'consequently' means as a result.",
@@ -18329,6 +20970,17 @@
         "note": "having real value"
       }
     ],
+    "antonyms": [
+      {
+        "term": "superficial"
+      },
+      {
+        "term": "trivial"
+      },
+      {
+        "term": "cosmetic"
+      }
+    ],
     "commonMistake": "Stress the second syllable in British English: sub-STAN-tiv.",
     "upgrade": {
       "plain": "We need real, significant changes.",
@@ -18372,6 +21024,17 @@
       {
         "term": "irrelevant",
         "note": "not connected at all"
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "central"
+      },
+      {
+        "term": "relevant"
+      },
+      {
+        "term": "pertinent"
       }
     ],
     "origin": "From geometry: a tangent touches a curve at just one point.",
@@ -18464,6 +21127,17 @@
         "note": "absolute, without exceptions"
       }
     ],
+    "antonyms": [
+      {
+        "term": "equivocal"
+      },
+      {
+        "term": "ambiguous"
+      },
+      {
+        "term": "hedged"
+      }
+    ],
     "forms": ["unequivocally"],
     "upgrade": {
       "plain": "Her answer left no doubt at all.",
@@ -18507,6 +21181,14 @@
       {
         "term": "workable",
         "note": "able to be used effectively"
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "unviable"
+      },
+      {
+        "term": "unworkable"
       }
     ],
     "forms": ["viability"],
@@ -18554,6 +21236,12 @@
         "note": "broader: any studying before exams"
       }
     ],
+    "antonyms": [
+      {
+        "term": "re-reading",
+        "note": "Passive review: it feels productive, but less sticks."
+      }
+    ],
     "upgrade": {
       "plain": "Testing yourself from memory helps you remember.",
       "model": "Retrieval practice helps you remember."
@@ -18596,6 +21284,12 @@
       {
         "term": "targeted questioning",
         "note": "choosing who to ask on purpose"
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "hands up",
+        "note": "Pupils volunteer answers by raising their hands."
       }
     ],
     "otherMeanings": [
@@ -18739,6 +21433,11 @@
         "note": "used to guide learning, not grade it"
       }
     ],
+    "antonyms": [
+      {
+        "term": "high-stakes"
+      }
+    ],
     "commonMistake": "Hyphenate before a noun ('a low-stakes quiz'); 'high-stakes' is the opposite.",
     "upgrade": {
       "plain": "It's just a practice test, so it doesn't count.",
@@ -18776,12 +21475,14 @@
     "collocations": ["interleaving topics", "interleaved practice"],
     "synonyms": [
       {
-        "term": "blocking",
-        "note": "the opposite: practising one type at a time"
-      },
-      {
         "term": "spacing",
         "note": "spreading practice out over time"
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "blocking",
+        "note": "Practising one type at a time."
       }
     ],
     "forms": ["interleave", "interleaved"],
@@ -18960,6 +21661,12 @@
       {
         "term": "welfare",
         "note": "safety and needs, more formal"
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "academic",
+        "note": "About lessons and attainment rather than welfare."
       }
     ],
     "otherMeanings": [
@@ -19558,6 +22265,14 @@
         "note": "plainer"
       }
     ],
+    "antonyms": [
+      {
+        "term": "imprecision"
+      },
+      {
+        "term": "vagueness"
+      }
+    ],
     "commonMistake": "In science, 'precise' means repeated results agree; 'accurate' means close to the true value. You can be precise but wrong.",
     "forms": ["precise", "precisely"],
     "upgrade": {
@@ -19604,6 +22319,17 @@
         "note": "science: gives the same results again"
       }
     ],
+    "antonyms": [
+      {
+        "term": "unreliable"
+      },
+      {
+        "term": "flaky"
+      },
+      {
+        "term": "inconsistent"
+      }
+    ],
     "commonMistake": "In UK school science, 'reliable' (repeatable) and 'valid' (measures what it should) mean different things.",
     "forms": ["reliability", "reliably"],
     "upgrade": {
@@ -19648,6 +22374,17 @@
       {
         "term": "legitimate",
         "note": "acceptable by rules or law"
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "invalid"
+      },
+      {
+        "term": "flawed"
+      },
+      {
+        "term": "unsound"
       }
     ],
     "forms": ["validity", "validate"],
@@ -20247,6 +22984,12 @@
         "note": "a discussion after an event"
       }
     ],
+    "antonyms": [
+      {
+        "term": "pre-mortem",
+        "note": "Imagining a project has failed before it starts, to spot risks early."
+      }
+    ],
     "otherMeanings": [
       {
         "meaning": "A medical examination of a body after death.",
@@ -20568,6 +23311,15 @@
         "note": "informal: easy gains"
       }
     ],
+    "antonyms": [
+      {
+        "term": "a heavy lift",
+        "note": "Informal: a big, difficult piece of work."
+      },
+      {
+        "term": "a long slog"
+      }
+    ],
     "commonMistake": "Overused in meetings; 'quick wins' is a plainer alternative.",
     "upgrade": {
       "plain": "Let's start with the easiest improvements.",
@@ -20659,6 +23411,18 @@
         "note": "specific and definite"
       }
     ],
+    "antonyms": [
+      {
+        "term": "vague"
+      },
+      {
+        "term": "abstract"
+      },
+      {
+        "term": "woolly",
+        "note": "British: vague and unclear."
+      }
+    ],
     "otherMeanings": [
       {
         "meaning": "In law, giving grounds for a lawsuit.",
@@ -20708,6 +23472,17 @@
       {
         "term": "challenge",
         "note": "question it"
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "go along with"
+      },
+      {
+        "term": "agree to"
+      },
+      {
+        "term": "accept"
       }
     ],
     "otherMeanings": [
@@ -20814,6 +23589,14 @@
         "note": "plainer"
       }
     ],
+    "antonyms": [
+      {
+        "term": "roll out"
+      },
+      {
+        "term": "deploy"
+      }
+    ],
     "forms": ["rolled back", "rolling back", "rollback", "rolls back"],
     "upgrade": {
       "plain": "Return the system to the previous version.",
@@ -20857,6 +23640,18 @@
       {
         "term": "unreliable",
         "note": "plainer"
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "reliable"
+      },
+      {
+        "term": "deterministic",
+        "note": "In software: the same result every time."
+      },
+      {
+        "term": "stable"
       }
     ],
     "otherMeanings": [
@@ -21051,6 +23846,14 @@
         "note": "actively working"
       }
     ],
+    "antonyms": [
+      {
+        "term": "off duty"
+      },
+      {
+        "term": "off the clock"
+      }
+    ],
     "forms": ["on-call"],
     "upgrade": {
       "plain": "I have to be ready to work if anything breaks this weekend.",
@@ -21096,6 +23899,14 @@
         "note": "plainer"
       }
     ],
+    "antonyms": [
+      {
+        "term": "a heavy lift"
+      },
+      {
+        "term": "a long slog"
+      }
+    ],
     "forms": ["quick wins"],
     "upgrade": {
       "plain": "Turning on caching was an easy, fast improvement.",
@@ -21139,6 +23950,17 @@
       {
         "term": "thorough review",
         "note": "plainer"
+      }
+    ],
+    "antonyms": [
+      {
+        "term": "a quick look"
+      },
+      {
+        "term": "a once-over"
+      },
+      {
+        "term": "a high-level overview"
       }
     ],
     "commonMistake": "In English schools, an Ofsted 'deep dive' is a formal inspection of one subject.",

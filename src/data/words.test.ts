@@ -63,6 +63,45 @@ describe('seed words', () => {
     expect(w.topics.length).toBeGreaterThan(0);
   });
 
+  it.each(WORDS.filter((w) => w.antonyms).map((w) => [w.id, w] as const))(
+    '%s antonyms are distinct real opposites',
+    (_id, w) => {
+      const antonyms = w.antonyms!;
+      expect(antonyms.length).toBeGreaterThan(0);
+      const terms = antonyms.map((a) => a.term.toLowerCase());
+      expect(new Set(terms).size, `${w.id}: duplicate antonym`).toBe(terms.length);
+      const synonyms = new Set(w.synonyms.map((s) => s.term.toLowerCase()));
+      for (const a of antonyms) {
+        expect(a.term.trim()).not.toBe('');
+        expect(a.term.toLowerCase(), `${w.id}: antonym is the word itself`).not.toBe(
+          w.term.toLowerCase(),
+        );
+        expect(synonyms.has(a.term.toLowerCase()), `${w.id}: "${a.term}" is also a synonym`).toBe(
+          false,
+        );
+        if (a.note !== undefined) expect(a.note.trim()).not.toBe('');
+      }
+    },
+  );
+
+  it('keeps opposites out of synonyms', () => {
+    for (const w of WORDS) {
+      for (const s of w.synonyms) {
+        expect(s.note, `${w.id}: "${s.term}" is an antonym`).not.toMatch(/^(the )?opposite\b/i);
+      }
+    }
+  });
+
+  it('has antonyms for most words', () => {
+    // Many idioms, nouns and jargon have no real opposite, so this is a floor, not 100%.
+    const withAntonyms = WORDS.filter((w) => w.antonyms?.length).length;
+    expect(withAntonyms / WORDS.length).toBeGreaterThan(0.6);
+  });
+
+  it('has at least two example sentences per word', () => {
+    for (const w of WORDS) expect(w.examples.length, w.id).toBeGreaterThanOrEqual(2);
+  });
+
   it.each(WORDS.filter((w) => w.otherMeanings).map((w) => [w.id, w] as const))(
     '%s other meanings each have a meaning and an example',
     (_id, w) => {
@@ -106,6 +145,7 @@ describe('seed words', () => {
         w.origin ?? '',
         ...w.examples.map((e) => e.text),
         ...w.synonyms.map((s) => s.note),
+        ...(w.antonyms ?? []).flatMap((a) => [a.term, a.note ?? '']),
         ...(w.otherMeanings ?? []).flatMap((m) => [m.meaning, m.example ?? '', m.cue ?? '']),
       ]
         .join(' ')
