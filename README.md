@@ -24,9 +24,33 @@ npm run dev        # start the dev server at http://localhost:5173
 | `npm run format`     | Format everything with Prettier              |
 | `npm run check`      | Typecheck, lint, format check and tests      |
 
+## What's in it so far
+
+- **Onboarding**: pick your roles (student, teacher, software professional), a daily goal (5, 10 or 15 words) and your level. Saved in your browser (localStorage).
+- **Word of the Day and daily set**: a fresh, varied set each day, chosen from words for your roles and level. Each word has UK IPA, a plain-English definition, examples tailored to your roles, register, collocations, synonyms with how they differ, common mistakes and an origin story.
+- **Pronunciation**: tap the speaker (or press <kbd>S</kbd>) to hear the word in a British English voice.
+- **Playful, quick sessions**: reveal each card, then finish with a short "done for today" celebration and a small challenge.
+- Light and dark mode (follows your device by default), keyboard shortcuts and screen-reader labels.
+
+## Adding words
+
+See [docs/ADDING_WORDS.md](docs/ADDING_WORDS.md). In short: add an entry to `src/data/words.json` and run `npm test`; the dataset test tells you if anything is missing.
+
+## Project structure
+
+```
+src/
+  data/        seed content (words.json) and typed loaders
+  types/       content and user-data types
+  lib/         pure logic: daily selection, text matching, speech, dates
+  state/       settings (localStorage) and today's progress
+  components/  shared UI (layout, buttons, word cards)
+  features/    one folder per screen (onboarding, today, settings…)
+```
+
 ## Tech stack
 
-React 19 · TypeScript · Vite · Tailwind CSS v4 · Vitest + React Testing Library · ESLint + Prettier.
+React 19 · TypeScript · Vite · Tailwind CSS v4 · React Router · Vitest + React Testing Library · ESLint + Prettier.
 
 ## Contributing
 
