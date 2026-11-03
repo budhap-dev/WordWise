@@ -1,10 +1,12 @@
 import { ArrowRight, ScrollText, Sparkles } from 'lucide-react';
 
 import { ButtonLink } from '../../components/ui/Button';
+import { ShareButton } from '../../components/ui/ShareButton';
 import { cardClasses } from '../../components/ui/styles';
 import { HighlightedText } from '../../components/word/HighlightedText';
 import { WordHeader } from '../../components/word/WordHeader';
 import { examplesForRoles } from '../../lib/examples';
+import { wordOfTheDayShare } from '../../lib/share';
 import type { Role, WordEntry } from '../../types/content';
 
 export function WordOfTheDay({ word, roles }: { word: WordEntry; roles: readonly Role[] }) {
@@ -45,9 +47,12 @@ export function WordOfTheDay({ word, roles }: { word: WordEntry; roles: readonly
         </p>
       )}
 
-      <ButtonLink to="/learn" variant="soft" className="mt-6">
-        Explore it fully <ArrowRight className="size-4" aria-hidden="true" />
-      </ButtonLink>
+      <div className="mt-6 flex flex-wrap items-center gap-2">
+        <ButtonLink to="/learn" variant="soft">
+          Explore it fully <ArrowRight className="size-4" aria-hidden="true" />
+        </ButtonLink>
+        <ShareButton content={wordOfTheDayShare(word)} />
+      </div>
     </section>
   );
 }
