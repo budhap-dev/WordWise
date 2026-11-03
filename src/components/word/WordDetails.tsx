@@ -1,10 +1,11 @@
-import { ScrollText, TriangleAlert } from 'lucide-react';
+import { ScrollText, Split, TriangleAlert } from 'lucide-react';
 import type { ReactNode } from 'react';
 
 import { ROLE_LABELS } from '../../data';
 import { examplesForRoles } from '../../lib/examples';
 import type { Role, WordEntry } from '../../types/content';
 import { HighlightedText } from './HighlightedText';
+import { OtherMeanings } from './OtherMeanings';
 
 function Section({
   title,
@@ -51,6 +52,15 @@ export function WordDetails({ word, roles }: { word: WordEntry; roles: readonly 
           ))}
         </ul>
       </Section>
+
+      {word.otherMeanings && word.otherMeanings.length > 0 && (
+        <Section
+          title="Can also mean"
+          icon={<Split className="size-4 text-brand" aria-hidden="true" />}
+        >
+          <OtherMeanings meanings={word.otherMeanings} />
+        </Section>
+      )}
 
       <Section title="Goes well with">
         <ul className="flex flex-wrap gap-2">

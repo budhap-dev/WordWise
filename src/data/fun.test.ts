@@ -26,4 +26,16 @@ describe('British sayings', () => {
       expect(s.mean.trim()).not.toBe('');
     }
   });
+
+  it('explains how to tell when a saying means something else', () => {
+    const withOthers = BRITISH_SAYINGS.filter((s) => s.otherMeanings);
+    expect(withOthers.length).toBeGreaterThan(0);
+    for (const s of withOthers) {
+      for (const m of s.otherMeanings!) {
+        expect(m.meaning.trim(), s.id).not.toBe('');
+        expect(m.cue?.trim(), `${s.id}: "${m.meaning}" needs a cue`).toBeTruthy();
+        expect(`${m.meaning} ${m.cue}`, s.id).not.toMatch(AMERICAN);
+      }
+    }
+  });
 });

@@ -57,6 +57,7 @@ All built-in vocabulary lives in [`src/data/words.json`](../src/data/words.json)
 | `register`      | yes      | `formal`, `neutral` or `informal`.                                                                                                                      |
 | `collocations`  | yes      | Words it naturally goes with.                                                                                                                           |
 | `synonyms`      | yes      | Each has a `note` explaining how it differs; that note is the most useful bit.                                                                          |
+| `otherMeanings` | no       | Other senses that could trip a learner up (see below). Each needs a `meaning` and an `example`; add a `cue` saying how to tell them apart.              |
 | `commonMistake` | no       | A frequent misuse, mispronunciation or spelling trap.                                                                                                   |
 | `origin`        | no       | A short, memorable etymology. Hedge folk etymologies ("popularly said to…").                                                                            |
 | `forms`         | no       | Inflections and variants (`corroborated`, `took something on board`). Used to spot the word in sentences.                                               |
@@ -64,6 +65,24 @@ All built-in vocabulary lives in [`src/data/words.json`](../src/data/words.json)
 | `category`      | yes      | `general`, `student`, `teaching`, `workplace`, `idiom` or `british`. Roles unlock `student`, `teaching` and `workplace`; the rest show for everyone.    |
 | `topics`        | yes      | Free tags used by search and filters, e.g. `meetings`, `feedback`, `data`.                                                                              |
 | `level`         | yes      | `upper-intermediate`, `advanced` or `proficient`. Words at or below the learner's level are introduced first.                                           |
+
+## Other meanings
+
+Use `otherMeanings` when the same word or phrase means something genuinely different in another context or tone, and a learner might misread it. Examples: "pitch" (a football pitch), "robust" (a "robust exchange of views" is a row), "quite" ("quite good" is lukewarm, but "quite right" is "completely right").
+
+```json
+"otherMeanings": [
+  {
+    "meaning": "Surprisingly good, when said with enthusiasm.",
+    "example": "Actually, that's quite good! I didn't expect to like it.",
+    "cue": "Stress on 'good', a lively tone or an 'actually' all turn it into real praise."
+  }
+]
+```
+
+- The `cue` is the most valuable part: tell the learner how to spot which meaning is intended (tone, context, grammar, pronunciation).
+- Skip it for senses that are obvious or already covered by the definition.
+- Keep `commonMistake` for real misuse; a different meaning belongs here instead.
 
 ## Style rules
 
@@ -79,6 +98,6 @@ All built-in vocabulary lives in [`src/data/words.json`](../src/data/words.json)
 ## Jokes and British sayings
 
 - **Jokes** live in [`src/data/jokes.json`](../src/data/jokes.json) (`Joke` type): `setup`, `punchline`, and an `explanation` of the wordplay for learners. Add `roles` to show a joke mainly to those roles (e.g. a SQL joke for `software`). Keep them clean and kind.
-- **British, decoded** lives in [`src/data/britishSayings.json`](../src/data/britishSayings.json) (`BritishSaying` type): what people `say`, what they usually `mean`, and an optional `note`.
+- **British, decoded** lives in [`src/data/britishSayings.json`](../src/data/britishSayings.json) (`BritishSaying` type): what people `say`, what they usually `mean`, and an optional `note`. Many sayings sometimes mean exactly what they say: add `otherMeanings` with a `meaning` and a `cue` (required for sayings) explaining how to tell, e.g. "If a date follows, it's real".
 
 `npm test` checks both files too.

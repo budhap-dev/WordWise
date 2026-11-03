@@ -2,6 +2,7 @@ import { ChevronDown, Laugh, MessageSquareQuote } from 'lucide-react';
 import { useId, useState } from 'react';
 
 import { cardClasses } from '../../components/ui/styles';
+import { OtherMeanings } from '../../components/word/OtherMeanings';
 import { HAPTIC, haptic } from '../../lib/haptics';
 import type { DailyFun } from '../../lib/fun';
 import type { BritishSaying, Joke } from '../../types/content';
@@ -74,6 +75,14 @@ function SayingBody({ saying }: { saying: BritishSaying }) {
         </div>
       ) : (
         <RevealButton onClick={() => setRevealed(true)}>What do they really mean? 🕵️</RevealButton>
+      )}
+      {revealed && saying.otherMeanings && saying.otherMeanings.length > 0 && (
+        <div className="mt-4 animate-rise">
+          <p className="mb-2 text-xs font-bold tracking-widest text-ink-muted uppercase">
+            But sometimes it means…
+          </p>
+          <OtherMeanings meanings={saying.otherMeanings} />
+        </div>
       )}
     </>
   );

@@ -34,7 +34,7 @@ describe('seed words', () => {
       teaching: 30,
       workplace: 30,
       idiom: 40,
-      british: 30,
+      british: 31,
     });
   });
 
@@ -60,6 +60,20 @@ describe('seed words', () => {
     }
     expect(w.topics.length).toBeGreaterThan(0);
   });
+
+  it.each(WORDS.filter((w) => w.otherMeanings).map((w) => [w.id, w] as const))(
+    '%s other meanings each have a meaning and an example',
+    (_id, w) => {
+      expect(w.otherMeanings!.length).toBeGreaterThan(0);
+      const meanings = w.otherMeanings!.map((m) => m.meaning);
+      expect(new Set(meanings).size, `${w.id}: duplicate meaning`).toBe(meanings.length);
+      for (const m of w.otherMeanings!) {
+        expect(m.meaning.trim()).not.toBe('');
+        expect(m.meaning, `${w.id}: same as the main definition`).not.toBe(w.definition);
+        expect(m.example?.trim(), `${w.id}: "${m.meaning}" needs an example`).toBeTruthy();
+      }
+    },
+  );
 
   it.each(WORDS.map((w) => [w.id, w] as const))(
     '%s has one example per role, each using the term',
@@ -90,6 +104,7 @@ describe('seed words', () => {
         w.origin ?? '',
         ...w.examples.map((e) => e.text),
         ...w.synonyms.map((s) => s.note),
+        ...(w.otherMeanings ?? []).flatMap((m) => [m.meaning, m.example ?? '', m.cue ?? '']),
       ]
         .join(' ')
         // Allow explicit comparisons like "'endeavor' is American".

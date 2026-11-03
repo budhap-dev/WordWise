@@ -30,4 +30,17 @@ describe('FunCard', () => {
     await user.click(screen.getByRole('button', { name: /really mean/i }));
     expect(screen.getByText(saying.mean)).toBeInTheDocument();
   });
+
+  it('shows the other reading of a saying, with how to tell, after the reveal', async () => {
+    const user = userEvent.setup();
+    const saying = BRITISH_SAYINGS.find((s) => s.id === 'quite-good')!;
+    const other = saying.otherMeanings![0]!;
+    render(<FunCard fun={{ kind: 'saying', saying }} />);
+
+    expect(screen.queryByText(other.meaning)).not.toBeInTheDocument();
+    await user.click(screen.getByRole('button', { name: /really mean/i }));
+    expect(screen.getByText(/but sometimes it means/i)).toBeInTheDocument();
+    expect(screen.getByText(other.meaning)).toBeInTheDocument();
+    expect(screen.getByText(other.cue!)).toBeInTheDocument();
+  });
 });
