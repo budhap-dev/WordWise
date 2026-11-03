@@ -1,22 +1,22 @@
 import { ArrowRight, Check, RotateCcw, Sparkles } from 'lucide-react';
 
-import { Button, ButtonLink } from '../../components/ui/Button';
+import { ButtonLink } from '../../components/ui/Button';
 import { ProgressBar } from '../../components/ui/ProgressBar';
 import { cardClasses } from '../../components/ui/styles';
-import { useDailySet } from '../../hooks/useDailySet';
 import { estimateMinutes } from '../../lib/daily';
 import { formatLongDate, greeting, toDateKey } from '../../lib/date';
 import { dailyFun } from '../../lib/fun';
+import { useTodaySet } from '../../hooks/useProgress';
 import { useRequiredSettings } from '../../state/settingsContext';
-import { useTodayProgress } from '../../state/todayProgress';
 import { FunCard } from './FunCard';
 import { WordOfTheDay } from './WordOfTheDay';
 
 export function TodayPage() {
   const settings = useRequiredSettings();
-  const words = useDailySet(settings);
-  const { seenIds, reset } = useTodayProgress();
-  const seen = words.filter((w) => seenIds.includes(w.id)).length;
+  const today = useTodaySet(settings);
+  if (!today) return <p className="sr-only">Loading…</p>;
+  const { words, seenIds } = today;
+  const seen = words.filter((w) => seenIds.has(w.id)).length;
   const done = words.length > 0 && seen >= words.length;
   const wordOfTheDay = words[0];
 
@@ -43,7 +43,7 @@ export function TodayPage() {
 
         <ul className="mt-5 flex flex-wrap gap-2" aria-label="Words in today's set">
           {words.map((w, i) => {
-            const isSeen = seenIds.includes(w.id);
+            const isSeen = seenIds.has(w.id);
             // The word of the day is already on screen, so show its tile too.
             const isShown = isSeen || i === 0;
             return (
@@ -84,9 +84,9 @@ export function TodayPage() {
               <p className="flex items-center gap-2 font-semibold text-success">
                 <Check className="size-5" aria-hidden="true" /> Done for today
               </p>
-              <Button variant="ghost" size="sm" onClick={reset}>
+              <ButtonLink to="/learn?again=1" variant="ghost" size="sm">
                 <RotateCcw className="size-4" aria-hidden="true" /> Go through them again
-              </Button>
+              </ButtonLink>
             </>
           ) : (
             // On phones this floats above the tab bar, in thumb reach; inline on larger screens.

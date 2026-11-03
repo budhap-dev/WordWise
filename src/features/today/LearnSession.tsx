@@ -1,6 +1,6 @@
 import { ArrowRight, ChevronsLeft, Eye, X } from 'lucide-react';
 import { type MouseEvent, useCallback, useEffect, useRef, useState } from 'react';
-import { Link } from 'react-router';
+import { Link, useSearchParams } from 'react-router';
 
 import { StickyActionBar } from '../../components/layout/StickyActionBar';
 import { Button } from '../../components/ui/Button';
@@ -8,12 +8,13 @@ import { ProgressBar } from '../../components/ui/ProgressBar';
 import { cardClasses } from '../../components/ui/styles';
 import { WordDetails } from '../../components/word/WordDetails';
 import { WordHeader } from '../../components/word/WordHeader';
-import { useDailySet } from '../../hooks/useDailySet';
+import { introduceWord } from '../../db/progress';
+import { useTodaySet } from '../../hooks/useProgress';
 import { useSpeech } from '../../hooks/useSpeech';
 import { useSwipe } from '../../hooks/useSwipe';
 import { HAPTIC, haptic } from '../../lib/haptics';
 import { useRequiredSettings } from '../../state/settingsContext';
-import { useTodayProgress } from '../../state/todayProgress';
+import type { Role, WordEntry } from '../../types/content';
 import { DoneForToday } from './DoneForToday';
 
 function isInteractive(target: EventTarget | null) {
@@ -24,15 +25,43 @@ function isInteractive(target: EventTarget | null) {
   );
 }
 
+function markSeen(wordId: string) {
+  introduceWord(wordId).catch((error: unknown) => console.error('Could not save progress', error));
+}
+
+/** Waits for saved progress, then starts the session. `/learn?again=1` replays from the top. */
 export function LearnSession() {
   const settings = useRequiredSettings();
-  const words = useDailySet(settings);
-  const { seenIds, markSeen, reset } = useTodayProgress();
+  const today = useTodaySet(settings);
+  const [params] = useSearchParams();
+  if (!today) return <p className="sr-only">Loading…</p>;
+  return (
+    <Session
+      words={today.words}
+      seenIds={today.seenIds}
+      roles={settings.roles}
+      replay={params.has('again')}
+    />
+  );
+}
+
+function Session({
+  words,
+  seenIds,
+  roles,
+  replay,
+}: {
+  words: WordEntry[];
+  seenIds: ReadonlySet<string>;
+  roles: readonly Role[];
+  replay: boolean;
+}) {
   const { say } = useSpeech();
 
-  // Resume at the first word not yet explored today.
+  // Resume at the first word not yet learnt today (or start again from the top).
   const [index, setIndex] = useState(() => {
-    const firstUnseen = words.findIndex((w) => !seenIds.includes(w.id));
+    if (replay) return 0;
+    const firstUnseen = words.findIndex((w) => !seenIds.has(w.id));
     return firstUnseen === -1 ? words.length : firstUnseen;
   });
   const [revealed, setRevealed] = useState(false);
@@ -47,7 +76,7 @@ export function LearnSession() {
     haptic(HAPTIC.tap);
     setRevealed(true);
     markSeen(word.id);
-  }, [word, markSeen]);
+  }, [word]);
 
   const next = useCallback(() => {
     haptic(isLast ? HAPTIC.success : HAPTIC.tap);
@@ -81,16 +110,7 @@ export function LearnSession() {
   }, [word, revealed, reveal, next, say]);
 
   if (finished) {
-    return (
-      <DoneForToday
-        words={words}
-        roles={settings.roles}
-        onAgain={() => {
-          reset();
-          setIndex(0);
-        }}
-      />
-    );
+    return <DoneForToday words={words} roles={roles} onAgain={() => setIndex(0)} />;
   }
   if (!word) return null;
 
@@ -143,7 +163,7 @@ export function LearnSession() {
         <WordHeader word={word} />
         {revealed ? (
           <div className="mt-5 select-text" aria-live="polite">
-            <WordDetails word={word} roles={settings.roles} />
+            <WordDetails word={word} roles={roles} />
           </div>
         ) : (
           <div className="mt-8 flex min-h-48 flex-col items-center justify-center rounded-2xl border-2 border-dashed border-line p-6 text-center">

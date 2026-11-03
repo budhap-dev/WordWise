@@ -1,9 +1,11 @@
 import { Monitor, Moon, Sun } from 'lucide-react';
-import { useState } from 'react';
+import { type ReactNode, useState } from 'react';
 import { useNavigate } from 'react-router';
 
 import { Button } from '../../components/ui/Button';
 import { cardClasses } from '../../components/ui/styles';
+import { resetProgress } from '../../db/progress';
+import { useCards } from '../../hooks/useProgress';
 import { useRequiredSettings, useSettings } from '../../state/settingsContext';
 import type { ThemePreference } from '../../types/user';
 import { GoalPicker, LevelPicker, RolePicker } from '../onboarding/PreferenceFields';
@@ -18,11 +20,54 @@ const THEMES: { value: ThemePreference; label: string; icon: typeof Sun }[] = [
   { value: 'dark', label: 'Dark', icon: Moon },
 ];
 
+/** A destructive action behind a second, explicit confirmation. */
+function ConfirmAction({
+  title,
+  description,
+  action,
+  confirm,
+  onConfirm,
+}: {
+  title: string;
+  description: ReactNode;
+  action: string;
+  confirm: string;
+  onConfirm: () => void;
+}) {
+  const [confirming, setConfirming] = useState(false);
+  return (
+    <section className={`${cardClasses} p-6`}>
+      <h2 className="text-lg font-semibold">{title}</h2>
+      <p className="mt-1 text-sm text-ink-muted">{description}</p>
+      {confirming ? (
+        <div className="mt-4 flex flex-wrap gap-2">
+          <Button
+            className="bg-danger text-white hover:brightness-110 dark:text-bg"
+            onClick={() => {
+              setConfirming(false);
+              onConfirm();
+            }}
+          >
+            {confirm}
+          </Button>
+          <Button variant="secondary" onClick={() => setConfirming(false)}>
+            Cancel
+          </Button>
+        </div>
+      ) : (
+        <Button variant="secondary" className="mt-4" onClick={() => setConfirming(true)}>
+          {action}
+        </Button>
+      )}
+    </section>
+  );
+}
+
 export function SettingsPage() {
   const settings = useRequiredSettings();
   const { updateSettings, resetSettings } = useSettings();
   const navigate = useNavigate();
-  const [confirmingReset, setConfirmingReset] = useState(false);
+  const learnt = useCards()?.length ?? 0;
 
   return (
     <div className="space-y-6">
@@ -86,32 +131,30 @@ export function SettingsPage() {
         </fieldset>
       </section>
 
-      <section className={`${cardClasses} p-6`}>
-        <h2 className="text-lg font-semibold">Start over</h2>
-        <p className="mt-1 text-sm text-ink-muted">
-          Clears your preferences and takes you back to the welcome screen.
-        </p>
-        {confirmingReset ? (
-          <div className="mt-4 flex flex-wrap gap-2">
-            <Button
-              className="bg-danger text-white hover:brightness-110 dark:text-bg"
-              onClick={() => {
-                resetSettings();
-                navigate('/welcome', { replace: true });
-              }}
-            >
-              Yes, start over
-            </Button>
-            <Button variant="secondary" onClick={() => setConfirmingReset(false)}>
-              Cancel
-            </Button>
-          </div>
-        ) : (
-          <Button variant="secondary" className="mt-4" onClick={() => setConfirmingReset(true)}>
-            Reset preferences
-          </Button>
-        )}
-      </section>
+      <ConfirmAction
+        title="Reset progress"
+        description={
+          learnt > 0
+            ? `Forgets the ${learnt} ${learnt === 1 ? 'word' : 'words'} you've learnt and your review history. Your preferences stay.`
+            : "Forgets the words you've learnt and your review history. Your preferences stay."
+        }
+        action="Reset progress"
+        confirm="Yes, forget my progress"
+        onConfirm={() => {
+          resetProgress().catch((error: unknown) => console.error('Could not reset', error));
+        }}
+      />
+
+      <ConfirmAction
+        title="Start over"
+        description="Clears your preferences and takes you back to the welcome screen. Your progress is kept."
+        action="Reset preferences"
+        confirm="Yes, start over"
+        onConfirm={() => {
+          resetSettings();
+          navigate('/welcome', { replace: true });
+        }}
+      />
     </div>
   );
 }
