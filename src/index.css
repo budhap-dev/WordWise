@@ -66,15 +66,87 @@
   --color-danger-soft: var(--danger-soft);
 }
 
+/* Playful motion. All of it is switched off for prefers-reduced-motion (see bottom). */
+@theme {
+  --animate-flip-in: flip-in 460ms cubic-bezier(0.2, 0.8, 0.2, 1) both;
+  --animate-rise: rise 420ms cubic-bezier(0.2, 0.8, 0.2, 1) both;
+  --animate-pop: pop 380ms cubic-bezier(0.3, 1.4, 0.5, 1) both;
+  --animate-float: float 7s ease-in-out infinite;
+  --animate-wave: wave 900ms ease-in-out infinite;
+
+  @keyframes flip-in {
+    from {
+      transform: perspective(1200px) rotateY(75deg);
+      opacity: 0;
+    }
+    to {
+      transform: perspective(1200px) rotateY(0);
+      opacity: 1;
+    }
+  }
+  @keyframes rise {
+    from {
+      transform: translateY(14px);
+      opacity: 0;
+    }
+    to {
+      transform: none;
+      opacity: 1;
+    }
+  }
+  @keyframes pop {
+    0% {
+      transform: scale(0.6);
+      opacity: 0;
+    }
+    60% {
+      transform: scale(1.08);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  @keyframes float {
+    0%,
+    100% {
+      transform: translate(0, 0) scale(1);
+    }
+    50% {
+      transform: translate(12px, -10px) scale(1.06);
+    }
+  }
+  @keyframes wave {
+    0%,
+    100% {
+      transform: scaleY(0.35);
+    }
+    50% {
+      transform: scaleY(1);
+    }
+  }
+}
+
+@keyframes confetti-fall {
+  0% {
+    transform: translate3d(0, -10vh, 0) rotate(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translate3d(var(--drift), 105vh, 0) rotate(var(--spin));
+    opacity: 0.9;
+  }
+}
+
 @layer base {
   html {
     -webkit-text-size-adjust: 100%;
   }
   body {
-    @apply bg-bg text-ink font-sans antialiased;
+    @apply bg-bg font-sans text-ink antialiased;
   }
   :focus-visible {
-    @apply outline-brand outline-2 outline-offset-2;
+    @apply outline-2 outline-offset-2 outline-brand;
   }
 }
 
@@ -86,5 +158,8 @@
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
+  }
+  .confetti {
+    display: none;
   }
 }

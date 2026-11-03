@@ -1,0 +1,74 @@
+import { ArrowRight, PartyPopper, RotateCcw, Target } from 'lucide-react';
+import { useEffect, useRef } from 'react';
+
+import { Button, ButtonLink } from '../../components/ui/Button';
+import { Confetti } from '../../components/ui/Confetti';
+import { cardClasses } from '../../components/ui/styles';
+import { toDateKey } from '../../lib/date';
+import { hashString, seededRandom } from '../../lib/random';
+import type { WordEntry } from '../../types/content';
+import { CHALLENGES, DONE_MESSAGES, randomFrom } from './messages';
+
+export function DoneForToday({ words, onAgain }: { words: WordEntry[]; onAgain: () => void }) {
+  const headingRef = useRef<HTMLHeadingElement>(null);
+  const random = seededRandom(hashString(`done:${toDateKey()}`));
+  const message = randomFrom(DONE_MESSAGES, random);
+  const challenge = randomFrom(CHALLENGES, random);
+
+  useEffect(() => {
+    headingRef.current?.focus();
+  }, []);
+
+  return (
+    <div className="mx-auto max-w-xl text-center">
+      <Confetti />
+      <div className="mx-auto flex size-24 animate-pop items-center justify-center rounded-full bg-accent/25">
+        <PartyPopper className="size-11 text-spark" aria-hidden="true" />
+      </div>
+      <h1
+        ref={headingRef}
+        tabIndex={-1}
+        className="mt-6 animate-rise font-display text-4xl font-semibold tracking-tight outline-none"
+      >
+        Done for today!
+      </h1>
+      <p className="mt-3 animate-rise text-lg text-ink-muted [animation-delay:120ms]">{message}</p>
+
+      <section
+        aria-labelledby="learnt-heading"
+        className={`${cardClasses} mt-8 animate-rise p-6 text-left [animation-delay:200ms]`}
+      >
+        <h2 id="learnt-heading" className="font-semibold">
+          {words.length} words explored
+        </h2>
+        <ul className="mt-3 flex flex-wrap gap-2">
+          {words.map((w, i) => (
+            <li
+              key={w.id}
+              className="animate-pop rounded-full bg-success-soft px-3 py-1 text-sm font-medium"
+              style={{ animationDelay: `${300 + i * 60}ms` }}
+            >
+              {w.term}
+            </li>
+          ))}
+        </ul>
+        <p className="mt-5 flex gap-2 rounded-2xl bg-brand-soft p-4 text-sm">
+          <Target className="mt-0.5 size-4 shrink-0 text-brand" aria-hidden="true" />
+          <span>
+            <span className="font-semibold">Today's challenge: </span>
+            {challenge}
+          </span>
+        </p>
+      </section>
+
+      <div className="mt-8 flex flex-col items-center justify-center gap-3 sm:flex-row">
+        <ButtonLink to="/" size="lg">
+          Back to Today <ArrowRight className="size-5" aria-hidden="true" />
+        </ButtonLink>
+        <Button variant="ghost" onClick={onAgain}>
+          <RotateCcw className="size-4" aria-hidden="true" /> Go through them again
+        </Button>
+      </div>
+    </div>
+  );
+}
