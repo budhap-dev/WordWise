@@ -5,6 +5,7 @@ import { AppShell } from './components/layout/AppShell';
 import { FocusLayout } from './components/layout/FocusLayout';
 import { UpdateToast } from './features/install/UpdateToast';
 import { OnboardingPage } from './features/onboarding/OnboardingPage';
+import { WordRush } from './features/play/WordRush';
 import { PracticeHub } from './features/practice/PracticeHub';
 import { PracticeSession } from './features/practice/PracticeSession';
 import { ReviewSession } from './features/review/ReviewSession';
@@ -52,6 +53,7 @@ export function AppRoutes() {
         <Route path="learn" element={<LearnSession />} />
         <Route path="review" element={<ReviewSession />} />
         <Route path="practice/:mode" element={<PracticeSession />} />
+        <Route path="play/rush" element={<WordRush />} />
       </Route>
     </Routes>
   );

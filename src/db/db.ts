@@ -53,6 +53,19 @@ export interface AttemptRecord {
   answeredAt: string;
 }
 
+/** A finished arcade game, for personal bests. */
+export interface GameScoreRecord {
+  id: string;
+  game: 'rush';
+  score: number;
+  correct: number;
+  answered: number;
+  bestCombo: number;
+  date: DateKey;
+  /** ISO timestamp. */
+  playedAt: string;
+}
+
 /** Phase 1 kept today's explored words in localStorage under this key. */
 export const LEGACY_TODAY_KEY = 'wordwise:today';
 
@@ -60,6 +73,7 @@ export class WordWiseDB extends Dexie {
   cards!: EntityTable<CardRecord, 'wordId'>;
   reviews!: EntityTable<ReviewRecord, 'id'>;
   attempts!: EntityTable<AttemptRecord, 'id'>;
+  gameScores!: EntityTable<GameScoreRecord, 'id'>;
 
   constructor(name = 'wordwise') {
     super(name);
@@ -70,6 +84,10 @@ export class WordWiseDB extends Dexie {
     // v2 (Phase 3): practice attempts.
     this.version(2).stores({
       attempts: 'id, date, sessionId, sessionMode',
+    });
+    // v3: arcade game scores (Word Rush).
+    this.version(3).stores({
+      gameScores: 'id, game, date',
     });
     this.on('populate', (tx) => migrateLegacyToday(tx));
   }
