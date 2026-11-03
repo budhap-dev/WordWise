@@ -281,6 +281,12 @@
         "note": "Willing to share; less about saying difficult things."
       }
     ],
+    "otherMeanings": [
+      {
+        "meaning": "Of a photo: taken without the subject posing, or knowing.",
+        "example": "The best wedding photos were the candid ones."
+      }
+    ],
     "origin": "Latin 'candidus', white or pure. A Roman 'candidatus' wore a white toga.",
     "forms": ["candidly", "candour"],
     "upgrade": {
@@ -829,6 +835,13 @@
         "note": "Probable; plainer."
       }
     ],
+    "otherMeanings": [
+      {
+        "meaning": "Of a person: seemingly honest and convincing, but perhaps not to be trusted.",
+        "example": "He was a plausible rogue who talked his way into the job.",
+        "cue": "About a person, 'plausible' can carry a hint of suspicion."
+      }
+    ],
     "origin": "Latin 'plaudere', to applaud: originally 'deserving applause'.",
     "forms": ["plausibly", "plausibility", "implausible"],
     "upgrade": {
@@ -979,6 +992,13 @@
       {
         "term": "grant",
         "note": "'I grant you that…': conversational and slightly old-fashioned."
+      }
+    ],
+    "otherMeanings": [
+      {
+        "meaning": "In sport, to let the other side score.",
+        "example": "England conceded a goal in the final minute.",
+        "cue": "Very common in football and cricket commentary."
       }
     ],
     "origin": "Latin 'concedere', to give way or yield.",
@@ -1140,6 +1160,13 @@
       {
         "term": "promote",
         "note": "More active and public; to support or advertise."
+      }
+    ],
+    "otherMeanings": [
+      {
+        "meaning": "To look after a child who isn't legally yours, usually for a time.",
+        "example": "They've fostered over twenty children in the last ten years.",
+        "cue": "With a child or a pet as the object, it means caring for them, not encouraging them."
       }
     ],
     "origin": "Old English 'fostrian', to feed or nourish.",
@@ -1647,6 +1674,12 @@
       {
         "term": "summarise",
         "note": "Not the same: summarising shortens, synthesising connects."
+      }
+    ],
+    "otherMeanings": [
+      {
+        "meaning": "In chemistry, to make a compound from simpler substances.",
+        "example": "Aspirin was first synthesised in 1897."
       }
     ],
     "commonMistake": "British spelling is usually 'synthesise'; 'synthesize' is American (and Oxford) style.",
@@ -2199,6 +2232,13 @@
         "note": "Opposite: stated clearly."
       }
     ],
+    "otherMeanings": [
+      {
+        "meaning": "Of trust or faith: complete and unquestioning.",
+        "example": "I have implicit trust in her judgement.",
+        "cue": "'Implicit trust', 'implicit faith' and 'implicit confidence' mean total, not hinted at."
+      }
+    ],
     "origin": "Latin 'implicare', to fold in: meaning folded inside the words.",
     "forms": ["implicitly"],
     "upgrade": {
@@ -2656,7 +2696,14 @@
         "note": "Plainer."
       }
     ],
-    "commonMistake": "Don't confuse with 'comprehensible' (understandable). In the UK, a 'comprehensive' is also a state secondary school.",
+    "otherMeanings": [
+      {
+        "meaning": "(noun) In the UK, a state secondary school that doesn't select pupils by ability.",
+        "example": "I went to the local comprehensive, then to sixth-form college.",
+        "cue": "As a noun, 'a comprehensive' (or 'a comp') is the school."
+      }
+    ],
+    "commonMistake": "Don't confuse with 'comprehensible' (understandable).",
     "origin": "Latin 'comprehendere', to grasp completely.",
     "forms": ["comprehensively"],
     "upgrade": {
@@ -2800,6 +2847,12 @@
       {
         "term": "call for",
         "note": "Neutral phrasal verb."
+      }
+    ],
+    "otherMeanings": [
+      {
+        "meaning": "(noun) A legal document allowing the police to search, or to arrest someone.",
+        "example": "The police had a warrant to search the flat."
       }
     ],
     "origin": "Old French 'warantir', to guarantee: the same root as 'guarantee'.",
@@ -3316,7 +3369,13 @@
         "note": "Adjust to suit a particular person."
       }
     ],
-    "commonMistake": "In maths, 'differentiate' also means to find a derivative, so be clear which you mean in a maths department.",
+    "otherMeanings": [
+      {
+        "meaning": "In maths, to find the derivative of a function.",
+        "example": "Differentiate y = x² to find the gradient at any point.",
+        "cue": "In a maths department, say 'adapt the task' for the teaching sense, to avoid confusion."
+      }
+    ],
     "origin": "Latin 'differentia', difference.",
     "forms": ["differentiates", "differentiated", "differentiating", "differentiation"],
     "upgrade": {
@@ -4141,6 +4200,21 @@
         "note": "A different sense: a persuasive presentation, e.g. a sales pitch."
       }
     ],
+    "otherMeanings": [
+      {
+        "meaning": "(noun) A sports field.",
+        "example": "The match was called off because the pitch was waterlogged.",
+        "cue": "British English says 'football pitch' and 'cricket pitch', not 'field'."
+      },
+      {
+        "meaning": "(noun) A persuasive presentation, for example to win business.",
+        "example": "We've got ten minutes to make our pitch to the investors."
+      },
+      {
+        "meaning": "(noun) How high or low a sound is.",
+        "example": "Her voice rose in pitch when she got excited."
+      }
+    ],
     "origin": "From the sense of setting the musical pitch of a note: high or low.",
     "forms": ["pitches", "pitched", "pitching"],
     "upgrade": {
@@ -4542,6 +4616,13 @@
         "note": "Discussion after an event, often in work contexts."
       }
     ],
+    "otherMeanings": [
+      {
+        "meaning": "At a conference, a session attended by everyone, not just one group.",
+        "example": "The keynote talk is in the plenary session before lunch.",
+        "cue": "Outside schools it's conference-speak, not the end of a lesson."
+      }
+    ],
     "origin": "Latin 'plenus', full: a session where everyone is present.",
     "forms": ["plenaries"],
     "upgrade": {
@@ -4640,6 +4721,12 @@
       {
         "term": "sunset",
         "note": "Business jargon for ending a product."
+      }
+    ],
+    "otherMeanings": [
+      {
+        "meaning": "'Self-deprecating': modestly making fun of yourself, a much-loved British trait.",
+        "example": "His self-deprecating humour put everyone at ease."
       }
     ],
     "commonMistake": "Don't confuse with 'depreciate' (to lose value over time).",
@@ -4742,6 +4829,13 @@
       {
         "term": "headspace",
         "note": "Informal British: mental energy."
+      }
+    ],
+    "otherMeanings": [
+      {
+        "meaning": "In computing, how much data a connection can carry.",
+        "example": "Streaming in 4K uses a lot of bandwidth.",
+        "cue": "About networks it's literal; about people it means time or capacity."
       }
     ],
     "commonMistake": "Fine in tech workplaces, but can sound like jargon elsewhere; with parents, say 'time' or 'capacity'.",
@@ -4896,6 +4990,13 @@
         "note": "Consistently works; less about tough conditions."
       }
     ],
+    "otherMeanings": [
+      {
+        "meaning": "Of a debate or response: forceful, even heated (a British euphemism).",
+        "example": "The minister faced some robust questioning on the radio this morning.",
+        "cue": "'A robust exchange of views' usually means a row."
+      }
+    ],
     "origin": "Latin 'robustus', firm and hard, from 'robur', oak.",
     "forms": ["robustly", "robustness"],
     "upgrade": {
@@ -4994,6 +5095,12 @@
       {
         "term": "build on",
         "note": "Use as a foundation for more."
+      }
+    ],
+    "otherMeanings": [
+      {
+        "meaning": "(noun) Power or influence you can use to get what you want.",
+        "example": "As their biggest client, we've got some leverage in the negotiations."
       }
     ],
     "commonMistake": "Overused in business speak. Ask yourself whether 'use' would do; often it would. British pronunciation: 'LEE-ver-idge'.",
@@ -5402,7 +5509,18 @@
         "note": "Informal; permission to start."
       }
     ],
-    "commonMistake": "Noun: 'sign-off' (hyphenated). Verb: 'sign off'. An email 'sign-off' is also the closing, e.g. 'Best wishes'.",
+    "otherMeanings": [
+      {
+        "meaning": "The closing words of an email or letter, such as 'Best wishes'.",
+        "example": "'Cheers' is a friendly sign-off, but too casual for a complaint letter."
+      },
+      {
+        "meaning": "'Signed off' (sick): when a doctor certifies you're not fit for work.",
+        "example": "He's been signed off for two weeks with his back.",
+        "cue": "British usage: 'signed off work', 'signed off sick'."
+      }
+    ],
+    "commonMistake": "Noun: 'sign-off' (hyphenated). Verb: 'sign off' or 'sign off on'.",
     "origin": "From signing your name to approve a document.",
     "forms": ["sign off", "signed off", "signing off"],
     "upgrade": {
@@ -5554,7 +5672,17 @@
         "note": "General software fault; not necessarily one that broke working code."
       }
     ],
-    "commonMistake": "In statistics, 'regression' means modelling relationships between variables, which is a different sense.",
+    "otherMeanings": [
+      {
+        "meaning": "In statistics, a method for modelling the relationship between variables.",
+        "example": "A linear regression showed a strong link between revision hours and scores.",
+        "cue": "'Regression analysis', 'linear regression' and 'regression line' are all statistics."
+      },
+      {
+        "meaning": "In psychology, slipping back into earlier, more childish behaviour.",
+        "example": "Some regression is normal when a toddler gets a new baby brother or sister."
+      }
+    ],
     "origin": "Latin 'regredi', to go back.",
     "forms": ["regressions", "regress"],
     "upgrade": {
@@ -5822,7 +5950,13 @@
         "note": "Give responsibility to someone you trust."
       }
     ],
-    "commonMistake": "Verb is 'DEL-i-gate'; the noun (a representative at a conference) ends '-gət'.",
+    "otherMeanings": [
+      {
+        "meaning": "(noun, /ˈdelɪɡət/) A person sent to represent others, for example at a conference.",
+        "example": "Over three hundred delegates attended the conference in Manchester.",
+        "cue": "Listen to the ending: the noun ends '-gət'; the verb ends '-gate'."
+      }
+    ],
     "origin": "Latin 'delegare', to send away or entrust.",
     "forms": ["delegates", "delegated", "delegating", "delegation"],
     "upgrade": {
@@ -5878,6 +6012,17 @@
         "note": "Informal: honest from the beginning."
       }
     ],
+    "otherMeanings": [
+      {
+        "meaning": "Literally: clear enough to see through.",
+        "example": "Liquids go in a transparent bag at security."
+      },
+      {
+        "meaning": "Of an excuse or lie: easy to see through; obvious.",
+        "example": "His excuse was transparent: everyone knew he had overslept.",
+        "cue": "Praise for a process, but criticism for an excuse or a motive."
+      }
+    ],
     "origin": "Latin 'trans', through, and 'parere', to appear: you can see through it.",
     "forms": ["transparency", "transparently"],
     "upgrade": {
@@ -5926,6 +6071,12 @@
       {
         "term": "tricky",
         "note": "Informal: difficult."
+      }
+    ],
+    "otherMeanings": [
+      {
+        "meaning": "In maths, a non-trivial solution is one that isn't the obvious (usually zero) one.",
+        "example": "Show that the equation has a non-trivial solution."
       }
     ],
     "commonMistake": "Often an understatement in tech and maths circles; to outsiders it may sound like jargon.",
@@ -7208,6 +7359,17 @@
         "note": "British: present for discussion; American: postpone!"
       }
     ],
+    "otherMeanings": [
+      {
+        "meaning": "To move an event to an earlier time, or a clock to a later one.",
+        "example": "The meeting's been put forward to Monday, and the clocks go forward on Sunday.",
+        "cue": "Clocks: 'spring forward, fall back'. In late March, British clocks go forward an hour."
+      },
+      {
+        "meaning": "To nominate someone.",
+        "example": "She was put forward for the teaching award."
+      }
+    ],
     "origin": "Literally placing something in front of people.",
     "forms": ["puts forward", "putting forward"],
     "upgrade": {
@@ -8225,6 +8387,13 @@
         "note": "Literary; visibly sad."
       }
     ],
+    "otherMeanings": [
+      {
+        "meaning": "Of a building: with its insides destroyed or removed.",
+        "example": "The old pub was gutted by fire last year.",
+        "cue": "About a building (or a fish) it's literal."
+      }
+    ],
     "commonMistake": "'I'm gutted for you' is a warm way to show sympathy.",
     "origin": "From gutting a fish: as if your insides had been taken out.",
     "upgrade": {
@@ -8422,6 +8591,16 @@
       {
         "term": "done and dusted",
         "note": "British: completely finished."
+      }
+    ],
+    "otherMeanings": [
+      {
+        "meaning": "Of a person: well organised and emotionally settled.",
+        "example": "She's really sorted: mortgage, pension, the lot."
+      },
+      {
+        "meaning": "'Sorted?' as a question: is everything OK? Have you got what you need?",
+        "example": "'Sorted for tickets?' 'Yep, all sorted.'"
       }
     ],
     "origin": "From 'sort out', to put in order.",
@@ -8917,7 +9096,13 @@
         "note": "Plain; less sense of conceding."
       }
     ],
-    "commonMistake": "Tone matters: said flatly, it can sound like reluctant acceptance.",
+    "otherMeanings": [
+      {
+        "meaning": "A polite way to drop a subject, even though you don't agree.",
+        "example": "'I'd rather not talk about it.' 'Fair enough.'",
+        "cue": "Said flatly, with a shrug, it means 'I won't argue', not 'you're right'."
+      }
+    ],
     "origin": "A plain combination: 'fair' (just) plus 'enough'.",
     "upgrade": {
       "plain": "OK, I accept that's a reasonable point.",
@@ -9025,6 +9210,73 @@
     },
     "category": "british",
     "topics": ["praise", "understatement"],
+    "level": "upper-intermediate"
+  },
+  {
+    "id": "quite",
+    "term": "quite",
+    "partOfSpeech": "adverb",
+    "ipa": "/kwaɪt/",
+    "definition": "Fairly or moderately: in British English, 'quite good' usually means 'decent, but not great'.",
+    "examples": [
+      {
+        "role": "student",
+        "text": "My essay mark was quite good, but my tutor said the argument needed more depth."
+      },
+      {
+        "role": "teacher",
+        "text": "Their predictions were quite good, though nobody spotted the anomalous result."
+      },
+      {
+        "role": "software",
+        "text": "The new build is quite good, but it's still slower than we'd like."
+      },
+      {
+        "role": "everyday",
+        "text": "The film was quite good; I wouldn't rush to see it again."
+      }
+    ],
+    "register": "neutral",
+    "collocations": ["quite good", "quite a lot", "quite a few", "not quite", "quite right"],
+    "synonyms": [
+      {
+        "term": "fairly",
+        "note": "Milder and flatter: 'fairly good' is never high praise."
+      },
+      {
+        "term": "rather",
+        "note": "Often stronger, and can sound a touch formal: 'rather good' is warm."
+      },
+      {
+        "term": "pretty",
+        "note": "Informal, and usually more positive: 'pretty good' means good."
+      }
+    ],
+    "otherMeanings": [
+      {
+        "meaning": "Completely or totally, with words that cannot be graded.",
+        "example": "You're quite right; I hadn't thought of that.",
+        "cue": "With 'right', 'sure', 'certain', 'different' or 'impossible', 'quite' means 'completely'."
+      },
+      {
+        "meaning": "Surprisingly good, when said with enthusiasm.",
+        "example": "Actually, that's quite good! I didn't expect to like it.",
+        "cue": "Stress on 'good', a lively tone or an 'actually' all turn it into real praise."
+      },
+      {
+        "meaning": "'Quite!' on its own: I completely agree.",
+        "example": "'Some people have no manners.' 'Quite!'"
+      },
+      {
+        "meaning": "'Quite a…' with a noun: remarkable, memorable.",
+        "example": "That was quite a party!",
+        "cue": "'Quite a' plus a noun is usually impressive, not lukewarm."
+      }
+    ],
+    "commonMistake": "American English often uses 'quite' to mean 'very', so 'quite good' can be heard as more praise than a British speaker intends.",
+    "origin": "Middle English, from 'quit' in the sense 'free, clear': it first meant 'completely'.",
+    "category": "british",
+    "topics": ["understatement", "tone", "feedback"],
     "level": "upper-intermediate"
   },
   {
@@ -9229,6 +9481,16 @@
         "note": "American equivalent of the noun."
       }
     ],
+    "otherMeanings": [
+      {
+        "meaning": "(verb) To criticise something harshly, or dismiss it as worthless.",
+        "example": "Critics rubbished the plan as unworkable."
+      },
+      {
+        "meaning": "'Rubbish!' on its own: nonsense!",
+        "example": "'You're too old to learn the guitar.' 'Rubbish!'"
+      }
+    ],
     "commonMistake": "British 'rubbish' (and 'bin') where American English says 'trash' or 'garbage'.",
     "origin": "From Old French 'robeux', broken stone and rubble.",
     "upgrade": {
@@ -9327,6 +9589,13 @@
       {
         "term": "are you taking the mickey?",
         "note": "Very British; suggests unfairness."
+      }
+    ],
+    "otherMeanings": [
+      {
+        "meaning": "Literally: having fun, joking around.",
+        "example": "We were only having a laugh; nobody meant any harm.",
+        "cue": "'You're having a laugh' is disbelief; 'we were having a laugh' is fun."
       }
     ],
     "commonMistake": "Note the British long 'a' in 'laugh': /lɑːf/.",
@@ -9585,6 +9854,21 @@
       {
         "term": "want",
         "note": "Plain and direct."
+      }
+    ],
+    "otherMeanings": [
+      {
+        "meaning": "To find someone attractive.",
+        "example": "I think Sam fancies you: he laughs at all your jokes.",
+        "cue": "About a person rather than a thing, it's romantic: 'Do you fancy him?'"
+      },
+      {
+        "meaning": "(adjective) Elaborate, expensive or posh.",
+        "example": "We went somewhere fancy for her birthday."
+      },
+      {
+        "meaning": "'Fancy that!' or 'Fancy seeing you here!': an expression of surprise.",
+        "example": "Fancy seeing you here! I didn't know you lived round this way."
       }
     ],
     "commonMistake": "Using 'fancy' to mean 'want' is British; American English rarely uses it this way.",

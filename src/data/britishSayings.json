@@ -15,25 +15,49 @@
     "id": "quite-good",
     "say": "That's quite good.",
     "mean": "That's a bit disappointing.",
-    "note": "Tone matters: 'quite' can mean 'fairly', not 'very'."
+    "note": "Usually 'quite' means 'fairly' here, not 'very'.",
+    "otherMeanings": [
+      {
+        "meaning": "That's surprisingly good!",
+        "cue": "Said with enthusiasm, a stress on 'good', or an 'actually' ('That's actually quite good!'), it's real praise, especially about something they expected to be bad."
+      }
+    ]
   },
   {
     "id": "not-bad",
     "say": "Not bad at all.",
     "mean": "That's really good.",
-    "note": "Understatement works upwards too."
+    "note": "Understatement works upwards too.",
+    "otherMeanings": [
+      {
+        "meaning": "It's just about OK.",
+        "cue": "Said flatly, with a shrug, it means exactly that: average."
+      }
+    ]
   },
   {
     "id": "bear-in-mind",
     "say": "I'll bear it in mind.",
     "mean": "I've already forgotten about it.",
-    "note": "Sometimes sincere, often a polite brush-off."
+    "note": "Often a polite brush-off.",
+    "otherMeanings": [
+      {
+        "meaning": "I'll genuinely remember it.",
+        "cue": "If they write it down or ask a follow-up question, they mean it."
+      }
+    ]
   },
   {
     "id": "very-interesting",
     "say": "That's very interesting.",
     "mean": "I don't agree, and I'm not convinced.",
-    "note": "Especially when said slowly."
+    "note": "Especially when said slowly.",
+    "otherMeanings": [
+      {
+        "meaning": "I'm genuinely interested.",
+        "cue": "If a question follows ('So how did you…?'), it's real."
+      }
+    ]
   },
   {
     "id": "hear-what-you-say",
@@ -60,13 +84,24 @@
   {
     "id": "might-join-later",
     "say": "I might join you later.",
-    "mean": "I won't be coming."
+    "mean": "I won't be coming.",
+    "otherMeanings": [
+      {
+        "meaning": "I'd genuinely like to come.",
+        "cue": "If they ask where you'll be, or what time, they're coming."
+      }
+    ]
   },
   {
     "id": "coffee-sometime",
     "say": "We must grab a coffee sometime.",
     "mean": "This conversation is now ending.",
-    "note": "Sometimes genuine. If a date follows, it's real."
+    "otherMeanings": [
+      {
+        "meaning": "I'd genuinely like to meet up.",
+        "cue": "If a day or time follows, it's real."
+      }
+    ]
   },
   {
     "id": "by-the-way",
@@ -86,25 +121,53 @@
   {
     "id": "correct-me",
     "say": "Correct me if I'm wrong…",
-    "mean": "I know I'm right. Please don't correct me."
+    "mean": "I know I'm right. Please don't correct me.",
+    "otherMeanings": [
+      {
+        "meaning": "I'm genuinely not sure.",
+        "cue": "A rising tone and a pause for you to answer mean they really do want checking."
+      }
+    ]
   },
   {
     "id": "fine",
     "say": "No, honestly, it's fine.",
     "mean": "It is not fine.",
-    "note": "Watch for a tight smile."
+    "note": "Watch for a tight smile.",
+    "otherMeanings": [
+      {
+        "meaning": "It genuinely is fine.",
+        "cue": "A relaxed tone and a quick change of subject mean you're forgiven."
+      }
+    ]
   },
   {
     "id": "sorry-bumped",
     "say": "Sorry!",
     "mean": "You walked into me.",
-    "note": "The famous British reflex apology."
+    "note": "The famous British reflex apology.",
+    "otherMeanings": [
+      {
+        "meaning": "Pardon? I didn't hear you.",
+        "cue": "'Sorry?' with a rising tone is a request to repeat."
+      },
+      {
+        "meaning": "I'm about to complain.",
+        "cue": "'Sorry, but…' or 'Sorry, is this your bag?' is a polite lead-in to a complaint."
+      }
+    ]
   },
   {
     "id": "perhaps-consider",
     "say": "Perhaps you could consider…",
     "mean": "Please do this.",
-    "note": "A polite instruction rather than a real suggestion."
+    "note": "From a manager, it's a polite instruction.",
+    "otherMeanings": [
+      {
+        "meaning": "A real suggestion you are free to ignore.",
+        "cue": "From a colleague, with 'just a thought' or 'up to you', it's optional."
+      }
+    ]
   },
   {
     "id": "interesting-weather",
@@ -116,7 +179,12 @@
     "id": "no-rush",
     "say": "No rush at all.",
     "mean": "I'd quite like it by the end of today.",
-    "note": "In emails, check whether a date follows."
+    "otherMeanings": [
+      {
+        "meaning": "There genuinely is no rush.",
+        "cue": "If they mention a date weeks away, take them at their word."
+      }
+    ]
   },
   {
     "id": "with-respect-email",

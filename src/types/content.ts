@@ -52,6 +52,19 @@ export interface UpgradePrompt {
   model: string;
 }
 
+/**
+ * Another way the same word or phrase is used: a different sense, or the opposite reading in a
+ * different tone (e.g. "quite good" is usually lukewarm, but said with enthusiasm it's praise).
+ */
+export interface OtherMeaning {
+  /** The other meaning, one short sentence. */
+  meaning: string;
+  /** A sentence showing this sense in use. Required for words; optional for sayings. */
+  example?: string;
+  /** How to tell which meaning is intended: tone, context or grammar. Required for sayings. */
+  cue?: string;
+}
+
 export interface WordEntry {
   /** Stable kebab-case slug, unique across all words. Never change it once shipped: progress is keyed on it. */
   id: string;
@@ -71,6 +84,8 @@ export interface WordEntry {
   /** Words it commonly goes with, e.g. ["a subtle nuance", "nuances of meaning"]. */
   collocations: string[];
   synonyms: Synonym[];
+  /** Other senses that could trip a learner up, e.g. "pitch" as a football pitch. */
+  otherMeanings?: OtherMeaning[];
   /** A short tip about a frequent misuse, where relevant. */
   commonMistake?: string;
   /** A one- or two-line origin story (etymology), to make the word stick. */
@@ -147,4 +162,6 @@ export interface BritishSaying {
   say: string;
   mean: string;
   note?: string;
+  /** When it means something else, often exactly what it says, and how to tell. */
+  otherMeanings?: OtherMeaning[];
 }
