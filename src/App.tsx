@@ -4,6 +4,7 @@ import { BrowserRouter, Navigate, Route, Routes } from 'react-router';
 import { AppShell } from './components/layout/AppShell';
 import { FocusLayout } from './components/layout/FocusLayout';
 import { OnboardingPage } from './features/onboarding/OnboardingPage';
+import { ReviewSession } from './features/review/ReviewSession';
 import { SettingsPage } from './features/settings/SettingsPage';
 import { LearnSession } from './features/today/LearnSession';
 import { TodayPage } from './features/today/TodayPage';
@@ -45,6 +46,7 @@ export function AppRoutes() {
         }
       >
         <Route path="learn" element={<LearnSession />} />
+        <Route path="review" element={<ReviewSession />} />
       </Route>
     </Routes>
   );
