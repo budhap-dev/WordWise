@@ -49,6 +49,7 @@ export function OnboardingPage() {
       dailyGoal,
       level,
       theme: 'system',
+      palette: 'indigo',
       onboardedAt: new Date().toISOString(),
     });
     navigate('/', { replace: true });

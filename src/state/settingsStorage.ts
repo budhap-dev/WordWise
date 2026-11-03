@@ -1,4 +1,5 @@
 import { LEVELS, ROLES } from '../data';
+import { COLOUR_THEMES, type ColourTheme, DEFAULT_THEME } from '../theme/palettes';
 import type { DailyGoal, Settings, ThemePreference } from '../types/user';
 
 export const SETTINGS_KEY = 'wordwise:settings';
@@ -20,6 +21,9 @@ export function parseSettings(value: unknown): Settings | null {
     dailyGoal: v.dailyGoal as DailyGoal,
     level: v.level as Settings['level'],
     theme: THEMES.includes(v.theme as ThemePreference) ? (v.theme as ThemePreference) : 'system',
+    palette: COLOUR_THEMES.includes(v.palette as ColourTheme)
+      ? (v.palette as ColourTheme)
+      : DEFAULT_THEME,
     onboardedAt: typeof v.onboardedAt === 'string' ? v.onboardedAt : new Date().toISOString(),
   };
 }

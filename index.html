@@ -38,7 +38,7 @@
     <meta name="twitter:description" content="British English vocabulary, a few minutes a day." />
     <meta name="twitter:image" content="https://wordwise-daily.vercel.app/og-image.jpg" />
     <script>
-      // Apply the saved theme before first paint to avoid a flash.
+      // Apply the saved theme and colour palette before first paint to avoid a flash.
       (function () {
         try {
           var s = JSON.parse(localStorage.getItem('wordwise:settings') || 'null');
@@ -46,6 +46,8 @@
           var dark =
             t === 'dark' || (t === 'system' && matchMedia('(prefers-color-scheme: dark)').matches);
           if (dark) document.documentElement.classList.add('dark');
+          if (s && s.palette && s.palette !== 'indigo')
+            document.documentElement.setAttribute('data-palette', s.palette);
         } catch (e) {}
       })();
     </script>

@@ -10,5 +10,6 @@ afterEach(async () => {
   cleanup();
   localStorage.clear();
   document.documentElement.classList.remove('dark');
+  delete document.documentElement.dataset.palette;
   await Promise.all(db.tables.map((t) => t.clear()));
 });

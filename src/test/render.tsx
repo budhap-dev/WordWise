@@ -11,6 +11,7 @@ export const TEST_SETTINGS: Settings = {
   dailyGoal: 5,
   level: 'advanced',
   theme: 'system',
+  palette: 'indigo',
   onboardedAt: '2026-11-03T09:00:00.000Z',
 };
 

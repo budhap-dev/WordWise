@@ -6,6 +6,7 @@ const valid = {
   dailyGoal: 10,
   level: 'advanced',
   theme: 'dark',
+  palette: 'oxford',
   onboardedAt: '2026-11-03T09:00:00.000Z',
 };
 
@@ -22,6 +23,13 @@ describe('parseSettings', () => {
   it('rejects an invalid goal or level', () => {
     expect(parseSettings({ ...valid, dailyGoal: 7 })).toBeNull();
     expect(parseSettings({ ...valid, level: 'beginner' })).toBeNull();
+  });
+
+  it('keeps older settings without a colour theme working, on the default theme', () => {
+    const older: Record<string, unknown> = { ...valid };
+    delete older.palette;
+    expect(parseSettings(older)?.palette).toBe('indigo');
+    expect(parseSettings({ ...valid, palette: 'neon' })?.palette).toBe('indigo');
   });
 
   it('defaults an unknown theme to system and de-duplicates roles', () => {
