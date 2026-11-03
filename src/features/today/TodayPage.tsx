@@ -12,6 +12,7 @@ import { formatLongDate, greeting, toDateKey } from '../../lib/date';
 import { dailyFun } from '../../lib/fun';
 import type { Streak } from '../../lib/streak';
 import { useRequiredSettings } from '../../state/settingsContext';
+import { InstallCard } from '../install/InstallPrompt';
 import { FunCard } from './FunCard';
 import { WordOfTheDay } from './WordOfTheDay';
 
@@ -210,6 +211,7 @@ export function TodayPage() {
         </Link>
       )}
       <FunCard fun={dailyFun(toDateKey(), settings.roles)} />
+      <InstallCard />
 
       {/* Room for the floating button on phones */}
       {primary && <div className="h-16 sm:hidden" aria-hidden="true" />}
