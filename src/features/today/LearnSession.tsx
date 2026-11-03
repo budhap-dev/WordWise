@@ -1,7 +1,8 @@
-import { ArrowRight, Eye, X } from 'lucide-react';
-import { useCallback, useEffect, useRef, useState } from 'react';
+import { ArrowRight, ChevronsLeft, Eye, X } from 'lucide-react';
+import { type MouseEvent, useCallback, useEffect, useRef, useState } from 'react';
 import { Link } from 'react-router';
 
+import { StickyActionBar } from '../../components/layout/StickyActionBar';
 import { Button } from '../../components/ui/Button';
 import { ProgressBar } from '../../components/ui/ProgressBar';
 import { cardClasses } from '../../components/ui/styles';
@@ -9,15 +10,17 @@ import { WordDetails } from '../../components/word/WordDetails';
 import { WordHeader } from '../../components/word/WordHeader';
 import { useDailySet } from '../../hooks/useDailySet';
 import { useSpeech } from '../../hooks/useSpeech';
+import { useSwipe } from '../../hooks/useSwipe';
+import { HAPTIC, haptic } from '../../lib/haptics';
 import { useRequiredSettings } from '../../state/settingsContext';
 import { useTodayProgress } from '../../state/todayProgress';
 import { DoneForToday } from './DoneForToday';
 
-function isTypingTarget(target: EventTarget | null) {
+function isInteractive(target: EventTarget | null) {
   return (
     target instanceof HTMLElement &&
     (target.isContentEditable ||
-      ['INPUT', 'TEXTAREA', 'SELECT', 'BUTTON', 'A'].includes(target.tagName))
+      target.closest('input, textarea, select, button, a, [role="button"]') !== null)
   );
 }
 
@@ -33,32 +36,36 @@ export function LearnSession() {
     return firstUnseen === -1 ? words.length : firstUnseen;
   });
   const [revealed, setRevealed] = useState(false);
-  const backHeadingRef = useRef<HTMLDivElement>(null);
-  const frontRef = useRef<HTMLDivElement>(null);
+  const cardRef = useRef<HTMLDivElement>(null);
 
   const word = words[index];
   const finished = index >= words.length;
+  const isLast = index + 1 >= words.length;
 
   const reveal = useCallback(() => {
     if (!word) return;
+    haptic(HAPTIC.tap);
     setRevealed(true);
     markSeen(word.id);
   }, [word, markSeen]);
 
   const next = useCallback(() => {
+    haptic(isLast ? HAPTIC.success : HAPTIC.tap);
     setRevealed(false);
     setIndex((i) => i + 1);
-  }, []);
+    window.scrollTo({ top: 0 });
+  }, [isLast]);
 
-  // Move focus sensibly as the card changes, for keyboard and screen-reader users.
+  const swipe = useSwipe({ onSwipeLeft: next, enabled: revealed });
+
+  // Move focus to the new card's heading for keyboard and screen-reader users.
   useEffect(() => {
-    if (revealed) backHeadingRef.current?.querySelector<HTMLElement>('h2')?.focus();
-    else frontRef.current?.querySelector<HTMLElement>('h2')?.focus();
+    cardRef.current?.querySelector<HTMLElement>('h2')?.focus({ preventScroll: true });
   }, [revealed, index]);
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
-      if (e.metaKey || e.ctrlKey || e.altKey || isTypingTarget(e.target) || !word) return;
+      if (e.metaKey || e.ctrlKey || e.altKey || isInteractive(e.target) || !word) return;
       if ((e.key === ' ' || e.key === 'Enter') && !revealed) {
         e.preventDefault();
         reveal();
@@ -86,15 +93,20 @@ export function LearnSession() {
   }
   if (!word) return null;
 
+  // Tapping anywhere on the front of the card reveals it (keyboard users have Space and the button).
+  const onCardClick = (e: MouseEvent) => {
+    if (!revealed && !isInteractive(e.target)) reveal();
+  };
+
   return (
-    <div className="mx-auto max-w-2xl">
-      <div className="mb-5 flex items-center gap-3">
+    <>
+      <div className="sticky top-0 z-30 -mx-4 mb-4 flex items-center gap-3 bg-bg/90 px-4 py-2 backdrop-blur">
         <Link
           to="/"
           aria-label="Close and return to Today"
-          className="inline-flex size-10 shrink-0 items-center justify-center rounded-full text-ink-muted hover:bg-surface-2 hover:text-ink"
+          className="-ml-2 inline-flex size-11 shrink-0 items-center justify-center rounded-full text-ink-muted active:bg-surface-2"
         >
-          <X className="size-5" aria-hidden="true" />
+          <X className="size-6" aria-hidden="true" />
         </Link>
         <ProgressBar
           value={index + (revealed ? 1 : 0)}
@@ -109,47 +121,66 @@ export function LearnSession() {
 
       <h1 className="sr-only">Today's words</h1>
 
-      {!revealed ? (
-        <div
-          key={`front-${word.id}`}
-          ref={frontRef}
-          className={`${cardClasses} animate-rise p-6 sm:p-8`}
-        >
-          <WordHeader word={word} />
-          <div className="mt-10 rounded-2xl border border-dashed border-line p-6 text-center">
-            <p className="text-ink-muted">
-              Do you know it? Have a guess at the meaning, then reveal.
-            </p>
-            <Button className="mt-4" size="lg" onClick={reveal}>
-              <Eye className="size-5" aria-hidden="true" /> Reveal
-            </Button>
-          </div>
-        </div>
-      ) : (
-        <div
-          key={`back-${word.id}`}
-          ref={backHeadingRef}
-          className={`${cardClasses} animate-flip-in p-6 sm:p-8`}
-          aria-live="polite"
-        >
-          <WordHeader word={word} />
-          <div className="mt-5">
+      {/* eslint-disable-next-line jsx-a11y/click-events-have-key-events, jsx-a11y/no-static-element-interactions -- convenience tap target; Space key and the Reveal button cover keyboard use */}
+      <div
+        key={`${revealed ? 'back' : 'front'}-${word.id}`}
+        ref={cardRef}
+        onClick={onCardClick}
+        {...swipe.handlers}
+        className={`${cardClasses} touch-pan-y p-5 select-none sm:p-8 ${
+          revealed ? 'animate-flip-in' : 'animate-rise cursor-pointer'
+        } ${swipe.dx === 0 ? 'transition-transform' : ''}`}
+        style={
+          swipe.dx
+            ? {
+                transform: `translateX(${swipe.dx}px) rotate(${swipe.dx / 25}deg)`,
+                opacity: Math.max(0.5, 1 - Math.abs(swipe.dx) / 400),
+              }
+            : undefined
+        }
+      >
+        <WordHeader word={word} />
+        {revealed ? (
+          <div className="mt-5 select-text" aria-live="polite">
             <WordDetails word={word} roles={settings.roles} />
           </div>
-          <div className="mt-8 flex justify-end">
-            <Button size="lg" onClick={next}>
-              {index + 1 < words.length ? 'Next word' : 'Finish'}
-              <ArrowRight className="size-5" aria-hidden="true" />
-            </Button>
+        ) : (
+          <div className="mt-8 flex min-h-48 flex-col items-center justify-center rounded-2xl border-2 border-dashed border-line p-6 text-center">
+            <span className="text-4xl" aria-hidden="true">
+              🤔
+            </span>
+            <p className="mt-3 font-medium">Do you know it?</p>
+            <p className="mt-1 text-sm text-ink-muted">
+              Have a guess at the meaning, then tap to reveal.
+            </p>
           </div>
-        </div>
-      )}
+        )}
+      </div>
 
-      <p className="mt-4 hidden text-center text-xs text-ink-muted sm:block">
+      {revealed && (
+        <p className="mt-4 hidden items-center justify-center gap-1 text-sm text-ink-muted pointer-coarse:flex">
+          <ChevronsLeft className="size-4" aria-hidden="true" />
+          Swipe left for the next word
+        </p>
+      )}
+      <p className="mt-4 hidden text-center text-xs text-ink-muted pointer-fine:sm:block">
         <kbd className="rounded border border-line px-1.5 py-0.5 font-sans">Space</kbd> reveal ·{' '}
         <kbd className="rounded border border-line px-1.5 py-0.5 font-sans">→</kbd> next ·{' '}
         <kbd className="rounded border border-line px-1.5 py-0.5 font-sans">S</kbd> hear it
       </p>
-    </div>
+
+      <StickyActionBar>
+        {revealed ? (
+          <Button size="lg" className="w-full" onClick={next}>
+            {isLast ? 'Finish' : 'Next word'}
+            <ArrowRight className="size-5" aria-hidden="true" />
+          </Button>
+        ) : (
+          <Button size="lg" className="w-full" onClick={reveal}>
+            <Eye className="size-5" aria-hidden="true" /> Reveal
+          </Button>
+        )}
+      </StickyActionBar>
+    </>
   );
 }

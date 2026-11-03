@@ -57,7 +57,7 @@ export function OnboardingPage() {
   const canContinue = step !== 'roles' || roles.length > 0;
 
   return (
-    <div className="relative mx-auto flex min-h-dvh max-w-lg flex-col px-4 py-6">
+    <div className="relative mx-auto flex min-h-dvh max-w-lg flex-col px-4 pt-[max(1rem,env(safe-area-inset-top))]">
       {/* Decorative blobs */}
       <div aria-hidden="true" className="pointer-events-none fixed inset-0 -z-10 overflow-hidden">
         <div className="absolute -top-24 -right-24 size-72 animate-float rounded-full bg-brand/15 blur-3xl" />
@@ -173,7 +173,7 @@ export function OnboardingPage() {
         )}
       </div>
 
-      <div className="pb-2">
+      <div className="sticky bottom-0 -mx-4 bg-gradient-to-t from-bg via-bg/95 to-transparent px-4 pt-6 pb-[max(0.75rem,env(safe-area-inset-bottom))]">
         {step === 'ready' ? (
           <Button size="lg" className="w-full" onClick={finish}>
             Show me today's word <ArrowRight className="size-5" aria-hidden="true" />

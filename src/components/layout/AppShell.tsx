@@ -32,8 +32,8 @@ export function AppShell() {
         Skip to content
       </a>
 
-      <header className="sticky top-0 z-30 border-b border-line/60 bg-bg/85 backdrop-blur">
-        <div className="mx-auto flex h-16 max-w-3xl items-center justify-between gap-4 px-4">
+      <header className="sticky top-0 z-30 border-b border-line/60 bg-bg/85 pt-[env(safe-area-inset-top)] backdrop-blur">
+        <div className="mx-auto flex h-14 max-w-3xl items-center justify-between gap-4 px-4 sm:h-16">
           <Link to="/" aria-label="WordWise home" className="rounded-lg">
             <Logo />
           </Link>
@@ -53,7 +53,7 @@ export function AppShell() {
         </div>
       </header>
 
-      <main id="main" className="mx-auto w-full max-w-3xl flex-1 px-4 pt-6 pb-28 sm:pb-12">
+      <main id="main" className="mx-auto w-full max-w-3xl flex-1 px-4 pt-5 pb-28 sm:pt-6 sm:pb-12">
         <Outlet />
       </main>
 
@@ -62,7 +62,7 @@ export function AppShell() {
         aria-label="Main"
         className="fixed inset-x-0 bottom-0 z-30 border-t border-line bg-surface/95 pb-[env(safe-area-inset-bottom)] backdrop-blur sm:hidden"
       >
-        <ul className="mx-auto flex max-w-md items-center justify-around py-2">
+        <ul className="mx-auto flex h-16 max-w-md items-center justify-around">
           {NAV.map(({ to, label, icon: Icon }) => (
             <li key={to}>
               <NavLink to={to} end className={navClass}>

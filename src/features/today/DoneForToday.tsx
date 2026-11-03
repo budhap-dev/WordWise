@@ -1,6 +1,7 @@
 import { ArrowRight, PartyPopper, RotateCcw, Target } from 'lucide-react';
 import { useEffect, useRef } from 'react';
 
+import { StickyActionBar } from '../../components/layout/StickyActionBar';
 import { Button, ButtonLink } from '../../components/ui/Button';
 import { Confetti } from '../../components/ui/Confetti';
 import { cardClasses } from '../../components/ui/styles';
@@ -20,7 +21,7 @@ export function DoneForToday({ words, onAgain }: { words: WordEntry[]; onAgain: 
   }, []);
 
   return (
-    <div className="mx-auto max-w-xl text-center">
+    <div className="mx-auto max-w-xl pt-6 text-center">
       <Confetti />
       <div className="mx-auto flex size-24 animate-pop items-center justify-center rounded-full bg-accent/25">
         <PartyPopper className="size-11 text-spark" aria-hidden="true" />
@@ -61,14 +62,15 @@ export function DoneForToday({ words, onAgain }: { words: WordEntry[]; onAgain: 
         </p>
       </section>
 
-      <div className="mt-8 flex flex-col items-center justify-center gap-3 sm:flex-row">
-        <ButtonLink to="/" size="lg">
+      <Button variant="ghost" className="mt-6" onClick={onAgain}>
+        <RotateCcw className="size-4" aria-hidden="true" /> Go through them again
+      </Button>
+
+      <StickyActionBar>
+        <ButtonLink to="/" size="lg" className="w-full">
           Back to Today <ArrowRight className="size-5" aria-hidden="true" />
         </ButtonLink>
-        <Button variant="ghost" onClick={onAgain}>
-          <RotateCcw className="size-4" aria-hidden="true" /> Go through them again
-        </Button>
-      </div>
+      </StickyActionBar>
     </div>
   );
 }
