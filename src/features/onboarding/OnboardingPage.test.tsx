@@ -36,7 +36,7 @@ describe('onboarding', () => {
       dailyGoal: 15,
       level: 'proficient',
     });
-    expect(screen.getByText(/word of the day/i)).toBeInTheDocument();
+    expect(await screen.findByText(/word of the day/i)).toBeInTheDocument();
     expect(screen.getByText(/15 words · about 9 min/i)).toBeInTheDocument();
   });
 
