@@ -23,7 +23,8 @@ All built-in vocabulary lives in [`src/data/words.json`](../src/data/words.json)
       "text": "Keep your abstract succinct: 150 words, and every sentence should earn its place."
     },
     { "role": "teacher", "text": "Can someone give me a succinct definition of photosynthesis?" },
-    { "role": "software", "text": "Her PR descriptions are always succinct." }
+    { "role": "software", "text": "Her PR descriptions are always succinct." },
+    { "role": "everyday", "text": "Keep the birthday card message succinct." }
   ],
   "register": "neutral",
   "collocations": ["a succinct summary", "put it succinctly"],
@@ -45,24 +46,24 @@ All built-in vocabulary lives in [`src/data/words.json`](../src/data/words.json)
 
 ## Field guide
 
-| Field           | Required | Notes                                                                                                                                                |
-| --------------- | -------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `id`            | yes      | Unique kebab-case slug. **Never change it after release**: review progress is stored against it.                                                     |
-| `term`          | yes      | As displayed. For phrases with a variable part, use `something` / `someone` / `someone's`, e.g. `take something on board`.                           |
-| `partOfSpeech`  | yes      | `noun`, `verb`, `adjective`, `adverb`, `conjunction`, `phrase`, `idiom`, `phrasal verb` or `collocation`.                                            |
-| `ipa`           | yes      | UK (RP) IPA between slashes, e.g. `/ˈnjuːɑːns/`.                                                                                                     |
-| `definition`    | yes      | One plain-English sentence.                                                                                                                          |
-| `examples`      | yes      | One example per role (`student`, `teacher`, `software`). Each must contain the term or one of its `forms`. Extra general examples are fine.          |
-| `register`      | yes      | `formal`, `neutral` or `informal`.                                                                                                                   |
-| `collocations`  | yes      | Words it naturally goes with.                                                                                                                        |
-| `synonyms`      | yes      | Each has a `note` explaining how it differs; that note is the most useful bit.                                                                       |
-| `commonMistake` | no       | A frequent misuse, mispronunciation or spelling trap.                                                                                                |
-| `origin`        | no       | A short, memorable etymology. Hedge folk etymologies ("popularly said to…").                                                                         |
-| `forms`         | no       | Inflections and variants (`corroborated`, `took something on board`). Used to spot the word in sentences.                                            |
-| `upgrade`       | no       | For the "upgrade this sentence" practice mode. `plain` must **not** contain the term; `model` must.                                                  |
-| `category`      | yes      | `general`, `student`, `teaching`, `workplace`, `idiom` or `british`. Roles unlock `student`, `teaching` and `workplace`; the rest show for everyone. |
-| `topics`        | yes      | Free tags used by search and filters, e.g. `meetings`, `feedback`, `data`.                                                                           |
-| `level`         | yes      | `upper-intermediate`, `advanced` or `proficient`. Words at or below the learner's level are introduced first.                                        |
+| Field           | Required | Notes                                                                                                                                                   |
+| --------------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `id`            | yes      | Unique kebab-case slug. **Never change it after release**: review progress is stored against it.                                                        |
+| `term`          | yes      | As displayed. For phrases with a variable part, use `something` / `someone` / `someone's`, e.g. `take something on board`.                              |
+| `partOfSpeech`  | yes      | `noun`, `verb`, `adjective`, `adverb`, `conjunction`, `phrase`, `idiom`, `phrasal verb` or `collocation`.                                               |
+| `ipa`           | yes      | UK (RP) IPA between slashes, e.g. `/ˈnjuːɑːns/`.                                                                                                        |
+| `definition`    | yes      | One plain-English sentence.                                                                                                                             |
+| `examples`      | yes      | One example per role (`student`, `teacher`, `software`, `everyday`). Each must contain the term or one of its `forms`. Extra general examples are fine. |
+| `register`      | yes      | `formal`, `neutral` or `informal`.                                                                                                                      |
+| `collocations`  | yes      | Words it naturally goes with.                                                                                                                           |
+| `synonyms`      | yes      | Each has a `note` explaining how it differs; that note is the most useful bit.                                                                          |
+| `commonMistake` | no       | A frequent misuse, mispronunciation or spelling trap.                                                                                                   |
+| `origin`        | no       | A short, memorable etymology. Hedge folk etymologies ("popularly said to…").                                                                            |
+| `forms`         | no       | Inflections and variants (`corroborated`, `took something on board`). Used to spot the word in sentences.                                               |
+| `upgrade`       | no       | For the "upgrade this sentence" practice mode. `plain` must **not** contain the term; `model` must.                                                     |
+| `category`      | yes      | `general`, `student`, `teaching`, `workplace`, `idiom` or `british`. Roles unlock `student`, `teaching` and `workplace`; the rest show for everyone.    |
+| `topics`        | yes      | Free tags used by search and filters, e.g. `meetings`, `feedback`, `data`.                                                                              |
+| `level`         | yes      | `upper-intermediate`, `advanced` or `proficient`. Words at or below the learner's level are introduced first.                                           |
 
 ## Style rules
 

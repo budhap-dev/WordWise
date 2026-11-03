@@ -39,4 +39,16 @@ describe('onboarding', () => {
     expect(screen.getByText(/word of the day/i)).toBeInTheDocument();
     expect(screen.getByText(/15 words · about 9 min/i)).toBeInTheDocument();
   });
+
+  it('offers a generic everyday role', async () => {
+    const user = userEvent.setup();
+    renderApp({ settings: null });
+    await user.click(screen.getByRole('button', { name: /let's begin/i }));
+    await user.click(screen.getByRole('checkbox', { name: /everyday life/i }));
+    await user.click(screen.getByRole('button', { name: /continue/i }));
+    await user.click(screen.getByRole('button', { name: /continue/i }));
+    await user.click(screen.getByRole('button', { name: /continue/i }));
+    await user.click(screen.getByRole('button', { name: /show me today's word/i }));
+    expect(loadSettings()).toMatchObject({ roles: ['everyday'] });
+  });
 });
