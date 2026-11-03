@@ -3,7 +3,7 @@ import { type ReactNode, useEffect, useRef, useState } from 'react';
 import { useNavigate } from 'react-router';
 
 import { Button } from '../../components/ui/Button';
-import { Logo } from '../../components/layout/Logo';
+import { Logo, LogoMark } from '../../components/layout/Logo';
 import { LEVEL_LABELS, ROLE_LABELS } from '../../data';
 import { estimateMinutes } from '../../lib/daily';
 import { useSettings } from '../../state/settingsContext';
@@ -95,7 +95,8 @@ export function OnboardingPage() {
       >
         {step === 'welcome' && (
           <div className="text-center">
-            <Logo className="text-5xl" />
+            <LogoMark className="mx-auto size-24 animate-pop drop-shadow-lg" />
+            <Logo className="mt-5 text-5xl" mark={false} />
             <h1 className="mt-8 font-display text-4xl font-semibold tracking-tight text-balance">
               Find <em className="text-brand">exactly</em> the right word.
             </h1>
