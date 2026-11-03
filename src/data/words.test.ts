@@ -16,6 +16,7 @@ const PARTS_OF_SPEECH: PartOfSpeech[] = [
   'phrasal verb',
   'collocation',
   'conjunction',
+  'preposition',
 ];
 
 /** Common American spellings that shouldn't appear in user-facing copy. */

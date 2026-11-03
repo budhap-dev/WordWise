@@ -31,7 +31,8 @@ export type PartOfSpeech =
   | 'idiom'
   | 'phrasal verb'
   | 'collocation'
-  | 'conjunction';
+  | 'conjunction'
+  | 'preposition';
 
 export interface Example {
   /** A natural sentence using the term. */

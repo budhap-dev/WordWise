@@ -50,7 +50,7 @@ All built-in vocabulary lives in [`src/data/words.json`](../src/data/words.json)
 | --------------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `id`            | yes      | Unique kebab-case slug. **Never change it after release**: review progress is stored against it.                                                        |
 | `term`          | yes      | As displayed. For phrases with a variable part, use `something` / `someone` / `someone's`, e.g. `take something on board`.                              |
-| `partOfSpeech`  | yes      | `noun`, `verb`, `adjective`, `adverb`, `conjunction`, `phrase`, `idiom`, `phrasal verb` or `collocation`.                                               |
+| `partOfSpeech`  | yes      | `noun`, `verb`, `adjective`, `adverb`, `conjunction`, `preposition`, `phrase`, `idiom`, `phrasal verb` or `collocation`.                                |
 | `ipa`           | yes      | UK (RP) IPA between slashes, e.g. `/ˈnjuːɑːns/`.                                                                                                        |
 | `definition`    | yes      | One plain-English sentence.                                                                                                                             |
 | `examples`      | yes      | One example per role (`student`, `teacher`, `software`, `everyday`). Each must contain the term or one of its `forms`. Extra general examples are fine. |

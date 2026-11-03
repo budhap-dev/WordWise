@@ -17158,5 +17158,4151 @@
     "category": "british",
     "topics": ["work"],
     "level": "upper-intermediate"
+  },
+  {
+    "id": "analogous",
+    "term": "analogous",
+    "partOfSpeech": "adjective",
+    "ipa": "/əˈnæləɡəs/",
+    "definition": "Similar in a way that allows a useful comparison.",
+    "examples": [
+      {
+        "role": "student",
+        "text": "The spread of rumours is analogous to the spread of a virus."
+      },
+      {
+        "role": "teacher",
+        "text": "Electric current is analogous to water flowing through pipes."
+      },
+      {
+        "role": "software",
+        "text": "A message queue is analogous to a post room."
+      },
+      {
+        "role": "everyday",
+        "text": "Learning to drive is analogous to learning an instrument: practice beats theory."
+      }
+    ],
+    "register": "formal",
+    "collocations": ["analogous to", "broadly analogous"],
+    "synonyms": [
+      {
+        "term": "comparable",
+        "note": "able to be compared, more neutral"
+      },
+      {
+        "term": "parallel",
+        "note": "running alongside; similar in development"
+      }
+    ],
+    "forms": ["analogy", "analogously"],
+    "upgrade": {
+      "plain": "The two situations are similar enough to compare.",
+      "model": "The two situations are analogous."
+    },
+    "category": "student",
+    "topics": ["argument", "essays"],
+    "level": "advanced"
+  },
+  {
+    "id": "ascertain",
+    "term": "ascertain",
+    "partOfSpeech": "verb",
+    "ipa": "/ˌæsəˈteɪn/",
+    "definition": "To find something out for certain.",
+    "examples": [
+      {
+        "role": "student",
+        "text": "The survey aims to ascertain whether students feel supported."
+      },
+      {
+        "role": "teacher",
+        "text": "We need to ascertain what pupils already know."
+      },
+      {
+        "role": "software",
+        "text": "Logs helped us ascertain when the fault began."
+      },
+      {
+        "role": "everyday",
+        "text": "The insurer wants to ascertain who was at fault."
+      }
+    ],
+    "register": "formal",
+    "collocations": ["ascertain whether", "difficult to ascertain"],
+    "synonyms": [
+      {
+        "term": "establish",
+        "note": "show to be true, often by investigation"
+      },
+      {
+        "term": "find out",
+        "note": "plainer"
+      }
+    ],
+    "commonMistake": "Stress the last syllable: ass-er-TAIN.",
+    "forms": ["ascertained", "ascertaining", "ascertains"],
+    "upgrade": {
+      "plain": "We need to find out exactly what happened.",
+      "model": "We need to ascertain exactly what happened."
+    },
+    "category": "student",
+    "topics": ["research"],
+    "level": "advanced"
+  },
+  {
+    "id": "conjecture",
+    "term": "conjecture",
+    "partOfSpeech": "noun",
+    "ipa": "/kənˈdʒektʃə/",
+    "definition": "An opinion or idea formed without proof; also, in maths, an unproven statement thought to be true.",
+    "examples": [
+      {
+        "role": "student",
+        "text": "Without data, your claim is just conjecture."
+      },
+      {
+        "role": "teacher",
+        "text": "Goldbach's conjecture has never been proved."
+      },
+      {
+        "role": "software",
+        "text": "Blaming the network is conjecture until we see the logs."
+      },
+      {
+        "role": "everyday",
+        "text": "Whether they'll sell the house is pure conjecture."
+      }
+    ],
+    "register": "formal",
+    "collocations": ["pure conjecture", "Goldbach's conjecture"],
+    "synonyms": [
+      {
+        "term": "speculation",
+        "note": "guessing about possibilities"
+      },
+      {
+        "term": "hypothesis",
+        "note": "a testable proposal"
+      }
+    ],
+    "forms": ["conjectures", "conjectured"],
+    "upgrade": {
+      "plain": "That's just a guess without any evidence.",
+      "model": "That's just conjecture."
+    },
+    "category": "student",
+    "topics": ["argument", "maths"],
+    "level": "advanced"
+  },
+  {
+    "id": "contentious",
+    "term": "contentious",
+    "partOfSpeech": "adjective",
+    "ipa": "/kənˈtenʃəs/",
+    "definition": "Likely to cause disagreement or argument.",
+    "examples": [
+      {
+        "role": "student",
+        "text": "Choose a contentious question for your debate essay."
+      },
+      {
+        "role": "teacher",
+        "text": "Setting by ability is a contentious issue in schools."
+      },
+      {
+        "role": "software",
+        "text": "Tabs versus spaces is weirdly contentious."
+      },
+      {
+        "role": "everyday",
+        "text": "The new parking scheme is contentious on our street."
+      }
+    ],
+    "register": "formal",
+    "collocations": ["a contentious issue", "highly contentious"],
+    "synonyms": [
+      {
+        "term": "controversial",
+        "note": "very close, more everyday"
+      },
+      {
+        "term": "divisive",
+        "note": "splitting people into opposing groups"
+      }
+    ],
+    "upgrade": {
+      "plain": "The issue causes a lot of arguments.",
+      "model": "The issue is contentious."
+    },
+    "category": "student",
+    "topics": ["argument", "debate"],
+    "level": "advanced"
+  },
+  {
+    "id": "corollary",
+    "term": "corollary",
+    "partOfSpeech": "noun",
+    "ipa": "/kəˈrɒləri/",
+    "definition": "A natural consequence or result; in maths, a statement that follows directly from one already proved.",
+    "examples": [
+      {
+        "role": "student",
+        "text": "A corollary of rising rents is longer commutes for students."
+      },
+      {
+        "role": "teacher",
+        "text": "This result is a corollary of Pythagoras' theorem."
+      },
+      {
+        "role": "software",
+        "text": "A corollary of caching is stale data."
+      },
+      {
+        "role": "everyday",
+        "text": "A corollary of a bigger garden is more weeding."
+      }
+    ],
+    "register": "formal",
+    "collocations": ["a natural corollary", "a corollary of"],
+    "synonyms": [
+      {
+        "term": "consequence",
+        "note": "plainer"
+      },
+      {
+        "term": "implication",
+        "note": "something suggested rather than following directly"
+      }
+    ],
+    "commonMistake": "British stress is on the second syllable: kuh-ROL-uh-ree.",
+    "upgrade": {
+      "plain": "One result of cheaper flights is busier airports.",
+      "model": "A corollary of cheaper flights is busier airports."
+    },
+    "category": "student",
+    "topics": ["argument", "maths"],
+    "level": "proficient"
+  },
+  {
+    "id": "credible",
+    "term": "credible",
+    "partOfSpeech": "adjective",
+    "ipa": "/ˈkredəbl/",
+    "definition": "Able to be believed; convincing.",
+    "examples": [
+      {
+        "role": "student",
+        "text": "Use credible sources, not random blogs."
+      },
+      {
+        "role": "teacher",
+        "text": "Is that excuse credible?"
+      },
+      {
+        "role": "software",
+        "text": "We need a credible plan for the migration."
+      },
+      {
+        "role": "everyday",
+        "text": "The witness seemed credible."
+      }
+    ],
+    "register": "neutral",
+    "collocations": ["a credible source", "credible evidence"],
+    "synonyms": [
+      {
+        "term": "plausible",
+        "note": "seems reasonable, maybe not proven"
+      },
+      {
+        "term": "reliable",
+        "note": "consistently trustworthy"
+      }
+    ],
+    "commonMistake": "Don't confuse with 'credulous' (too ready to believe things).",
+    "forms": ["credibility"],
+    "upgrade": {
+      "plain": "Is this source trustworthy enough to believe?",
+      "model": "Is this source credible?"
+    },
+    "category": "student",
+    "topics": ["evidence"],
+    "level": "upper-intermediate"
+  },
+  {
+    "id": "cursory",
+    "term": "cursory",
+    "partOfSpeech": "adjective",
+    "ipa": "/ˈkɜːsəri/",
+    "definition": "Hasty and therefore not thorough.",
+    "examples": [
+      {
+        "role": "student",
+        "text": "A cursory read of the brief isn't enough."
+      },
+      {
+        "role": "teacher",
+        "text": "I gave the books a cursory glance before the lesson."
+      },
+      {
+        "role": "software",
+        "text": "A cursory review missed the bug."
+      },
+      {
+        "role": "everyday",
+        "text": "The mechanic gave the car a cursory look."
+      }
+    ],
+    "register": "formal",
+    "collocations": ["a cursory glance", "cursory reading"],
+    "synonyms": [
+      {
+        "term": "superficial",
+        "note": "only on the surface"
+      },
+      {
+        "term": "perfunctory",
+        "note": "done as a duty, with little effort"
+      }
+    ],
+    "upgrade": {
+      "plain": "He only had a quick, careless look at the report.",
+      "model": "He gave the report a cursory look."
+    },
+    "category": "student",
+    "topics": ["reading", "checking"],
+    "level": "advanced"
+  },
+  {
+    "id": "discern",
+    "term": "discern",
+    "partOfSpeech": "verb",
+    "ipa": "/dɪˈsɜːn/",
+    "definition": "To notice or understand something that isn't obvious.",
+    "examples": [
+      {
+        "role": "student",
+        "text": "I couldn't discern a clear argument in the article."
+      },
+      {
+        "role": "teacher",
+        "text": "Can you discern a pattern in the results?"
+      },
+      {
+        "role": "software",
+        "text": "It's hard to discern which service is slow."
+      },
+      {
+        "role": "everyday",
+        "text": "I could just discern the path in the fog."
+      }
+    ],
+    "register": "formal",
+    "collocations": ["discern a pattern", "hard to discern"],
+    "synonyms": [
+      {
+        "term": "detect",
+        "note": "notice, often by testing"
+      },
+      {
+        "term": "make out",
+        "note": "informal: see or hear with difficulty"
+      }
+    ],
+    "forms": ["discerned", "discerns", "discernible"],
+    "upgrade": {
+      "plain": "I couldn't see any clear pattern.",
+      "model": "I couldn't discern a clear pattern."
+    },
+    "category": "student",
+    "topics": ["analysis"],
+    "level": "advanced"
+  },
+  {
+    "id": "disparate",
+    "term": "disparate",
+    "partOfSpeech": "adjective",
+    "ipa": "/ˈdɪspərət/",
+    "definition": "So different that they're hard to compare or combine.",
+    "examples": [
+      {
+        "role": "student",
+        "text": "My literature review pulls together disparate sources."
+      },
+      {
+        "role": "teacher",
+        "text": "The class has disparate starting points."
+      },
+      {
+        "role": "software",
+        "text": "We're merging disparate data sources into one dashboard."
+      },
+      {
+        "role": "everyday",
+        "text": "Our family has disparate tastes in films."
+      }
+    ],
+    "register": "formal",
+    "collocations": ["disparate sources", "disparate groups"],
+    "synonyms": [
+      {
+        "term": "diverse",
+        "note": "varied, usually positive"
+      },
+      {
+        "term": "dissimilar",
+        "note": "plainly not alike"
+      }
+    ],
+    "commonMistake": "Don't confuse with 'desperate'. Stress the first syllable: DIS-puh-rut.",
+    "upgrade": {
+      "plain": "The ideas come from very different sources.",
+      "model": "The ideas come from disparate sources."
+    },
+    "category": "student",
+    "topics": ["analysis"],
+    "level": "proficient"
+  },
+  {
+    "id": "dubious",
+    "term": "dubious",
+    "partOfSpeech": "adjective",
+    "ipa": "/ˈdjuːbiəs/",
+    "definition": "Hesitant or doubtful; or, of a thing, not to be trusted.",
+    "examples": [
+      {
+        "role": "student",
+        "text": "That statistic looks dubious."
+      },
+      {
+        "role": "teacher",
+        "text": "I'm dubious about the new marking scheme."
+      },
+      {
+        "role": "software",
+        "text": "That package has a dubious history of security issues."
+      },
+      {
+        "role": "everyday",
+        "text": "I was dubious about the restaurant, but it was lovely."
+      }
+    ],
+    "register": "neutral",
+    "collocations": ["dubious about", "a dubious claim"],
+    "synonyms": [
+      {
+        "term": "doubtful",
+        "note": "plainer"
+      },
+      {
+        "term": "questionable",
+        "note": "open to doubt, often about honesty"
+      }
+    ],
+    "upgrade": {
+      "plain": "I'm not sure the claim is true.",
+      "model": "The claim seems dubious."
+    },
+    "category": "student",
+    "topics": ["evidence"],
+    "level": "upper-intermediate"
+  },
+  {
+    "id": "efficacy",
+    "term": "efficacy",
+    "partOfSpeech": "noun",
+    "ipa": "/ˈefɪkəsi/",
+    "definition": "How well something works to produce the intended result.",
+    "examples": [
+      {
+        "role": "student",
+        "text": "The study tests the efficacy of mindfulness for exam stress."
+      },
+      {
+        "role": "teacher",
+        "text": "Research supports the efficacy of retrieval practice."
+      },
+      {
+        "role": "software",
+        "text": "We measured the efficacy of the new cache."
+      },
+      {
+        "role": "everyday",
+        "text": "I'm sceptical about the efficacy of that cough syrup."
+      }
+    ],
+    "register": "formal",
+    "collocations": ["the efficacy of", "proven efficacy"],
+    "synonyms": [
+      {
+        "term": "effectiveness",
+        "note": "plainer, same meaning"
+      },
+      {
+        "term": "efficiency",
+        "note": "different: doing it without waste"
+      }
+    ],
+    "commonMistake": "'Efficacy' is about whether it works; 'efficiency' is about doing it without waste.",
+    "upgrade": {
+      "plain": "How well does the treatment actually work?",
+      "model": "What is the efficacy of the treatment?"
+    },
+    "category": "student",
+    "topics": ["research", "evidence"],
+    "level": "proficient"
+  },
+  {
+    "id": "facet",
+    "term": "facet",
+    "partOfSpeech": "noun",
+    "ipa": "/ˈfæsɪt/",
+    "definition": "One part or aspect of something.",
+    "examples": [
+      {
+        "role": "student",
+        "text": "Consider every facet of the problem in your essay."
+      },
+      {
+        "role": "teacher",
+        "text": "Behaviour is one facet of classroom management."
+      },
+      {
+        "role": "software",
+        "text": "Security is one facet of good design."
+      },
+      {
+        "role": "everyday",
+        "text": "Cooking is just one facet of hosting Christmas."
+      }
+    ],
+    "register": "neutral",
+    "collocations": ["every facet of", "another facet"],
+    "synonyms": [
+      {
+        "term": "aspect",
+        "note": "very close"
+      },
+      {
+        "term": "dimension",
+        "note": "a measurable side of something"
+      }
+    ],
+    "origin": "French 'facette', a small face, as on a cut gem.",
+    "forms": ["facets"],
+    "upgrade": {
+      "plain": "Price is only one part of the decision.",
+      "model": "Price is only one facet of the decision."
+    },
+    "category": "student",
+    "topics": ["analysis"],
+    "level": "upper-intermediate"
+  },
+  {
+    "id": "hitherto",
+    "term": "hitherto",
+    "partOfSpeech": "adverb",
+    "ipa": "/ˌhɪðəˈtuː/",
+    "definition": "Until now, or until the time being discussed.",
+    "examples": [
+      {
+        "role": "student",
+        "text": "The letters reveal a hitherto unknown side of the poet."
+      },
+      {
+        "role": "teacher",
+        "text": "The new data shows a hitherto unseen trend."
+      },
+      {
+        "role": "software",
+        "text": "This exposes a hitherto hidden bug."
+      },
+      {
+        "role": "everyday",
+        "text": "We discovered a hitherto forgotten box of photos."
+      }
+    ],
+    "register": "formal",
+    "collocations": ["hitherto unknown", "hitherto unseen"],
+    "synonyms": [
+      {
+        "term": "until now",
+        "note": "plainer"
+      },
+      {
+        "term": "previously",
+        "note": "neutral"
+      }
+    ],
+    "commonMistake": "Very formal: perfect in an essay, odd in a text message.",
+    "upgrade": {
+      "plain": "The letters show a side of her that nobody knew about until now.",
+      "model": "The letters show a hitherto unknown side of her."
+    },
+    "category": "student",
+    "topics": ["writing"],
+    "level": "proficient"
+  },
+  {
+    "id": "inextricably",
+    "term": "inextricably",
+    "partOfSpeech": "adverb",
+    "ipa": "/ˌɪnɪkˈstrɪkəbli/",
+    "definition": "In a way that is impossible to separate.",
+    "examples": [
+      {
+        "role": "student",
+        "text": "Poverty and poor health are inextricably linked."
+      },
+      {
+        "role": "teacher",
+        "text": "Literacy and progress in science are inextricably linked."
+      },
+      {
+        "role": "software",
+        "text": "Performance and cost are inextricably linked in the cloud."
+      },
+      {
+        "role": "everyday",
+        "text": "Christmas and my gran's trifle are inextricably linked."
+      }
+    ],
+    "register": "formal",
+    "collocations": ["inextricably linked"],
+    "synonyms": [
+      {
+        "term": "inseparably",
+        "note": "similar, slightly less formal"
+      },
+      {
+        "term": "closely",
+        "note": "plainer, weaker"
+      }
+    ],
+    "commonMistake": "Most often followed by 'linked' or 'bound up with'. Stress the second syllable: in-ik-STRIK-uh-blee.",
+    "forms": ["inextricable"],
+    "upgrade": {
+      "plain": "Sleep and mood are closely connected.",
+      "model": "Sleep and mood are inextricably linked."
+    },
+    "category": "student",
+    "topics": ["analysis"],
+    "level": "proficient"
+  },
+  {
+    "id": "infer",
+    "term": "infer",
+    "partOfSpeech": "verb",
+    "ipa": "/ɪnˈfɜː/",
+    "definition": "To work something out from evidence rather than being told it directly.",
+    "examples": [
+      {
+        "role": "student",
+        "text": "What can we infer from the author's tone?"
+      },
+      {
+        "role": "teacher",
+        "text": "What can you infer from the graph?"
+      },
+      {
+        "role": "software",
+        "text": "The type checker can infer the return type."
+      },
+      {
+        "role": "everyday",
+        "text": "I inferred from his face that the interview went badly."
+      }
+    ],
+    "register": "neutral",
+    "collocations": ["infer from", "we can infer that"],
+    "synonyms": [
+      {
+        "term": "deduce",
+        "note": "reach a conclusion by strict reasoning"
+      },
+      {
+        "term": "conclude",
+        "note": "decide after thinking"
+      }
+    ],
+    "commonMistake": "The listener infers; the speaker implies. 'Are you inferring I'm late?' should be 'implying'.",
+    "forms": ["inferred", "inferring", "infers", "inference"],
+    "upgrade": {
+      "plain": "From the data, we can work out that sales will fall.",
+      "model": "From the data, we can infer that sales will fall."
+    },
+    "category": "student",
+    "topics": ["reasoning"],
+    "level": "upper-intermediate"
+  },
+  {
+    "id": "integral",
+    "term": "integral",
+    "partOfSpeech": "adjective",
+    "ipa": "/ˈɪntɪɡrəl/",
+    "definition": "Necessary to make a whole complete; essential.",
+    "examples": [
+      {
+        "role": "student",
+        "text": "Primary research is integral to your dissertation."
+      },
+      {
+        "role": "teacher",
+        "text": "Questioning is integral to good teaching."
+      },
+      {
+        "role": "software",
+        "text": "Tests are integral to our workflow."
+      },
+      {
+        "role": "everyday",
+        "text": "Sunday lunch is integral to our family life."
+      }
+    ],
+    "register": "neutral",
+    "collocations": ["an integral part of", "integral to"],
+    "synonyms": [
+      {
+        "term": "essential",
+        "note": "plainer"
+      },
+      {
+        "term": "intrinsic",
+        "note": "part of the basic nature of something"
+      }
+    ],
+    "otherMeanings": [
+      {
+        "meaning": "(noun) In maths, the result of integration.",
+        "example": "Find the integral of 2x.",
+        "cue": "As a noun in maths, it's the opposite of a derivative."
+      }
+    ],
+    "commonMistake": "Both IN-ti-gruhl and in-TEG-ruhl are heard in Britain.",
+    "upgrade": {
+      "plain": "Feedback is an essential part of the process.",
+      "model": "Feedback is integral to the process."
+    },
+    "category": "student",
+    "topics": ["structure"],
+    "level": "upper-intermediate"
+  },
+  {
+    "id": "notwithstanding",
+    "term": "notwithstanding",
+    "partOfSpeech": "preposition",
+    "ipa": "/ˌnɒtwɪθˈstændɪŋ/",
+    "definition": "In spite of; despite.",
+    "examples": [
+      {
+        "role": "student",
+        "text": "Notwithstanding its flaws, the study is valuable."
+      },
+      {
+        "role": "teacher",
+        "text": "Notwithstanding the weather, sports day went ahead."
+      },
+      {
+        "role": "software",
+        "text": "Notwithstanding the risks, we'll ship on Friday."
+      },
+      {
+        "role": "everyday",
+        "text": "Notwithstanding the rain, we had a lovely day."
+      }
+    ],
+    "register": "formal",
+    "collocations": ["notwithstanding the cost", "these concerns notwithstanding"],
+    "synonyms": [
+      {
+        "term": "despite",
+        "note": "plainer"
+      },
+      {
+        "term": "nevertheless",
+        "note": "however; used between clauses"
+      }
+    ],
+    "commonMistake": "It can come before or after the noun: 'notwithstanding the cost' or 'the cost notwithstanding'.",
+    "upgrade": {
+      "plain": "Despite the cost, it was worth it.",
+      "model": "Notwithstanding the cost, it was worth it."
+    },
+    "category": "student",
+    "topics": ["writing", "argument"],
+    "level": "proficient"
+  },
+  {
+    "id": "ostensibly",
+    "term": "ostensibly",
+    "partOfSpeech": "adverb",
+    "ipa": "/ɒˈstensəbli/",
+    "definition": "Apparently or supposedly, but perhaps not really.",
+    "examples": [
+      {
+        "role": "student",
+        "text": "The novel is ostensibly about a family, but really about class."
+      },
+      {
+        "role": "teacher",
+        "text": "The meeting was ostensibly about uniform."
+      },
+      {
+        "role": "software",
+        "text": "The change was ostensibly a refactor, but it broke the API."
+      },
+      {
+        "role": "everyday",
+        "text": "He came round ostensibly to return a drill, but stayed for dinner."
+      }
+    ],
+    "register": "formal",
+    "collocations": ["ostensibly about"],
+    "synonyms": [
+      {
+        "term": "apparently",
+        "note": "plainer"
+      },
+      {
+        "term": "seemingly",
+        "note": "neutral"
+      }
+    ],
+    "forms": ["ostensible"],
+    "upgrade": {
+      "plain": "The trip was supposedly for work, but really a holiday.",
+      "model": "The trip was ostensibly for work."
+    },
+    "category": "student",
+    "topics": ["argument"],
+    "level": "advanced"
+  },
+  {
+    "id": "pivotal",
+    "term": "pivotal",
+    "partOfSpeech": "adjective",
+    "ipa": "/ˈpɪvətl/",
+    "definition": "Of crucial importance in relation to how something develops.",
+    "examples": [
+      {
+        "role": "student",
+        "text": "The 1832 Reform Act is a pivotal moment in my essay."
+      },
+      {
+        "role": "teacher",
+        "text": "Year 9 is a pivotal year for options."
+      },
+      {
+        "role": "software",
+        "text": "The client demo was a pivotal moment for the product."
+      },
+      {
+        "role": "everyday",
+        "text": "Moving to Bristol was a pivotal decision for us."
+      }
+    ],
+    "register": "neutral",
+    "collocations": ["a pivotal moment", "a pivotal role"],
+    "synonyms": [
+      {
+        "term": "crucial",
+        "note": "decisive"
+      },
+      {
+        "term": "key",
+        "note": "plainer"
+      }
+    ],
+    "upgrade": {
+      "plain": "That meeting was a very important turning point.",
+      "model": "That meeting was pivotal."
+    },
+    "category": "student",
+    "topics": ["importance"],
+    "level": "upper-intermediate"
+  },
+  {
+    "id": "predominantly",
+    "term": "predominantly",
+    "partOfSpeech": "adverb",
+    "ipa": "/prɪˈdɒmɪnəntli/",
+    "definition": "Mainly; for the most part.",
+    "examples": [
+      {
+        "role": "student",
+        "text": "The sample was predominantly first-year students."
+      },
+      {
+        "role": "teacher",
+        "text": "Our intake is predominantly from two primaries."
+      },
+      {
+        "role": "software",
+        "text": "Our users are predominantly on mobile."
+      },
+      {
+        "role": "everyday",
+        "text": "The village is predominantly retired couples."
+      }
+    ],
+    "register": "formal",
+    "collocations": ["predominantly female", "predominantly rural"],
+    "synonyms": [
+      {
+        "term": "mainly",
+        "note": "plainer"
+      },
+      {
+        "term": "largely",
+        "note": "neutral"
+      }
+    ],
+    "forms": ["predominant", "predominate"],
+    "upgrade": {
+      "plain": "Most of the audience were teenagers.",
+      "model": "The audience was predominantly teenagers."
+    },
+    "category": "student",
+    "topics": ["data", "description"],
+    "level": "advanced"
+  },
+  {
+    "id": "presuppose",
+    "term": "presuppose",
+    "partOfSpeech": "verb",
+    "ipa": "/ˌpriːsəˈpəʊz/",
+    "definition": "To assume something in advance, as a necessary condition.",
+    "examples": [
+      {
+        "role": "student",
+        "text": "The question presupposes that the policy failed."
+      },
+      {
+        "role": "teacher",
+        "text": "This task presupposes some knowledge of fractions."
+      },
+      {
+        "role": "software",
+        "text": "The design presupposes a stable network."
+      },
+      {
+        "role": "everyday",
+        "text": "The recipe presupposes you own a food processor."
+      }
+    ],
+    "register": "formal",
+    "collocations": ["presuppose that"],
+    "synonyms": [
+      {
+        "term": "assume",
+        "note": "plainer"
+      },
+      {
+        "term": "take for granted",
+        "note": "informal"
+      }
+    ],
+    "forms": ["presupposes", "presupposed", "presupposition"],
+    "upgrade": {
+      "plain": "The plan assumes everyone will turn up.",
+      "model": "The plan presupposes that everyone will turn up."
+    },
+    "category": "student",
+    "topics": ["reasoning"],
+    "level": "proficient"
+  },
+  {
+    "id": "prevalent",
+    "term": "prevalent",
+    "partOfSpeech": "adjective",
+    "ipa": "/ˈprevələnt/",
+    "definition": "Widespread in a particular area or at a particular time.",
+    "examples": [
+      {
+        "role": "student",
+        "text": "Anxiety is prevalent among final-year students."
+      },
+      {
+        "role": "teacher",
+        "text": "Misconceptions about forces are prevalent in Year 7."
+      },
+      {
+        "role": "software",
+        "text": "Phishing is increasingly prevalent."
+      },
+      {
+        "role": "everyday",
+        "text": "Hay fever is prevalent in June."
+      }
+    ],
+    "register": "formal",
+    "collocations": ["prevalent among", "increasingly prevalent"],
+    "synonyms": [
+      {
+        "term": "common",
+        "note": "plainer"
+      },
+      {
+        "term": "widespread",
+        "note": "found over a large area"
+      }
+    ],
+    "forms": ["prevalence"],
+    "upgrade": {
+      "plain": "This view is very common among young people.",
+      "model": "This view is prevalent among young people."
+    },
+    "category": "student",
+    "topics": ["data"],
+    "level": "advanced"
+  },
+  {
+    "id": "rhetoric",
+    "term": "rhetoric",
+    "partOfSpeech": "noun",
+    "ipa": "/ˈretərɪk/",
+    "definition": "Language designed to persuade or impress, sometimes insincerely.",
+    "examples": [
+      {
+        "role": "student",
+        "text": "Analyse the rhetoric in Churchill's speeches."
+      },
+      {
+        "role": "teacher",
+        "text": "Pupils spotted the rhetoric in the advert straight away."
+      },
+      {
+        "role": "software",
+        "text": "Ignore the marketing rhetoric and read the benchmarks."
+      },
+      {
+        "role": "everyday",
+        "text": "The council's rhetoric doesn't match the potholes."
+      }
+    ],
+    "register": "neutral",
+    "collocations": ["political rhetoric", "empty rhetoric"],
+    "synonyms": [
+      {
+        "term": "oratory",
+        "note": "the art of public speaking"
+      },
+      {
+        "term": "spin",
+        "note": "informal: biased presentation"
+      }
+    ],
+    "commonMistake": "Stress the first syllable for the noun (RET-uh-rik); 'rhetorical' is ri-TOR-ik-uhl.",
+    "forms": ["rhetorical"],
+    "upgrade": {
+      "plain": "His speech was all fine words and no substance.",
+      "model": "His speech was empty rhetoric."
+    },
+    "category": "student",
+    "topics": ["argument", "speaking"],
+    "level": "advanced"
+  },
+  {
+    "id": "seminal",
+    "term": "seminal",
+    "partOfSpeech": "adjective",
+    "ipa": "/ˈsemɪnl/",
+    "definition": "Highly original and influential on later work.",
+    "examples": [
+      {
+        "role": "student",
+        "text": "Cite the seminal study in your literature review."
+      },
+      {
+        "role": "teacher",
+        "text": "Bloom's taxonomy was a seminal piece of work."
+      },
+      {
+        "role": "software",
+        "text": "That paper on MapReduce was seminal."
+      },
+      {
+        "role": "everyday",
+        "text": "It was a seminal album for my dad's generation."
+      }
+    ],
+    "register": "formal",
+    "collocations": ["a seminal work", "a seminal study"],
+    "synonyms": [
+      {
+        "term": "influential",
+        "note": "plainer"
+      },
+      {
+        "term": "groundbreaking",
+        "note": "innovative, breaking new ground"
+      }
+    ],
+    "upgrade": {
+      "plain": "This book had a huge influence on later research.",
+      "model": "This book was seminal."
+    },
+    "category": "student",
+    "topics": ["research"],
+    "level": "advanced"
+  },
+  {
+    "id": "subsequently",
+    "term": "subsequently",
+    "partOfSpeech": "adverb",
+    "ipa": "/ˈsʌbsɪkwəntli/",
+    "definition": "Afterwards; later.",
+    "examples": [
+      {
+        "role": "student",
+        "text": "The theory was subsequently disproved."
+      },
+      {
+        "role": "teacher",
+        "text": "He was subsequently moved to another set."
+      },
+      {
+        "role": "software",
+        "text": "The bug was subsequently fixed in version 2."
+      },
+      {
+        "role": "everyday",
+        "text": "We subsequently found out the shop had closed."
+      }
+    ],
+    "register": "formal",
+    "collocations": ["subsequently found"],
+    "synonyms": [
+      {
+        "term": "later",
+        "note": "plainer"
+      },
+      {
+        "term": "consequently",
+        "note": "different: as a result"
+      }
+    ],
+    "commonMistake": "'Subsequently' means later; 'consequently' means as a result.",
+    "forms": ["subsequent"],
+    "upgrade": {
+      "plain": "She later became head of department.",
+      "model": "She subsequently became head of department."
+    },
+    "category": "student",
+    "topics": ["writing", "time"],
+    "level": "upper-intermediate"
+  },
+  {
+    "id": "substantive",
+    "term": "substantive",
+    "partOfSpeech": "adjective",
+    "ipa": "/səbˈstæntɪv/",
+    "definition": "Having real importance, substance or meaning.",
+    "examples": [
+      {
+        "role": "student",
+        "text": "Your argument needs substantive evidence, not anecdotes."
+      },
+      {
+        "role": "teacher",
+        "text": "We need substantive changes, not tweaks."
+      },
+      {
+        "role": "software",
+        "text": "Only substantive comments, please: skip the nitpicks."
+      },
+      {
+        "role": "everyday",
+        "text": "The new owners made substantive improvements to the pub."
+      }
+    ],
+    "register": "formal",
+    "collocations": ["substantive evidence", "a substantive change"],
+    "synonyms": [
+      {
+        "term": "significant",
+        "note": "important"
+      },
+      {
+        "term": "meaningful",
+        "note": "having real value"
+      }
+    ],
+    "commonMistake": "Stress the second syllable in British English: sub-STAN-tiv.",
+    "upgrade": {
+      "plain": "We need real, significant changes.",
+      "model": "We need substantive changes."
+    },
+    "category": "student",
+    "topics": ["argument"],
+    "level": "proficient"
+  },
+  {
+    "id": "tangential",
+    "term": "tangential",
+    "partOfSpeech": "adjective",
+    "ipa": "/tænˈdʒenʃl/",
+    "definition": "Only slightly connected to the main subject.",
+    "examples": [
+      {
+        "role": "student",
+        "text": "Cut the tangential paragraph about your gap year."
+      },
+      {
+        "role": "teacher",
+        "text": "That question is tangential; let's park it."
+      },
+      {
+        "role": "software",
+        "text": "That's tangential to the bug we're fixing."
+      },
+      {
+        "role": "everyday",
+        "text": "His stories get tangential after a pint."
+      }
+    ],
+    "register": "neutral",
+    "collocations": ["a tangential point", "tangential to"],
+    "synonyms": [
+      {
+        "term": "peripheral",
+        "note": "on the edge of the main issue"
+      },
+      {
+        "term": "irrelevant",
+        "note": "not connected at all"
+      }
+    ],
+    "origin": "From geometry: a tangent touches a curve at just one point.",
+    "forms": ["tangent", "tangentially"],
+    "upgrade": {
+      "plain": "That point isn't really connected to the main topic.",
+      "model": "That point is tangential."
+    },
+    "category": "student",
+    "topics": ["argument"],
+    "level": "advanced"
+  },
+  {
+    "id": "thereby",
+    "term": "thereby",
+    "partOfSpeech": "adverb",
+    "ipa": "/ˌðeəˈbaɪ/",
+    "definition": "As a result of that; by that means.",
+    "examples": [
+      {
+        "role": "student",
+        "text": "The policy cut costs, thereby freeing funds for research."
+      },
+      {
+        "role": "teacher",
+        "text": "We moved the lesson, thereby avoiding the clash."
+      },
+      {
+        "role": "software",
+        "text": "We cached the results, thereby halving response times."
+      },
+      {
+        "role": "everyday",
+        "text": "We left early, thereby missing the traffic."
+      }
+    ],
+    "register": "formal",
+    "collocations": ["thereby reducing", "thereby avoiding"],
+    "synonyms": [
+      {
+        "term": "thus",
+        "note": "formal: as a result"
+      },
+      {
+        "term": "so",
+        "note": "plainer"
+      }
+    ],
+    "upgrade": {
+      "plain": "We left early, so we missed the traffic.",
+      "model": "We left early, thereby avoiding the traffic."
+    },
+    "category": "student",
+    "topics": ["writing"],
+    "level": "advanced"
+  },
+  {
+    "id": "unequivocal",
+    "term": "unequivocal",
+    "partOfSpeech": "adjective",
+    "ipa": "/ˌʌnɪˈkwɪvəkl/",
+    "definition": "Leaving no doubt; completely clear.",
+    "examples": [
+      {
+        "role": "student",
+        "text": "The evidence is unequivocal."
+      },
+      {
+        "role": "teacher",
+        "text": "The head gave unequivocal support to the staff."
+      },
+      {
+        "role": "software",
+        "text": "The answer from security was unequivocal: no."
+      },
+      {
+        "role": "everyday",
+        "text": "Her answer was an unequivocal yes."
+      }
+    ],
+    "register": "formal",
+    "collocations": ["unequivocal support", "an unequivocal answer"],
+    "synonyms": [
+      {
+        "term": "clear-cut",
+        "note": "plainly decided"
+      },
+      {
+        "term": "categorical",
+        "note": "absolute, without exceptions"
+      }
+    ],
+    "forms": ["unequivocally"],
+    "upgrade": {
+      "plain": "Her answer left no doubt at all.",
+      "model": "Her answer was unequivocal."
+    },
+    "category": "student",
+    "topics": ["evidence", "communication"],
+    "level": "advanced"
+  },
+  {
+    "id": "viable",
+    "term": "viable",
+    "partOfSpeech": "adjective",
+    "ipa": "/ˈvaɪəbl/",
+    "definition": "Capable of working successfully; feasible.",
+    "examples": [
+      {
+        "role": "student",
+        "text": "Is a part-time master's a viable option?"
+      },
+      {
+        "role": "teacher",
+        "text": "A residential trip isn't viable this year."
+      },
+      {
+        "role": "software",
+        "text": "Serverless isn't viable for this workload."
+      },
+      {
+        "role": "everyday",
+        "text": "Is working from home a viable option for you?"
+      }
+    ],
+    "register": "neutral",
+    "collocations": ["a viable option", "commercially viable"],
+    "synonyms": [
+      {
+        "term": "feasible",
+        "note": "possible to do"
+      },
+      {
+        "term": "workable",
+        "note": "able to be used effectively"
+      }
+    ],
+    "forms": ["viability"],
+    "upgrade": {
+      "plain": "Is this plan actually going to work?",
+      "model": "Is this plan viable?"
+    },
+    "category": "student",
+    "topics": ["planning"],
+    "level": "upper-intermediate"
+  },
+  {
+    "id": "retrieval-practice",
+    "term": "retrieval practice",
+    "partOfSpeech": "collocation",
+    "ipa": "/rɪˈtriːvl ˌpræktɪs/",
+    "definition": "Recalling information from memory, for example with low-stakes quizzes, to strengthen learning.",
+    "examples": [
+      {
+        "role": "student",
+        "text": "Flashcards are a simple form of retrieval practice."
+      },
+      {
+        "role": "teacher",
+        "text": "I start every lesson with five minutes of retrieval practice."
+      },
+      {
+        "role": "software",
+        "text": "Writing docs from memory is retrieval practice for your own code."
+      },
+      {
+        "role": "everyday",
+        "text": "Doing the pub quiz is retrieval practice for trivia, apparently."
+      }
+    ],
+    "register": "neutral",
+    "collocations": ["a retrieval practice quiz", "regular retrieval practice"],
+    "synonyms": [
+      {
+        "term": "self-testing",
+        "note": "the learner quizzes themselves"
+      },
+      {
+        "term": "revision",
+        "note": "broader: any studying before exams"
+      }
+    ],
+    "upgrade": {
+      "plain": "Testing yourself from memory helps you remember.",
+      "model": "Retrieval practice helps you remember."
+    },
+    "category": "teaching",
+    "topics": ["pedagogy", "memory"],
+    "level": "upper-intermediate"
+  },
+  {
+    "id": "cold-calling",
+    "term": "cold calling",
+    "partOfSpeech": "collocation",
+    "ipa": "/ˌkəʊld ˈkɔːlɪŋ/",
+    "definition": "In teaching, choosing a pupil to answer rather than taking hands up.",
+    "examples": [
+      {
+        "role": "student",
+        "text": "Our seminar tutor uses cold calling, so everyone does the reading."
+      },
+      {
+        "role": "teacher",
+        "text": "Cold calling keeps the whole class thinking."
+      },
+      {
+        "role": "software",
+        "text": "Our tech lead uses cold calling in retros so quieter people get heard."
+      },
+      {
+        "role": "everyday",
+        "text": "My nephew hates cold calling at school, but it's made him braver."
+      }
+    ],
+    "register": "neutral",
+    "collocations": ["no hands up, cold calling"],
+    "synonyms": [
+      {
+        "term": "no hands up",
+        "note": "the policy behind it"
+      },
+      {
+        "term": "targeted questioning",
+        "note": "choosing who to ask on purpose"
+      }
+    ],
+    "otherMeanings": [
+      {
+        "meaning": "In sales, phoning people who haven't asked to be contacted.",
+        "example": "I hang up on cold calling about my boiler.",
+        "cue": "In a business or sales context, it means unsolicited phone calls."
+      }
+    ],
+    "forms": ["cold call", "cold-call", "cold-called"],
+    "upgrade": {
+      "plain": "I choose who answers instead of asking for hands up.",
+      "model": "I use cold calling instead of hands up."
+    },
+    "category": "teaching",
+    "topics": ["pedagogy", "questioning"],
+    "level": "upper-intermediate"
+  },
+  {
+    "id": "think-pair-share",
+    "term": "think-pair-share",
+    "partOfSpeech": "collocation",
+    "ipa": "/ˌθɪŋk ˌpeə ˈʃeə/",
+    "definition": "A routine where pupils think alone, discuss with a partner, then share with the class.",
+    "examples": [
+      {
+        "role": "student",
+        "text": "Our lecturer uses think-pair-share to wake us up."
+      },
+      {
+        "role": "teacher",
+        "text": "A think-pair-share gives quieter pupils time to prepare."
+      },
+      {
+        "role": "software",
+        "text": "We ran a think-pair-share in the design workshop."
+      },
+      {
+        "role": "everyday",
+        "text": "We did a think-pair-share at the parents' meeting, which was odd."
+      }
+    ],
+    "register": "neutral",
+    "collocations": ["a quick think-pair-share"],
+    "synonyms": [
+      {
+        "term": "talk partners",
+        "note": "a primary-school version"
+      },
+      {
+        "term": "turn and talk",
+        "note": "a quick paired discussion"
+      }
+    ],
+    "upgrade": {
+      "plain": "Think alone first, then talk to a partner, then tell the class.",
+      "model": "Let's do a think-pair-share."
+    },
+    "category": "teaching",
+    "topics": ["pedagogy"],
+    "level": "upper-intermediate"
+  },
+  {
+    "id": "exit-ticket",
+    "term": "exit ticket",
+    "partOfSpeech": "noun",
+    "ipa": "/ˈeɡzɪt ˌtɪkɪt/",
+    "definition": "A short task pupils complete at the end of a lesson to show what they've understood.",
+    "examples": [
+      {
+        "role": "student",
+        "text": "Our tutor uses an exit ticket at the end of each seminar."
+      },
+      {
+        "role": "teacher",
+        "text": "The exit tickets showed half the class hadn't got it."
+      },
+      {
+        "role": "software",
+        "text": "We added an exit ticket to the training: one thing you learnt."
+      },
+      {
+        "role": "everyday",
+        "text": "My daughter's exit ticket said she'd learnt about volcanoes."
+      }
+    ],
+    "register": "neutral",
+    "collocations": ["a quick exit ticket"],
+    "synonyms": [
+      {
+        "term": "plenary",
+        "note": "the review section at the end of a lesson"
+      },
+      {
+        "term": "hinge question",
+        "note": "a mid-lesson check"
+      }
+    ],
+    "forms": ["exit tickets"],
+    "upgrade": {
+      "plain": "At the end, each pupil wrote one thing they'd learnt.",
+      "model": "Each pupil completed an exit ticket."
+    },
+    "category": "teaching",
+    "topics": ["assessment"],
+    "level": "upper-intermediate"
+  },
+  {
+    "id": "low-stakes",
+    "term": "low-stakes",
+    "partOfSpeech": "adjective",
+    "ipa": "/ˌləʊ ˈsteɪks/",
+    "definition": "With little riding on the result, so mistakes don't matter much.",
+    "examples": [
+      {
+        "role": "student",
+        "text": "A low-stakes practice test helped calm my nerves."
+      },
+      {
+        "role": "teacher",
+        "text": "Keep quizzes low-stakes so pupils aren't anxious."
+      },
+      {
+        "role": "software",
+        "text": "Make the first demo low-stakes: just the team."
+      },
+      {
+        "role": "everyday",
+        "text": "A low-stakes driving lesson in a car park helped."
+      }
+    ],
+    "register": "neutral",
+    "collocations": ["a low-stakes quiz", "low-stakes testing"],
+    "synonyms": [
+      {
+        "term": "informal",
+        "note": "not official"
+      },
+      {
+        "term": "formative",
+        "note": "used to guide learning, not grade it"
+      }
+    ],
+    "commonMistake": "Hyphenate before a noun ('a low-stakes quiz'); 'high-stakes' is the opposite.",
+    "upgrade": {
+      "plain": "It's just a practice test, so it doesn't count.",
+      "model": "It's a low-stakes test."
+    },
+    "category": "teaching",
+    "topics": ["assessment"],
+    "level": "upper-intermediate"
+  },
+  {
+    "id": "interleaving",
+    "term": "interleaving",
+    "partOfSpeech": "noun",
+    "ipa": "/ˌɪntəˈliːvɪŋ/",
+    "definition": "Mixing different topics or problem types in practice rather than doing one at a time.",
+    "examples": [
+      {
+        "role": "student",
+        "text": "Interleaving past-paper topics felt harder but worked better."
+      },
+      {
+        "role": "teacher",
+        "text": "Interleaving fractions and percentages helps pupils choose methods."
+      },
+      {
+        "role": "software",
+        "text": "Interleaving bug fixes with feature work stops us getting stale."
+      },
+      {
+        "role": "everyday",
+        "text": "Interleaving scales and pieces helped my piano practice."
+      }
+    ],
+    "register": "neutral",
+    "collocations": ["interleaving topics", "interleaved practice"],
+    "synonyms": [
+      {
+        "term": "blocking",
+        "note": "the opposite: practising one type at a time"
+      },
+      {
+        "term": "spacing",
+        "note": "spreading practice out over time"
+      }
+    ],
+    "forms": ["interleave", "interleaved"],
+    "upgrade": {
+      "plain": "Mixing different types of question in practice works better.",
+      "model": "Interleaving question types works better."
+    },
+    "category": "teaching",
+    "topics": ["pedagogy", "memory"],
+    "level": "advanced"
+  },
+  {
+    "id": "cognitive-load",
+    "term": "cognitive load",
+    "partOfSpeech": "collocation",
+    "ipa": "/ˌkɒɡnətɪv ˈləʊd/",
+    "definition": "The amount of mental effort working memory is using at one time.",
+    "examples": [
+      {
+        "role": "student",
+        "text": "Long lecture slides add to cognitive load."
+      },
+      {
+        "role": "teacher",
+        "text": "Worked examples reduce cognitive load for novices."
+      },
+      {
+        "role": "software",
+        "text": "Clear naming reduces cognitive load when reading code."
+      },
+      {
+        "role": "everyday",
+        "text": "Moving house and a new job: that's a lot of cognitive load."
+      }
+    ],
+    "register": "neutral",
+    "collocations": ["reduce cognitive load", "cognitive load theory"],
+    "synonyms": [
+      {
+        "term": "mental effort",
+        "note": "plainer"
+      },
+      {
+        "term": "overload",
+        "note": "too much to process"
+      }
+    ],
+    "upgrade": {
+      "plain": "Too much information on one slide is hard to process.",
+      "model": "Too much on one slide increases cognitive load."
+    },
+    "category": "teaching",
+    "topics": ["pedagogy", "psychology"],
+    "level": "advanced"
+  },
+  {
+    "id": "worked-example",
+    "term": "worked example",
+    "partOfSpeech": "noun",
+    "ipa": "/ˌwɜːkt ɪɡˈzɑːmpl/",
+    "definition": "A step-by-step demonstration of how to solve a problem.",
+    "examples": [
+      {
+        "role": "student",
+        "text": "The worked examples in the textbook saved me."
+      },
+      {
+        "role": "teacher",
+        "text": "Show a worked example before independent practice."
+      },
+      {
+        "role": "software",
+        "text": "The docs need a worked example, not just a reference."
+      },
+      {
+        "role": "everyday",
+        "text": "The recipe had a worked example for the pastry."
+      }
+    ],
+    "register": "neutral",
+    "collocations": ["a worked example", "worked examples"],
+    "synonyms": [
+      {
+        "term": "model answer",
+        "note": "a finished example of a good answer"
+      },
+      {
+        "term": "demonstration",
+        "note": "broader"
+      }
+    ],
+    "forms": ["worked examples"],
+    "upgrade": {
+      "plain": "Show them how to solve one step by step first.",
+      "model": "Show them a worked example first."
+    },
+    "category": "teaching",
+    "topics": ["pedagogy", "maths"],
+    "level": "upper-intermediate"
+  },
+  {
+    "id": "mastery",
+    "term": "mastery",
+    "partOfSpeech": "noun",
+    "ipa": "/ˈmɑːstəri/",
+    "definition": "Thorough understanding or skill; in teaching, ensuring everyone secures a topic before moving on.",
+    "examples": [
+      {
+        "role": "student",
+        "text": "Mastery of the basics makes the second year easier."
+      },
+      {
+        "role": "teacher",
+        "text": "Our maths department follows a mastery approach."
+      },
+      {
+        "role": "software",
+        "text": "Mastery of Git takes years."
+      },
+      {
+        "role": "everyday",
+        "text": "Her mastery of the violin is astonishing."
+      }
+    ],
+    "register": "neutral",
+    "collocations": ["teaching for mastery", "a mastery approach"],
+    "synonyms": [
+      {
+        "term": "proficiency",
+        "note": "a high level of skill"
+      },
+      {
+        "term": "command",
+        "note": "a strong grasp"
+      }
+    ],
+    "upgrade": {
+      "plain": "She has a really thorough grasp of the subject.",
+      "model": "She has real mastery of the subject."
+    },
+    "category": "teaching",
+    "topics": ["pedagogy"],
+    "level": "upper-intermediate"
+  },
+  {
+    "id": "pastoral",
+    "term": "pastoral",
+    "partOfSpeech": "adjective",
+    "ipa": "/ˈpɑːstərəl/",
+    "definition": "In UK schools, relating to pupils' welfare and personal development rather than academic work.",
+    "examples": [
+      {
+        "role": "student",
+        "text": "The university has a strong pastoral team."
+      },
+      {
+        "role": "teacher",
+        "text": "I'm moving into a pastoral role as head of year."
+      },
+      {
+        "role": "software",
+        "text": "Our manager takes pastoral care of the team seriously."
+      },
+      {
+        "role": "everyday",
+        "text": "The school's pastoral support was brilliant after the accident."
+      }
+    ],
+    "register": "neutral",
+    "collocations": ["pastoral care", "a pastoral role"],
+    "synonyms": [
+      {
+        "term": "wellbeing",
+        "note": "health and happiness"
+      },
+      {
+        "term": "welfare",
+        "note": "safety and needs, more formal"
+      }
+    ],
+    "otherMeanings": [
+      {
+        "meaning": "Relating to the countryside or country life, especially in art.",
+        "example": "It's a pastoral painting of sheep in a meadow.",
+        "cue": "In art or literature, it's about rural life."
+      }
+    ],
+    "upgrade": {
+      "plain": "The school looks after pupils' wellbeing really well.",
+      "model": "The school's pastoral care is excellent."
+    },
+    "category": "teaching",
+    "topics": ["schools", "wellbeing"],
+    "level": "upper-intermediate"
+  },
+  {
+    "id": "safeguarding",
+    "term": "safeguarding",
+    "partOfSpeech": "noun",
+    "ipa": "/ˈseɪfɡɑːdɪŋ/",
+    "definition": "In the UK, protecting children and vulnerable adults from harm, with set procedures.",
+    "examples": [
+      {
+        "role": "student",
+        "text": "All volunteers at the summer school did safeguarding training."
+      },
+      {
+        "role": "teacher",
+        "text": "Report any safeguarding concern to the DSL straight away."
+      },
+      {
+        "role": "software",
+        "text": "The app for schools had to pass a safeguarding review."
+      },
+      {
+        "role": "everyday",
+        "text": "The football club takes safeguarding seriously."
+      }
+    ],
+    "register": "formal",
+    "collocations": ["safeguarding training", "a safeguarding concern"],
+    "synonyms": [
+      {
+        "term": "child protection",
+        "note": "a part of safeguarding"
+      },
+      {
+        "term": "duty of care",
+        "note": "a legal responsibility"
+      }
+    ],
+    "forms": ["safeguard"],
+    "upgrade": {
+      "plain": "Report any worries about a child's safety to the lead.",
+      "model": "Report any safeguarding concern to the lead."
+    },
+    "category": "teaching",
+    "topics": ["schools", "safety"],
+    "level": "upper-intermediate"
+  },
+  {
+    "id": "intervention",
+    "term": "intervention",
+    "partOfSpeech": "noun",
+    "ipa": "/ˌɪntəˈvenʃn/",
+    "definition": "In schools, extra targeted support for pupils who need to catch up.",
+    "examples": [
+      {
+        "role": "student",
+        "text": "The university offers writing interventions for first years."
+      },
+      {
+        "role": "teacher",
+        "text": "The phonics intervention runs every morning."
+      },
+      {
+        "role": "software",
+        "text": "Early intervention stopped the project slipping."
+      },
+      {
+        "role": "everyday",
+        "text": "The speech therapy intervention helped my son enormously."
+      }
+    ],
+    "register": "neutral",
+    "collocations": ["a reading intervention", "intervention group"],
+    "synonyms": [
+      {
+        "term": "catch-up session",
+        "note": "plainer"
+      },
+      {
+        "term": "booster",
+        "note": "British: extra sessions before exams"
+      }
+    ],
+    "forms": ["interventions"],
+    "upgrade": {
+      "plain": "He's getting extra help with reading in a small group.",
+      "model": "He's in a reading intervention group."
+    },
+    "category": "teaching",
+    "topics": ["schools"],
+    "level": "upper-intermediate"
+  },
+  {
+    "id": "moderation",
+    "term": "moderation",
+    "partOfSpeech": "noun",
+    "ipa": "/ˌmɒdəˈreɪʃn/",
+    "definition": "In schools, checking that marking is consistent across teachers.",
+    "examples": [
+      {
+        "role": "student",
+        "text": "My dissertation went through moderation."
+      },
+      {
+        "role": "teacher",
+        "text": "We have a moderation meeting for the coursework on Thursday."
+      },
+      {
+        "role": "software",
+        "text": "Content moderation on the forum takes up a lot of time."
+      },
+      {
+        "role": "everyday",
+        "text": "The craft fair judges did a moderation round."
+      }
+    ],
+    "register": "neutral",
+    "collocations": ["moderation meeting", "internal moderation"],
+    "synonyms": [
+      {
+        "term": "standardisation",
+        "note": "agreeing the standard before marking"
+      },
+      {
+        "term": "second marking",
+        "note": "a colleague marks it again"
+      }
+    ],
+    "otherMeanings": [
+      {
+        "meaning": "Avoiding extremes, especially in eating or drinking.",
+        "example": "Chocolate is fine in moderation.",
+        "cue": "'In moderation' is about not overdoing it."
+      }
+    ],
+    "forms": ["moderate", "moderated", "moderating"],
+    "upgrade": {
+      "plain": "We checked each other's marking to make sure it was fair.",
+      "model": "We held a moderation session."
+    },
+    "category": "teaching",
+    "topics": ["assessment"],
+    "level": "upper-intermediate"
+  },
+  {
+    "id": "inset-day",
+    "term": "INSET day",
+    "partOfSpeech": "noun",
+    "ipa": "/ˈɪnset ˌdeɪ/",
+    "definition": "A UK school day for staff training, when pupils don't attend.",
+    "examples": [
+      {
+        "role": "student",
+        "text": "My little brother has an INSET day, so I'm babysitting."
+      },
+      {
+        "role": "teacher",
+        "text": "We have an INSET day on safeguarding in January."
+      },
+      {
+        "role": "software",
+        "text": "School INSET days mean I'm working from home with the kids."
+      },
+      {
+        "role": "everyday",
+        "text": "It's an INSET day, so we're off to the zoo."
+      }
+    ],
+    "register": "neutral",
+    "collocations": ["an INSET day"],
+    "synonyms": [
+      {
+        "term": "training day",
+        "note": "plainer"
+      },
+      {
+        "term": "CPD",
+        "note": "continuing professional development"
+      }
+    ],
+    "origin": "'INSET' stands for 'in-service education and training'.",
+    "forms": ["INSET days"],
+    "upgrade": {
+      "plain": "The children are off on Monday for teacher training.",
+      "model": "Monday is an INSET day."
+    },
+    "category": "teaching",
+    "topics": ["schools", "calendar"],
+    "level": "upper-intermediate"
+  },
+  {
+    "id": "learning-objective",
+    "term": "learning objective",
+    "partOfSpeech": "noun",
+    "ipa": "/ˌlɜːnɪŋ əbˈdʒektɪv/",
+    "definition": "A statement of what pupils should know or be able to do by the end of a lesson.",
+    "examples": [
+      {
+        "role": "student",
+        "text": "Each lecture opens with a learning objective."
+      },
+      {
+        "role": "teacher",
+        "text": "The learning objective is on the board as they come in."
+      },
+      {
+        "role": "software",
+        "text": "Our onboarding module has a clear learning objective."
+      },
+      {
+        "role": "everyday",
+        "text": "The swimming class has a learning objective each week."
+      }
+    ],
+    "register": "neutral",
+    "collocations": ["share the learning objective"],
+    "synonyms": [
+      {
+        "term": "learning intention",
+        "note": "a common alternative"
+      },
+      {
+        "term": "success criteria",
+        "note": "how you'll know it's been met"
+      }
+    ],
+    "forms": ["learning objectives"],
+    "upgrade": {
+      "plain": "By the end, pupils should be able to explain photosynthesis.",
+      "model": "The learning objective is to explain photosynthesis."
+    },
+    "category": "teaching",
+    "topics": ["planning"],
+    "level": "upper-intermediate"
+  },
+  {
+    "id": "success-criteria",
+    "term": "success criteria",
+    "partOfSpeech": "noun",
+    "ipa": "/səkˈses kraɪˌtɪəriə/",
+    "definition": "The specific things a pupil's work must show to meet the learning objective.",
+    "examples": [
+      {
+        "role": "student",
+        "text": "Check the success criteria before you submit."
+      },
+      {
+        "role": "teacher",
+        "text": "Pupils used the success criteria to peer-assess."
+      },
+      {
+        "role": "software",
+        "text": "Agree success criteria before the sprint starts."
+      },
+      {
+        "role": "everyday",
+        "text": "Our success criteria for the party: nobody cries."
+      }
+    ],
+    "register": "neutral",
+    "collocations": ["share the success criteria"],
+    "synonyms": [
+      {
+        "term": "mark scheme",
+        "note": "the full marking guide"
+      },
+      {
+        "term": "checklist",
+        "note": "a simple list to tick off"
+      }
+    ],
+    "commonMistake": "'Criteria' is plural; the singular is 'criterion'.",
+    "upgrade": {
+      "plain": "Here's how you'll know if your work is good enough.",
+      "model": "Here are the success criteria."
+    },
+    "category": "teaching",
+    "topics": ["assessment", "planning"],
+    "level": "upper-intermediate"
+  },
+  {
+    "id": "hinge-question",
+    "term": "hinge question",
+    "partOfSpeech": "noun",
+    "ipa": "/ˈhɪndʒ ˌkwestʃən/",
+    "definition": "A quick diagnostic question mid-lesson that decides whether to move on or reteach.",
+    "examples": [
+      {
+        "role": "student",
+        "text": "Our lecturer's hinge question showed nobody understood the proof."
+      },
+      {
+        "role": "teacher",
+        "text": "The hinge question showed I needed to reteach it."
+      },
+      {
+        "role": "software",
+        "text": "The demo was our hinge question: if the client hated it, we'd pivot."
+      },
+      {
+        "role": "everyday",
+        "text": "Asking 'Do you actually like him?' was the hinge question of the evening."
+      }
+    ],
+    "register": "neutral",
+    "collocations": ["a hinge question"],
+    "synonyms": [
+      {
+        "term": "check for understanding",
+        "note": "broader"
+      },
+      {
+        "term": "exit ticket",
+        "note": "an end-of-lesson check"
+      }
+    ],
+    "forms": ["hinge questions"],
+    "upgrade": {
+      "plain": "A quick question halfway through told me whether to move on.",
+      "model": "A hinge question told me whether to move on."
+    },
+    "category": "teaching",
+    "topics": ["assessment", "questioning"],
+    "level": "advanced"
+  },
+  {
+    "id": "dual-coding",
+    "term": "dual coding",
+    "partOfSpeech": "noun",
+    "ipa": "/ˌdjuːəl ˈkəʊdɪŋ/",
+    "definition": "Combining words with visuals, such as diagrams, to make learning easier to remember.",
+    "examples": [
+      {
+        "role": "student",
+        "text": "Dual coding my revision notes made them stick."
+      },
+      {
+        "role": "teacher",
+        "text": "Dual coding works well for the water cycle."
+      },
+      {
+        "role": "software",
+        "text": "Dual coding helps: put a diagram in the design doc."
+      },
+      {
+        "role": "everyday",
+        "text": "Dual coding helped my son learn his times tables."
+      }
+    ],
+    "register": "neutral",
+    "collocations": ["use dual coding"],
+    "synonyms": [
+      {
+        "term": "visual aids",
+        "note": "plainer"
+      },
+      {
+        "term": "infographic",
+        "note": "a visual summary"
+      }
+    ],
+    "upgrade": {
+      "plain": "Adding diagrams to my notes helped me remember them.",
+      "model": "Dual coding helped me remember my notes."
+    },
+    "category": "teaching",
+    "topics": ["pedagogy", "memory"],
+    "level": "advanced"
+  },
+  {
+    "id": "magnitude",
+    "term": "magnitude",
+    "partOfSpeech": "noun",
+    "ipa": "/ˈmæɡnɪtjuːd/",
+    "definition": "Size or importance; in maths and physics, the size of a quantity regardless of direction.",
+    "examples": [
+      {
+        "role": "student",
+        "text": "I underestimated the magnitude of the task."
+      },
+      {
+        "role": "teacher",
+        "text": "Find the magnitude of the resultant force."
+      },
+      {
+        "role": "software",
+        "text": "That's an order of magnitude faster."
+      },
+      {
+        "role": "everyday",
+        "text": "We didn't grasp the magnitude of the damage until we saw the roof."
+      }
+    ],
+    "register": "formal",
+    "collocations": ["order of magnitude", "the magnitude of the force"],
+    "synonyms": [
+      {
+        "term": "scale",
+        "note": "size or extent"
+      },
+      {
+        "term": "size",
+        "note": "plainer"
+      }
+    ],
+    "upgrade": {
+      "plain": "We didn't realise how big the problem was.",
+      "model": "We didn't realise the magnitude of the problem."
+    },
+    "category": "teaching",
+    "topics": ["maths", "science"],
+    "level": "advanced"
+  },
+  {
+    "id": "derive",
+    "term": "derive",
+    "partOfSpeech": "verb",
+    "ipa": "/dɪˈraɪv/",
+    "definition": "To obtain something from a source; in maths and science, to work out a formula from other facts.",
+    "examples": [
+      {
+        "role": "student",
+        "text": "Can you derive the formula rather than memorise it?"
+      },
+      {
+        "role": "teacher",
+        "text": "Let's derive the equation for kinetic energy together."
+      },
+      {
+        "role": "software",
+        "text": "We derive the cache key from the user ID."
+      },
+      {
+        "role": "everyday",
+        "text": "Many English words derive from French."
+      }
+    ],
+    "register": "neutral",
+    "collocations": ["derive a formula", "derive from"],
+    "synonyms": [
+      {
+        "term": "deduce",
+        "note": "reach by reasoning"
+      },
+      {
+        "term": "obtain",
+        "note": "get, more formal"
+      }
+    ],
+    "forms": ["derives", "derived", "deriving", "derivation"],
+    "upgrade": {
+      "plain": "Work out the formula from first principles.",
+      "model": "Derive the formula from first principles."
+    },
+    "category": "teaching",
+    "topics": ["maths", "science"],
+    "level": "upper-intermediate"
+  },
+  {
+    "id": "fair-test",
+    "term": "fair test",
+    "partOfSpeech": "noun",
+    "ipa": "/ˌfeə ˈtest/",
+    "definition": "In UK school science, an experiment where only one variable is changed and the others are controlled.",
+    "examples": [
+      {
+        "role": "student",
+        "text": "Our lab report had to explain why it was a fair test."
+      },
+      {
+        "role": "teacher",
+        "text": "How will you make this a fair test?"
+      },
+      {
+        "role": "software",
+        "text": "For a fair test of the two libraries, use the same data."
+      },
+      {
+        "role": "everyday",
+        "text": "It's not a fair test if one of you has a head start."
+      }
+    ],
+    "register": "neutral",
+    "collocations": ["make it a fair test"],
+    "synonyms": [
+      {
+        "term": "controlled experiment",
+        "note": "the scientific term"
+      },
+      {
+        "term": "like-for-like comparison",
+        "note": "comparing equivalents"
+      }
+    ],
+    "upgrade": {
+      "plain": "Only change one thing so the comparison is fair.",
+      "model": "Only change one thing so it's a fair test."
+    },
+    "category": "teaching",
+    "topics": ["science"],
+    "level": "upper-intermediate"
+  },
+  {
+    "id": "control-variable",
+    "term": "control variable",
+    "partOfSpeech": "noun",
+    "ipa": "/kənˈtrəʊl ˌveəriəbl/",
+    "definition": "In an experiment, a factor kept the same so it doesn't affect the result.",
+    "examples": [
+      {
+        "role": "student",
+        "text": "Temperature was a control variable in my experiment."
+      },
+      {
+        "role": "teacher",
+        "text": "List two control variables for this practical."
+      },
+      {
+        "role": "software",
+        "text": "Network speed is a control variable in our benchmark."
+      },
+      {
+        "role": "everyday",
+        "text": "In our bake-off, oven temperature was the control variable."
+      }
+    ],
+    "register": "neutral",
+    "collocations": ["identify the control variables"],
+    "synonyms": [
+      {
+        "term": "constant",
+        "note": "a value that doesn't change"
+      },
+      {
+        "term": "independent variable",
+        "note": "the one you change on purpose"
+      }
+    ],
+    "forms": ["control variables"],
+    "upgrade": {
+      "plain": "We kept the temperature the same throughout.",
+      "model": "Temperature was a control variable."
+    },
+    "category": "teaching",
+    "topics": ["science"],
+    "level": "upper-intermediate"
+  },
+  {
+    "id": "precision",
+    "term": "precision",
+    "partOfSpeech": "noun",
+    "ipa": "/prɪˈsɪʒn/",
+    "definition": "How close repeated measurements are to each other; more generally, exactness.",
+    "examples": [
+      {
+        "role": "student",
+        "text": "Write with precision: say exactly what you mean."
+      },
+      {
+        "role": "teacher",
+        "text": "Repeat readings improve precision, not accuracy."
+      },
+      {
+        "role": "software",
+        "text": "Floating-point numbers have limited precision."
+      },
+      {
+        "role": "everyday",
+        "text": "She parks with astonishing precision."
+      }
+    ],
+    "register": "neutral",
+    "collocations": ["with great precision", "precision and accuracy"],
+    "synonyms": [
+      {
+        "term": "accuracy",
+        "note": "how close to the true value: a different idea"
+      },
+      {
+        "term": "exactness",
+        "note": "plainer"
+      }
+    ],
+    "commonMistake": "In science, 'precise' means repeated results agree; 'accurate' means close to the true value. You can be precise but wrong.",
+    "forms": ["precise", "precisely"],
+    "upgrade": {
+      "plain": "The measurements were all very close to each other.",
+      "model": "The measurements had high precision."
+    },
+    "category": "teaching",
+    "topics": ["science", "maths"],
+    "level": "upper-intermediate"
+  },
+  {
+    "id": "reliable",
+    "term": "reliable",
+    "partOfSpeech": "adjective",
+    "ipa": "/rɪˈlaɪəbl/",
+    "definition": "Able to be trusted; in science, giving similar results when repeated.",
+    "examples": [
+      {
+        "role": "student",
+        "text": "Is the source reliable?"
+      },
+      {
+        "role": "teacher",
+        "text": "Repeat the readings to check your results are reliable."
+      },
+      {
+        "role": "software",
+        "text": "The new test suite is far more reliable."
+      },
+      {
+        "role": "everyday",
+        "text": "Our old car is surprisingly reliable."
+      }
+    ],
+    "register": "neutral",
+    "collocations": ["reliable data", "a reliable source"],
+    "synonyms": [
+      {
+        "term": "dependable",
+        "note": "of people or machines"
+      },
+      {
+        "term": "repeatable",
+        "note": "science: gives the same results again"
+      }
+    ],
+    "commonMistake": "In UK school science, 'reliable' (repeatable) and 'valid' (measures what it should) mean different things.",
+    "forms": ["reliability", "reliably"],
+    "upgrade": {
+      "plain": "You can always count on her.",
+      "model": "She's very reliable."
+    },
+    "category": "teaching",
+    "topics": ["science", "evidence"],
+    "level": "upper-intermediate"
+  },
+  {
+    "id": "valid",
+    "term": "valid",
+    "partOfSpeech": "adjective",
+    "ipa": "/ˈvælɪd/",
+    "definition": "Logically sound or acceptable; in science, measuring what it is meant to measure.",
+    "examples": [
+      {
+        "role": "student",
+        "text": "That's a valid point, but you need evidence."
+      },
+      {
+        "role": "teacher",
+        "text": "Is this a valid way to test the hypothesis?"
+      },
+      {
+        "role": "software",
+        "text": "The input isn't a valid email address."
+      },
+      {
+        "role": "everyday",
+        "text": "Is my passport still valid?"
+      }
+    ],
+    "register": "neutral",
+    "collocations": ["a valid point", "valid results"],
+    "synonyms": [
+      {
+        "term": "sound",
+        "note": "logically solid"
+      },
+      {
+        "term": "legitimate",
+        "note": "acceptable by rules or law"
+      }
+    ],
+    "forms": ["validity", "validate"],
+    "upgrade": {
+      "plain": "That's a fair and reasonable point.",
+      "model": "That's a valid point."
+    },
+    "category": "teaching",
+    "topics": ["science", "argument"],
+    "level": "upper-intermediate"
+  },
+  {
+    "id": "substitute",
+    "term": "substitute",
+    "partOfSpeech": "verb",
+    "ipa": "/ˈsʌbstɪtjuːt/",
+    "definition": "To put something in place of something else; in maths, to replace a letter with a value.",
+    "examples": [
+      {
+        "role": "student",
+        "text": "You can substitute oat milk in the recipe."
+      },
+      {
+        "role": "teacher",
+        "text": "Substitute x = 3 into the equation."
+      },
+      {
+        "role": "software",
+        "text": "Substitute the mock service in the tests."
+      },
+      {
+        "role": "everyday",
+        "text": "Can I substitute chips for the salad?"
+      }
+    ],
+    "register": "neutral",
+    "collocations": ["substitute x = 3", "substitute A for B"],
+    "synonyms": [
+      {
+        "term": "replace",
+        "note": "plainer"
+      },
+      {
+        "term": "swap",
+        "note": "informal"
+      }
+    ],
+    "commonMistake": "'Substitute A for B' puts A in B's place; 'replace B with A' means the same thing.",
+    "forms": ["substitutes", "substituted", "substituting", "substitution"],
+    "upgrade": {
+      "plain": "Put 3 in place of x in the equation.",
+      "model": "Substitute 3 for x in the equation."
+    },
+    "category": "teaching",
+    "topics": ["maths"],
+    "level": "upper-intermediate"
+  },
+  {
+    "id": "supply-teacher",
+    "term": "supply teacher",
+    "partOfSpeech": "noun",
+    "ipa": "/səˈplaɪ ˌtiːtʃə/",
+    "definition": "A teacher who covers classes when the usual teacher is absent (British).",
+    "examples": [
+      {
+        "role": "student",
+        "text": "We had a supply teacher for half of Year 11."
+      },
+      {
+        "role": "teacher",
+        "text": "I worked as a supply teacher for a year before taking a permanent post."
+      },
+      {
+        "role": "software",
+        "text": "Being the new contractor feels like being a supply teacher."
+      },
+      {
+        "role": "everyday",
+        "text": "My son's class has had a supply teacher all week."
+      }
+    ],
+    "register": "neutral",
+    "collocations": ["a supply teacher", "on supply"],
+    "synonyms": [
+      {
+        "term": "cover teacher",
+        "note": "a school's own staff member covering"
+      },
+      {
+        "term": "substitute teacher",
+        "note": "the American term"
+      }
+    ],
+    "forms": ["supply teachers"],
+    "upgrade": {
+      "plain": "Our teacher was off, so someone covered the lesson.",
+      "model": "Our teacher was off, so we had a supply teacher."
+    },
+    "category": "teaching",
+    "topics": ["schools"],
+    "level": "upper-intermediate"
+  },
+  {
+    "id": "mocks",
+    "term": "mocks",
+    "partOfSpeech": "noun",
+    "ipa": "/mɒks/",
+    "definition": "Practice exams taken before the real GCSEs or A levels (British).",
+    "examples": [
+      {
+        "role": "student",
+        "text": "My mocks went better than expected."
+      },
+      {
+        "role": "teacher",
+        "text": "Year 11 mocks start after Christmas."
+      },
+      {
+        "role": "software",
+        "text": "We do a mock release before the real one, like mocks at school."
+      },
+      {
+        "role": "everyday",
+        "text": "My daughter's revising for her mocks."
+      }
+    ],
+    "register": "informal",
+    "collocations": ["mock exams", "sit your mocks"],
+    "synonyms": [
+      {
+        "term": "practice exams",
+        "note": "plainer"
+      },
+      {
+        "term": "past papers",
+        "note": "previous real exam papers"
+      }
+    ],
+    "forms": ["mock exams", "mock"],
+    "upgrade": {
+      "plain": "The practice exams are in January.",
+      "model": "The mocks are in January."
+    },
+    "category": "teaching",
+    "topics": ["assessment", "schools"],
+    "level": "upper-intermediate"
+  },
+  {
+    "id": "revision",
+    "term": "revision",
+    "partOfSpeech": "noun",
+    "ipa": "/rɪˈvɪʒn/",
+    "definition": "In British English, studying again before an exam.",
+    "examples": [
+      {
+        "role": "student",
+        "text": "My revision timetable is colour-coded."
+      },
+      {
+        "role": "teacher",
+        "text": "Give pupils a revision checklist."
+      },
+      {
+        "role": "software",
+        "text": "I do some revision before technical interviews."
+      },
+      {
+        "role": "everyday",
+        "text": "The kitchen table is covered in revision notes."
+      }
+    ],
+    "register": "neutral",
+    "collocations": ["revision notes", "a revision timetable"],
+    "synonyms": [
+      {
+        "term": "studying",
+        "note": "broader"
+      },
+      {
+        "term": "review",
+        "note": "the American term for exam revision"
+      }
+    ],
+    "otherMeanings": [
+      {
+        "meaning": "A change or correction to a document.",
+        "example": "The contract needs another revision.",
+        "cue": "About documents or plans, it means a change, not studying."
+      }
+    ],
+    "forms": ["revise", "revising", "revised"],
+    "upgrade": {
+      "plain": "I'm studying for my exams.",
+      "model": "I'm doing revision for my exams."
+    },
+    "category": "teaching",
+    "topics": ["assessment", "study"],
+    "level": "upper-intermediate"
+  },
+  {
+    "id": "invigilate",
+    "term": "invigilate",
+    "partOfSpeech": "verb",
+    "ipa": "/ɪnˈvɪdʒɪleɪt/",
+    "definition": "To supervise candidates during an exam (British).",
+    "examples": [
+      {
+        "role": "student",
+        "text": "I earn extra money as an invigilator in May."
+      },
+      {
+        "role": "teacher",
+        "text": "I'm invigilating the maths paper on Tuesday."
+      },
+      {
+        "role": "software",
+        "text": "The online test is invigilated by webcam."
+      },
+      {
+        "role": "everyday",
+        "text": "Mum invigilates exams at the local college."
+      }
+    ],
+    "register": "formal",
+    "collocations": ["invigilate an exam", "an invigilator"],
+    "synonyms": [
+      {
+        "term": "supervise",
+        "note": "plainer"
+      },
+      {
+        "term": "proctor",
+        "note": "the American term"
+      }
+    ],
+    "forms": ["invigilating", "invigilated", "invigilates", "invigilator"],
+    "upgrade": {
+      "plain": "Who's supervising the exam?",
+      "model": "Who's invigilating the exam?"
+    },
+    "category": "teaching",
+    "topics": ["assessment"],
+    "level": "advanced"
+  },
+  {
+    "id": "refactor",
+    "term": "refactor",
+    "partOfSpeech": "verb",
+    "ipa": "/riːˈfæktə/",
+    "definition": "To restructure code to make it clearer or easier to change, without changing what it does.",
+    "examples": [
+      {
+        "role": "student",
+        "text": "I refactored my essay plan before writing the final draft."
+      },
+      {
+        "role": "teacher",
+        "text": "I refactored my scheme of work to cut the repetition."
+      },
+      {
+        "role": "software",
+        "text": "Let's refactor this before adding the new feature."
+      },
+      {
+        "role": "everyday",
+        "text": "I refactored my wardrobe: same clothes, far easier to find."
+      }
+    ],
+    "register": "neutral",
+    "collocations": ["refactor the code", "a big refactor"],
+    "synonyms": [
+      {
+        "term": "rewrite",
+        "note": "start again, possibly changing behaviour"
+      },
+      {
+        "term": "tidy up",
+        "note": "informal, smaller in scope"
+      }
+    ],
+    "forms": ["refactored", "refactoring", "refactors"],
+    "upgrade": {
+      "plain": "Let's restructure this code without changing what it does.",
+      "model": "Let's refactor this code."
+    },
+    "category": "workplace",
+    "topics": ["software", "quality"],
+    "level": "upper-intermediate"
+  },
+  {
+    "id": "idempotent",
+    "term": "idempotent",
+    "partOfSpeech": "adjective",
+    "ipa": "/ˌaɪdemˈpəʊtənt/",
+    "definition": "Giving the same result however many times it is applied.",
+    "examples": [
+      {
+        "role": "student",
+        "text": "Multiplying by one is idempotent; so is taking the absolute value."
+      },
+      {
+        "role": "teacher",
+        "text": "Explain why 'round to the nearest ten' is idempotent."
+      },
+      {
+        "role": "software",
+        "text": "Make the payment endpoint idempotent so retries don't double-charge."
+      },
+      {
+        "role": "everyday",
+        "text": "Pressing the lift button is idempotent: pressing it ten times won't make it come faster."
+      }
+    ],
+    "register": "formal",
+    "collocations": ["an idempotent operation", "make it idempotent"],
+    "synonyms": [
+      {
+        "term": "repeatable",
+        "note": "can be repeated, looser"
+      },
+      {
+        "term": "safe to retry",
+        "note": "the practical meaning in software"
+      }
+    ],
+    "forms": ["idempotency", "idempotence"],
+    "upgrade": {
+      "plain": "Running it twice has the same effect as running it once.",
+      "model": "The operation is idempotent."
+    },
+    "category": "workplace",
+    "topics": ["software", "maths"],
+    "level": "proficient"
+  },
+  {
+    "id": "latency",
+    "term": "latency",
+    "partOfSpeech": "noun",
+    "ipa": "/ˈleɪtənsi/",
+    "definition": "The delay before a transfer of data begins or a response arrives.",
+    "examples": [
+      {
+        "role": "student",
+        "text": "The latency on the library Wi-Fi makes video calls painful."
+      },
+      {
+        "role": "teacher",
+        "text": "There's a latency between asking a question and the hands going up."
+      },
+      {
+        "role": "software",
+        "text": "Latency spikes when the cache is cold."
+      },
+      {
+        "role": "everyday",
+        "text": "The latency on video calls with Gran in Australia is awful."
+      }
+    ],
+    "register": "neutral",
+    "collocations": ["low latency", "network latency"],
+    "synonyms": [
+      {
+        "term": "delay",
+        "note": "plainer"
+      },
+      {
+        "term": "throughput",
+        "note": "different: how much gets through per second"
+      }
+    ],
+    "upgrade": {
+      "plain": "There's a delay before the page responds.",
+      "model": "There's latency before the page responds."
+    },
+    "category": "workplace",
+    "topics": ["software", "performance"],
+    "level": "advanced"
+  },
+  {
+    "id": "throughput",
+    "term": "throughput",
+    "partOfSpeech": "noun",
+    "ipa": "/ˈθruːpʊt/",
+    "definition": "The amount of work, data or material processed in a given time.",
+    "examples": [
+      {
+        "role": "student",
+        "text": "My throughput drops after midnight."
+      },
+      {
+        "role": "teacher",
+        "text": "Marking throughput doubled with comment banks."
+      },
+      {
+        "role": "software",
+        "text": "Batching the writes tripled throughput."
+      },
+      {
+        "role": "everyday",
+        "text": "The new dishwasher has impressive throughput."
+      }
+    ],
+    "register": "neutral",
+    "collocations": ["increase throughput", "high throughput"],
+    "synonyms": [
+      {
+        "term": "capacity",
+        "note": "the maximum possible"
+      },
+      {
+        "term": "output",
+        "note": "what is produced"
+      }
+    ],
+    "upgrade": {
+      "plain": "The system can handle far more requests per second now.",
+      "model": "The system's throughput has improved."
+    },
+    "category": "workplace",
+    "topics": ["software", "performance"],
+    "level": "advanced"
+  },
+  {
+    "id": "bottleneck",
+    "term": "bottleneck",
+    "partOfSpeech": "noun",
+    "ipa": "/ˈbɒtlnek/",
+    "definition": "A point of congestion that slows down a whole process.",
+    "examples": [
+      {
+        "role": "student",
+        "text": "The library printer is the bottleneck in exam season."
+      },
+      {
+        "role": "teacher",
+        "text": "The photocopier is the bottleneck on Monday mornings."
+      },
+      {
+        "role": "software",
+        "text": "The database is the bottleneck, not the API."
+      },
+      {
+        "role": "everyday",
+        "text": "The roundabout by the school is a bottleneck at 8.30."
+      }
+    ],
+    "register": "neutral",
+    "collocations": ["a bottleneck in", "remove the bottleneck"],
+    "synonyms": [
+      {
+        "term": "hold-up",
+        "note": "informal: a delay"
+      },
+      {
+        "term": "constraint",
+        "note": "a limiting factor"
+      }
+    ],
+    "upgrade": {
+      "plain": "One slow step is holding up everything else.",
+      "model": "One slow step is the bottleneck."
+    },
+    "category": "workplace",
+    "topics": ["performance", "process"],
+    "level": "upper-intermediate"
+  },
+  {
+    "id": "roadmap",
+    "term": "roadmap",
+    "partOfSpeech": "noun",
+    "ipa": "/ˈrəʊdmæp/",
+    "definition": "A plan showing the steps and timeline towards a goal.",
+    "examples": [
+      {
+        "role": "student",
+        "text": "My supervisor helped me draw up a roadmap for the thesis."
+      },
+      {
+        "role": "teacher",
+        "text": "The department has a roadmap for the new curriculum."
+      },
+      {
+        "role": "software",
+        "text": "Offline mode is on the roadmap for next quarter."
+      },
+      {
+        "role": "everyday",
+        "text": "We made a roadmap for renovating the house, room by room."
+      }
+    ],
+    "register": "neutral",
+    "collocations": ["product roadmap", "on the roadmap"],
+    "synonyms": [
+      {
+        "term": "plan",
+        "note": "plainer"
+      },
+      {
+        "term": "timeline",
+        "note": "the dates, without the strategy"
+      }
+    ],
+    "forms": ["roadmaps"],
+    "upgrade": {
+      "plain": "Here's our plan for the next six months.",
+      "model": "Here's our roadmap for the next six months."
+    },
+    "category": "workplace",
+    "topics": ["planning"],
+    "level": "upper-intermediate"
+  },
+  {
+    "id": "retrospective",
+    "term": "retrospective",
+    "partOfSpeech": "noun",
+    "ipa": "/ˌretrəˈspektɪv/",
+    "definition": "A meeting at the end of a project or sprint to discuss what went well and what to improve.",
+    "examples": [
+      {
+        "role": "student",
+        "text": "Our group did a retrospective after the presentation."
+      },
+      {
+        "role": "teacher",
+        "text": "We held a retrospective after the school trip."
+      },
+      {
+        "role": "software",
+        "text": "In the retrospective, we agreed to write smaller tickets."
+      },
+      {
+        "role": "everyday",
+        "text": "We had a family retrospective after the camping disaster."
+      }
+    ],
+    "register": "neutral",
+    "collocations": ["a sprint retrospective", "retro"],
+    "synonyms": [
+      {
+        "term": "post-mortem",
+        "note": "after a failure or incident"
+      },
+      {
+        "term": "debrief",
+        "note": "a discussion after an event"
+      }
+    ],
+    "otherMeanings": [
+      {
+        "meaning": "(adjective) Looking back on the past; or applying from an earlier date.",
+        "example": "The pay rise is retrospective to April.",
+        "cue": "As an adjective, especially about pay or laws, it means backdated."
+      }
+    ],
+    "forms": ["retro", "retrospectives"],
+    "upgrade": {
+      "plain": "Let's meet to discuss what went well and what didn't.",
+      "model": "Let's hold a retrospective."
+    },
+    "category": "workplace",
+    "topics": ["meetings", "agile"],
+    "level": "upper-intermediate"
+  },
+  {
+    "id": "post-mortem",
+    "term": "post-mortem",
+    "partOfSpeech": "noun",
+    "ipa": "/ˌpəʊst ˈmɔːtəm/",
+    "definition": "An analysis after an event, especially a failure, to learn from it.",
+    "examples": [
+      {
+        "role": "student",
+        "text": "We did a post-mortem on our failed group project."
+      },
+      {
+        "role": "teacher",
+        "text": "The department did a post-mortem on the mock results."
+      },
+      {
+        "role": "software",
+        "text": "The post-mortem found a missing alert."
+      },
+      {
+        "role": "everyday",
+        "text": "We had a post-mortem on the burnt Christmas dinner."
+      }
+    ],
+    "register": "neutral",
+    "collocations": ["a blameless post-mortem", "write up a post-mortem"],
+    "synonyms": [
+      {
+        "term": "retrospective",
+        "note": "a regular review, not just after failures"
+      },
+      {
+        "term": "debrief",
+        "note": "a discussion after an event"
+      }
+    ],
+    "otherMeanings": [
+      {
+        "meaning": "A medical examination of a body after death.",
+        "example": "The post-mortem confirmed the cause of death.",
+        "cue": "In medical or legal news, it's literal."
+      }
+    ],
+    "upgrade": {
+      "plain": "We analysed what went wrong after the outage.",
+      "model": "We held a post-mortem after the outage."
+    },
+    "category": "workplace",
+    "topics": ["incidents", "meetings"],
+    "level": "advanced"
+  },
+  {
+    "id": "proof-of-concept",
+    "term": "proof of concept",
+    "partOfSpeech": "noun",
+    "ipa": "/ˌpruːf əv ˈkɒnsept/",
+    "definition": "A small early version that shows an idea can work.",
+    "examples": [
+      {
+        "role": "student",
+        "text": "My pilot survey was a proof of concept for the dissertation."
+      },
+      {
+        "role": "teacher",
+        "text": "The lunchtime club is a proof of concept for a new GCSE option."
+      },
+      {
+        "role": "software",
+        "text": "The proof of concept took two days; production took two months."
+      },
+      {
+        "role": "everyday",
+        "text": "One trial run of the sourdough was proof of concept."
+      }
+    ],
+    "register": "neutral",
+    "collocations": ["build a proof of concept", "PoC"],
+    "synonyms": [
+      {
+        "term": "prototype",
+        "note": "an early model, often more complete"
+      },
+      {
+        "term": "pilot",
+        "note": "a small trial run"
+      }
+    ],
+    "upgrade": {
+      "plain": "We built a quick demo to show the idea works.",
+      "model": "We built a proof of concept."
+    },
+    "category": "workplace",
+    "topics": ["planning", "software"],
+    "level": "upper-intermediate"
+  },
+  {
+    "id": "dogfooding",
+    "term": "dogfooding",
+    "partOfSpeech": "noun",
+    "ipa": "/ˈdɒɡfuːdɪŋ/",
+    "definition": "A company using its own product internally to test it.",
+    "examples": [
+      {
+        "role": "student",
+        "text": "Our society app is dogfooding: the committee uses it first."
+      },
+      {
+        "role": "teacher",
+        "text": "We're dogfooding the new report template in our department."
+      },
+      {
+        "role": "software",
+        "text": "We've been dogfooding the new editor for a month."
+      },
+      {
+        "role": "everyday",
+        "text": "Dogfooding my own recipe book revealed some errors."
+      }
+    ],
+    "register": "informal",
+    "collocations": ["dogfood the release"],
+    "synonyms": [
+      {
+        "term": "internal testing",
+        "note": "plainer"
+      },
+      {
+        "term": "beta testing",
+        "note": "testing with real outside users"
+      }
+    ],
+    "origin": "From 'eating your own dog food': a dog-food maker's boss supposedly ate it to prove its quality.",
+    "forms": ["dogfood", "dogfooded"],
+    "upgrade": {
+      "plain": "We use our own app internally before release.",
+      "model": "We're dogfooding our own app before release."
+    },
+    "category": "workplace",
+    "topics": ["software", "testing"],
+    "level": "advanced"
+  },
+  {
+    "id": "bikeshedding",
+    "term": "bikeshedding",
+    "partOfSpeech": "noun",
+    "ipa": "/ˈbaɪkʃedɪŋ/",
+    "definition": "Spending too long on trivial details while ignoring important ones.",
+    "examples": [
+      {
+        "role": "student",
+        "text": "We spent an hour on the group name: classic bikeshedding."
+      },
+      {
+        "role": "teacher",
+        "text": "Arguing about the font on the report is bikeshedding."
+      },
+      {
+        "role": "software",
+        "text": "Debating the button colour is bikeshedding; the API's still broken."
+      },
+      {
+        "role": "everyday",
+        "text": "Planning the wedding favours was bikeshedding; we hadn't booked a venue."
+      }
+    ],
+    "register": "informal",
+    "collocations": ["stop bikeshedding"],
+    "synonyms": [
+      {
+        "term": "nitpicking",
+        "note": "fussing over tiny faults"
+      },
+      {
+        "term": "Parkinson's law of triviality",
+        "note": "the formal name"
+      }
+    ],
+    "origin": "From Parkinson's example: a committee approves a power station quickly but argues for hours about a bike shed.",
+    "upgrade": {
+      "plain": "We wasted the meeting arguing about tiny details.",
+      "model": "The meeting was pure bikeshedding."
+    },
+    "category": "workplace",
+    "topics": ["meetings", "priorities"],
+    "level": "proficient"
+  },
+  {
+    "id": "yak-shaving",
+    "term": "yak shaving",
+    "partOfSpeech": "noun",
+    "ipa": "/ˈjæk ˌʃeɪvɪŋ/",
+    "definition": "A chain of small, seemingly unrelated tasks you must do before the real task.",
+    "examples": [
+      {
+        "role": "student",
+        "text": "To print my essay I had to update the laptop and fix the printer: yak shaving."
+      },
+      {
+        "role": "teacher",
+        "text": "Making the worksheet turned into yak shaving with the laminator."
+      },
+      {
+        "role": "software",
+        "text": "Fixing the build meant upgrading Node: classic yak shaving."
+      },
+      {
+        "role": "everyday",
+        "text": "To hang one picture I had to buy a drill: proper yak shaving."
+      }
+    ],
+    "register": "informal",
+    "collocations": ["a bit of yak shaving"],
+    "synonyms": [
+      {
+        "term": "rabbit hole",
+        "note": "getting lost in a fascinating side issue"
+      },
+      {
+        "term": "busywork",
+        "note": "tasks that keep you busy, not productive"
+      }
+    ],
+    "forms": ["yak-shaving"],
+    "upgrade": {
+      "plain": "I spent all morning on side tasks before I could start.",
+      "model": "I spent all morning yak shaving."
+    },
+    "category": "workplace",
+    "topics": ["productivity", "software"],
+    "level": "proficient"
+  },
+  {
+    "id": "rubber-duck",
+    "term": "rubber duck",
+    "partOfSpeech": "verb",
+    "ipa": "/ˌrʌbə ˈdʌk/",
+    "definition": "To explain a problem out loud, step by step, to find the solution yourself.",
+    "examples": [
+      {
+        "role": "student",
+        "text": "Rubber duck your argument to a flatmate before writing it."
+      },
+      {
+        "role": "teacher",
+        "text": "Pupils rubber duck their method to a partner."
+      },
+      {
+        "role": "software",
+        "text": "I rubber ducked the bug and spotted it halfway through."
+      },
+      {
+        "role": "everyday",
+        "text": "I rubber ducked my budget to the cat."
+      }
+    ],
+    "register": "informal",
+    "collocations": ["rubber-duck debugging"],
+    "synonyms": [
+      {
+        "term": "talk it through",
+        "note": "plainer"
+      },
+      {
+        "term": "think aloud",
+        "note": "explain your reasoning as you go"
+      }
+    ],
+    "origin": "From a book where a programmer explains code line by line to a rubber duck.",
+    "forms": ["rubber ducked", "rubber ducking", "rubber-duck debugging", "rubber-ducked"],
+    "upgrade": {
+      "plain": "Explaining it out loud helped me find the problem.",
+      "model": "I rubber ducked it and found the problem."
+    },
+    "category": "workplace",
+    "topics": ["software", "problem-solving"],
+    "level": "advanced"
+  },
+  {
+    "id": "single-source-of-truth",
+    "term": "single source of truth",
+    "partOfSpeech": "collocation",
+    "ipa": "/ˌsɪŋɡl ˌsɔːs əv ˈtruːθ/",
+    "definition": "The one place where the correct version of some information is kept.",
+    "examples": [
+      {
+        "role": "student",
+        "text": "The module handbook is the single source of truth for deadlines."
+      },
+      {
+        "role": "teacher",
+        "text": "The shared drive is our single source of truth for schemes of work."
+      },
+      {
+        "role": "software",
+        "text": "The schema file is the single source of truth for our types."
+      },
+      {
+        "role": "everyday",
+        "text": "The family calendar on the fridge is our single source of truth."
+      }
+    ],
+    "register": "neutral",
+    "collocations": ["the single source of truth"],
+    "synonyms": [
+      {
+        "term": "master copy",
+        "note": "the original, definitive version"
+      },
+      {
+        "term": "canonical source",
+        "note": "formal: the official one"
+      }
+    ],
+    "upgrade": {
+      "plain": "Keep one definitive version of the plan that everyone uses.",
+      "model": "Keep the plan as a single source of truth."
+    },
+    "category": "workplace",
+    "topics": ["data", "process"],
+    "level": "advanced"
+  },
+  {
+    "id": "low-hanging-fruit",
+    "term": "low-hanging fruit",
+    "partOfSpeech": "idiom",
+    "ipa": "/ˌləʊ ˌhæŋɪŋ ˈfruːt/",
+    "definition": "The easiest tasks or gains, to tackle first.",
+    "examples": [
+      {
+        "role": "student",
+        "text": "Fixing the referencing is low-hanging fruit for extra marks."
+      },
+      {
+        "role": "teacher",
+        "text": "Tidy displays are low-hanging fruit before the inspection."
+      },
+      {
+        "role": "software",
+        "text": "Compressing images is low-hanging fruit for page speed."
+      },
+      {
+        "role": "everyday",
+        "text": "Cancelling unused subscriptions is low-hanging fruit for saving money."
+      }
+    ],
+    "register": "informal",
+    "collocations": ["go for the low-hanging fruit"],
+    "synonyms": [
+      {
+        "term": "quick wins",
+        "note": "easy, visible improvements"
+      },
+      {
+        "term": "easy pickings",
+        "note": "informal: easy gains"
+      }
+    ],
+    "commonMistake": "Overused in meetings; 'quick wins' is a plainer alternative.",
+    "upgrade": {
+      "plain": "Let's start with the easiest improvements.",
+      "model": "Let's start with the low-hanging fruit."
+    },
+    "category": "workplace",
+    "topics": ["priorities"],
+    "level": "upper-intermediate"
+  },
+  {
+    "id": "circle-back",
+    "term": "circle back",
+    "partOfSpeech": "phrasal verb",
+    "ipa": "/ˌsɜːkl ˈbæk/",
+    "definition": "To return to a topic later.",
+    "examples": [
+      {
+        "role": "student",
+        "text": "Let's circle back to referencing after the break."
+      },
+      {
+        "role": "teacher",
+        "text": "I'll circle back to fractions on Friday."
+      },
+      {
+        "role": "software",
+        "text": "Let's circle back on the budget next week."
+      },
+      {
+        "role": "everyday",
+        "text": "Let's circle back to holiday plans after dinner."
+      }
+    ],
+    "register": "informal",
+    "collocations": ["circle back to", "circle back on"],
+    "synonyms": [
+      {
+        "term": "come back to",
+        "note": "plainer"
+      },
+      {
+        "term": "revisit",
+        "note": "more formal"
+      }
+    ],
+    "commonMistake": "Office jargon that some people find irritating: 'come back to' is plainer.",
+    "forms": ["circled back", "circling back"],
+    "upgrade": {
+      "plain": "Let's return to this later.",
+      "model": "Let's circle back to this later."
+    },
+    "category": "workplace",
+    "topics": ["meetings"],
+    "level": "upper-intermediate"
+  },
+  {
+    "id": "actionable",
+    "term": "actionable",
+    "partOfSpeech": "adjective",
+    "ipa": "/ˈækʃənəbl/",
+    "definition": "Able to be acted on; practical and specific.",
+    "examples": [
+      {
+        "role": "student",
+        "text": "The tutor's comments were vague, not actionable."
+      },
+      {
+        "role": "teacher",
+        "text": "Make your feedback actionable: one clear next step."
+      },
+      {
+        "role": "software",
+        "text": "The alert isn't actionable, so we've removed it."
+      },
+      {
+        "role": "everyday",
+        "text": "The plumber gave actionable advice: replace the washer."
+      }
+    ],
+    "register": "neutral",
+    "collocations": ["actionable feedback", "actionable insights"],
+    "synonyms": [
+      {
+        "term": "practical",
+        "note": "plainer"
+      },
+      {
+        "term": "concrete",
+        "note": "specific and definite"
+      }
+    ],
+    "otherMeanings": [
+      {
+        "meaning": "In law, giving grounds for a lawsuit.",
+        "example": "The comments were defamatory and actionable.",
+        "cue": "In legal contexts, it means someone could sue."
+      }
+    ],
+    "upgrade": {
+      "plain": "Give feedback that people can actually do something with.",
+      "model": "Give actionable feedback."
+    },
+    "category": "workplace",
+    "topics": ["feedback"],
+    "level": "upper-intermediate"
+  },
+  {
+    "id": "push-back",
+    "term": "push back",
+    "partOfSpeech": "phrasal verb",
+    "ipa": "/ˌpʊʃ ˈbæk/",
+    "definition": "To resist or object to a plan or request.",
+    "examples": [
+      {
+        "role": "student",
+        "text": "Push back if a group member wants to drop the analysis section."
+      },
+      {
+        "role": "teacher",
+        "text": "Parents pushed back on the uniform change."
+      },
+      {
+        "role": "software",
+        "text": "Push back on scope creep early."
+      },
+      {
+        "role": "everyday",
+        "text": "Push back if the builder adds extras without asking."
+      }
+    ],
+    "register": "neutral",
+    "collocations": ["push back on", "get pushback"],
+    "synonyms": [
+      {
+        "term": "object",
+        "note": "more formal"
+      },
+      {
+        "term": "challenge",
+        "note": "question it"
+      }
+    ],
+    "otherMeanings": [
+      {
+        "meaning": "To postpone or delay.",
+        "example": "The launch has been pushed back to March.",
+        "cue": "About a date or event ('pushed back to March'), it means delayed."
+      }
+    ],
+    "forms": ["pushed back", "pushing back", "pushback", "pushes back"],
+    "upgrade": {
+      "plain": "The team objected to the new deadline.",
+      "model": "The team pushed back on the new deadline."
+    },
+    "category": "workplace",
+    "topics": ["meetings", "disagreeing"],
+    "level": "upper-intermediate"
+  },
+  {
+    "id": "ship",
+    "term": "ship",
+    "partOfSpeech": "verb",
+    "ipa": "/ʃɪp/",
+    "definition": "In software, to release a product or feature to users.",
+    "examples": [
+      {
+        "role": "student",
+        "text": "Done is better than perfect: ship the essay."
+      },
+      {
+        "role": "teacher",
+        "text": "Ship the lesson plan; you can tweak it next year."
+      },
+      {
+        "role": "software",
+        "text": "We ship small changes every day."
+      },
+      {
+        "role": "everyday",
+        "text": "I finally shipped the birthday video to the family group."
+      }
+    ],
+    "register": "informal",
+    "collocations": ["ship a feature", "ship it"],
+    "synonyms": [
+      {
+        "term": "release",
+        "note": "more formal"
+      },
+      {
+        "term": "launch",
+        "note": "a bigger, announced release"
+      }
+    ],
+    "otherMeanings": [
+      {
+        "meaning": "To send goods by post or freight.",
+        "example": "They ship worldwide.",
+        "cue": "About parcels and orders, it means send."
+      }
+    ],
+    "forms": ["shipped", "shipping", "ships"],
+    "upgrade": {
+      "plain": "We'll release the new feature on Monday.",
+      "model": "We'll ship the new feature on Monday."
+    },
+    "category": "workplace",
+    "topics": ["software", "releases"],
+    "level": "upper-intermediate"
+  },
+  {
+    "id": "roll-back",
+    "term": "roll back",
+    "partOfSpeech": "phrasal verb",
+    "ipa": "/ˌrəʊl ˈbæk/",
+    "definition": "To return a system to a previous version; or to reverse a policy.",
+    "examples": [
+      {
+        "role": "student",
+        "text": "I rolled back to the previous draft after the edit went wrong."
+      },
+      {
+        "role": "teacher",
+        "text": "The school rolled back the new homework policy."
+      },
+      {
+        "role": "software",
+        "text": "Roll back the deploy: checkout is failing."
+      },
+      {
+        "role": "everyday",
+        "text": "The council rolled back the bin collection changes."
+      }
+    ],
+    "register": "neutral",
+    "collocations": ["roll back the release", "a rollback"],
+    "synonyms": [
+      {
+        "term": "revert",
+        "note": "go back to an earlier state"
+      },
+      {
+        "term": "undo",
+        "note": "plainer"
+      }
+    ],
+    "forms": ["rolled back", "rolling back", "rollback", "rolls back"],
+    "upgrade": {
+      "plain": "Return the system to the previous version.",
+      "model": "Roll back to the previous version."
+    },
+    "category": "workplace",
+    "topics": ["software", "incidents"],
+    "level": "upper-intermediate"
+  },
+  {
+    "id": "flaky",
+    "term": "flaky",
+    "partOfSpeech": "adjective",
+    "ipa": "/ˈfleɪki/",
+    "definition": "Unreliable; in software, a test that sometimes passes and sometimes fails.",
+    "examples": [
+      {
+        "role": "student",
+        "text": "My flaky group member never answers messages."
+      },
+      {
+        "role": "teacher",
+        "text": "The flaky projector drives me mad."
+      },
+      {
+        "role": "software",
+        "text": "That flaky test fails one run in ten."
+      },
+      {
+        "role": "everyday",
+        "text": "He's a bit flaky: he cancels plans all the time."
+      }
+    ],
+    "register": "informal",
+    "collocations": ["a flaky test", "flaky Wi-Fi"],
+    "synonyms": [
+      {
+        "term": "intermittent",
+        "note": "on and off"
+      },
+      {
+        "term": "unreliable",
+        "note": "plainer"
+      }
+    ],
+    "otherMeanings": [
+      {
+        "meaning": "Of pastry or skin: breaking into small flakes.",
+        "example": "The croissants were buttery and flaky.",
+        "cue": "About food or skin, it's literal."
+      }
+    ],
+    "upgrade": {
+      "plain": "The test sometimes passes and sometimes fails.",
+      "model": "The test is flaky."
+    },
+    "category": "workplace",
+    "topics": ["software", "reliability"],
+    "level": "upper-intermediate"
+  },
+  {
+    "id": "backlog",
+    "term": "backlog",
+    "partOfSpeech": "noun",
+    "ipa": "/ˈbæklɒɡ/",
+    "definition": "A build-up of work waiting to be done; in agile, the list of planned work.",
+    "examples": [
+      {
+        "role": "student",
+        "text": "I've got a backlog of lecture recordings to watch."
+      },
+      {
+        "role": "teacher",
+        "text": "My marking backlog is out of control."
+      },
+      {
+        "role": "software",
+        "text": "Groom the backlog before sprint planning."
+      },
+      {
+        "role": "everyday",
+        "text": "There's a backlog of washing after the holiday."
+      }
+    ],
+    "register": "neutral",
+    "collocations": ["clear the backlog", "product backlog"],
+    "synonyms": [
+      {
+        "term": "arrears",
+        "note": "money or work overdue"
+      },
+      {
+        "term": "to-do list",
+        "note": "informal"
+      }
+    ],
+    "forms": ["backlogs"],
+    "upgrade": {
+      "plain": "I've got a pile of emails waiting to be answered.",
+      "model": "I've got a backlog of emails."
+    },
+    "category": "workplace",
+    "topics": ["work", "agile"],
+    "level": "upper-intermediate"
+  },
+  {
+    "id": "spike",
+    "term": "spike",
+    "partOfSpeech": "noun",
+    "ipa": "/spaɪk/",
+    "definition": "In agile, a short, time-boxed investigation to answer a question or reduce risk.",
+    "examples": [
+      {
+        "role": "student",
+        "text": "I did a quick spike on whether the dataset is usable."
+      },
+      {
+        "role": "teacher",
+        "text": "Let's do a spike on whether the new app works on the school tablets."
+      },
+      {
+        "role": "software",
+        "text": "We'll run a two-day spike on the payment provider."
+      },
+      {
+        "role": "everyday",
+        "text": "We did a spike on campervans before buying one."
+      }
+    ],
+    "register": "neutral",
+    "collocations": ["a technical spike", "do a spike"],
+    "synonyms": [
+      {
+        "term": "investigation",
+        "note": "plainer"
+      },
+      {
+        "term": "proof of concept",
+        "note": "showing an idea can work"
+      }
+    ],
+    "otherMeanings": [
+      {
+        "meaning": "A sudden sharp increase.",
+        "example": "There was a spike in traffic at lunchtime.",
+        "cue": "'A spike in…' something means a sudden rise."
+      }
+    ],
+    "upgrade": {
+      "plain": "Let's spend a day investigating whether it's possible.",
+      "model": "Let's do a one-day spike."
+    },
+    "category": "workplace",
+    "topics": ["agile", "software"],
+    "level": "advanced"
+  },
+  {
+    "id": "hotfix",
+    "term": "hotfix",
+    "partOfSpeech": "noun",
+    "ipa": "/ˈhɒtfɪks/",
+    "definition": "An urgent fix released straight away, outside the normal schedule.",
+    "examples": [
+      {
+        "role": "student",
+        "text": "I sent a hotfix to my group: page 3 had the wrong chart."
+      },
+      {
+        "role": "teacher",
+        "text": "I emailed a hotfix for the worksheet with the typo."
+      },
+      {
+        "role": "software",
+        "text": "We shipped a hotfix within the hour."
+      },
+      {
+        "role": "everyday",
+        "text": "Duct tape was my hotfix for the leaking hose."
+      }
+    ],
+    "register": "neutral",
+    "collocations": ["ship a hotfix", "an emergency hotfix"],
+    "synonyms": [
+      {
+        "term": "patch",
+        "note": "a fix, not necessarily urgent"
+      },
+      {
+        "term": "quick fix",
+        "note": "informal, may imply a bodge"
+      }
+    ],
+    "forms": ["hotfixes"],
+    "upgrade": {
+      "plain": "We released an urgent fix for the login bug.",
+      "model": "We released a hotfix for the login bug."
+    },
+    "category": "workplace",
+    "topics": ["software", "incidents"],
+    "level": "advanced"
+  },
+  {
+    "id": "on-call",
+    "term": "on call",
+    "partOfSpeech": "idiom",
+    "ipa": "/ɒn ˈkɔːl/",
+    "definition": "Available to be called on to work if needed, especially outside normal hours.",
+    "examples": [
+      {
+        "role": "student",
+        "text": "My housemate's a junior doctor, on call every other weekend."
+      },
+      {
+        "role": "teacher",
+        "text": "I'm on call for detentions this week."
+      },
+      {
+        "role": "software",
+        "text": "I'm on call this weekend, so no pub."
+      },
+      {
+        "role": "everyday",
+        "text": "The vet is on call over Christmas."
+      }
+    ],
+    "register": "neutral",
+    "collocations": ["on call this weekend", "an on-call rota"],
+    "synonyms": [
+      {
+        "term": "on standby",
+        "note": "ready to act"
+      },
+      {
+        "term": "on duty",
+        "note": "actively working"
+      }
+    ],
+    "forms": ["on-call"],
+    "upgrade": {
+      "plain": "I have to be ready to work if anything breaks this weekend.",
+      "model": "I'm on call this weekend."
+    },
+    "category": "workplace",
+    "topics": ["work", "incidents"],
+    "level": "upper-intermediate"
+  },
+  {
+    "id": "quick-win",
+    "term": "quick win",
+    "partOfSpeech": "noun",
+    "ipa": "/ˌkwɪk ˈwɪn/",
+    "definition": "An improvement that is easy and fast to achieve.",
+    "examples": [
+      {
+        "role": "student",
+        "text": "Proofreading is a quick win for your grade."
+      },
+      {
+        "role": "teacher",
+        "text": "Seating plans were a quick win for behaviour."
+      },
+      {
+        "role": "software",
+        "text": "Turning on compression was a quick win."
+      },
+      {
+        "role": "everyday",
+        "text": "Draught excluders are a quick win for the heating bill."
+      }
+    ],
+    "register": "neutral",
+    "collocations": ["a few quick wins"],
+    "synonyms": [
+      {
+        "term": "low-hanging fruit",
+        "note": "informal idiom, same idea"
+      },
+      {
+        "term": "easy gain",
+        "note": "plainer"
+      }
+    ],
+    "forms": ["quick wins"],
+    "upgrade": {
+      "plain": "Turning on caching was an easy, fast improvement.",
+      "model": "Turning on caching was a quick win."
+    },
+    "category": "workplace",
+    "topics": ["priorities"],
+    "level": "upper-intermediate"
+  },
+  {
+    "id": "deep-dive",
+    "term": "deep dive",
+    "partOfSpeech": "noun",
+    "ipa": "/ˌdiːp ˈdaɪv/",
+    "definition": "A thorough, detailed investigation of a subject.",
+    "examples": [
+      {
+        "role": "student",
+        "text": "My dissertation is a deep dive into Victorian workhouses."
+      },
+      {
+        "role": "teacher",
+        "text": "Ofsted's deep dive into maths starts on Tuesday."
+      },
+      {
+        "role": "software",
+        "text": "Let's do a deep dive into the slow queries."
+      },
+      {
+        "role": "everyday",
+        "text": "I did a deep dive into our energy bills."
+      }
+    ],
+    "register": "neutral",
+    "collocations": ["a deep dive into"],
+    "synonyms": [
+      {
+        "term": "in-depth analysis",
+        "note": "more formal"
+      },
+      {
+        "term": "thorough review",
+        "note": "plainer"
+      }
+    ],
+    "commonMistake": "In English schools, an Ofsted 'deep dive' is a formal inspection of one subject.",
+    "forms": ["deep dives", "deep-dive"],
+    "upgrade": {
+      "plain": "Let's look at the numbers in detail.",
+      "model": "Let's do a deep dive into the numbers."
+    },
+    "category": "workplace",
+    "topics": ["analysis", "meetings"],
+    "level": "upper-intermediate"
+  },
+  {
+    "id": "take-something-offline",
+    "term": "take something offline",
+    "partOfSpeech": "idiom",
+    "ipa": "/ˌteɪk ˌsʌmθɪŋ ˌɒfˈlaɪn/",
+    "definition": "To discuss something later, privately, rather than in the current meeting.",
+    "examples": [
+      {
+        "role": "student",
+        "text": "Let's take the referencing question offline."
+      },
+      {
+        "role": "teacher",
+        "text": "Let's take your timetable question offline."
+      },
+      {
+        "role": "software",
+        "text": "Let's take the database debate offline."
+      },
+      {
+        "role": "everyday",
+        "text": "Let's take the holiday argument offline, after the kids are in bed."
+      }
+    ],
+    "register": "informal",
+    "collocations": ["let's take this offline"],
+    "synonyms": [
+      {
+        "term": "discuss separately",
+        "note": "plainer"
+      },
+      {
+        "term": "park it",
+        "note": "informal: set aside for later"
+      }
+    ],
+    "otherMeanings": [
+      {
+        "meaning": "To disconnect a system from the network or service.",
+        "example": "We took the server offline for maintenance.",
+        "cue": "About machines or services, it's literal."
+      }
+    ],
+    "commonMistake": "Office jargon; outside work, just say 'let's talk about it later'.",
+    "upgrade": {
+      "plain": "Let's talk about this privately after the meeting.",
+      "model": "Let's take this offline."
+    },
+    "category": "workplace",
+    "topics": ["meetings"],
+    "level": "advanced"
+  },
+  {
+    "id": "cadence",
+    "term": "cadence",
+    "partOfSpeech": "noun",
+    "ipa": "/ˈkeɪdns/",
+    "definition": "In work, the regular rhythm of something such as meetings or releases.",
+    "examples": [
+      {
+        "role": "student",
+        "text": "A weekly cadence of supervisor meetings works for me."
+      },
+      {
+        "role": "teacher",
+        "text": "We've settled into a fortnightly cadence for data drops."
+      },
+      {
+        "role": "software",
+        "text": "We moved to a two-week release cadence."
+      },
+      {
+        "role": "everyday",
+        "text": "Our family calls have a Sunday-evening cadence."
+      }
+    ],
+    "register": "formal",
+    "collocations": ["a weekly cadence", "release cadence"],
+    "synonyms": [
+      {
+        "term": "rhythm",
+        "note": "plainer"
+      },
+      {
+        "term": "frequency",
+        "note": "how often"
+      }
+    ],
+    "otherMeanings": [
+      {
+        "meaning": "The rise and fall of a voice; or, in music, a sequence of chords ending a phrase.",
+        "example": "She spoke with a gentle Welsh cadence.",
+        "cue": "About speech or music, it's about sound, not scheduling."
+      }
+    ],
+    "upgrade": {
+      "plain": "We meet every two weeks, regularly.",
+      "model": "We meet on a fortnightly cadence."
+    },
+    "category": "workplace",
+    "topics": ["process", "meetings"],
+    "level": "advanced"
+  },
+  {
+    "id": "stand-up",
+    "term": "stand-up",
+    "partOfSpeech": "noun",
+    "ipa": "/ˈstænd ʌp/",
+    "definition": "A short daily team meeting, traditionally held standing, to share progress and blockers.",
+    "examples": [
+      {
+        "role": "student",
+        "text": "Our group project has a five-minute stand-up on Zoom."
+      },
+      {
+        "role": "teacher",
+        "text": "Our department has a quick stand-up on Monday mornings."
+      },
+      {
+        "role": "software",
+        "text": "Raise the blocker at stand-up."
+      },
+      {
+        "role": "everyday",
+        "text": "Our family does a breakfast stand-up: who needs a lift where."
+      }
+    ],
+    "register": "neutral",
+    "collocations": ["daily stand-up", "at stand-up"],
+    "synonyms": [
+      {
+        "term": "huddle",
+        "note": "a short, informal meeting"
+      },
+      {
+        "term": "check-in",
+        "note": "a brief catch-up"
+      }
+    ],
+    "otherMeanings": [
+      {
+        "meaning": "Stand-up comedy: comedy performed by one person to a live audience.",
+        "example": "We saw some stand-up in Edinburgh.",
+        "cue": "With 'comedy' or 'comedian', or at a festival, it's the comedy sense."
+      }
+    ],
+    "upgrade": {
+      "plain": "We have a short daily meeting to share progress.",
+      "model": "We have a daily stand-up."
+    },
+    "category": "workplace",
+    "topics": ["meetings", "agile"],
+    "level": "upper-intermediate"
   }
 ]
