@@ -6,7 +6,7 @@ All built-in vocabulary lives in [`src/data/words.json`](../src/data/words.json)
 
 1. Add an object to the array in `src/data/words.json` (anywhere; order doesn't matter).
 2. Run `npm test`. The dataset test (`src/data/words.test.ts`) checks your entry and tells you exactly what's missing.
-3. Run `npm run dev` and look the word up on the Browse screen.
+3. Run `npm run dev` and look the word up on the Browse screen (or go straight to `/words/<id>`).
 
 ## Template
 

@@ -42,6 +42,7 @@ export default defineConfig({
           { name: "Today's words", short_name: 'Learn', url: '/learn' },
           { name: 'Review', short_name: 'Review', url: '/review' },
           { name: 'Mixed practice', short_name: 'Practice', url: '/practice/mixed' },
+          { name: 'Browse words', short_name: 'Browse', url: '/browse' },
         ],
       },
       workbox: {
