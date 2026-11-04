@@ -59,3 +59,17 @@ export function progressShare(terms: readonly string[], streakDays: number): Sha
     text: `I've just learnt ${what} on WordWise${including}.${streak} Fancy joining me?`,
   };
 }
+
+export function levelShare(
+  level: { level: number; title: string; emoji: string },
+  wordsLearnt: number,
+  streakDays: number,
+): ShareContent {
+  const words =
+    wordsLearnt > 0 ? ` with ${wordsLearnt} ${wordsLearnt === 1 ? 'word' : 'words'} learnt` : '';
+  const streak = streakDays > 1 ? ` 🔥 ${streakDays}-day streak.` : '';
+  return {
+    title: 'My WordWise level',
+    text: `${level.emoji} I'm a level ${level.level} *${level.title}* on WordWise${words}.${streak} Fancy a go?`,
+  };
+}
