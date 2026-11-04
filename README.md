@@ -39,6 +39,7 @@ Vite prints a `Network:` address such as `http://192.168.1.20:5173`. Open that o
 - **Onboarding**: pick your roles (student, teacher, software professional, or everyday life), a daily goal (5, 10 or 15 words) and your level. Saved in your browser (localStorage).
 - **Word of the Day and daily set**: a fresh, varied set each day, chosen from words for your roles and level. Each word has UK IPA, a plain-English definition, examples tailored to your roles, register, collocations, synonyms with how they differ, other meanings (with how to tell them apart), common mistakes and an origin story.
 - **Britishisms and British humour**: everyday British words and phrases (chuffed, a faff, Bob's your uncle…), plus a daily "bit of fun" card. It alternates between clean jokes, each with the wordplay explained, and British understatement decoded ("With the greatest respect…" means "you're wrong"), including when a phrase can mean the opposite ("quite good" is usually lukewarm, but said with enthusiasm it's praise).
+- **Browse and search** 📖: every word and phrase, A to Z, with a search that looks in terms, meanings, synonyms, opposites, other meanings, topics and example sentences, and says why each result matched. Ask for “opposite of lazy” or “another word for tired”. Filter by category, your progress (not learnt yet, learnt, due for review), level and register. Each word has its own page (`/words/<id>`) with everything about it, links to related words, and **Add to my reviews** for words you'd like to learn now. The search and filters live in the URL, so Back takes you to the same results.
 - **Spaced-repetition reviews (SM-2)**: words you've learnt come back just before you'd forget them: tomorrow, then in about 6 days, then at growing intervals. Grade each one Again, Hard, Good or Easy (or press 1–4); each button shows when you'll see the word next. Words you struggle with get another go at the end of the session. Today shows reviews first, plus your 🔥 streak.
 - **Word Rush** ⚡: a 60-second arcade game. Tap the word that matches a definition or fills a gap; combos multiply your points (×2, ×3, ×4), right answers add time, and three wrong answers end the round. Personal bests and titles from "Spelling Bee" to "Lexicographer Royal". Uses your own words first and counts towards your streak.
 - **Practice**: five quick games using your own words (shakiest first), plus a mixed bag. _What does it mean?_, _Fill the gap_, _Choose the better word_ (affect/effect, practice/practise…), _Upgrade this sentence_ (type a rewrite using the word) and _Register switch_ (posh, polite or pub: pick the right way to say it). Every answer is explained, and wrong choices say why they're wrong. Practice counts towards your streak but doesn't change your review schedule.
@@ -61,12 +62,12 @@ See [docs/ADDING_WORDS.md](docs/ADDING_WORDS.md). In short: add an entry to `src
 src/
   data/        seed content (words.json) and typed loaders
   types/       content and user-data types
-  lib/         pure logic: SM-2 scheduling, practice questions, daily selection, text matching, speech, dates
+  lib/         pure logic: SM-2 scheduling, practice questions, daily selection, search, text matching, speech, dates
   db/          IndexedDB (Dexie) schema, progress writes and selectors
   hooks/       React hooks, including live progress queries
   state/       settings (localStorage)
   components/  shared UI (layout, buttons, word cards)
-  features/    one folder per screen (onboarding, today, review, practice, settings)
+  features/    one folder per screen (onboarding, today, browse, review, practice, settings)
 ```
 
 ## Tech stack

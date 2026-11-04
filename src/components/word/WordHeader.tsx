@@ -1,3 +1,5 @@
+import type { Ref } from 'react';
+
 import { CATEGORY_LABELS } from '../../data';
 import type { WordEntry } from '../../types/content';
 import { RegisterBadge, Tag } from './RegisterBadge';
@@ -9,11 +11,13 @@ export function WordHeader({
   as: Heading = 'h2',
   size = 'lg',
   headingId,
+  headingRef,
 }: {
   word: WordEntry;
   as?: 'h1' | 'h2' | 'h3';
   size?: 'md' | 'lg';
   headingId?: string;
+  headingRef?: Ref<HTMLHeadingElement>;
 }) {
   return (
     <div className="flex items-start justify-between gap-4">
@@ -24,6 +28,7 @@ export function WordHeader({
         </div>
         <Heading
           id={headingId}
+          ref={headingRef}
           tabIndex={-1}
           className={`font-display font-semibold tracking-tight text-balance outline-none ${
             size === 'lg' ? 'text-4xl sm:text-5xl' : 'text-3xl'

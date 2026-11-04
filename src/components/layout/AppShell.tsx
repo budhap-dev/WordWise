@@ -1,5 +1,5 @@
-import { type LucideIcon, Puzzle, Settings, Sun } from 'lucide-react';
-import { Link, NavLink, Outlet } from 'react-router';
+import { BookOpen, type LucideIcon, Puzzle, Settings, Sun } from 'lucide-react';
+import { Link, NavLink, Outlet, useLocation } from 'react-router';
 
 import { Logo } from './Logo';
 import { ThemeToggle } from './ThemeToggle';
@@ -8,22 +8,31 @@ interface NavItem {
   to: string;
   label: string;
   icon: LucideIcon;
+  /** Other paths that belong to this tab, e.g. a word page under Browse. */
+  alsoActiveFor?: string;
 }
 
 /** Screens are added here as each phase lands. */
 const NAV: NavItem[] = [
   { to: '/', label: 'Today', icon: Sun },
+  { to: '/browse', label: 'Browse', icon: BookOpen, alsoActiveFor: '/words/' },
   { to: '/practice', label: 'Practice', icon: Puzzle },
   { to: '/settings', label: 'Settings', icon: Settings },
 ];
 
-function navClass({ isActive }: { isActive: boolean }) {
+function navClass(isActive: boolean) {
   return `flex flex-col items-center gap-0.5 rounded-2xl px-4 py-1.5 text-xs font-semibold transition sm:flex-row sm:gap-2 sm:text-sm ${
     isActive ? 'bg-brand-soft text-brand' : 'text-ink-muted hover:text-ink'
   }`;
 }
 
 export function AppShell() {
+  const { pathname } = useLocation();
+  const classFor =
+    ({ alsoActiveFor }: NavItem) =>
+    ({ isActive }: { isActive: boolean }) =>
+      navClass(isActive || (!!alsoActiveFor && pathname.startsWith(alsoActiveFor)));
+
   return (
     <div className="flex min-h-dvh flex-col">
       <a
@@ -40,11 +49,11 @@ export function AppShell() {
           </Link>
           <nav aria-label="Main" className="hidden sm:block">
             <ul className="flex items-center gap-1">
-              {NAV.map(({ to, label, icon: Icon }) => (
-                <li key={to}>
-                  <NavLink to={to} end className={navClass}>
-                    <Icon className="size-4" aria-hidden="true" />
-                    {label}
+              {NAV.map((item) => (
+                <li key={item.to}>
+                  <NavLink to={item.to} end className={classFor(item)}>
+                    <item.icon className="size-4" aria-hidden="true" />
+                    {item.label}
                   </NavLink>
                 </li>
               ))}
@@ -64,11 +73,11 @@ export function AppShell() {
         className="fixed inset-x-0 bottom-0 z-30 border-t border-line bg-surface/95 pb-[env(safe-area-inset-bottom)] backdrop-blur sm:hidden"
       >
         <ul className="mx-auto flex h-16 max-w-md items-center justify-around">
-          {NAV.map(({ to, label, icon: Icon }) => (
-            <li key={to}>
-              <NavLink to={to} end className={navClass}>
-                <Icon className="size-5" aria-hidden="true" />
-                {label}
+          {NAV.map((item) => (
+            <li key={item.to}>
+              <NavLink to={item.to} end className={classFor(item)}>
+                <item.icon className="size-5" aria-hidden="true" />
+                {item.label}
               </NavLink>
             </li>
           ))}

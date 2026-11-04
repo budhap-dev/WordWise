@@ -3,6 +3,8 @@ import { BrowserRouter, Navigate, Route, Routes } from 'react-router';
 
 import { AppShell } from './components/layout/AppShell';
 import { FocusLayout } from './components/layout/FocusLayout';
+import { BrowsePage } from './features/browse/BrowsePage';
+import { WordPage } from './features/browse/WordPage';
 import { UpdateToast } from './features/install/UpdateToast';
 import { OnboardingPage } from './features/onboarding/OnboardingPage';
 import { WordRush } from './features/play/WordRush';
@@ -38,6 +40,8 @@ export function AppRoutes() {
         }
       >
         <Route index element={<TodayPage />} />
+        <Route path="browse" element={<BrowsePage />} />
+        <Route path="words/:id" element={<WordPage />} />
         <Route path="practice" element={<PracticeHub />} />
         <Route path="settings" element={<SettingsPage />} />
         <Route path="*" element={<Navigate to="/" replace />} />

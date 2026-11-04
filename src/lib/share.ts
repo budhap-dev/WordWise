@@ -39,6 +39,15 @@ export function wordOfTheDayShare(word: WordEntry): ShareContent {
   };
 }
 
+/** Any word, linking straight to its page. */
+export function wordShare(word: WordEntry): ShareContent {
+  return {
+    title: `${word.term} · WordWise`,
+    text: `📚 *${word.term}* (${word.partOfSpeech})\n${word.definition}\n\nLook it up on WordWise:`,
+    url: `${SITE_URL}/words/${word.id}`,
+  };
+}
+
 export function progressShare(terms: readonly string[], streakDays: number): ShareContent {
   const count = terms.length;
   const what = count === 0 ? 'some new words' : `${count} new ${count === 1 ? 'word' : 'words'}`;
