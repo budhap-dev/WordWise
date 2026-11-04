@@ -4,6 +4,9 @@
  */
 export function haptic(pattern: number | readonly number[] = 8): void {
   try {
+    // Browsers block vibration until the user has tapped the page; don't ask before then.
+    if (typeof navigator !== 'undefined' && navigator.userActivation?.hasBeenActive === false)
+      return;
     if (typeof navigator !== 'undefined' && 'vibrate' in navigator)
       navigator.vibrate(typeof pattern === 'number' ? pattern : [...pattern]);
   } catch {

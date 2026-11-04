@@ -42,6 +42,7 @@ Vite prints a `Network:` address such as `http://192.168.1.20:5173`. Open that o
 - **Browse and search** 📖: every word and phrase, A to Z, with a search that looks in terms, meanings, synonyms, opposites, other meanings, topics and example sentences, and says why each result matched. Ask for “opposite of lazy” or “another word for tired”. Filter by category, your progress (not learnt yet, learnt, due for review), level and register. Each word has its own page (`/words/<id>`) with everything about it, links to related words, and **Add to my reviews** for words you'd like to learn now. The search and filters live in the URL, so Back takes you to the same results.
 - **Spaced-repetition reviews (SM-2)**: words you've learnt come back just before you'd forget them: tomorrow, then in about 6 days, then at growing intervals. Grade each one Again, Hard, Good or Easy (or press 1–4); each button shows when you'll see the word next. Words you struggle with get another go at the end of the session. Today shows reviews first, plus your 🔥 streak.
 - **Word Rush** ⚡: a 60-second arcade game. Tap the word that matches a definition or fills a gap; combos multiply your points (×2, ×3, ×4), right answers add time, and three wrong answers end the round. Personal bests and titles from "Spelling Bee" to "Lexicographer Royal". Uses your own words first and counts towards your streak.
+- **Progress, XP and badges** 🏆: everything you do earns XP (learning, reviews, practice and Word Rush), and levels come with British titles from _Fresh Face_ and _Keen Bean_ to _Dab Hand_ and _Lexicon Legend_ (each one explained). The Progress tab shows your level, streaks, a 12-week activity calendar (tap a day to see what you did), how well you know your words (learning, familiar, mastered) and your progress by topic. Twenty badges to collect, from _A Century_ (100 words) to _Stiff Upper Lip_ (a 30-day streak) and _Night Owl_, each with a bit of British wit; locked ones show how close you are. New badges and level-ups are celebrated when you're back on a main screen, never mid-session. It's all worked out from your existing history, so nothing extra is stored.
 - **Practice**: five quick games using your own words (shakiest first), plus a mixed bag. _What does it mean?_, _Fill the gap_, _Choose the better word_ (affect/effect, practice/practise…), _Upgrade this sentence_ (type a rewrite using the word) and _Register switch_ (posh, polite or pub: pick the right way to say it). Every answer is explained, and wrong choices say why they're wrong. Practice counts towards your streak but doesn't change your review schedule.
 - **Your progress stays on your device**: words you've learnt are saved in IndexedDB (via Dexie), so they never reappear in a new daily set and are scheduled for review. Nothing is sent anywhere. Settings → Reset progress clears it.
 - **Install it like an app**: on Android, tap **Install** on Today (or in Settings); on iPhone, Share → **Add to Home Screen** (the app shows you how). Once installed it opens full-screen, works offline, and long-pressing the icon jumps straight to Learn, Review or Practice. When an update is ready, you're asked before it reloads.
@@ -62,12 +63,12 @@ See [docs/ADDING_WORDS.md](docs/ADDING_WORDS.md). In short: add an entry to `src
 src/
   data/        seed content (words.json) and typed loaders
   types/       content and user-data types
-  lib/         pure logic: SM-2 scheduling, practice questions, daily selection, search, text matching, speech, dates
+  lib/         pure logic: SM-2 scheduling, XP/levels/badges (achievements/), practice questions, daily selection, search, text matching, speech, dates
   db/          IndexedDB (Dexie) schema, progress writes and selectors
   hooks/       React hooks, including live progress queries
   state/       settings (localStorage)
   components/  shared UI (layout, buttons, word cards)
-  features/    one folder per screen (onboarding, today, browse, review, practice, settings)
+  features/    one folder per screen (onboarding, today, browse, review, practice, play, progress, settings)
 ```
 
 ## Tech stack

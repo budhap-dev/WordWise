@@ -10,6 +10,7 @@ import { OnboardingPage } from './features/onboarding/OnboardingPage';
 import { WordRush } from './features/play/WordRush';
 import { PracticeHub } from './features/practice/PracticeHub';
 import { PracticeSession } from './features/practice/PracticeSession';
+import { ProgressPage } from './features/progress/ProgressPage';
 import { ReviewSession } from './features/review/ReviewSession';
 import { SettingsPage } from './features/settings/SettingsPage';
 import { LearnSession } from './features/today/LearnSession';
@@ -43,6 +44,7 @@ export function AppRoutes() {
         <Route path="browse" element={<BrowsePage />} />
         <Route path="words/:id" element={<WordPage />} />
         <Route path="practice" element={<PracticeHub />} />
+        <Route path="progress" element={<ProgressPage />} />
         <Route path="settings" element={<SettingsPage />} />
         <Route path="*" element={<Navigate to="/" replace />} />
       </Route>

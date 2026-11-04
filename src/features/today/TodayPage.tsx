@@ -6,6 +6,7 @@ import { ButtonLink } from '../../components/ui/Button';
 import { ProgressBar } from '../../components/ui/ProgressBar';
 import { cardClasses } from '../../components/ui/styles';
 import { REVIEW_SESSION_MAX } from '../review/session';
+import { useAchievements } from '../../hooks/useAchievements';
 import { useReviews, useStreak, useTodaySet } from '../../hooks/useProgress';
 import { estimateMinutes } from '../../lib/daily';
 import { formatLongDate, greeting, toDateKey } from '../../lib/date';
@@ -41,11 +42,24 @@ function StreakChip({ streak }: { streak: Streak }) {
   );
 }
 
+function LevelChip({ level, emoji }: { level: number; emoji: string }) {
+  return (
+    <Link
+      to="/progress"
+      className="inline-flex animate-pop items-center gap-1.5 rounded-full bg-brand-soft px-3 py-1 text-sm font-semibold text-brand"
+    >
+      <span aria-hidden="true">{emoji}</span>
+      Level {level}
+    </Link>
+  );
+}
+
 export function TodayPage() {
   const settings = useRequiredSettings();
   const today = useTodaySet(settings);
   const reviews = useReviews();
   const streak = useStreak();
+  const progress = useAchievements();
   if (!today || !reviews) return <p className="sr-only">Loading…</p>;
 
   const { words, seenIds } = today;
@@ -62,7 +76,10 @@ export function TodayPage() {
       <header className="animate-rise">
         <div className="flex flex-wrap items-center justify-between gap-2">
           <p className="text-sm font-medium text-ink-muted">{formatLongDate()}</p>
-          {streak && <StreakChip streak={streak} />}
+          <div className="flex flex-wrap items-center gap-2">
+            {streak && <StreakChip streak={streak} />}
+            {progress && <LevelChip level={progress.level.level} emoji={progress.level.emoji} />}
+          </div>
         </div>
         <h1 className="font-display text-3xl font-semibold tracking-tight">{greeting()}</h1>
       </header>
