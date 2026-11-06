@@ -5,6 +5,7 @@ import { categoriesForRoles, LEVELS, WORDS } from '../data';
 import { type AttemptRecord, db } from '../db/db';
 import type { DateKey } from '../lib/date';
 import { toDateKey } from '../lib/date';
+import { trickyWordIds } from '../lib/practice/bee';
 import type { SessionMode } from '../lib/practice/types';
 import type { Settings } from '../types/user';
 
@@ -72,4 +73,17 @@ export function useRushStats(date: DateKey = toDateKey()) {
       playedToday: games.filter((g) => g.date === date).length,
     };
   }, [date]);
+}
+
+/** Spelling Bee history: the personal best, words spelt, and the words still to get right. */
+export function useBeeStats() {
+  return useLiveQuery(async () => {
+    const games = await db.gameScores.where('game').anyOf('bee', 'bee-tricky').toArray();
+    const bee = games.filter((g) => g.game === 'bee');
+    return {
+      best: bee.reduce((max, g) => Math.max(max, g.score), 0),
+      played: games.length,
+      tricky: trickyWordIds(games),
+    };
+  }, []);
 }

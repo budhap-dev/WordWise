@@ -2,7 +2,7 @@ import { ChevronRight } from 'lucide-react';
 import { Link } from 'react-router';
 
 import { cardClasses } from '../../components/ui/styles';
-import { lastScores, useAttempts, useRushStats } from '../../hooks/usePractice';
+import { lastScores, useAttempts, useBeeStats, useRushStats } from '../../hooks/usePractice';
 import { useCards } from '../../hooks/useProgress';
 import { toDateKey } from '../../lib/date';
 import { MODES } from './modes';
@@ -16,7 +16,8 @@ export function PracticeHub() {
   const cards = useCards();
   const attempts = useAttempts();
   const rush = useRushStats();
-  if (!cards || !attempts || !rush) return <p className="sr-only">Loading…</p>;
+  const bee = useBeeStats();
+  if (!cards || !attempts || !rush || !bee) return <p className="sr-only">Loading…</p>;
   const scores = lastScores(attempts);
   const today = toDateKey();
 
@@ -55,6 +56,35 @@ export function PracticeHub() {
           </span>
         </span>
         <ChevronRight className="size-5 shrink-0" aria-hidden="true" />
+      </Link>
+
+      <Link
+        to="/play/bee"
+        className={`${cardClasses} flex animate-rise items-center gap-4 border-brand/40 bg-brand-soft/50 p-5 transition active:scale-[0.98]`}
+      >
+        <span
+          className="flex size-14 shrink-0 items-center justify-center rounded-2xl bg-surface-2 text-3xl"
+          aria-hidden="true"
+        >
+          🐝
+        </span>
+        <span className="min-w-0 flex-1">
+          <span className="block text-xl font-semibold">Spelling Bee</span>
+          <span className="block text-sm text-ink-muted">
+            Hear the word, spell it, and see how long you last as they get harder.
+          </span>
+          <span className="mt-1 block text-xs font-medium text-ink-muted">
+            {bee.best > 0 ? (
+              <>
+                Your best: <span className="text-ink">{bee.best}</span>
+              </>
+            ) : (
+              'New: sound on for this one'
+            )}
+            {bee.tricky.length > 0 && ` · ${bee.tricky.length} tricky to go back to`}
+          </span>
+        </span>
+        <ChevronRight className="size-5 shrink-0 text-ink-muted" aria-hidden="true" />
       </Link>
 
       <ul className="grid gap-3 sm:grid-cols-2">

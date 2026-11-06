@@ -18,14 +18,16 @@ function StatTile({
   label,
   value,
   detail,
+  className = '',
 }: {
   emoji: string;
   label: string;
   value: string | number;
   detail?: string;
+  className?: string;
 }) {
   return (
-    <div className={`${cardClasses} p-4`}>
+    <div className={`${cardClasses} p-4 ${className}`}>
       <dt className="flex items-center gap-1.5 text-sm text-ink-muted">
         <span aria-hidden="true">{emoji}</span>
         {label}
@@ -43,7 +45,7 @@ const XP_RULES: [string, string][] = [
   ['Review a word', `${XP.review} XP (${XP.reviewAgain} for “Again”)`],
   ['Practice: right answer', `${XP.practiceCorrect} XP`],
   ['Practice: wrong answer', `${XP.practiceWrong} XP, for having a go`],
-  ['Word Rush', `1 XP per ${XP.rushPointsPerXp} points`],
+  ['Word Rush and Spelling Bee', `1 XP per ${XP.gamePointsPerXp} points`],
 ];
 
 export function ProgressPage() {
@@ -124,6 +126,17 @@ export function ProgressPage() {
           detail={
             stats.rushGames > 0
               ? `${stats.rushGames} ${stats.rushGames === 1 ? 'game' : 'games'} played`
+              : 'Not played yet'
+          }
+        />
+        <StatTile
+          className="col-span-2"
+          emoji="🐝"
+          label="Spelling Bee best"
+          value={stats.beeBest}
+          detail={
+            stats.beeGames > 0
+              ? `${stats.beeWordsSpelt} ${stats.beeWordsSpelt === 1 ? 'word' : 'words'} spelt right`
               : 'Not played yet'
           }
         />

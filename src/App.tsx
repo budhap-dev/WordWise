@@ -7,6 +7,7 @@ import { BrowsePage } from './features/browse/BrowsePage';
 import { WordPage } from './features/browse/WordPage';
 import { UpdateToast } from './features/install/UpdateToast';
 import { OnboardingPage } from './features/onboarding/OnboardingPage';
+import { SpellingBee } from './features/play/SpellingBee';
 import { WordRush } from './features/play/WordRush';
 import { PracticeHub } from './features/practice/PracticeHub';
 import { PracticeSession } from './features/practice/PracticeSession';
@@ -60,6 +61,8 @@ export function AppRoutes() {
         <Route path="review" element={<ReviewSession />} />
         <Route path="practice/:mode" element={<PracticeSession />} />
         <Route path="play/rush" element={<WordRush />} />
+        <Route path="play/bee" element={<SpellingBee mode="bee" />} />
+        <Route path="play/bee/tricky" element={<SpellingBee mode="tricky" />} />
       </Route>
     </Routes>
   );
