@@ -216,6 +216,40 @@ describe('badges', () => {
   });
 });
 
+describe('Spelling Bee stats', () => {
+  const bee = (game: 'bee' | 'bee-tricky', score: number, correct: number): GameScoreRecord => ({
+    id: `b${n++}`,
+    game,
+    score,
+    correct,
+    answered: correct,
+    bestCombo: 15,
+    date: TODAY,
+    playedAt: new Date(`${TODAY}T12:00:00`).toISOString(),
+  });
+
+  it('keeps the Bee and Word Rush apart, and counts tricky rounds as words but not bests', () => {
+    const log: ActivityLog = {
+      ...EMPTY,
+      games: [bee('bee', 300, 20), bee('bee', 450, 30), bee('bee-tricky', 900, 60), game(50)],
+    };
+    const stats = progressStats(log, TODAY);
+    expect(stats).toMatchObject({
+      beeBest: 450,
+      beeGames: 2,
+      beeWordsSpelt: 110,
+      rushBest: 50,
+      rushBestCombo: 0,
+    });
+    const statuses = badgeStatuses(stats);
+    const get = (id: string) => statuses.find((s) => s.badge.id === id)!;
+    expect(get('bee-400').earned).toBe(true);
+    expect(get('bee-spelt-100').earned).toBe(true);
+    expect(get('rush-250').earned).toBe(false);
+    expect(get('combo-10').earned).toBe(false);
+  });
+});
+
 describe('describeDay', () => {
   it('summarises what happened, or makes light of a day off', () => {
     expect(describeDay({ learnt: 1, reviewed: 3, practised: 0, games: 2 })).toBe(

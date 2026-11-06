@@ -13,15 +13,15 @@ export const XP = {
   reviewAgain: 2,
   practiceCorrect: 3,
   practiceWrong: 1,
-  /** Word Rush: 1 XP per this many points. */
-  rushPointsPerXp: 10,
+  /** Word Rush and the Spelling Bee: 1 XP per this many points. */
+  gamePointsPerXp: 10,
 } as const;
 
 export function totalXp(log: ActivityLog): number {
   let xp = log.cards.length * XP.learn;
   for (const r of log.reviews) xp += r.grade === 'again' ? XP.reviewAgain : XP.review;
   for (const a of log.attempts) xp += a.correct ? XP.practiceCorrect : XP.practiceWrong;
-  for (const g of log.games) xp += Math.floor(g.score / XP.rushPointsPerXp);
+  for (const g of log.games) xp += Math.floor(g.score / XP.gamePointsPerXp);
   return xp;
 }
 

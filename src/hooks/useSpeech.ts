@@ -13,7 +13,7 @@ export interface SpeechState {
   /** null while voices are still loading. */
   britishVoice: SpeechSynthesisVoice | null | undefined;
   speakingText: string | null;
-  say: (text: string) => void;
+  say: (text: string, options?: { rate?: number }) => void;
 }
 
 export function useSpeech(): SpeechState {
@@ -37,10 +37,10 @@ export function useSpeech(): SpeechState {
   }, [supported]);
 
   const say = useCallback(
-    (text: string) => {
+    (text: string, options: { rate?: number } = {}) => {
       if (!supported) return;
       setSpeakingText(text);
-      void speak(text, { voice: britishVoice ?? undefined }).finally(() => {
+      void speak(text, { ...options, voice: britishVoice ?? undefined }).finally(() => {
         if (mounted.current) setSpeakingText((t) => (t === text ? null : t));
       });
     },

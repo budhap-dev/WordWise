@@ -56,11 +56,13 @@ export interface AttemptRecord {
 /** A finished arcade game, for personal bests. */
 export interface GameScoreRecord {
   id: string;
-  game: 'rush';
+  game: 'rush' | 'bee' | 'bee-tricky';
   score: number;
   correct: number;
   answered: number;
   bestCombo: number;
+  /** Spelling Bee only: what was asked, so misspelt words can come back as tricky words. */
+  words?: { wordId: string; correct: boolean }[];
   date: DateKey;
   /** ISO timestamp. */
   playedAt: string;

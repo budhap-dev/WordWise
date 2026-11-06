@@ -54,6 +54,10 @@ export interface ProgressStats {
   rushGames: number;
   rushBest: number;
   rushBestCombo: number;
+  beeGames: number;
+  beeBest: number;
+  /** Words spelt right in the Spelling Bee, tricky-word rounds included. */
+  beeWordsSpelt: number;
   /** What happened on each active day. */
   days: ReadonlyMap<DateKey, DayActivity>;
   streak: Streak;
@@ -164,6 +168,10 @@ export function progressStats(log: ActivityLog, today: DateKey): ProgressStats {
   ).length;
 
   const rush = log.games.filter((g) => g.game === 'rush');
+  const bee = log.games.filter((g) => g.game === 'bee');
+  const beeWordsSpelt = log.games
+    .filter((g) => g.game === 'bee' || g.game === 'bee-tricky')
+    .reduce((sum, g) => sum + g.correct, 0);
   for (const g of log.games) on(g.date).games++;
 
   const hours = [
@@ -191,6 +199,9 @@ export function progressStats(log: ActivityLog, today: DateKey): ProgressStats {
     rushGames: rush.length,
     rushBest: rush.reduce((max, g) => Math.max(max, g.score), 0),
     rushBestCombo: rush.reduce((max, g) => Math.max(max, g.bestCombo), 0),
+    beeGames: bee.length,
+    beeBest: bee.reduce((max, g) => Math.max(max, g.score), 0),
+    beeWordsSpelt,
     days,
     streak: currentStreak(new Set(active), today),
     longestStreak: longestRun(active),

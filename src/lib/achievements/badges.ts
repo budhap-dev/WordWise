@@ -193,6 +193,26 @@ export const BADGES: readonly Badge[] = [
     current: (s) => s.rushBestCombo,
     target: 10,
   },
+  {
+    id: 'bee-400',
+    group: 'games',
+    emoji: '🐝',
+    name: 'The Bee’s Knees',
+    how: 'Score 400 or more in the Spelling Bee.',
+    quip: '“The bee’s knees” means the very best. Which is you, apparently.',
+    current: (s) => s.beeBest,
+    target: 400,
+  },
+  {
+    id: 'bee-spelt-100',
+    group: 'games',
+    emoji: '🪄',
+    name: 'Spellbound',
+    how: 'Spell 100 words correctly in the Spelling Bee.',
+    quip: 'Spelt, mind you, not spelled. Well, either’s fine. We’re not monsters.',
+    current: (s) => s.beeWordsSpelt,
+    target: 100,
+  },
   // Quirks
   {
     id: 'early-bird',

@@ -20,7 +20,7 @@ describe('Progress screen', () => {
     expect(screen.getAllByRole('link', { name: /^progress$/i }).length).toBeGreaterThan(0);
     expect(screen.getByText('Level 1', { selector: 'p' })).toBeInTheDocument();
     expect(screen.getByRole('heading', { name: /Fresh Face/ })).toBeInTheDocument();
-    expect(screen.getByText('0 of 20 earned')).toBeInTheDocument();
+    expect(screen.getByText('0 of 22 earned')).toBeInTheDocument();
   });
 
   it('shows XP, the level bar and stats from what the learner has done', async () => {
