@@ -1,4 +1,5 @@
 import { ChevronRight } from 'lucide-react';
+import type { ReactNode } from 'react';
 import { Link } from 'react-router';
 
 import { cardClasses } from '../../components/ui/styles';
@@ -10,6 +11,46 @@ import { MODES } from './modes';
 function minutes(size: number, mode: string) {
   const perQuestion = mode === 'upgrade' ? 0.8 : 0.3;
   return Math.max(2, Math.round(size * perQuestion));
+}
+
+function PracticeCard({
+  to,
+  emoji,
+  title,
+  blurb,
+  stripe,
+  delay = 0,
+  children,
+}: {
+  to: string;
+  emoji: string;
+  title: string;
+  blurb: string;
+  stripe: string;
+  delay?: number;
+  children: ReactNode;
+}) {
+  return (
+    <li className="animate-rise" style={{ animationDelay: `${delay}ms` }}>
+      <Link
+        to={to}
+        className={`${cardClasses} flex h-full min-h-24 items-center gap-4 border-l-[6px] p-5 transition active:scale-[0.98] ${stripe}`}
+      >
+        <span
+          className="flex size-14 shrink-0 items-center justify-center rounded-2xl bg-surface-2 text-3xl"
+          aria-hidden="true"
+        >
+          {emoji}
+        </span>
+        <span className="min-w-0 flex-1">
+          <span className="block text-lg font-semibold">{title}</span>
+          <span className="block text-sm text-ink-muted">{blurb}</span>
+          <span className="mt-1 block text-xs font-medium text-ink-muted">{children}</span>
+        </span>
+        <ChevronRight className="size-5 shrink-0 text-ink-muted" aria-hidden="true" />
+      </Link>
+    </li>
+  );
 }
 
 export function PracticeHub() {
@@ -32,102 +73,61 @@ export function PracticeHub() {
         </p>
       </header>
 
-      <Link
-        to="/play/rush"
-        className="relative isolate flex animate-rise items-center gap-4 overflow-hidden rounded-3xl bg-brand p-5 text-brand-ink shadow-lg shadow-brand/25 transition active:scale-[0.98]"
-      >
-        <span
-          aria-hidden="true"
-          className="absolute -top-10 -right-6 -z-10 size-40 rounded-full bg-accent/40 blur-2xl"
-        />
-        <span
-          className="flex size-14 shrink-0 items-center justify-center rounded-2xl bg-brand-ink/15 text-3xl"
-          aria-hidden="true"
-        >
-          ⚡
-        </span>
-        <span className="min-w-0 flex-1">
-          <span className="block text-xl font-semibold">Word Rush</span>
-          <span className="block text-sm opacity-90">
-            60 seconds, combos and three lives. How far can you get?
-          </span>
-          <span className="mt-1 block text-xs font-semibold opacity-90">
-            {rush.best > 0 ? `Your best: ${rush.best}` : 'New: arcade mode'}
-          </span>
-        </span>
-        <ChevronRight className="size-5 shrink-0" aria-hidden="true" />
-      </Link>
-
-      <Link
-        to="/play/bee"
-        className={`${cardClasses} flex animate-rise items-center gap-4 border-brand/40 bg-brand-soft/50 p-5 transition active:scale-[0.98]`}
-      >
-        <span
-          className="flex size-14 shrink-0 items-center justify-center rounded-2xl bg-surface-2 text-3xl"
-          aria-hidden="true"
-        >
-          🐝
-        </span>
-        <span className="min-w-0 flex-1">
-          <span className="block text-xl font-semibold">Spelling Bee</span>
-          <span className="block text-sm text-ink-muted">
-            Hear the word, spell it, and see how long you last as they get harder.
-          </span>
-          <span className="mt-1 block text-xs font-medium text-ink-muted">
-            {bee.best > 0 ? (
-              <>
-                Your best: <span className="text-ink">{bee.best}</span>
-              </>
-            ) : (
-              'New: sound on for this one'
-            )}
-            {bee.tricky.length > 0 && ` · ${bee.tricky.length} tricky to go back to`}
-          </span>
-        </span>
-        <ChevronRight className="size-5 shrink-0 text-ink-muted" aria-hidden="true" />
-      </Link>
-
       <ul className="grid gap-3 sm:grid-cols-2">
-        {MODES.map(({ mode, emoji, title, blurb, size }, i) => {
+        <PracticeCard
+          to="/play/rush"
+          emoji="⚡"
+          title="Word Rush"
+          blurb="60 seconds, combos and three lives. How far can you get?"
+          stripe="border-l-violet-500"
+        >
+          {rush.best > 0 ? (
+            <>
+              Your best: <span className="text-ink">{rush.best}</span>
+            </>
+          ) : (
+            'New: arcade mode'
+          )}
+        </PracticeCard>
+        <PracticeCard
+          to="/play/bee"
+          emoji="🐝"
+          title="Spelling Bee"
+          blurb="Hear the word, spell it, and see how long you last as they get harder."
+          stripe="border-l-amber-500"
+          delay={50}
+        >
+          {bee.best > 0 ? (
+            <>
+              Your best: <span className="text-ink">{bee.best}</span>
+            </>
+          ) : (
+            'New: sound on for this one'
+          )}
+          {bee.tricky.length > 0 && ` · ${bee.tricky.length} tricky to go back to`}
+        </PracticeCard>
+        {MODES.map(({ mode, emoji, title, blurb, stripe, size }, i) => {
           const score = scores.get(mode);
-          const featured = mode === 'mixed';
           return (
-            <li
+            <PracticeCard
               key={mode}
-              className={`animate-rise ${featured ? 'sm:col-span-2' : ''}`}
-              style={{ animationDelay: `${i * 50}ms` }}
+              to={`/practice/${mode}`}
+              emoji={emoji}
+              title={title}
+              blurb={blurb}
+              stripe={stripe}
+              delay={(i + 2) * 50}
             >
-              <Link
-                to={`/practice/${mode}`}
-                className={`${cardClasses} flex min-h-24 items-center gap-4 p-5 transition active:scale-[0.98] ${
-                  featured ? 'border-brand/40 bg-brand-soft/50' : 'hover:border-ink-muted/40'
-                }`}
-              >
-                <span
-                  className="flex size-14 shrink-0 items-center justify-center rounded-2xl bg-surface-2 text-3xl"
-                  aria-hidden="true"
-                >
-                  {emoji}
-                </span>
-                <span className="min-w-0 flex-1">
-                  <span className="block text-lg font-semibold">{title}</span>
-                  <span className="block text-sm text-ink-muted">{blurb}</span>
-                  <span className="mt-1 block text-xs font-medium text-ink-muted">
-                    {size} questions · about {minutes(size, mode)} min
-                    {score && (
-                      <>
-                        {' · '}
-                        <span className="text-ink">
-                          {score.date === today ? 'Today' : 'Last time'}: {score.correct}/
-                          {score.total}
-                        </span>
-                      </>
-                    )}
+              {size} questions · about {minutes(size, mode)} min
+              {score && (
+                <>
+                  {' · '}
+                  <span className="text-ink">
+                    {score.date === today ? 'Today' : 'Last time'}: {score.correct}/{score.total}
                   </span>
-                </span>
-                <ChevronRight className="size-5 shrink-0 text-ink-muted" aria-hidden="true" />
-              </Link>
-            </li>
+                </>
+              )}
+            </PracticeCard>
           );
         })}
       </ul>
